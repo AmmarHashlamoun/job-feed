@@ -1,0 +1,440 @@
+#!/usr/bin/env python3
+"""Daily job feed for Ammar's new-grad search.
+
+Reads the public job boards listed in companies.csv (Greenhouse, Lever, Ashby,
+Workday, SmartRecruiters, Workable, plus Amazon, Microsoft, Uber and Eightfold
+career APIs), keeps software roles in Toronto/GTA, Hamilton, Niagara, Waterloo
+region or remote Canada that aren't internships or senior roles, and writes:
+
+  feed/feed.json    every kept posting (one object per posting)
+  feed/health.json  per-board result: ok, seen, kept, error
+  feed/seen.json    first_seen date per posting id (keeps first_seen stable)
+
+Standard library only. Run: python3 scraper/feed.py
+"""
+import csv
+import datetime as dt
+import json
+import os
+import re
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "feed")
+UA = "job-feed/1.0 (+https://github.com/AmmarHashlamoun/job-feed)"
+TIMEOUT = 25
+
+# ---------------------------------------------------------------- filters
+AREA_STRICT = (r"toronto|north york|scarborough|etobicoke|mississauga|markham|vaughan|brampton|oakville|"
+               r"guelph|richmond hill|oshawa|pickering|whitby|st\.? catharines|niagara|kitchener|waterloo|"
+               r"thornhill|stoney creek|grimsby|welland")
+AREA_NEEDS_PROVINCE = r"hamilton|burlington|cambridge|milton|aurora|newmarket|concord|woodbridge|bolton|ajax|king city"
+RX_STRICT = re.compile(rf"\b({AREA_STRICT})\b", re.I)
+RX_PROV = re.compile(rf"\b({AREA_NEEDS_PROVINCE})\b[ ,\-]*(on\b|ont\b|ontario|canada|can\b)", re.I)
+RX_ONTARIO = re.compile(r"\bontario\b|,\s*on\b(?!\w)|\bON,\s*(CA|CAN|Canada)\b", re.I)
+RX_OTTAWA_ONLY = re.compile(r"ottawa|kanata|nepean|gatineau", re.I)
+RX_CANADA = re.compile(r"\bcanada\b|\bCAN\b|\bCA-ON\b", re.I)
+RX_REMOTE = re.compile(r"remote|anywhere|work from home|wfh|virtual|distributed", re.I)
+RX_OTHER_CA = re.compile(r"vancouver|burnaby|victoria|montr[eé]al|qu[eé]bec|calgary|edmonton|halifax|winnipeg|"
+                         r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|ottawa|kanata|gatineau|laval", re.I)
+
+EXCLUDE_TITLE = re.compile(
+    r"\bintern\b|internship|co-?op\b|\bco op\b|student|apprentice|summer 20\d\d|fall 20\d\d|winter 20\d\d|"
+    r"\bsenior\b|\bsr\.?\b|\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
+    r"architect|distinguished|\bfellow\b|\b(iii|iv|v)\b|\bphd\b|post-?doc|"
+    r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|account manager|"
+    r"sales engineer|sales\b|marketing|counsel|attorney|accountant|payroll|\bhr\b|human resources|"
+    r"customer success manager|support specialist|help ?desk|it support|desktop support|"
+    r"quality assurance analyst|qa analyst|manual test", re.I)
+SOFTWARE_TITLE = re.compile(
+    r"software|developer|programmer|\bswe\b|\bsde\b|engineer|machine learning|\bml\b|\bai\b|data scien|"
+    r"devops|\bsre\b|site reliability|firmware|embedded|robotic|autonom|perception|computer vision|"
+    r"back[- ]?end|front[- ]?end|full[- ]?stack|mobile|\bios\b|android|platform|infrastructure|cloud|"
+    r"forward deployed|deployed|deployment|solutions engineer|applications? engineer|implementation|"
+    r"integration|customer engineer|field engineer|field application|software designer|technical solutions", re.I)
+HARDWARE_ONLY = re.compile(r"(electrical|hardware|asic|fpga|rf|analog|layout|verification|validation|process|"
+                           r"manufacturing|test|reliability|quality|mechanical|optical|photonic) engineer", re.I)
+JUNIOR = re.compile(r"new grad|graduate|early career|entry[- ]level|junior|\bjr\b|associate|university|campus|"
+                    r"recent grad|\b(i|1)\b\s*$|\b(engineer|developer|analyst) (i|1)\b|engineer in training|\beit\b", re.I)
+MID = re.compile(r"\b(ii|2)\b", re.I)
+
+
+def location_verdict(texts):
+    """Return (keep, remote) for a list of location strings."""
+    joined = " | ".join(t for t in texts if t)
+    if not joined.strip():
+        return False, False
+    if RX_STRICT.search(joined) or RX_PROV.search(joined):
+        return True, bool(RX_REMOTE.search(joined))
+    if RX_ONTARIO.search(joined) and not RX_OTTAWA_ONLY.search(joined):
+        return True, bool(RX_REMOTE.search(joined))
+    if RX_CANADA.search(joined):
+        parts = [p.strip() for p in re.split(r"\||;|/| or ", joined) if p.strip()]
+        for p in parts:
+            if RX_CANADA.search(p) and (RX_REMOTE.search(p) or not RX_OTHER_CA.search(p)):
+                return True, True
+    return False, False
+
+
+def title_verdict(title):
+    """Return (keep, level_hint, reason)."""
+    if EXCLUDE_TITLE.search(title):
+        return False, "", "title_excluded"
+    if not SOFTWARE_TITLE.search(title):
+        return False, "", "not_software"
+    if HARDWARE_ONLY.search(title) and not re.search(r"software|firmware|embedded|ml|machine learning|automation", title, re.I):
+        return False, "", "not_software"
+    if JUNIOR.search(title):
+        return True, "junior", ""
+    if MID.search(title):
+        return True, "mid", ""
+    return True, "unlevelled", ""
+
+
+# ---------------------------------------------------------------- http
+def http(url, data=None, headers=None, method=None):
+    h = {"User-Agent": UA, "Accept": "application/json"}
+    if headers:
+        h.update(headers)
+    body = None
+    if data is not None:
+        body = json.dumps(data).encode()
+        h["Content-Type"] = "application/json"
+    req = urllib.request.Request(url, data=body, headers=h, method=method or ("POST" if body else "GET"))
+    last = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                raw = r.read()
+                return json.loads(raw.decode("utf-8", "replace")) if raw else None
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410, 400, 401, 403):
+                raise
+            last = e
+        except Exception as e:  # timeouts, resets, bad JSON
+            last = e
+        time.sleep(2)
+    raise last
+
+
+def iso(v):
+    if v in (None, ""):
+        return ""
+    if isinstance(v, (int, float)):
+        return dt.datetime.utcfromtimestamp(v / 1000 if v > 1e11 else v).strftime("%Y-%m-%d")
+    return str(v)[:10]
+
+
+# ---------------------------------------------------------------- adapters
+# Each returns a list of raw postings: {id, title, locations[list], url, posted}
+
+def greenhouse(token, _):
+    d = http(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs")
+    out = []
+    for j in d.get("jobs", []):
+        locs = [(j.get("location") or {}).get("name", "")]
+        for o in j.get("offices", []) or []:
+            locs.append(o.get("location") or o.get("name") or "")
+        out.append({"id": j["id"], "title": j.get("title", ""), "locations": locs,
+                    "url": j.get("absolute_url", ""), "posted": iso(j.get("updated_at"))})
+    return out
+
+
+def lever(token, _):
+    d = http(f"https://api.lever.co/v0/postings/{token}?mode=json")
+    if isinstance(d, dict):
+        raise RuntimeError(d.get("message", "unexpected response"))
+    out = []
+    for j in d:
+        c = j.get("categories") or {}
+        locs = [c.get("location", "")] + list(c.get("allLocations") or [])
+        if j.get("workplaceType") == "remote":
+            locs = [l + " (remote)" for l in locs if l] or ["Remote"]
+        if j.get("country"):
+            locs.append(j["country"] if j["country"] != "CA" else "Canada")
+        out.append({"id": j["id"], "title": j.get("text", ""), "locations": locs,
+                    "url": j.get("hostedUrl", ""), "posted": iso(j.get("createdAt"))})
+    return out
+
+
+def ashby(token, _):
+    d = http(f"https://api.ashbyhq.com/posting-api/job-board/{token}")
+    out = []
+    for j in d.get("jobs", []):
+        locs = [j.get("location", "")]
+        for s in j.get("secondaryLocations", []) or []:
+            locs.append(s.get("location", ""))
+        addr = ((j.get("address") or {}).get("postalAddress") or {})
+        if addr:
+            locs.append(", ".join(x for x in [addr.get("addressLocality"), addr.get("addressRegion"), addr.get("addressCountry")] if x))
+        if j.get("isRemote"):
+            locs = [l + " (remote)" for l in locs if l]
+        out.append({"id": j.get("id") or j.get("jobUrl"), "title": j.get("title", ""), "locations": locs,
+                    "url": j.get("jobUrl", ""), "posted": iso(j.get("publishedAt"))})
+    return out
+
+
+def smartrecruiters(token, _):
+    out, offset = [], 0
+    while True:
+        d = http(f"https://api.smartrecruiters.com/v1/companies/{token}/postings?country=ca&limit=100&offset={offset}")
+        for j in d.get("content", []):
+            l = j.get("location") or {}
+            loc = ", ".join(x for x in [l.get("city"), l.get("region"), "Canada" if (l.get("country") or "").lower() == "ca" else l.get("country")] if x)
+            if l.get("remote"):
+                loc += " (remote)"
+            out.append({"id": j["id"], "title": j.get("name", ""), "locations": [loc],
+                        "url": f"https://jobs.smartrecruiters.com/{token}/{j['id']}", "posted": iso(j.get("releasedDate"))})
+        offset += 100
+        if offset >= d.get("totalFound", 0) or offset > 1000:
+            return out
+
+
+def workable(token, _):
+    d = http(f"https://apply.workable.com/api/v1/widget/accounts/{token}?details=false")
+    out = []
+    for j in d.get("jobs", []):
+        loc = ", ".join(x for x in [j.get("city"), j.get("state"), j.get("country")] if x)
+        if j.get("telecommuting"):
+            loc += " (remote)"
+        out.append({"id": j.get("shortcode"), "title": j.get("title", ""), "locations": [loc],
+                    "url": j.get("url") or f"https://apply.workable.com/{token}/j/{j.get('shortcode')}/",
+                    "posted": iso(j.get("published_on"))})
+    return out
+
+
+WD_LOC_RX = re.compile(r"canada|ontario|toronto|markham|waterloo|kitchener|mississauga|vaughan|oakville|"
+                       r"burlington|brampton|guelph|hamilton|richmond hill|concord|cambridge|\bON\b|CAN\b", re.I)
+
+
+def _wd_facets(facets, picks):
+    for f in facets or []:
+        param = f.get("facetParameter", "")
+        for v in f.get("values", []) or []:
+            if "values" in v and isinstance(v.get("values"), list):
+                _wd_facets([v], picks)
+                continue
+            desc = v.get("descriptor", "")
+            if v.get("id") and WD_LOC_RX.search(desc) and re.search(r"loc|country|region", param, re.I):
+                picks.setdefault(param, []).append((desc, v["id"]))
+
+
+def workday(tenant, extra):
+    wd, site = extra.split("|", 1)
+    host = f"https://{tenant}.{wd}.myworkdayjobs.com"
+    api = f"{host}/wday/cxs/{tenant}/{site}/jobs"
+    first = http(api, {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""})
+    picks = {}
+    _wd_facets(first.get("facets"), picks)
+    applied = {}
+    # Prefer a country-level "Canada" value; otherwise every matching location value.
+    for param, vals in picks.items():
+        canada = [i for d, i in vals if d.strip().lower() == "canada"]
+        if canada and re.search(r"country", param, re.I):
+            applied = {param: canada}
+            break
+    if not applied:
+        for param, vals in picks.items():
+            if re.search(r"loc", param, re.I):
+                applied.setdefault(param, []).extend(i for _, i in vals)
+    search = "" if applied else "Canada"
+    out, offset, total = [], 0, None
+    while True:
+        d = http(api, {"appliedFacets": applied, "limit": 20, "offset": offset, "searchText": search})
+        if total is None:
+            total = d.get("total", 0) or 0
+        posts = d.get("jobPostings", []) or []
+        for j in posts:
+            path = j.get("externalPath", "")
+            loc = j.get("locationsText", "") or ""
+            locs = [loc]
+            if re.match(r"^\d+ Locations?$", loc.strip()):
+                try:
+                    det = http(f"{host}/wday/cxs/{tenant}/{site}{path}")
+                    info = det.get("jobPostingInfo", {})
+                    locs = [info.get("location", "")] + list(info.get("additionalLocations") or [])
+                except Exception:
+                    locs = [loc + " (check posting)"]
+            elif applied:
+                locs.append("Canada")  # results are already limited to Canadian locations
+            out.append({"id": path.rsplit("_", 1)[-1] or path, "title": j.get("title", ""), "locations": locs,
+                        "url": f"{host}/{site}{path}", "posted": j.get("postedOn", "")})
+        offset += 20
+        if not posts or offset >= total or offset >= 1200:
+            return out
+
+
+def amazon(_, extra):
+    out, offset = [], 0
+    while True:
+        d = http("https://www.amazon.jobs/en/search.json?normalized_country_code%5B%5D=CAN&result_limit=100"
+                 f"&sort=recent&offset={offset}")
+        jobs = d.get("jobs", []) or []
+        for j in jobs:
+            out.append({"id": j.get("id_icims") or j.get("id"), "title": j.get("title", ""),
+                        "locations": [j.get("normalized_location", ""), j.get("location", "")],
+                        "url": "https://www.amazon.jobs" + j.get("job_path", ""), "posted": j.get("posted_date", "")})
+        offset += 100
+        if not jobs or offset >= (d.get("hits") or 0) or offset >= 1500:
+            return out
+
+
+def microsoft(_, extra):
+    out, page = [], 1
+    while True:
+        d = http(f"https://gcsservices.careers.microsoft.com/search/api/v1/search?lc=Canada&l=en_us&pg={page}&pgSz=20&o=Recent")
+        res = ((d or {}).get("operationResult") or {}).get("result") or {}
+        jobs = res.get("jobs", []) or []
+        for j in jobs:
+            props = j.get("properties") or {}
+            out.append({"id": j.get("jobId"), "title": j.get("title", ""),
+                        "locations": list(props.get("locations") or []) + [props.get("primaryLocation", "")],
+                        "url": f"https://jobs.careers.microsoft.com/global/en/job/{j.get('jobId')}", "posted": iso(j.get("postingDate"))})
+        page += 1
+        if not jobs or (page - 1) * 20 >= (res.get("totalJobs") or 0) or page > 60:
+            return out
+
+
+def uber(_, extra):
+    out, page = [], 0
+    while True:
+        d = http("https://www.uber.com/api/loadSearchJobsResults?localeCode=en",
+                 {"params": {"location": [{"country": "CAN", "region": "Ontario", "city": "Toronto"}], "department": []},
+                  "page": page, "limit": 50}, headers={"x-csrf-token": "x"})
+        res = ((d or {}).get("data") or {}).get("results") or []
+        for j in res:
+            locs = [", ".join(x for x in [l.get("city"), l.get("region"), l.get("countryName")] if x)
+                    for l in (j.get("allLocations") or [j.get("location") or {}])]
+            out.append({"id": j.get("id"), "title": j.get("title", ""), "locations": locs,
+                        "url": f"https://www.uber.com/global/en/careers/list/{j.get('id')}/", "posted": iso(j.get("creationDate"))})
+        page += 1
+        if len(res) < 50 or page > 20:
+            return out
+
+
+def eightfold(host, extra):
+    domain = extra
+    out, start = [], 0
+    while True:
+        d = http(f"https://{host}/api/apply/v2/jobs?domain={domain}&start={start}&num=50&location=Canada&sort_by=timestamp")
+        pos = d.get("positions", []) or []
+        for j in pos:
+            out.append({"id": j.get("id"), "title": j.get("name", ""),
+                        "locations": list(j.get("locations") or []) + [j.get("location", "")],
+                        "url": j.get("canonicalPositionUrl") or f"https://{host}/careers/job/{j.get('id')}",
+                        "posted": iso(j.get("t_create"))})
+        start += 50
+        if not pos or start >= (d.get("count") or 0) or start >= 1000:
+            return out
+
+
+ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
+            "workable": workable, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
+            "eightfold": eightfold}
+
+
+def probe(slugs):
+    """Try Greenhouse, Lever and Ashby for each slug; return (ats, token, jobs)."""
+    errors = []
+    for slug in slugs:
+        for ats in ("greenhouse", "lever", "ashby"):
+            try:
+                jobs = ADAPTERS[ats](slug, "")
+                if ats == "ashby" and not jobs:
+                    continue
+                return ats, slug, jobs
+            except Exception as e:
+                errors.append(f"{ats}:{slug}:{getattr(e, 'code', type(e).__name__)}")
+    raise RuntimeError("no board found (" + ", ".join(errors[:6]) + ")")
+
+
+# ---------------------------------------------------------------- main
+def run_board(row):
+    company, ats, token, extra = row["company"], row["ats"], row["token"], row.get("extra", "")
+    rec = {"company": company, "ats": ats, "token": token, "ok": False, "seen": 0, "kept": 0, "error": "", "resolved": ""}
+    try:
+        if ats == "auto":
+            ats2, tok2, jobs = probe([s for s in token.split(";") if s])
+            rec["resolved"] = f"{ats2}:{tok2}"
+            ats_used = ats2
+        else:
+            jobs = ADAPTERS[ats](token, extra)
+            ats_used = ats
+        rec["ok"] = True
+        rec["seen"] = len(jobs)
+        kept = []
+        for j in jobs:
+            title = (j.get("title") or "").strip()
+            keep_t, level, _ = title_verdict(title)
+            if not keep_t:
+                continue
+            keep_l, remote = location_verdict([str(x) for x in j.get("locations", []) if x])
+            if not keep_l:
+                continue
+            kept.append({
+                "id": f"{ats_used}:{token.split(';')[0] if ats == 'auto' else token}:{j['id']}",
+                "company": company, "title": title,
+                "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
+                "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
+                "level_hint": level, "remote": remote, "pathway_hint": row.get("pathway", ""),
+                "tier": row.get("tier", ""),
+            })
+        rec["kept"] = len(kept)
+        return rec, kept
+    except Exception as e:
+        rec["error"] = (f"HTTP {e.code}" if isinstance(e, urllib.error.HTTPError) else str(e))[:200]
+        return rec, []
+
+
+def main():
+    rows = []
+    with open(os.path.join(ROOT, "companies.csv"), newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if r.get("company", "").startswith("#") or not r.get("ats"):
+                continue
+            rows.append({k: (v or "").strip() for k, v in r.items()})
+    os.makedirs(OUT, exist_ok=True)
+    seen_path = os.path.join(OUT, "seen.json")
+    try:
+        seen = json.load(open(seen_path))
+    except Exception:
+        seen = {}
+    today = dt.datetime.utcnow().strftime("%Y-%m-%d")
+    health, feed = [], []
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        futures = [pool.submit(run_board, r) for r in rows]
+        for fut in as_completed(futures):
+            rec, kept = fut.result()
+            health.append(rec)
+            feed.extend(kept)
+    # Dedupe by URL (same posting on two boards of one company).
+    by_url = {}
+    for j in feed:
+        by_url.setdefault(j["url"] or j["id"], j)
+    feed = list(by_url.values())
+    new_seen = {}
+    for j in feed:
+        j["first_seen"] = seen.get(j["id"], today)
+        new_seen[j["id"]] = j["first_seen"]
+    feed.sort(key=lambda j: (j["first_seen"], j["company"].lower(), j["title"].lower()), reverse=True)
+    health.sort(key=lambda h: (h["ok"], h["company"].lower()))
+    now = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    summary = {
+        "generated_at": now,
+        "boards": len(health), "ok": sum(h["ok"] for h in health), "failed": sum(not h["ok"] for h in health),
+        "jobs_seen": sum(h["seen"] for h in health), "jobs_kept": len(feed),
+        "new_today": sum(1 for j in feed if j["first_seen"] == today),
+    }
+    json.dump({"summary": summary, "boards": health}, open(os.path.join(OUT, "health.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump({"generated_at": now, "count": len(feed), "jobs": feed}, open(os.path.join(OUT, "feed.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(new_seen, open(seen_path, "w"), indent=0, sort_keys=True)
+    print(json.dumps(summary))
+
+
+if __name__ == "__main__":
+    sys.exit(main())
