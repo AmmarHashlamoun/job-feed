@@ -50,13 +50,17 @@ EXCLUDE_TITLE = re.compile(
     r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|account manager|"
     r"sales engineer|sales\b|marketing|counsel|attorney|accountant|payroll|\bhr\b|human resources|"
     r"customer success manager|support specialist|help ?desk|it support|desktop support|"
-    r"quality assurance analyst|qa analyst|manual test", re.I)
+    r"quality assurance analyst|qa analyst|manual test|support engineer|technical services|maintenance engineer|"
+    r"stagiaire|\bstage\b|systems engineer(?!.*software)", re.I)
 SOFTWARE_TITLE = re.compile(
-    r"software|developer|programmer|\bswe\b|\bsde\b|engineer|machine learning|\bml\b|\bai\b|data scien|"
+    r"software|developer|programmer|\bswe\b|\bsde\b|machine learning|\bml\b|\bai\b|data (engineer|scien)|"
     r"devops|\bsre\b|site reliability|firmware|embedded|robotic|autonom|perception|computer vision|"
-    r"back[- ]?end|front[- ]?end|full[- ]?stack|mobile|\bios\b|android|platform|infrastructure|cloud|"
-    r"forward deployed|deployed|deployment|solutions engineer|applications? engineer|implementation|"
-    r"integration|customer engineer|field engineer|field application|software designer|technical solutions", re.I)
+    r"back[- ]?end|front[- ]?end|full[- ]?stack|mobile|\bios\b|android|\bplatform\b|infrastructure|cloud|"
+    r"security engineer|forward deployed|deployed engineer|deployment engineer|solutions engineer|"
+    r"applications? engineer|implementation (engineer|specialist|consultant)|integration engineer|"
+    r"customer engineer|field (application )?engineer|technical solutions|compiler|kernel|graphics|"
+    r"research engineer|automation engineer|test automation|windows engineer|networking|distributed systems|"
+    r"web (developer|engineer)|\bllm\b|agent", re.I)
 HARDWARE_ONLY = re.compile(r"(electrical|hardware|asic|fpga|rf|analog|layout|verification|validation|process|"
                            r"manufacturing|test|reliability|quality|mechanical|optical|photonic) engineer", re.I)
 JUNIOR = re.compile(r"new grad|graduate|early career|entry[- ]level|junior|\bjr\b|associate|university|campus|"
@@ -209,7 +213,7 @@ def workable(token, _):
 
 
 WD_LOC_RX = re.compile(r"canada|ontario|toronto|markham|waterloo|kitchener|mississauga|vaughan|oakville|"
-                       r"burlington|brampton|guelph|hamilton|richmond hill|concord|cambridge|\bON\b|CAN\b", re.I)
+                       r"brampton|guelph|richmond hill|^\s*CAN\b|\bCA-ON\b|,\s*ON\b")
 
 
 def _wd_facets(facets, picks):
@@ -253,15 +257,15 @@ def workday(tenant, extra):
             path = j.get("externalPath", "")
             loc = j.get("locationsText", "") or ""
             locs = [loc]
-            if re.match(r"^\d+ Locations?$", loc.strip()):
+            if re.match(r"^\d+ Locations?$", loc.strip()) or "More..." in loc:
                 try:
                     det = http(f"{host}/wday/cxs/{tenant}/{site}{path}")
                     info = det.get("jobPostingInfo", {})
                     locs = [info.get("location", "")] + list(info.get("additionalLocations") or [])
                 except Exception:
                     locs = [loc + " (check posting)"]
-            elif applied:
-                locs.append("Canada")  # results are already limited to Canadian locations
+            elif applied and re.match(r"^\s*(remote|home|virtual)[\w\s-]*$", loc, re.I):
+                locs = [loc + " (Canada)"]  # Canadian-filtered results that only say "Remote"
             out.append({"id": path.rsplit("_", 1)[-1] or path, "title": j.get("title", ""), "locations": locs,
                         "url": f"{host}/{site}{path}", "posted": j.get("postedOn", "")})
         offset += 20

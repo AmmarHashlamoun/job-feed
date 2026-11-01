@@ -1,13 +1,11 @@
 company,ats,token,extra,pathway,tier
 Stripe,greenhouse,stripe,,A,1
 Amazon (incl. Robotics),amazon,amazon,,A,1
-Microsoft,microsoft,microsoft,,A,2
-Uber,uber,uber,,A,2
 Shopify,auto,shopify,,A,2
 Instacart,greenhouse,instacart,,A,2
 Pinterest,greenhouse,pinterest,,A,2
 Lyft,greenhouse,lyft,,A,2
-Snowflake,auto,snowflake;snowflakecomputing,,A,2
+Snowflake,ashby,snowflake,,A,2
 Airbnb,greenhouse,airbnb,,A,2
 Dropbox,greenhouse,dropbox,,A,2
 Reddit,greenhouse,reddit,,A,2
@@ -21,8 +19,8 @@ Asana,greenhouse,asana,,A,2
 Databricks,greenhouse,databricks,,A,2
 Scale AI,greenhouse,scaleai,,D,2
 DoorDash Canada,greenhouse,doordashcanada,,A,2
-DoorDash,auto,doordashusa;doordash,,A,2
-Block (Square),auto,block;square;squareup,,A,2
+DoorDash,greenhouse,doordashusa,,A,2
+Block (Square),greenhouse,block,,A,2
 Spotify,lever,spotify,,A,2
 MongoDB,greenhouse,mongodb,,A,2
 Datadog,greenhouse,datadog,,A,2
@@ -31,36 +29,34 @@ Elastic,greenhouse,elastic,,A,2
 GitLab,greenhouse,gitlab,,A,2
 Canonical,greenhouse,canonical,,A,2
 Vercel,greenhouse,vercel,,A,2
-Sentry,greenhouse,sentry,,A,2
+Sentry,auto,sentry;getsentry,,A,2
 Tailscale,greenhouse,tailscale,,A,2
 Mozilla,greenhouse,mozilla,,A,2
 Coursera,greenhouse,coursera,,A,2
-Yelp,greenhouse,yelp,,A,2
 Ripple,greenhouse,ripple,,A,2
 Unity,auto,unity3d;unity,,A,2
-Rockstar Games,auto,rockstargames;rockstar,,A,2
+Rockstar Games,greenhouse,rockstargames,,A,2
 Ubisoft,smartrecruiters,Ubisoft2,,A,2
 Peloton,greenhouse,peloton,,C,2
 Webflow,greenhouse,webflow,,A,2
 Grafana Labs,greenhouse,grafanalabs,,A,2
 Cockroach Labs,greenhouse,cockroachlabs,,A,2
-Temporal,auto,temporaltechnologies;temporal,,A,2
-Sourcegraph,auto,sourcegraph91;sourcegraph,,A,2
-Netlify,auto,netlify,,A,2
+Temporal,ashby,temporal,,A,2
+Sourcegraph,greenhouse,sourcegraph91,,A,2
+Netlify,greenhouse,netlify,,A,2
 Supabase,ashby,supabase,,A,2
 Linear,ashby,linear,,A,2
 PostHog,ashby,posthog,,A,2
-Zapier,auto,zapier,,A,2
+Zapier,ashby,zapier,,A,2
 Wikimedia Foundation,greenhouse,wikimedia,,A,2
 Buffer,auto,buffer,,A,2
 Hugging Face,workable,huggingface,,D,2
 Weights & Biases,auto,wandb;weightsandbiases,,D,2
-Pinecone,auto,pinecone;pinecone-io,,D,2
+Pinecone,ashby,pinecone,,D,2
 Salesforce,workday,salesforce,wd12|External_Career_Site,A,2
 Workday,workday,workday,wd5|Workday_Early_Career,A,2
 Workday (all roles),workday,workday,wd5|Workday,A,2
 Autodesk,workday,autodesk,wd1|Ext,A,2
-Adobe (university),workday,adobe,wd5|external_university,A,2
 Adobe,workday,adobe,wd5|external_experienced,A,2
 Red Hat,workday,redhat,wd5|jobs,A,2
 PayPal,workday,paypal,wd1|jobs,A,2
@@ -72,32 +68,31 @@ HPE,workday,hpe,wd5|acjobsite,A,2
 Genesys,workday,genesys,wd1|2_genesys_jobs,A,2
 BlackLine,workday,blackline,wd108|blacklinecareers,A,2
 Centric Software,workday,centricsoftware,wd501|centric,A,2
-OpenText,workday,opentext,wd3|OpenText,A,2
 Clio,workday,clio,wd3|cliocareersite,A,2
 SOTI,workday,soti,wd3|SOTI-Next-Gen,C,2
 TELUS Digital,ashby,telus-digital,,D,2
 1Password,ashby,1password,,A,2
-Wealthsimple,auto,wealthsimple,,A,2
-Hopper,auto,hopper,,A,2
-Lightspeed,auto,lightspeedhq;lightspeed,,A,2
-Hootsuite,auto,hootsuite,,A,2
+Wealthsimple,lever,wealthsimple,,A,2
+Hopper,ashby,hopper,,A,2
+Lightspeed,ashby,lightspeedhq,,A,2
+Hootsuite,greenhouse,hootsuite,,A,2
 FreshBooks,auto,freshbooks,,A,2
 Top Hat,auto,tophat,,A,2
-League,auto,league;leagueinc,,A,2
+League,greenhouse,leagueinc,,A,2
 Nulogy,auto,nulogy,,A,2
 Vena Solutions,auto,vena;venasolutions,,A,2
-Achievers,auto,achievers,,A,2
-Wattpad,auto,wattpad,,A,2
-Wave,auto,waveapps;wave,,A,2
-Jobber,auto,jobber,,A,2
-Thinkific,auto,thinkific,,A,2
-Visier,auto,visier,,A,2
-Unbounce,auto,unbounce,,A,2
-Klue,auto,klue,,A,2
+Achievers,lever,achievers,,A,2
+Wattpad,lever,wattpad,,A,2
+Wave,lever,waveapps,,A,2
+Jobber,ashby,jobber,,A,2
+Thinkific,greenhouse,thinkific,,A,2
+Visier,ashby,visier,,A,2
+Unbounce,greenhouse,unbounce,,A,2
+Klue,ashby,klue,,A,2
 PointClickCare,lever,pointclickcare,,A,2
-KEV Group,auto,kevgroup,,A,2
+KEV Group,greenhouse,kevgroup,,A,2
 Rose Rocket,auto,roserocket,,A,2
-Tealbook,auto,tealbook,,A,2
+Tealbook,lever,tealbook,,A,2
 ApplyBoard,auto,applyboard,,A,2
 Vidyard,auto,vidyard,,A,2
 Axonify,auto,axonify,,A,2
@@ -105,17 +100,16 @@ Mappedin,auto,mappedin,,A,2
 Arctic Wolf,auto,arcticwolf;arcticwolfnetworks,,A,2
 eSentire,auto,esentire,,A,2
 Magnet Forensics,lever,magnetforensics,,A,2
-Maple,auto,maple;getmaple,,A,2
+Maple,ashby,maple,,A,2
 Zip,ashby,zip,,A,2
 Brave,greenhouse,brave,,A,2
 Georgian,ashby,georgian,,D,2
 Cerebras,ashby,cerebras,,B,1
-Cerebras (early talent),greenhouse,earlytalentcerebras,,B,1
 Tenstorrent,greenhouse,tenstorrent,,B,1
 Tenstorrent (university),greenhouse,tenstorrentuniversity,,B,1
 Waabi,lever,waabi,,B,1
 Kepler Communications,lever,kepler,,B,1
-Groq,greenhouse,groq,,B,1
+Groq,auto,groq;groqinc,,B,1
 Untether AI,auto,untetherai;untether,,B,2
 Taalas,auto,taalas,,B,2
 Xanadu,auto,xanadu;xanaduai,,B,2
@@ -126,9 +120,9 @@ Gatik,auto,gatik,,B,2
 NuPort Robotics,auto,nuportrobotics;nuport,,B,2
 Trexo Robotics,auto,trexorobotics;trexo,,B,2
 Able Innovations,auto,ableinnovations,,B,2
-Oxa,auto,oxa;oxbotica,,B,2
-AeroVect,auto,aerovect,,B,2
-Applied Intuition,greenhouse,appliedintuition,,B,2
+Oxa,ashby,oxa,,B,2
+AeroVect,ashby,aerovect,,B,2
+Applied Intuition,auto,appliedintuition;applied-intuition,,B,2
 Canadensys Aerospace,auto,canadensys,,B,2
 Synaptive Medical,auto,synaptivemedical;synaptive,,B,2
 Hitachi (Rail),workday,hitachi,wd1|hitachi,B,2
@@ -138,15 +132,13 @@ General Dynamics Mission Systems,smartrecruiters,GDMSI,,B,2
 CAE,workday,cae,wd3|career,B,2
 NAV CANADA,workday,navcanada,wd10|nav_careers,B,2
 Apera AI,greenhouse,aperaaiinc,,B,2
-Sanctuary AI,auto,sanctuaryai;sanctuary,,B,2
+Sanctuary AI,ashby,sanctuary,,B,2
 Boson AI,lever,bosonai,,D,2
 Nuclear Promise X,ashby,npx,,B,2
 Rivian,ashby,rivianvw.tech,,C,2
 NVIDIA,workday,nvidia,wd5|NVIDIAExternalCareerSite,C,1
-Qualcomm,eightfold,careers.qualcomm.com,qualcomm.com,C,1
-AMD,workday,amd,wd1|External,C,1
 Intel,workday,intel,wd1|External,C,2
-Geotab,auto,geotab,,C,1
+Geotab,greenhouse,geotab,,C,1
 Geotab (students and grads),greenhouse,internshiplist2000,,C,1
 Motorola Solutions,workday,motorolasolutions,wd5|Careers,C,2
 General Motors,workday,generalmotors,wd5|Careers_GM,C,2
@@ -175,95 +167,95 @@ Samsara,greenhouse,samsara,,C,2
 Verkada,greenhouse,verkada,,C,2
 Cohere,ashby,cohere,,D,1
 LangChain,ashby,langchain,,D,2
-Feathery,auto,feathery,,D,2
-Ada,auto,ada;adasupport;ada18,,D,2
-CoLab,auto,colabsoftware;colab,,D,2
+Feathery,ashby,feathery,,D,2
+Ada,greenhouse,ada18,,D,2
+CoLab,greenhouse,colabsoftware,,D,2
 Maneva,workable,maneva,,D,2
 Viggle AI,ashby,viggle,,D,2
 Ideogram,ashby,ideogram,,D,2
-Jetson,auto,jetson;jetsonhome,,D,2
-BenchSci,auto,benchsci,,D,2
-Deep Genomics,auto,deepgenomics,,D,2
+Jetson,greenhouse,jetsonhome,,D,2
+BenchSci,lever,benchsci,,D,2
+Deep Genomics,lever,deepgenomics,,D,2
 Swift Medical,auto,swiftmedical,,D,2
 Private AI,auto,privateai;private-ai,,D,2
 Signal 1,auto,signal1;signal1ai,,D,2
 Veeda AI,ashby,veeda-ai,,D,2
 OpenAI,ashby,openai,,D,2
-Writer,auto,writer,,D,2
-Glean,auto,gleanwork;glean,,D,2
+Writer,ashby,writer,,D,2
+Glean,greenhouse,gleanwork,,D,2
 Hebbia,auto,hebbia,,D,2
 Rippling,auto,rippling,,D,2
-Sierra,auto,sierra,,D,2
-Decagon,auto,decagon,,D,2
-Harvey,auto,harvey,,D,2
-Mechanical Orchard,auto,mechanicalorchard,,D,2
+Sierra,ashby,sierra,,D,2
+Decagon,ashby,decagon,,D,2
+Harvey,ashby,harvey,,D,2
+Mechanical Orchard,lever,mechanicalorchard,,D,2
 Snap,auto,snapchat;snap,,A,2
 Discord,greenhouse,discord,,A,2
-Notion,auto,notion,,A,2
-Dialpad,auto,dialpad,,A,2
-Trulioo,auto,trulioo,,A,2
+Notion,ashby,notion,,A,2
+Dialpad,greenhouse,dialpad,,A,2
+Trulioo,ashby,trulioo,,A,2
 Q4 Inc,auto,q4inc;q4,,A,2
 Ecopia AI,auto,ecopiatech;ecopia,,D,2
-Loopio,auto,loopio,,A,2
+Loopio,ashby,loopio,,A,2
 Kinaxis,auto,kinaxis,,D,2
-Docebo,auto,docebo,,A,2
+Docebo,lever,docebo,,A,2
 Dooly,auto,dooly,,A,2
 Coveo,auto,coveo,,D,2
 Vector Institute,auto,vectorinstitute,,D,2
 Mila,workable,mila-2,,D,2
 Drop,auto,drop;earnwithdrop,,A,2
-Ocado Technology (Kindred),auto,ocadotechnology;kindred,,B,2
-Felix Health,auto,felixforyou;felix,,A,2
+Ocado Technology (Kindred),ashby,kindred,,B,2
+Felix Health,ashby,felix,,A,2
 Think Research,auto,thinkresearch,,A,2
 Phenomic AI,auto,phenomicai,,D,2
 ProteinQure,auto,proteinqure,,D,2
 Nanoleaf,auto,nanoleaf,,C,2
 Voiceflow,auto,voiceflow,,D,2
-BlueDot,auto,bluedot,,D,2
+BlueDot,ashby,bluedot,,D,2
 Uken Games,auto,uken,,A,2
-D2L,auto,d2l,,A,2
+D2L,greenhouse,d2l,,A,2
 Sandvine,auto,sandvine,,C,2
 Bonfire Interactive,auto,bonfire;gobonfire,,A,2
 Auvik,auto,auvik,,A,2
 Dejero,auto,dejero,,C,2
 Intellijoint Surgical,auto,intellijoint,,C,2
-TextNow,auto,textnow,,A,2
-Fable Tech Labs,auto,fable;fabletechlabs,,A,2
+TextNow,lever,textnow,,A,2
+Fable Tech Labs,ashby,fable,,A,2
 Properly,auto,properly,,A,2
-Tulip,auto,tulip;tulipretail,,A,2
-Coconut Software,auto,coconutsoftware;coconut,,A,2
-Rewind,auto,rewind,,A,2
+Tulip,greenhouse,tulip,,A,2
+Coconut Software,greenhouse,coconutsoftware,,A,2
+Rewind,ashby,rewind,,A,2
 Field Effect,auto,fieldeffect,,A,2
 Absolute Security,auto,absolute;absolutesoftware,,A,2
-Sophos,auto,sophos,,A,2
+Sophos,lever,sophos,,A,2
 Phoenix Labs,auto,phoenixlabs,,A,2
 Thrive Health,auto,thrivehealth,,A,2
 Vention,auto,vention,,B,2
 Haply Robotics,auto,haply;haplyrobotics,,B,2
 Kinova,auto,kinova,,B,2
 Clearpath (legacy board),auto,clearpathrobotics;clearpath,,B,2
-Hatch (digital),auto,hatch,,B,2
-Torc Robotics,auto,torcrobotics;torc,,B,2
-Stack AV,auto,stackav,,B,2
-Kodiak Robotics,auto,kodiak;kodiakrobotics,,B,2
-Wayve,auto,wayve,,B,2
-Nuro,auto,nuro,,B,2
-Zoox,auto,zoox,,B,2
-Figure AI,auto,figureai;figure,,B,2
-Agility Robotics,auto,agilityrobotics,,B,2
-Skydio,auto,skydio,,B,2
-Anduril,auto,andurilindustries;anduril,,B,2
-Planet Labs,auto,planetlabs;planet,,B,2
-Spire Global,auto,spire;spireglobal,,B,2
-SpaceX,auto,spacex,,B,2
-Relativity Space,auto,relativity;relativityspace,,B,2
-Formlabs,auto,formlabs,,C,2
+Hatch (digital),ashby,hatch,,B,2
+Torc Robotics,greenhouse,torcrobotics,,B,2
+Stack AV,greenhouse,stackav,,B,2
+Kodiak Robotics,greenhouse,kodiak,,B,2
+Wayve,ashby,wayve,,B,2
+Nuro,greenhouse,nuro,,B,2
+Zoox,lever,zoox,,B,2
+Figure AI,greenhouse,figureai,,B,2
+Agility Robotics,greenhouse,agilityrobotics,,B,2
+Skydio,ashby,skydio,,B,2
+Anduril,greenhouse,andurilindustries,,B,2
+Planet Labs,greenhouse,planetlabs,,B,2
+Spire Global,greenhouse,spire,,B,2
+SpaceX,greenhouse,spacex,,B,2
+Relativity Space,greenhouse,relativity,,B,2
+Formlabs,greenhouse,formlabs,,C,2
 Ouster,auto,ouster,,C,2
-Lightmatter,auto,lightmatter,,C,2
-SambaNova,auto,sambanovasystems;sambanova,,C,2
-Etched,auto,etched,,C,2
-Astera Labs,auto,asteralabs;asteraearlycareer2027,,C,2
-Modal,auto,modal,,D,2
+Lightmatter,greenhouse,lightmatter,,C,2
+SambaNova,greenhouse,sambanovasystems,,C,2
+Etched,ashby,etched,,C,2
+Astera Labs,greenhouse,asteralabs,,C,2
+Modal,ashby,modal,,D,2
 Replicate,auto,replicate,,D,2
-Together AI,auto,togetherai,,D,2
-Anyscale,auto,anyscale,,D,2
+Together AI,greenhouse,togetherai,,D,2
+Anyscale,lever,anyscale,,D,2
