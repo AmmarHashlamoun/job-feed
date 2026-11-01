@@ -80,7 +80,10 @@ def location_verdict(texts):
     if RX_CANADA.search(joined):
         parts = [p.strip() for p in re.split(r"\||;|/| or ", joined) if p.strip()]
         for p in parts:
-            if RX_CANADA.search(p) and (RX_REMOTE.search(p) or not RX_OTHER_CA.search(p)):
+            bare = re.sub(r"[^a-z& ]", " ", p.lower()).split()
+            bare_ok = " ".join(bare) in ("canada", "can", "ca", "united states and canada", "us and canada",
+                                         "usa and canada", "us & canada", "north america")
+            if RX_CANADA.search(p) and (RX_REMOTE.search(p) or bare_ok):
                 return True, True
     return False, False
 
