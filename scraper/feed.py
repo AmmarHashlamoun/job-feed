@@ -134,6 +134,41 @@ def iso(v):
     return str(v)[:10]
 
 
+YEARS_RX = re.compile(r"(\d{1,2})\s*(?:\+|plus)?\s*(?:(?:-|–|to)\s*(\d{1,2})\s*)?\+?\s*(?:years?|yrs?)"
+                      r"(?:\s+of)?(?:\s+[\w/&,-]+){0,6}?\s+(?:experience|exp\b)", re.I)
+GRAD_RX = re.compile(r"[^.\n]{0,140}\b(graduat\w*|degree (?:by|before|prior)|enrolled|currently pursuing|class of 20\d\d|"
+                     r"completed (?:a|your) (?:bachelor|degree))\b[^.\n]{0,140}", re.I)
+
+
+def strip_html(s):
+    import html as _h
+    s = _h.unescape(_h.unescape(s or ""))
+    s = re.sub(r"<(br|/p|/li|/div|/h\d)[^>]*>", "\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", " ", s)
+    return re.sub(r"[ \t\r\f\v]+", " ", s)
+
+
+def extract_quals(text):
+    """Return (min_years or None, years snippet, graduation snippet) from a job description."""
+    text = strip_html(text)
+    mins, snippet = [], ""
+    for m in YEARS_RX.finditer(text):
+        n = int(m.group(1))
+        if 0 <= n <= 15:
+            mins.append(n)
+            if not snippet:
+                snippet = text[max(0, m.start() - 40):m.end() + 20].strip().replace("\n", " ")
+    g = GRAD_RX.search(text)
+    return (min(mins) if mins else None), snippet[:160], (g.group(0).strip().replace("\n", " ")[:220] if g else "")
+
+
+DETAIL = {
+    "greenhouse": lambda d: (d or {}).get("content", ""),
+    "workday": lambda d: ((d or {}).get("jobPostingInfo") or {}).get("jobDescription", ""),
+    "smartrecruiters": lambda d: " ".join(((s or {}).get("text") or "") for s in (((d or {}).get("jobAd") or {}).get("sections") or {}).values()),
+}
+
+
 # ---------------------------------------------------------------- adapters
 # Each returns a list of raw postings: {id, title, locations[list], url, posted}
 
@@ -145,7 +180,8 @@ def greenhouse(token, _):
         for o in j.get("offices", []) or []:
             locs.append(o.get("location") or o.get("name") or "")
         out.append({"id": j["id"], "title": j.get("title", ""), "locations": locs,
-                    "url": j.get("absolute_url", ""), "posted": iso(j.get("updated_at"))})
+                    "url": j.get("absolute_url", ""), "posted": iso(j.get("updated_at")),
+                    "detail": ("greenhouse", f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs/{j['id']}")})
     return out
 
 
@@ -161,8 +197,9 @@ def lever(token, _):
             locs = [l + " (remote)" for l in locs if l] or ["Remote"]
         if j.get("country"):
             locs.append(j["country"] if j["country"] != "CA" else "Canada")
+        desc = " ".join([j.get("descriptionPlain") or ""] + [(x.get("text") or "") + " " + (x.get("content") or "") for x in (j.get("lists") or [])] + [j.get("additionalPlain") or ""])
         out.append({"id": j["id"], "title": j.get("text", ""), "locations": locs,
-                    "url": j.get("hostedUrl", ""), "posted": iso(j.get("createdAt"))})
+                    "url": j.get("hostedUrl", ""), "posted": iso(j.get("createdAt")), "desc": desc})
     return out
 
 
@@ -179,7 +216,7 @@ def ashby(token, _):
         if j.get("isRemote"):
             locs = [l + " (remote)" for l in locs if l]
         out.append({"id": j.get("id") or j.get("jobUrl"), "title": j.get("title", ""), "locations": locs,
-                    "url": j.get("jobUrl", ""), "posted": iso(j.get("publishedAt"))})
+                    "url": j.get("jobUrl", ""), "posted": iso(j.get("publishedAt")), "desc": j.get("descriptionPlain") or j.get("descriptionHtml") or ""})
     return out
 
 
@@ -193,7 +230,8 @@ def smartrecruiters(token, _):
             if l.get("remote"):
                 loc += " (remote)"
             out.append({"id": j["id"], "title": j.get("name", ""), "locations": [loc],
-                        "url": f"https://jobs.smartrecruiters.com/{token}/{j['id']}", "posted": iso(j.get("releasedDate"))})
+                        "url": f"https://jobs.smartrecruiters.com/{token}/{j['id']}", "posted": iso(j.get("releasedDate")),
+                        "detail": ("smartrecruiters", f"https://api.smartrecruiters.com/v1/companies/{token}/postings/{j['id']}")})
         offset += 100
         if offset >= d.get("totalFound", 0) or offset > 1000:
             return out
@@ -267,7 +305,8 @@ def workday(tenant, extra):
             elif applied and re.match(r"^\s*(remote|home|virtual)[\w\s-]*$", loc, re.I):
                 locs = [loc + " (Canada)"]  # Canadian-filtered results that only say "Remote"
             out.append({"id": path.rsplit("_", 1)[-1] or path, "title": j.get("title", ""), "locations": locs,
-                        "url": f"{host}/{site}{path}", "posted": j.get("postedOn", "")})
+                        "url": f"{host}/{site}{path}", "posted": j.get("postedOn", ""),
+                        "detail": ("workday", f"{host}/wday/cxs/{tenant}/{site}{path}")})
         offset += 20
         if not posts or offset >= total or offset >= 1200:
             return out
@@ -282,7 +321,8 @@ def amazon(_, extra):
         for j in jobs:
             out.append({"id": j.get("id_icims") or j.get("id"), "title": j.get("title", ""),
                         "locations": [j.get("normalized_location", ""), j.get("location", "")],
-                        "url": "https://www.amazon.jobs" + j.get("job_path", ""), "posted": j.get("posted_date", "")})
+                        "url": "https://www.amazon.jobs" + j.get("job_path", ""), "posted": j.get("posted_date", ""),
+                        "desc": " ".join([j.get("description") or "", j.get("basic_qualifications") or "", j.get("preferred_qualifications") or ""])})
         offset += 100
         if not jobs or offset >= (d.get("hits") or 0) or offset >= 1500:
             return out
@@ -380,8 +420,17 @@ def run_board(row):
             keep_l, remote = location_verdict([str(x) for x in j.get("locations", []) if x])
             if not keep_l:
                 continue
+            desc = j.get("desc") or ""
+            if not desc and j.get("detail"):
+                kind, durl = j["detail"]
+                try:
+                    desc = DETAIL[kind](http(durl))
+                except Exception:
+                    desc = ""
+            min_years, years_text, grad_text = extract_quals(desc) if desc else (None, "", "")
             kept.append({
                 "id": f"{ats_used}:{token.split(';')[0] if ats == 'auto' else token}:{j['id']}",
+                "min_years": min_years, "years_text": years_text, "grad_text": grad_text, "desc_read": bool(desc),
                 "company": company, "title": title,
                 "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
                 "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
