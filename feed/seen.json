@@ -218,8 +218,6 @@
 "workday:generalmotors:JR-202621673": "2026-11-01",
 "workday:generalmotors:JR-202622345-1": "2026-11-01",
 "workday:genesys:JR112632-1": "2026-11-01",
-"workday:globalhr:01857584": "2026-11-01",
-"workday:globalhr:01872931": "2026-11-01",
 "workday:globalhr:01874399-1": "2026-11-01",
 "workday:hitachi:R0143365": "2026-11-01",
 "workday:hpe:1216323-1": "2026-11-01",
@@ -233,7 +231,6 @@
 "workday:motorolasolutions:R65478": "2026-11-01",
 "workday:motorolasolutions:R66300": "2026-11-01",
 "workday:motorolasolutions:R68672": "2026-11-01",
-"workday:motorolasolutions:R69279-1": "2026-11-01",
 "workday:rockwellautomation:R26-3070": "2026-11-01",
 "workday:rockwellautomation:R26-4200": "2026-11-01",
 "workday:rockwellautomation:R26-7172-1": "2026-11-01",
@@ -241,7 +238,5 @@
 "workday:salesforce:JR365988": "2026-11-01",
 "workday:salesforce:JR366363": "2026-11-01",
 "workday:semtech:REQ3682": "2026-11-01",
-"workday:trimble:R57870": "2026-11-01",
-"workday:trimble:R58254": "2026-11-01",
 "workday:workday:JR-0108016": "2026-11-01"
 }

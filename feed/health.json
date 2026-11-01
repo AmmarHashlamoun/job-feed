@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-01T17:36:30Z",
+  "generated_at": "2026-11-01T17:40:49Z",
   "boards": 260,
   "ok": 196,
   "failed": 64,
   "jobs_seen": 23123,
-  "jobs_kept": 245,
-  "new_today": 245
+  "jobs_kept": 240,
+  "new_today": 240
  },
  "boards": [
   {
@@ -1725,7 +1725,7 @@
    "token": "motorolasolutions",
    "ok": true,
    "seen": 43,
-   "kept": 4,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2025,7 +2025,7 @@
    "token": "globalhr",
    "ok": true,
    "seen": 62,
-   "kept": 3,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -2365,7 +2365,7 @@
    "token": "trimble",
    "ok": true,
    "seen": 20,
-   "kept": 2,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
