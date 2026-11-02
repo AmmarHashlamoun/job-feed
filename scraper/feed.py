@@ -165,6 +165,47 @@ def extract_quals(text):
     return (min(mins) if mins else None), snippet[:160], (g.group(0).strip().replace("\n", " ")[:220] if g else "")
 
 
+# Ammar's skills, matching config.md: used for real / learning (counts half). Anything else is a gap.
+HAS = ["python", "java", "typescript", "javascript", "sql", "html", "css", "react", "next.js", "tailwind",
+       "supabase", "postgresql", "nlp", "spacy", "hugging face", "transformers", "bert", "pandas", "git",
+       "linux", "bash", "node.js", "rest", "api"]
+LEARNING = ["c++", "ros", "ros 2"]
+TECH = {
+    "python": r"\bpython\b", "java": r"\bjava\b(?!script)", "typescript": r"typescript|\bts\b", "javascript": r"javascript|\bjs\b",
+    "sql": r"\bsql\b", "html": r"\bhtml", "css": r"\bcss\b", "react": r"\breact\b", "next.js": r"next\.?js",
+    "tailwind": r"tailwind", "supabase": r"supabase", "postgresql": r"postgres", "node.js": r"node\.?js|\bnode\b",
+    "nlp": r"\bnlp\b|natural language", "spacy": r"spacy", "hugging face": r"hugging ?face", "transformers": r"transformer",
+    "bert": r"\bbert\b", "pandas": r"pandas", "git": r"\bgit\b", "linux": r"linux|unix", "bash": r"\bbash\b|shell script",
+    "rest": r"\brest(ful)?\b", "api": r"\bapis?\b",
+    "c++": r"c\+\+|\bcpp\b", "ros": r"\bros\b|ros ?2", "c": r"\bc\b(?![+#])|embedded c", "c#": r"c#|\.net\b",
+    "go": r"\bgolang\b|\bgo\b(?= |,|/)", "rust": r"\brust\b", "kotlin": r"kotlin", "swift": r"\bswift\b",
+    "scala": r"\bscala\b", "ruby": r"\bruby\b|rails", "php": r"\bphp\b",
+    "aws": r"\baws\b|amazon web services", "gcp": r"\bgcp\b|google cloud", "azure": r"\bazure\b",
+    "docker": r"docker|container", "kubernetes": r"kubernetes|\bk8s\b", "terraform": r"terraform",
+    "ci/cd": r"ci/cd|jenkins|github actions|gitlab ci", "kafka": r"\bkafka\b", "spark": r"\bspark\b",
+    "pytorch": r"pytorch", "tensorflow": r"tensorflow", "jax": r"\bjax\b", "cuda": r"\bcuda\b", "llm": r"\bllms?\b",
+    "rtos": r"\brtos\b", "fpga": r"\bfpga\b", "verilog": r"verilog|systemverilog", "embedded": r"embedded|firmware|microcontroller",
+    "android": r"\bandroid\b", "ios": r"\bios\b", "graphql": r"graphql", "mongodb": r"mongo",
+    "distributed systems": r"distributed system", "compilers": r"compiler|llvm|mlir",
+}
+SECTION_RX = re.compile(r"(minimum|basic|required|requirements|qualifications|what you.?ll need|you have|you bring|"
+                        r"must have|who you are|about you|preferred|nice to have|bonus)", re.I)
+
+
+def extract_stack(text):
+    """Return (stack, has, learning, missing, req_excerpt) from a job description."""
+    text = strip_html(text)
+    low = text.lower()
+    stack = [k for k, rx in TECH.items() if re.search(rx, low)]
+    has = [k for k in stack if k in HAS]
+    learning = [k for k in stack if k in LEARNING]
+    missing = [k for k in stack if k not in HAS and k not in LEARNING]
+    m = SECTION_RX.search(text)
+    start = m.start() if m else 0
+    excerpt = re.sub(r"\s*\n\s*", " | ", text[start:start + 900]).strip(" |")
+    return stack, has, learning, missing, excerpt[:900]
+
+
 DETAIL = {
     "greenhouse": lambda d: (d or {}).get("content", ""),
     "workday": lambda d: ((d or {}).get("jobPostingInfo") or {}).get("jobDescription", ""),
@@ -431,9 +472,12 @@ def run_board(row):
                 except Exception:
                     desc = ""
             min_years, years_text, grad_text = extract_quals(desc) if desc else (None, "", "")
+            stack, s_has, s_learn, s_miss, req = extract_stack(desc) if desc else ([], [], [], [], "")
             kept.append({
                 "id": f"{ats_used}:{token.split(';')[0] if ats == 'auto' else token}:{j['id']}",
                 "min_years": min_years, "years_text": years_text, "grad_text": grad_text, "desc_read": bool(desc),
+                "stack": stack, "skills_has": s_has, "skills_learning": s_learn, "skills_missing": s_miss,
+                "requirements": req,
                 "company": company, "title": title,
                 "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
                 "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
