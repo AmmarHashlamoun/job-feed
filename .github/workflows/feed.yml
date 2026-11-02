@@ -37,11 +37,14 @@ jobs:
         run: |
           git config user.name "job-feed bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Commit on top of the latest main so overlapping runs never conflict:
+          # the newest feed simply replaces the files.
+          git fetch origin main
+          git reset --soft origin/main
           git add feed
           if git diff --cached --quiet; then
             echo "No changes"
           else
             git commit -m "Feed $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
