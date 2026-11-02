@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-02T22:24:48Z",
- "count": 242,
+ "generated_at": "2026-11-02T22:54:00Z",
+ "count": 243,
  "jobs": [
   {
    "id": "ashby:top-hat:e8d43056-b380-4658-a54e-79e8e507a999",
@@ -213,6 +213,48 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-02"
+  },
+  {
+   "id": "greenhouse:gleanwork:4749825005",
+   "min_years": 5,
+   "years_text": "customer outcomes.      About you:      5+ years of experience in Sales Engineerin",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "api",
+    "aws",
+    "gcp",
+    "azure",
+    "llm",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "gcp",
+    "azure",
+    "llm",
+    "embedded"
+   ],
+   "requirements": "required for enterprise trust, as we bring Work AI to every employee, in every company. | About the Role: | Glean is seeking a Solutions Engineer to help enterprise customers in Canada connect complex business and technical challenges to practical outcomes with Glean. You will partner with Account Executives across the sales cycle, leading discovery, tailored demonstrations, technical evaluations, security conversations, and business-value discussions. | You will: | Partner with Account Executives to navigate complex, multi-stakeholder deal cycles, including executive stakeholders. | Lead technical discovery with customers to understand business goals, workflows, technical requirements, stakeholders, and success criteria. | Create and demonstrate tailored customer environments based on industry, line of business, and customer use cases. | Plan and manage technical proofs of conc",
+   "company": "Glean",
+   "title": "Solutions Engineer, Canada",
+   "location": "Remote - Canada",
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4749825005",
+   "ats": "greenhouse",
+   "posted": "2026-11-02",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
    "tier": "2",
    "first_seen": "2026-11-02"
   },
@@ -1623,42 +1665,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7292520",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7476555",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -1690,6 +1696,42 @@
    "posted": "2026-10-29",
    "level_hint": "unlevelled",
    "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7292520",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+   "ats": "greenhouse",
+   "posted": "2026-10-29",
+   "level_hint": "unlevelled",
+   "remote": true,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"

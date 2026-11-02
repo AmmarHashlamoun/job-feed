@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-02T22:24:48Z",
+  "generated_at": "2026-11-02T22:54:00Z",
   "boards": 236,
   "ok": 203,
   "failed": 33,
-  "jobs_seen": 23175,
-  "jobs_kept": 242,
-  "new_today": 8
+  "jobs_seen": 23186,
+  "jobs_kept": 243,
+  "new_today": 9
  },
  "boards": [
   {
@@ -404,7 +404,7 @@
    "ats": "greenhouse",
    "token": "airbnb",
    "ok": true,
-   "seen": 210,
+   "seen": 211,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -424,7 +424,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 381,
+   "seen": 382,
    "kept": 36,
    "error": "",
    "resolved": ""
@@ -504,7 +504,7 @@
    "ats": "greenhouse",
    "token": "asteralabs",
    "ok": true,
-   "seen": 180,
+   "seen": 181,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -554,7 +554,7 @@
    "ats": "greenhouse",
    "token": "block",
    "ok": true,
-   "seen": 201,
+   "seen": 202,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -654,7 +654,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 500,
+   "seen": 501,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -834,7 +834,7 @@
    "ats": "greenhouse",
    "token": "doordashusa",
    "ok": true,
-   "seen": 438,
+   "seen": 439,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1054,8 +1054,8 @@
    "ats": "greenhouse",
    "token": "gleanwork",
    "ok": true,
-   "seen": 126,
-   "kept": 0,
+   "seen": 127,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1274,7 +1274,7 @@
    "ats": "ashby",
    "token": "lightspeedhq",
    "ok": true,
-   "seen": 125,
+   "seen": 126,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -1434,7 +1434,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 358,
+   "seen": 357,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1534,7 +1534,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 393,
+   "seen": 395,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1544,7 +1544,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 803,
+   "seen": 805,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1574,7 +1574,7 @@
    "ats": "greenhouse",
    "token": "peloton",
    "ok": true,
-   "seen": 56,
+   "seen": 57,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1674,7 +1674,7 @@
    "ats": "greenhouse",
    "token": "relativity",
    "ok": true,
-   "seen": 413,
+   "seen": 411,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1724,7 +1724,7 @@
    "ats": "greenhouse",
    "token": "robinhood",
    "ok": true,
-   "seen": 161,
+   "seen": 162,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1784,7 +1784,7 @@
    "ats": "workday",
    "token": "salesforce",
    "ok": true,
-   "seen": 53,
+   "seen": 54,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1804,7 +1804,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 331,
+   "seen": 330,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1824,7 +1824,7 @@
    "ats": "greenhouse",
    "token": "scaleai",
    "ok": true,
-   "seen": 168,
+   "seen": 167,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1884,7 +1884,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 368,
+   "seen": 367,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1924,7 +1924,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2876,
+   "seen": 2877,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1964,7 +1964,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 743,
+   "seen": 742,
    "kept": 16,
    "error": "",
    "resolved": ""
@@ -2154,7 +2154,7 @@
    "ats": "greenhouse",
    "token": "twilio",
    "ok": true,
-   "seen": 133,
+   "seen": 134,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2204,7 +2204,7 @@
    "ats": "greenhouse",
    "token": "verkada",
    "ok": true,
-   "seen": 336,
+   "seen": 337,
    "kept": 0,
    "error": "",
    "resolved": ""
