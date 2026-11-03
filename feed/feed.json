@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T14:41:06Z",
- "count": 241,
+ "generated_at": "2026-11-03T16:41:08Z",
+ "count": 239,
  "jobs": [
   {
    "id": "greenhouse:verkada:5273275007",
@@ -107,6 +107,36 @@
    "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "greenhouse:gitlab:8922249002",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "javascript",
+    "ruby"
+   ],
+   "skills_has": [
+    "javascript"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "ruby"
+   ],
+   "requirements": "requirements into resilient, well-tested solutions. | Integrate subscription lifecycle workflows safely with billing, customer account, and internal admin systems. | Write maintainable, well-tested code and follow engineering practices for rollout safety and monitoring. | Participate in code reviews and provide thoughtful, constructive feedback. | Identify and reduce technical debt and architectural risk in the subscription lifecycle. | Participate in incident response for subscription and renewal issues, given their potential impact on revenue and customer access. | What you'll bring | Professional experience as a fullstack engineer and confidence working across frontend and backend code. Our purchase applications use Ruby on Rails and Vue.js. | Experience owning technical direction for a product area, including proposing, discussing, and driving thorough, iterative solutions. | Exp",
+   "company": "GitLab",
+   "title": "Intermediate Fullstack Engineer, Subscription Lifecycle",
+   "location": "Remote, Canada; Remote, United States",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922249002",
+   "ats": "greenhouse",
+   "posted": "2026-11-03",
+   "level_hint": "unlevelled",
+   "remote": true,
    "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-03"
@@ -230,7 +260,7 @@
    "location": "Toronto, Canada",
    "url": "https://boards.greenhouse.io/robinhood/jobs/8348035?t=gh_src=&gh_jid=8348035",
    "ats": "greenhouse",
-   "posted": "2026-11-02",
+   "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -556,40 +586,6 @@
    "posted": "2026-04-22",
    "level_hint": "unlevelled",
    "remote": true,
-   "pathway_hint": "B",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "lever:waabi:6bcfed90-b577-4b09-a893-5c07186a1e0f",
-   "min_years": 2,
-   "years_text": "ing or related engineering disciplines. 2+ years of industry experience developing producti",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "typescript",
-    "api",
-    "go",
-    "distributed systems"
-   ],
-   "skills_has": [
-    "typescript",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "distributed systems"
-   ],
-   "requirements": "requirements, building and deploying software. | Work closely and learn from the best developers in Autonomous Vehicles and Machine Learning. | Build a strong foundation of software development principles and patterns. | Qualifications: | Bachelor’s degree in Computer Science, Computer Engineering or related engineering disciplines. | 2+ years of industry experience developing production quality software. | Demonstrated software engineering experience through internships, work experience, or coding competitions. | Proficient in reading and developing production quality software; experience with Go or Typescript. | Open-minded and collaborative team player with willingness to help others. | Bonus/ nice to have: | Experience in one or more of the following areas: modern web technologies, distributed systems, data storage and processing, cloud infrastructures, test-driven and API-driven dev",
-   "company": "Waabi",
-   "title": "Software Engineer, Commercial Software",
-   "location": "Toronto, ON; Canada",
-   "url": "https://jobs.lever.co/waabi/6bcfed90-b577-4b09-a893-5c07186a1e0f",
-   "ats": "lever",
-   "posted": "2026-09-15",
-   "level_hint": "unlevelled",
-   "remote": false,
    "pathway_hint": "B",
    "tier": "1",
    "first_seen": "2026-11-01"
@@ -2686,40 +2682,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:robinhood:8258307",
-   "min_years": 2,
-   "years_text": "ical solutions.     What you bring      2+ years of experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "go",
-    "spark"
-   ],
-   "skills_has": [
-    "python",
-    "java"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "spark"
-   ],
-   "requirements": "requirements. | Build the connective tissue between traditional market infrastructure (brokerage, ledgers, corporate actions) and on-chain systems, including smart contract integrations, chain indexers, and DEX trade flows. | Develop product-facing features and platform enhancements that meet strict correctness and scalability standards. | Identify and implement improvements to system performance, engineering productivity, and risk reduction. | Collaborate closely with product, compliance, client, platform teams, and external partners to deliver impactful technical solutions. | What you bring | 2+ years of experience in software development. | Expertise in backend development using languages such as Go, Python, or Java, with a solid grasp of cloud-native architectures. | Strong grasp of system design, data modeling, and software engineering fundamentals. | Care for correctness-criti",
-   "company": "Robinhood",
-   "title": "Software Engineer, Web3 Backend",
-   "location": "Toronto, Canada",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8258307?t=gh_src=&gh_jid=8258307",
-   "ats": "greenhouse",
-   "posted": "2026-10-08",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:robinhood:7737164",
    "min_years": null,
    "years_text": "",
@@ -4610,45 +4572,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:intel:JR0286282",
-   "min_years": 0,
-   "years_text": "mputer Engineering or related field and 3+ years of experience OR Master's in Comp",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "transformers",
-    "c++",
-    "c",
-    "pytorch",
-    "compilers"
-   ],
-   "skills_has": [
-    "python",
-    "transformers"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "pytorch",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | You must possess the below minimum qualifications to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. Experience listed below would be obtained through a combination of your degree, research and or relevant previous job and or internship experiences. | Minimum Requirements: | Bachelor's degree in Computer Science, Computer Engineering or related field and 3+ years of experience OR Master's in Computer Science, Computer Engineering or related field and 2+ years of experience OR PhD in Computer Science, Computer Engineering or related field and 0 years of experience. | The experience must include: | • Programming skills in C, C++, and Python | • Experience with compiler stages, code generation, and optimization techniques | • Experience with GitHu",
-   "company": "Intel",
-   "title": "Triton Compiler Engineer",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Triton-Compiler-Engineer_JR0286282",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
