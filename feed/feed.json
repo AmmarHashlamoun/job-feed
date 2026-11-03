@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T11:06:06Z",
- "count": 242,
+ "generated_at": "2026-11-03T14:41:06Z",
+ "count": 241,
  "jobs": [
   {
    "id": "greenhouse:verkada:5273275007",
@@ -30,6 +30,84 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "greenhouse:robinhood:8346031",
+   "min_years": 2,
+   "years_text": "ical solutions.     What you bring      2+ years of experience in software develop",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "go",
+    "spark"
+   ],
+   "skills_has": [
+    "python",
+    "java"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "spark"
+   ],
+   "requirements": "requirements. | Build the connective tissue between traditional market infrastructure (brokerage, ledgers, corporate actions) and on-chain systems, including smart contract integrations, chain indexers, and DEX trade flows. | Develop product-facing features and platform enhancements that meet strict correctness and scalability standards. | Identify and implement improvements to system performance, engineering productivity, and risk reduction. | Collaborate closely with product, compliance, client, platform teams, and external partners to deliver impactful technical solutions. | What you bring | 2+ years of experience in software development. | Expertise in backend development using languages such as Go, Python, or Java, with a solid grasp of cloud-native architectures. | Strong grasp of system design, data modeling, and software engineering fundamentals. | Care for correctness-criti",
+   "company": "Robinhood",
+   "title": "Web Engineer, International Expansion",
+   "location": "Toronto, Canada",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8346031?t=gh_src=&gh_jid=8346031",
+   "ats": "greenhouse",
+   "posted": "2026-11-03",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-03"
+  },
+  {
+   "id": "greenhouse:robinhood:8207701",
+   "min_years": 2,
+   "years_text": "ions     What you bring     Experience: 2+ years of professional software engineering experience designing, building",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "typescript",
+    "react",
+    "postgresql",
+    "go",
+    "ruby",
+    "kafka",
+    "spark",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "typescript",
+    "react",
+    "postgresql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "ruby",
+    "kafka",
+    "spark",
+    "distributed systems"
+   ],
+   "requirements": "requirements into elegant, user-centric technical solutions | What you bring | Experience: 2+ years of professional software engineering experience designing, building, and operating production systems across the full stack | Frontend Depth: Proficiency with modern frontend technologies and frameworks (e.g., React, TypeScript) with an emphasis on performance, accessibility, and state management | Backend & Distributed Systems: Strong experience building scalable distributed services in languages such as Go or Python, utilizing relational and NoSQL databases (e.g., PostgreSQL, MySQL, Redis), and working with event-driven architectures (e.g., Kafka) | Product Ownership: Proven track record of taking complex features from ambiguity through technical design, phased rollout, production validation, and post-launch maintenance | What we offer | Challenging, high-impact work to grow",
+   "company": "Robinhood",
+   "title": "Software Engineer, International Expansion",
+   "location": "Toronto, Canada",
+   "url": "https://boards.greenhouse.io/robinhood/jobs/8207701?t=gh_src=&gh_jid=8207701",
+   "ats": "greenhouse",
+   "posted": "2026-11-03",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-03"
   },
@@ -1696,42 +1774,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7292520",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7476555",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -1763,6 +1805,42 @@
    "posted": "2026-10-29",
    "level_hint": "unlevelled",
    "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7292520",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+   "ats": "greenhouse",
+   "posted": "2026-10-29",
+   "level_hint": "unlevelled",
+   "remote": true,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"
@@ -4346,52 +4424,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:kevgroup:5259976007",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "typescript",
-    "javascript",
-    "sql",
-    "react",
-    "git",
-    "rest",
-    "c#",
-    "azure",
-    "docker",
-    "graphql"
-   ],
-   "skills_has": [
-    "typescript",
-    "javascript",
-    "sql",
-    "react",
-    "git",
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c#",
-    "azure",
-    "docker",
-    "graphql"
-   ],
-   "requirements": "Required | A degree in computer science or a related field. | Working knowledge of at least one of: TypeScript or JavaScript with React, or C# with .NET. You will eventually need to know both. | Basic understanding of relational databases and SQL. | Familiarity with Git and pull-request-based workflows. | Clear written communication as we try to be thorough in pull requests and tickets as well as daily conversation. | Curiosity about how things work and the patience to read existing code before changing it. | Nice to have | Exposure to GraphQL, either as a consumer or a schema author. | Experience with Docker for local development. | Any exposure to Azure or another cloud platform. | An internship, co-op, or open source contribution where someone else reviewed your code. | Interest in payments, fintech, or education technology. | Motivated by learning fast and taking ownershi",
-   "company": "KEV Group",
-   "title": "Junior Software Developer",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://kevgroup.com/open-positions/?gh_jid=5259976007",
-   "ats": "greenhouse",
-   "posted": "2026-10-09",
-   "level_hint": "junior",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "lever:kepler:accae2f6-7ffe-49a8-a485-ee9c13421c95",
    "min_years": 4,
    "years_text": "Required Skills & Qualifications:    4+ years of experience developing embedded",
@@ -5085,106 +5117,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:geotab:5423014008",
-   "min_years": 5,
-   "years_text": "What you'll bring to the role:        5 to 8 years of relevant industry experience demonstrating varie",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "transformers",
-    "c++",
-    "ci/cd",
-    "pytorch",
-    "tensorflow",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "transformers"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "ci/cd",
-    "pytorch",
-    "tensorflow",
-    "embedded"
-   ],
-   "requirements": "Who you are: | We are always looking for amazing talent who can contribute to our growth and deliver results! Geotab is seeking a Senior Computer Vision Engineer who will deliver advanced, high-precision Edge AI technical contributions for Geotab camera systems. Operating with a high degree of execution and independence, this role designs, develops, and maintains scalable Compositional Video Understanding models while actively improving code structure and architecture for long-term maintainability. Recognized by peers for technical guidance on complex failure modes, the Senior Engineer works closely with Technical Leads to contribute to major feature releases, upholds a high technical bar, and actively mentors less senior developers to drive team velocity. If you love technology, and are keen to join an industry leader — we would love to hear from you! | What you'll do: | As a Senior",
-   "company": "Geotab",
-   "title": "Computer Vision Engineering",
-   "location": "Oakville, Ontario - Canada",
-   "url": "https://job-boards.greenhouse.io/geotab/jobs/5423014008",
-   "ats": "greenhouse",
-   "posted": "2026-10-27",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:genesys:JR112632-1",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "typescript",
-    "javascript",
-    "git",
-    "rest",
-    "api",
-    "c++",
-    "c#",
-    "go",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "ci/cd",
-    "distributed systems"
-   ],
-   "skills_has": [
-    "python",
-    "java",
-    "typescript",
-    "javascript",
-    "git",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c#",
-    "go",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "ci/cd",
-    "distributed systems"
-   ],
-   "requirements": "requirements, identify risks, and help deliver high-quality solutions. | Incorporate feedback from code reviews, mentoring, and team discussions into your work and development. | Build an understanding of the team’s systems, architecture, customers, business domain, and quality strategy over time. | Take increasing ownership of automated tests, test infrastructure, features, and quality-related technical work as your skills and familiarity with the product grow. | Stay curious about new technologies, testing approaches, development practices, and opportunities to improve software quality and engineering efficiency. | What you’ll bring to the table: | A Bachelor’s degree in Computer Science, Software Engineering, Computer Engineering, Information Technology, or a related technical field, completed or expected to be completed prior to starting the role. | Hands-on software development or t",
-   "company": "Genesys",
-   "title": "Associate Software Developer in Test",
-   "location": "Toronto (Flexible)",
-   "url": "https://genesys.wd1.myworkdayjobs.com/2_genesys_jobs/job/Toronto-Flexible/Associate-Software-Developer-in-Test_JR112632-1",
-   "ats": "workday",
-   "posted": "Posted 4 Days Ago",
-   "level_hint": "junior",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "workday:generalmotors:JR-202620339",
    "min_years": null,
    "years_text": "",
@@ -5502,7 +5434,7 @@
    "location": "Toronto, ON",
    "url": "https://job-boards.greenhouse.io/doordashcanada/jobs/8131385",
    "ats": "greenhouse",
-   "posted": "2026-10-30",
+   "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -5534,7 +5466,7 @@
    "location": "Toronto, ON",
    "url": "https://job-boards.greenhouse.io/doordashcanada/jobs/6827862",
    "ats": "greenhouse",
-   "posted": "2026-10-30",
+   "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
