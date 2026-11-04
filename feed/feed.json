@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04T14:54:01Z",
- "count": 240,
+ "generated_at": "2026-11-04T16:40:42Z",
+ "count": 239,
  "jobs": [
   {
    "id": "workday:workday:JR-0110858-1",
@@ -23,41 +23,6 @@
    "remote": false,
    "pathway_hint": "A",
    "tier": "2",
-   "first_seen": "2026-11-04"
-  },
-  {
-   "id": "greenhouse:tenstorrent:4711506007",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "node.js",
-    "c++",
-    "distributed systems",
-    "compilers"
-   ],
-   "skills_has": [
-    "node.js"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "distributed systems",
-    "compilers"
-   ],
-   "requirements": "Who You Are | A strong C++ or systems software engineer with a solid foundation in compiler design, programming languages, or performance-oriented systems programming. | Interested in compiler optimizations, computation graphs, parallel execution, and mapping workloads onto heterogeneous or distributed hardware. | Comfortable reasoning about data movement, communication overhead, synchronization, and performance tradeoffs across multiple compute devices and nodes. | Experienced in or eager to work with distributed execution, parallel programming models, and large-scale AI workloads. | A first-principles problem solver who enjoys profiling complex systems, identifying bottlenecks, and translating performance insights into software optimizations. | What We Need | Design, implement, and optimize compiler and systems software that enables AI workloads to execute efficiently acros",
-   "company": "Tenstorrent",
-   "title": "Software Engineer, TT-Distributed",
-   "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
-   "url": "https://job-boards.greenhouse.io/tenstorrent/jobs/4711506007",
-   "ats": "greenhouse",
-   "posted": "2026-11-03",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
-   "tier": "1",
    "first_seen": "2026-11-04"
   },
   {
