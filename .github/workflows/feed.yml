@@ -2,11 +2,11 @@ name: Daily job feed
 
 on:
   schedule:
-    # GitHub can start scheduled runs hours late, so three runs overnight make sure
-    # one lands before the 6:12 am Toronto morning run (11:12 UTC in winter, 10:12 in summer).
+    # GitHub has been starting these about 8 hours late, so the first two are timed
+    # to land overnight, well before the 6:12 am Toronto morning run (11:12 UTC).
+    - cron: "23 19 * * *"
+    - cron: "41 21 * * *"
     - cron: "23 3 * * *"
-    - cron: "41 6 * * *"
-    - cron: "53 8 * * *"
   workflow_dispatch:
   push:
     branches: [main]
