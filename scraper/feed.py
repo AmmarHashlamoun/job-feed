@@ -209,6 +209,7 @@ def extract_stack(text):
 DETAIL = {
     "greenhouse": lambda d: (d or {}).get("content", ""),
     "workday": lambda d: ((d or {}).get("jobPostingInfo") or {}).get("jobDescription", ""),
+    "pcsx": lambda d: (((d or {}).get("data") or d or {}).get("jobDescription") or ""),
     "smartrecruiters": lambda d: " ".join(((s or {}).get("text") or "") for s in (((d or {}).get("jobAd") or {}).get("sections") or {}).values()),
 }
 
@@ -421,9 +422,80 @@ def eightfold(host, extra):
             return out
 
 
+def ukg(tenant, board):
+    """UKG (UltiPro) job boards, e.g. MDA Space. token = tenant path, extra = board id."""
+    base = f"https://recruiting.ultipro.ca/{tenant}/JobBoard/{board}"
+    out, skip = [], 0
+    while True:
+        body = {"opportunitySearch": {"Top": 100, "Skip": skip, "QueryString": "",
+                                      "OrderBy": [{"Value": "postedDateDesc", "PropertyName": "PostedDate", "Ascending": False}],
+                                      "Filters": []},
+                "matchCriteria": {"PreferredJobs": [], "Educations": [], "LicenseAndCertifications": [], "Skills": [],
+                                  "hasNoLicenses": False, "SkippedSkills": []}}
+        d = http(f"{base}/JobBoardView/LoadSearchResults", body)
+        ops = d.get("opportunities", []) or []
+        for o in ops:
+            locs = []
+            for l in o.get("Locations", []) or []:
+                a = l.get("Address") or {}
+                st = (a.get("State") or {}).get("Code") or ""
+                ctry = (a.get("Country") or {}).get("Name") or ""
+                locs.append(", ".join(x for x in [a.get("City") or l.get("LocalizedDescription"), st, ctry] if x))
+            out.append({"id": o["Id"], "title": o.get("Title", ""), "locations": locs,
+                        "url": f"{base}/OpportunityDetail?opportunityId={o['Id']}", "posted": iso(o.get("PostedDate")),
+                        "detail": ("ukg", f"{base}/OpportunityDetail?opportunityId={o['Id']}")})
+        skip += 100
+        if not ops or skip >= (d.get("totalCount") or 0) or skip > 1000:
+            return out
+
+
+def jibe(host, _):
+    """Jibe-powered careers sites (e.g. careers.amd.com): /api/jobs with descriptions included."""
+    out, page = [], 1
+    while True:
+        d = http(f"https://{host}/api/jobs?location=Canada&page={page}&sortBy=posted_date&descending=true&internal=false")
+        jobs = d.get("jobs", []) or []
+        for x in jobs:
+            j = x.get("data") or x
+            loc = ", ".join(v for v in [j.get("city"), j.get("state"), j.get("country")] if v)
+            out.append({"id": j.get("req_id") or j.get("slug"), "title": j.get("title", ""), "locations": [loc],
+                        "url": f"https://{host}/careers-home/jobs/{j.get('req_id') or j.get('slug')}",
+                        "posted": iso(j.get("posted_date") or j.get("create_date")), "desc": j.get("description") or ""})
+        page += 1
+        if len(jobs) < 10 or page > 40:
+            return out
+
+
+def pcsx(host, domain):
+    """Eightfold 'pcsx' careers sites (Qualcomm, Microsoft)."""
+    out, start, total = [], 0, None
+    while True:
+        d = http(f"https://{host}/api/pcsx/search?domain={domain}&query=&location=Canada&start={start}&sort_by=timestamp")
+        d = (d or {}).get("data") or d or {}
+        ps = d.get("positions", []) or []
+        total = d.get("count") or 0
+        for p in ps:
+            out.append({"id": p.get("id"), "title": p.get("name", ""), "locations": list(p.get("locations") or []),
+                        "url": f"https://{host}/careers/job/{p.get('id')}", "posted": iso(p.get("postedTs") or p.get("t_create")),
+                        "detail": ("pcsx", f"https://{host}/api/pcsx/position_details?position_id={p.get('id')}&domain={domain}&hl=en")})
+        start += len(ps)
+        if not ps or start >= total or start > 1500:
+            return out
+
+
+def _ukg_desc(html_text):
+    m = re.search(r'"Description":"(.*?)","', html_text or "", re.S)
+    if not m:
+        return ""
+    try:
+        return json.loads('"' + m.group(1) + '"')
+    except Exception:
+        return m.group(1)
+
+
 ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
             "workable": workable, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
-            "eightfold": eightfold}
+            "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx}
 
 
 def probe(slugs):
@@ -468,7 +540,12 @@ def run_board(row):
             if not desc and j.get("detail"):
                 kind, durl = j["detail"]
                 try:
-                    desc = DETAIL[kind](http(durl))
+                    if kind == "ukg":
+                        req = urllib.request.Request(durl, headers={"User-Agent": UA})
+                        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                            desc = _ukg_desc(r.read().decode("utf-8", "replace"))
+                    else:
+                        desc = DETAIL[kind](http(durl))
                 except Exception:
                     desc = ""
             min_years, years_text, grad_text = extract_quals(desc) if desc else (None, "", "")
