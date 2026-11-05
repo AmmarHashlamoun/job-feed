@@ -493,9 +493,114 @@ def _ukg_desc(html_text):
         return m.group(1)
 
 
+def _get_text(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; job-feed/1.0)", "Accept": "text/html,application/json"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def getro(host, _):
+    """VC portfolio job boards powered by Getro (Techstars, Radical, Golden, Garage, Lux and others).
+    Finds the board's collection id in its page, then pages through jobs located in Canada."""
+    page_html = _get_text(f"https://{host}/jobs")
+    m = re.search(r'"network":\{"id":"?(\d+)', page_html)
+    if not m:
+        raise RuntimeError("no Getro collection id on page")
+    cid = m.group(1)
+    out = []
+    for page in range(0, 25):
+        d = http(f"https://api.getro.com/api/v2/collections/{cid}/search/jobs",
+                 {"hitsPerPage": 20, "page": page, "filters": {"searchable_locations": ["Canada"]}, "query": ""})
+        jobs = ((d or {}).get("results") or {}).get("jobs") or []
+        for j in jobs:
+            org = j.get("organization") or {}
+            locs = list(j.get("locations") or [])
+            if j.get("workMode") == "remote":
+                locs = [l + " (remote)" for l in locs] or ["Remote"]
+            out.append({"id": j.get("id"), "title": j.get("title", ""), "locations": locs, "url": j.get("url", ""),
+                        "posted": iso(j.get("createdAt")), "company": org.get("name") or "",
+                        "desc": " ".join(j.get("skills") or [])})
+        if len(jobs) < 20:
+            break
+    return out
+
+
+def yc(_, __):
+    """Y Combinator startup jobs in Toronto and Canada (server-rendered page data)."""
+    import html as _h
+    out, seen = [], set()
+    for path in ["jobs/location/toronto", "jobs/location/canada", "jobs/location/waterloo",
+                 "jobs/role/software-engineer/toronto", "jobs/role/software-engineer/canada", "jobs/location/remote"]:
+        try:
+            page_html = _get_text(f"https://www.ycombinator.com/{path}")
+        except Exception:
+            continue
+        m = re.search(r'data-page="([^"]+)"', page_html)
+        if not m:
+            continue
+        data = json.loads(_h.unescape(m.group(1)))
+        for j in (data.get("props") or {}).get("jobPostings") or []:
+            if j.get("id") in seen:
+                continue
+            seen.add(j.get("id"))
+            loc = j.get("location") or ""
+            if path.endswith("remote") and not re.search(r"canada|\bCA\b|toronto|ontario", loc, re.I):
+                continue
+            exp = j.get("minExperience") or ""
+            yrs = re.match(r"(\d+)", exp)
+            out.append({"id": j.get("id"), "title": j.get("title", ""), "locations": [loc],
+                        "url": "https://www.ycombinator.com" + (j.get("url") or ""), "posted": "",
+                        "company": f"{j.get('companyName', '')} (YC {j.get('companyBatchName', '')})".strip(),
+                        "desc": (f"{yrs.group(1)}+ years of experience. " if yrs else ("No experience required. " if "new grad" in exp.lower() or exp.lower().startswith("any") else ""))
+                                + " ".join(j.get("skills") or []) + f" Salary {j.get('salaryRange', '')}. {j.get('companyOneLiner', '')}"})
+    return out
+
+
+def hn(_, __):
+    """Latest Hacker News 'Ask HN: Who is hiring?' thread, top-level posts mentioning the target area."""
+    s = http("https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&hitsPerPage=10")
+    story = next((h for h in s.get("hits", []) if "who is hiring" in (h.get("title") or "").lower()), None)
+    if not story:
+        raise RuntimeError("no Who is hiring thread found")
+    item = http(f"https://hn.algolia.com/api/v1/items/{story['objectID']}")
+    out = []
+    for c in item.get("children") or []:
+        text = strip_html(c.get("text") or "")
+        if not text.strip():
+            continue
+        first = text.strip().split("\n")[0][:300]
+        if not re.search(r"toronto|waterloo|kitchener|ontario|mississauga|markham|canada", text, re.I):
+            continue
+        parts = [x.strip() for x in first.split("|")]
+        company = parts[0][:80] if parts else "HN post"
+        role = next((x for x in parts[1:] if re.search(r"engineer|developer|programmer|swe|ml|software", x, re.I)), " | ".join(parts[1:3]))
+        loc = next((x for x in parts if re.search(r"toronto|waterloo|ontario|canada|remote", x, re.I)), "")
+        out.append({"id": c.get("id"), "title": (role or first)[:160], "locations": [loc or first],
+                    "url": f"https://news.ycombinator.com/item?id={c.get('id')}", "posted": iso(c.get("created_at")),
+                    "company": company, "desc": text[:4000]})
+    return out
+
+
+def betakit_discoveries():
+    """New Canadian funding announcements from BetaKit, to grow the company list (not jobs)."""
+    try:
+        xml = _get_text("https://betakit.com/feed/")
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:200], "items": []}
+    items = []
+    for blk in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        title = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", blk, re.S) or [None, ""])[1]).strip()
+        link = (re.search(r"<link>(.*?)</link>", blk, re.S) or [None, ""])[1].strip()
+        date = (re.search(r"<pubDate>(.*?)</pubDate>", blk, re.S) or [None, ""])[1].strip()
+        if re.search(r"raises?|funding|secures|closes|series [a-d]|seed|pre-seed|backed|investment", title, re.I):
+            items.append({"title": title, "link": link, "date": date})
+    return {"ok": True, "error": "", "items": items}
+
+
 ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
             "workable": workable, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
-            "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx}
+            "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx,
+            "getro": getro, "yc": yc, "hn": hn}
 
 
 def probe(slugs):
@@ -555,7 +660,7 @@ def run_board(row):
                 "min_years": min_years, "years_text": years_text, "grad_text": grad_text, "desc_read": bool(desc),
                 "stack": stack, "skills_has": s_has, "skills_learning": s_learn, "skills_missing": s_miss,
                 "requirements": req,
-                "company": company, "title": title,
+                "company": j.get("company") or company, "title": title, "via": company if j.get("company") else "",
                 "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
                 "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
                 "level_hint": level, "remote": remote, "pathway_hint": row.get("pathway", ""),
@@ -610,6 +715,7 @@ def main():
     json.dump({"summary": summary, "boards": health}, open(os.path.join(OUT, "health.json"), "w"), indent=1, ensure_ascii=False)
     json.dump({"generated_at": now, "count": len(feed), "jobs": feed}, open(os.path.join(OUT, "feed.json"), "w"), indent=1, ensure_ascii=False)
     json.dump(new_seen, open(seen_path, "w"), indent=0, sort_keys=True)
+    json.dump(betakit_discoveries(), open(os.path.join(OUT, "discoveries.json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps(summary))
 
 
