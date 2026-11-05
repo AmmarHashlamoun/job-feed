@@ -44,7 +44,8 @@ RX_OTHER_CA = re.compile(r"vancouver|burnaby|victoria|montr[eé]al|qu[eé]bec|ca
                          r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|ottawa|kanata|gatineau|laval", re.I)
 
 EXCLUDE_TITLE = re.compile(
-    r"\bintern\b|internship|co-?op\b|\bco op\b|student|apprentice|summer 20\d\d|fall 20\d\d|winter 20\d\d|"
+    r"co-?op\b|\bco op\b|student|apprentice|work term|stagiaire|\bstage\b|phd intern|intern,? phd|"
+    r"returning intern|intern conversion|winter 20\d\d|fall 20\d\d|\d+[- ]?months?\)?\s*$|\(\d+ (or \d+ )?months?\)|"
     r"\bsenior\b|\bsr\.?\b|\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
     r"architect|distinguished|\bfellow\b|\b(iii|iv|v)\b|\bphd\b|post-?doc|"
     r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|account manager|"
@@ -96,6 +97,8 @@ def title_verdict(title):
         return False, "", "not_software"
     if HARDWARE_ONLY.search(title) and not re.search(r"software|firmware|embedded|ml|machine learning|automation", title, re.I):
         return False, "", "not_software"
+    if re.search(r"\bintern\b|internship", title, re.I):
+        return True, "intern", ""
     if JUNIOR.search(title):
         return True, "junior", ""
     if MID.search(title):
@@ -190,6 +193,24 @@ TECH = {
 }
 SECTION_RX = re.compile(r"(minimum|basic|required|requirements|qualifications|what you.?ll need|you have|you bring|"
                         r"must have|who you are|about you|preferred|nice to have|bonus)", re.I)
+
+
+RETURN_RX = re.compile(r"return(ing)? to (school|your studies|full[- ]time studies|university|college|campus)|"
+                       r"co-?op (program|term|placement|student)|work term|academic (term|credit)|"
+                       r"at least one (more )?(semester|term|year) (of school )?remaining|"
+                       r"remaining (semester|term)s? (of|in) (your|their) (degree|studies)", re.I)
+ENROL_RX = re.compile(r"currently (enrolled|pursuing|attending|a student)|must be (enrolled|a (current )?student)|"
+                      r"enrolled in (a|an) [a-z' ]{0,40}(degree|program)", re.I)
+
+
+def student_rule(text):
+    """'return' = only for students going back to school (drop); 'enrolled' = needs current enrolment (check); '' = open."""
+    t = strip_html(text or "")
+    if RETURN_RX.search(t):
+        return "return"
+    if ENROL_RX.search(t):
+        return "enrolled"
+    return ""
 
 
 def extract_stack(text):
@@ -654,12 +675,14 @@ def run_board(row):
                 except Exception:
                     desc = ""
             min_years, years_text, grad_text = extract_quals(desc) if desc else (None, "", "")
+            if level == "intern" and desc and student_rule(desc) == "return":
+                continue
             stack, s_has, s_learn, s_miss, req = extract_stack(desc) if desc else ([], [], [], [], "")
             kept.append({
                 "id": f"{ats_used}:{token.split(';')[0] if ats == 'auto' else token}:{j['id']}",
                 "min_years": min_years, "years_text": years_text, "grad_text": grad_text, "desc_read": bool(desc),
                 "stack": stack, "skills_has": s_has, "skills_learning": s_learn, "skills_missing": s_miss,
-                "requirements": req,
+                "requirements": req, "student_rule": student_rule(desc) if desc else "",
                 "company": j.get("company") or company, "title": title, "via": company if j.get("company") else "",
                 "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
                 "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
