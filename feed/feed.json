@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-05T11:14:30Z",
- "count": 241,
+ "generated_at": "2026-11-05T14:58:30Z",
+ "count": 240,
  "jobs": [
   {
    "id": "lever:spotify:1ee5dcb7-a5fe-465b-91da-d42ebab374c8",
@@ -425,40 +425,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-03"
-  },
-  {
-   "id": "greenhouse:robinhood:8346031",
-   "min_years": 2,
-   "years_text": "ical solutions.     What you bring      2+ years of experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "go",
-    "spark"
-   ],
-   "skills_has": [
-    "python",
-    "java"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "spark"
-   ],
-   "requirements": "requirements. | Build the connective tissue between traditional market infrastructure (brokerage, ledgers, corporate actions) and on-chain systems, including smart contract integrations, chain indexers, and DEX trade flows. | Develop product-facing features and platform enhancements that meet strict correctness and scalability standards. | Identify and implement improvements to system performance, engineering productivity, and risk reduction. | Collaborate closely with product, compliance, client, platform teams, and external partners to deliver impactful technical solutions. | What you bring | 2+ years of experience in software development. | Expertise in backend development using languages such as Go, Python, or Java, with a solid grasp of cloud-native architectures. | Strong grasp of system design, data modeling, and software engineering fundamentals. | Care for correctness-criti",
-   "company": "Robinhood",
-   "title": "Web Engineer, International Expansion",
-   "location": "Toronto, Canada",
-   "url": "https://boards.greenhouse.io/robinhood/jobs/8346031?t=gh_src=&gh_jid=8346031",
-   "ats": "greenhouse",
-   "posted": "2026-11-04",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-03"
   },
@@ -2013,42 +1979,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7292520",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-   "ats": "greenhouse",
-   "posted": "2026-11-03",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7476555",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -2080,6 +2010,42 @@
    "posted": "2026-10-29",
    "level_hint": "unlevelled",
    "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7292520",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+   "ats": "greenhouse",
+   "posted": "2026-11-03",
+   "level_hint": "unlevelled",
+   "remote": true,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"
