@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-05T21:34:39Z",
-  "boards": 240,
-  "ok": 206,
-  "failed": 34,
-  "jobs_seen": 23831,
-  "jobs_kept": 256,
-  "new_today": 30
+  "generated_at": "2026-11-05T21:42:22Z",
+  "boards": 254,
+  "ok": 209,
+  "failed": 45,
+  "jobs_seen": 24599,
+  "jobs_kept": 292,
+  "new_today": 67
  },
  "boards": [
   {
@@ -80,6 +80,16 @@
    "resolved": ""
   },
   {
+   "company": "BDC Capital portfolio",
+   "ats": "getro",
+   "token": "jobs.bdc.ca",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
    "company": "Canadensys Aerospace",
    "ats": "auto",
    "token": "canadensys",
@@ -120,6 +130,16 @@
    "resolved": ""
   },
   {
+   "company": "Eclipse portfolio",
+   "ats": "getro",
+   "token": "jobs.eclipse.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
    "company": "ecobee",
    "ats": "auto",
    "token": "ecobee",
@@ -130,6 +150,16 @@
    "resolved": ""
   },
   {
+   "company": "Garage Capital portfolio",
+   "ats": "getro",
+   "token": "jobs.garage.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
    "company": "Gatik",
    "ats": "auto",
    "token": "gatik",
@@ -137,6 +167,26 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:gatik:404, lever:gatik:404, ashby:gatik:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Georgian portfolio",
+   "ats": "getro",
+   "token": "jobs.georgian.io",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
+   "company": "Golden Ventures portfolio",
+   "ats": "getro",
+   "token": "jobs.golden.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
    "resolved": ""
   },
   {
@@ -157,6 +207,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:haply:404, lever:haply:404, ashby:haply:404, greenhouse:haplyrobotics:404, lever:haplyrobotics:404, ashby:haplyrobotics:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Inovia portfolio",
+   "ats": "getro",
+   "token": "jobs.inovia.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
    "resolved": ""
   },
   {
@@ -200,6 +260,16 @@
    "resolved": ""
   },
   {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
+   "resolved": ""
+  },
+  {
    "company": "Mistral AI",
    "ats": "lever",
    "token": "mistral",
@@ -220,6 +290,16 @@
    "resolved": ""
   },
   {
+   "company": "OMERS Ventures portfolio",
+   "ats": "getro",
+   "token": "jobs.omersventures.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
    "company": "Ouster",
    "ats": "auto",
    "token": "ouster",
@@ -230,6 +310,26 @@
    "resolved": ""
   },
   {
+   "company": "Qualcomm (careers site)",
+   "ats": "pcsx",
+   "token": "careers.qualcomm.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
+   "resolved": ""
+  },
+  {
+   "company": "Radical Ventures portfolio",
+   "ats": "getro",
+   "token": "jobs.radical.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
    "company": "Replicate",
    "ats": "ashby",
    "token": "replicate",
@@ -237,6 +337,16 @@
    "seen": 0,
    "kept": 0,
    "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
+   "company": "Seraphim Space portfolio",
+   "ats": "getro",
+   "token": "jobs.seraphim.vc",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "<urlopen error [Errno -2] Name or service not known>",
    "resolved": ""
   },
   {
@@ -824,7 +934,7 @@
    "ats": "greenhouse",
    "token": "dialpad",
    "ok": true,
-   "seen": 15,
+   "seen": 16,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1090,6 +1200,16 @@
    "resolved": ""
   },
   {
+   "company": "Hacker News Who is hiring",
+   "ats": "hn",
+   "token": "hn",
+   "ok": true,
+   "seen": 19,
+   "kept": 4,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Harvey",
    "ats": "ashby",
    "token": "harvey",
@@ -1224,8 +1344,8 @@
    "ats": "lever",
    "token": "kepler",
    "ok": true,
-   "seen": 22,
-   "kept": 1,
+   "seen": 21,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1284,7 +1404,7 @@
    "ats": "greenhouse",
    "token": "lightmatter",
    "ok": true,
-   "seen": 57,
+   "seen": 58,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1326,6 +1446,16 @@
    "ok": true,
    "seen": 23,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Lux Capital portfolio",
+   "ats": "getro",
+   "token": "jobs.luxcapital.com",
+   "ok": true,
+   "seen": 159,
+   "kept": 9,
    "error": "",
    "resolved": ""
   },
@@ -1416,16 +1546,6 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 71,
-   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -1564,7 +1684,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 386,
+   "seen": 385,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1624,7 +1744,7 @@
    "ats": "greenhouse",
    "token": "pinterest",
    "ok": true,
-   "seen": 165,
+   "seen": 166,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1666,16 +1786,6 @@
    "ok": true,
    "seen": 0,
    "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Qualcomm (careers site)",
-   "ats": "pcsx",
-   "token": "careers.qualcomm.com",
-   "ok": true,
-   "seen": 123,
-   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -1960,6 +2070,16 @@
    "resolved": ""
   },
   {
+   "company": "Space Capital portfolio",
+   "ats": "getro",
+   "token": "jobs.spacecapital.com",
+   "ok": true,
+   "seen": 500,
+   "kept": 9,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "SpaceX",
    "ats": "greenhouse",
    "token": "spacex",
@@ -2040,6 +2160,16 @@
    "resolved": ""
   },
   {
+   "company": "Techstars portfolio",
+   "ats": "getro",
+   "token": "jobs.techstars.com",
+   "ok": true,
+   "seen": 215,
+   "kept": 15,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Teledyne (FLIR, DALSA)",
    "ats": "workday",
    "token": "flir",
@@ -2104,7 +2234,7 @@
    "ats": "workday",
    "token": "thales",
    "ok": true,
-   "seen": 93,
+   "seen": 92,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2376,6 +2506,16 @@
    "ok": true,
    "seen": 48,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Y Combinator startups (Toronto and Canada)",
+   "ats": "yc",
+   "token": "yc",
+   "ok": true,
+   "seen": 69,
+   "kept": 14,
    "error": "",
    "resolved": ""
   },
