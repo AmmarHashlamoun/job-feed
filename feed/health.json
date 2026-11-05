@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-05T21:42:22Z",
+  "generated_at": "2026-11-05T21:45:24Z",
   "boards": 254,
-  "ok": 209,
-  "failed": 45,
-  "jobs_seen": 24599,
-  "jobs_kept": 292,
-  "new_today": 67
+  "ok": 211,
+  "failed": 43,
+  "jobs_seen": 24795,
+  "jobs_kept": 335,
+  "new_today": 110
  },
  "boards": [
   {
@@ -260,16 +260,6 @@
    "resolved": ""
   },
   {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
-   "resolved": ""
-  },
-  {
    "company": "Mistral AI",
    "ats": "lever",
    "token": "mistral",
@@ -307,16 +297,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:ouster:404, lever:ouster:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Qualcomm (careers site)",
-   "ats": "pcsx",
-   "token": "careers.qualcomm.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -535,7 +515,7 @@
    "token": "altera",
    "ok": true,
    "seen": 10,
-   "kept": 4,
+   "kept": 5,
    "error": "",
    "resolved": ""
   },
@@ -545,7 +525,7 @@
    "token": "amazon",
    "ok": true,
    "seen": 368,
-   "kept": 33,
+   "kept": 36,
    "error": "",
    "resolved": ""
   },
@@ -705,7 +685,7 @@
    "token": "BoschGroup",
    "ok": true,
    "seen": 6,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -725,7 +705,7 @@
    "token": "brave",
    "ok": true,
    "seen": 10,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -934,7 +914,7 @@
    "ats": "greenhouse",
    "token": "dialpad",
    "ok": true,
-   "seen": 16,
+   "seen": 17,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -975,7 +955,7 @@
    "token": "doordashcanada",
    "ok": true,
    "seen": 42,
-   "kept": 2,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -1145,7 +1125,7 @@
    "token": "georgian",
    "ok": true,
    "seen": 2,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1165,7 +1145,7 @@
    "token": "internshiplist2000",
    "ok": true,
    "seen": 7,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1315,7 +1295,7 @@
    "token": "intel",
    "ok": true,
    "seen": 16,
-   "kept": 5,
+   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -1345,7 +1325,7 @@
    "token": "kepler",
    "ok": true,
    "seen": 21,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1465,7 +1445,7 @@
    "token": "lyft",
    "ok": true,
    "seen": 168,
-   "kept": 14,
+   "kept": 19,
    "error": "",
    "resolved": ""
   },
@@ -1546,6 +1526,16 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 72,
+   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -1745,7 +1735,7 @@
    "token": "pinterest",
    "ok": true,
    "seen": 166,
-   "kept": 3,
+   "kept": 5,
    "error": "",
    "resolved": ""
   },
@@ -1786,6 +1776,16 @@
    "ok": true,
    "seen": 0,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Qualcomm (careers site)",
+   "ats": "pcsx",
+   "token": "careers.qualcomm.com",
+   "ok": true,
+   "seen": 123,
+   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -1985,7 +1985,7 @@
    "token": "semtech",
    "ok": true,
    "seen": 34,
-   "kept": 1,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2075,7 +2075,7 @@
    "token": "jobs.spacecapital.com",
    "ok": true,
    "seen": 500,
-   "kept": 9,
+   "kept": 11,
    "error": "",
    "resolved": ""
   },
@@ -2125,7 +2125,7 @@
    "token": "stripe",
    "ok": true,
    "seen": 767,
-   "kept": 16,
+   "kept": 18,
    "error": "",
    "resolved": ""
   },
@@ -2215,7 +2215,7 @@
    "token": "tenstorrentuniversity",
    "ok": true,
    "seen": 13,
-   "kept": 0,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2295,7 +2295,7 @@
    "token": "trimble",
    "ok": true,
    "seen": 13,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -2355,7 +2355,7 @@
    "token": "veeda-ai",
    "ok": true,
    "seen": 9,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
