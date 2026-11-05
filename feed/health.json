@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-05T21:27:19Z",
-  "boards": 236,
-  "ok": 201,
-  "failed": 35,
-  "jobs_seen": 20706,
-  "jobs_kept": 235,
-  "new_today": 9
+  "generated_at": "2026-11-05T21:34:39Z",
+  "boards": 240,
+  "ok": 206,
+  "failed": 34,
+  "jobs_seen": 23831,
+  "jobs_kept": 256,
+  "new_today": 30
  },
  "boards": [
   {
@@ -27,16 +27,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:absolute:404, lever:absolute:404, ashby:absolute:404, greenhouse:absolutesoftware:404, lever:absolutesoftware:404, ashby:absolutesoftware:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Anduril",
-   "ats": "greenhouse",
-   "token": "andurilindustries",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "The read operation timed out",
    "resolved": ""
   },
   {
@@ -450,12 +440,32 @@
    "resolved": ""
   },
   {
+   "company": "AMD (careers site)",
+   "ats": "jibe",
+   "token": "careers.amd.com",
+   "ok": true,
+   "seen": 108,
+   "kept": 5,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Analog Devices",
    "ats": "workday",
    "token": "analogdevices",
    "ok": true,
    "seen": 8,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Anduril",
+   "ats": "greenhouse",
+   "token": "andurilindustries",
+   "ok": true,
+   "seen": 2578,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -774,7 +784,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 922,
+   "seen": 923,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -844,7 +854,7 @@
    "ats": "greenhouse",
    "token": "doordashusa",
    "ok": true,
-   "seen": 438,
+   "seen": 439,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -864,7 +874,7 @@
    "ats": "greenhouse",
    "token": "dropbox",
    "ok": true,
-   "seen": 32,
+   "seen": 33,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -874,7 +884,7 @@
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 429,
+   "seen": 430,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1054,7 +1064,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 246,
+   "seen": 247,
    "kept": 7,
    "error": "",
    "resolved": ""
@@ -1390,12 +1400,32 @@
    "resolved": ""
   },
   {
+   "company": "MDA Space",
+   "ats": "ukg",
+   "token": "MAC5000MCDW",
+   "ok": true,
+   "seen": 241,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Mechanical Orchard",
    "ats": "lever",
    "token": "mechanicalorchard",
    "ok": true,
    "seen": 3,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 71,
+   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -1444,7 +1474,7 @@
    "ats": "workday",
    "token": "motorolasolutions",
    "ok": true,
-   "seen": 36,
+   "seen": 37,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1544,7 +1574,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 818,
+   "seen": 819,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1640,6 +1670,16 @@
    "resolved": ""
   },
   {
+   "company": "Qualcomm (careers site)",
+   "ats": "pcsx",
+   "token": "careers.qualcomm.com",
+   "ok": true,
+   "seen": 123,
+   "kept": 8,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Rakuten Kobo",
    "ats": "workday",
    "token": "rakuten",
@@ -1724,7 +1764,7 @@
    "ats": "greenhouse",
    "token": "robinhood",
    "ok": true,
-   "seen": 152,
+   "seen": 151,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1924,7 +1964,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2888,
+   "seen": 2886,
    "kept": 0,
    "error": "",
    "resolved": ""
