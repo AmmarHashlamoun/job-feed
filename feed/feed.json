@@ -1,7 +1,41 @@
 {
- "generated_at": "2026-11-05T14:58:30Z",
+ "generated_at": "2026-11-05T16:55:45Z",
  "count": 240,
  "jobs": [
+  {
+   "id": "greenhouse:tailscale:4733116005",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "linux",
+    "api",
+    "android",
+    "ios"
+   ],
+   "skills_has": [
+    "linux",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "android",
+    "ios"
+   ],
+   "requirements": "qualifications. We encourage you to help us break that statistic! | About Tailscale | Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital. | About the Role | We’re seeking a talented software engineer, specializing in security and privacy, to help grow our product security team. We’re looking for people who can move Tailscale forward while making it safer to use. The abilities to think on your feet, collaborate with highl",
+   "company": "Tailscale",
+   "title": "Security Software Engineer",
+   "location": "Remote (Canada)",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4733116005",
+   "ats": "greenhouse",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-05"
+  },
   {
    "id": "lever:spotify:1ee5dcb7-a5fe-465b-91da-d42ebab374c8",
    "min_years": null,
@@ -2672,38 +2706,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:salesforce:JR366363",
-   "min_years": 6,
-   "years_text": "ce.  You're Our Person If...   You have 6+ years experience designing and build",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "nlp",
-    "api",
-    "llm"
-   ],
-   "skills_has": [
-    "nlp",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "llm"
-   ],
-   "requirements": "You have 6+ years experience designing and building large scale, distributed backend systems. | You have experience with API design, versioning, and building systems that many teams build on top of. | You have strong skills in at least one modern programming language and experience shipping production code. | You can reason clearly about ambiguous, large scale systems and communicate tradeoffs to a team. | You have a demonstrated, genuine AI first approach to engineering, using AI tools (such as Claude Code, GitHub Copilot, Codex, or Cursor) to move faster, build fluency across the stack, and contribute well beyond your core specialty. | You have advanced prompt engineering skills and the ability to write precise, structured prompts, cultivating the system context that makes AI outputs reliable, secure, and production ready. | You have a related technical degree. | Even Better If... | Yo",
-   "company": "Salesforce",
-   "title": "Software Engineering SMTS",
-   "location": "Canada - Toronto",
-   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Canada---Toronto/Software-Engineering-SMTS_JR366363",
-   "ats": "workday",
-   "posted": "Posted 6 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
