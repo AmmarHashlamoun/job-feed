@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-06T01:49:37Z",
-  "boards": 254,
-  "ok": 210,
-  "failed": 44,
-  "jobs_seen": 24749,
-  "jobs_kept": 326,
-  "new_today": 2
+  "generated_at": "2026-11-06T02:46:23Z",
+  "boards": 294,
+  "ok": 238,
+  "failed": 56,
+  "jobs_seen": 26896,
+  "jobs_kept": 352,
+  "new_today": 28
  },
  "boards": [
   {
@@ -110,6 +110,16 @@
    "resolved": ""
   },
   {
+   "company": "Contextual AI",
+   "ats": "auto",
+   "token": "contextualai",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:contextualai:404, lever:contextualai:404, ashby:contextualai:404)",
+   "resolved": ""
+  },
+  {
    "company": "Coveo",
    "ats": "auto",
    "token": "coveo",
@@ -147,6 +157,36 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:ecobee:404, lever:ecobee:404, ashby:ecobee:404)",
+   "resolved": ""
+  },
+  {
+   "company": "EvenUp",
+   "ats": "auto",
+   "token": "evenup",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:evenup:404, lever:evenup:404, ashby:evenup:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Faros AI",
+   "ats": "auto",
+   "token": "farosai;faros",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:farosai:404, lever:farosai:404, ashby:farosai:404, greenhouse:faros:404, lever:faros:404, ashby:faros:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Fleet Robotics",
+   "ats": "auto",
+   "token": "fleetrobotics",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:fleetrobotics:404, lever:fleetrobotics:404, ashby:fleetrobotics:404)",
    "resolved": ""
   },
   {
@@ -210,6 +250,26 @@
    "resolved": ""
   },
   {
+   "company": "Harvey (lever)",
+   "ats": "lever",
+   "token": "harvey",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
+   "company": "Hebbia (ashby)",
+   "ats": "ashby",
+   "token": "hebbia",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
    "company": "Inovia portfolio",
    "ats": "getro",
    "token": "jobs.inovia.vc",
@@ -250,6 +310,16 @@
    "resolved": ""
   },
   {
+   "company": "Machina Labs",
+   "ats": "auto",
+   "token": "machinalabs",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:machinalabs:404, lever:machinalabs:404, ashby:machinalabs:404)",
+   "resolved": ""
+  },
+  {
    "company": "Mappedin",
    "ats": "auto",
    "token": "mappedin",
@@ -277,6 +347,26 @@
    "seen": 0,
    "kept": 0,
    "error": "HTTP 404",
+   "resolved": ""
+  },
+  {
+   "company": "Mujin",
+   "ats": "auto",
+   "token": "mujin",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:mujin:404, lever:mujin:404, ashby:mujin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Northslope",
+   "ats": "auto",
+   "token": "northslope;northslopetechnologies",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:northslope:404, lever:northslope:404, ashby:northslope:404, greenhouse:northslopetechnologies:404, lever:northslopetechnologies:404, ashby:northslopetechnologies:404)",
    "resolved": ""
   },
   {
@@ -310,6 +400,16 @@
    "resolved": ""
   },
   {
+   "company": "Plus One Robotics",
+   "ats": "auto",
+   "token": "plusonerobotics",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:plusonerobotics:404, lever:plusonerobotics:404, ashby:plusonerobotics:404)",
+   "resolved": ""
+  },
+  {
    "company": "Radical Ventures portfolio",
    "ats": "getro",
    "token": "jobs.radical.vc",
@@ -330,6 +430,16 @@
    "resolved": ""
   },
   {
+   "company": "Retool",
+   "ats": "auto",
+   "token": "retool",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:retool:404, lever:retool:404, ashby:retool:404)",
+   "resolved": ""
+  },
+  {
    "company": "Seraphim Space portfolio",
    "ats": "getro",
    "token": "jobs.seraphim.vc",
@@ -347,6 +457,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:shopify:404, lever:shopify:404, ashby:shopify:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Skild AI",
+   "ats": "auto",
+   "token": "skildai;skild",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no board found (greenhouse:skildai:404, lever:skildai:404, ashby:skildai:404, greenhouse:skild:404, lever:skild:404, ashby:skild:404)",
    "resolved": ""
   },
   {
@@ -460,6 +580,16 @@
    "resolved": ""
   },
   {
+   "company": "Abridge",
+   "ats": "auto",
+   "token": "abridge",
+   "ok": true,
+   "seen": 40,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:abridge"
+  },
+  {
    "company": "Achievers",
    "ats": "lever",
    "token": "achievers",
@@ -540,6 +670,16 @@
    "resolved": ""
   },
   {
+   "company": "Ambience Healthcare",
+   "ats": "auto",
+   "token": "ambiencehealthcare",
+   "ok": true,
+   "seen": 19,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:ambiencehealthcare"
+  },
+  {
    "company": "AMD (careers site)",
    "ats": "jibe",
    "token": "careers.amd.com",
@@ -564,10 +704,20 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2588,
+   "seen": 2591,
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Anysphere (Cursor)",
+   "ats": "auto",
+   "token": "anysphere;cursor",
+   "ok": true,
+   "seen": 121,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:cursor"
   },
   {
    "company": "Apera AI",
@@ -620,6 +770,16 @@
    "resolved": ""
   },
   {
+   "company": "AssemblyAI",
+   "ats": "auto",
+   "token": "assemblyai",
+   "ok": true,
+   "seen": 17,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:assemblyai"
+  },
+  {
    "company": "Astera Labs",
    "ats": "greenhouse",
    "token": "asteralabs",
@@ -638,6 +798,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Baseten",
+   "ats": "auto",
+   "token": "baseten",
+   "ok": true,
+   "seen": 101,
+   "kept": 20,
+   "error": "",
+   "resolved": "ashby:baseten"
   },
   {
    "company": "BenchSci",
@@ -720,6 +890,16 @@
    "resolved": ""
   },
   {
+   "company": "C3 AI",
+   "ats": "auto",
+   "token": "c3iot;c3ai",
+   "ok": true,
+   "seen": 88,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:c3iot"
+  },
+  {
    "company": "CAE",
    "ats": "workday",
    "token": "cae",
@@ -780,6 +960,16 @@
    "resolved": ""
   },
   {
+   "company": "ClickHouse",
+   "ats": "auto",
+   "token": "clickhouse",
+   "ok": true,
+   "seen": 202,
+   "kept": 3,
+   "error": "",
+   "resolved": "ashby:clickhouse"
+  },
+  {
    "company": "Clio",
    "ats": "workday",
    "token": "clio",
@@ -818,6 +1008,16 @@
    "kept": 1,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Cognition",
+   "ats": "auto",
+   "token": "cognition",
+   "ok": true,
+   "seen": 108,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:cognition"
   },
   {
    "company": "Cohere",
@@ -884,7 +1084,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 923,
+   "seen": 922,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -920,6 +1120,26 @@
    "resolved": ""
   },
   {
+   "company": "Deepgram",
+   "ats": "auto",
+   "token": "deepgram",
+   "ok": true,
+   "seen": 69,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:deepgram"
+  },
+  {
+   "company": "Dexterity",
+   "ats": "auto",
+   "token": "dexterity",
+   "ok": true,
+   "seen": 13,
+   "kept": 0,
+   "error": "",
+   "resolved": "lever:dexterity"
+  },
+  {
    "company": "Dialpad",
    "ats": "greenhouse",
    "token": "dialpad",
@@ -940,6 +1160,16 @@
    "resolved": ""
   },
   {
+   "company": "Distyl AI",
+   "ats": "auto",
+   "token": "distyl;distylai",
+   "ok": true,
+   "seen": 25,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:distyl"
+  },
+  {
    "company": "Docebo",
    "ats": "lever",
    "token": "docebo",
@@ -948,6 +1178,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Domino Data Lab",
+   "ats": "auto",
+   "token": "dominodatalab",
+   "ok": true,
+   "seen": 18,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:dominodatalab"
   },
   {
    "company": "DoorDash",
@@ -988,6 +1228,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "ElevenLabs",
+   "ats": "auto",
+   "token": "elevenlabs",
+   "ok": true,
+   "seen": 141,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:elevenlabs"
   },
   {
    "company": "Entrust",
@@ -1080,11 +1330,31 @@
    "resolved": ""
   },
   {
+   "company": "Fireworks AI",
+   "ats": "auto",
+   "token": "fireworksai;fireworks",
+   "ok": true,
+   "seen": 91,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:fireworks"
+  },
+  {
+   "company": "Formic",
+   "ats": "auto",
+   "token": "formic;formictechnologies",
+   "ok": true,
+   "seen": 57,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:formic"
+  },
+  {
    "company": "Formlabs",
    "ats": "greenhouse",
    "token": "formlabs",
    "ok": true,
-   "seen": 240,
+   "seen": 238,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1230,6 +1500,26 @@
    "resolved": ""
   },
   {
+   "company": "Hex",
+   "ats": "auto",
+   "token": "hex;hextechnologies",
+   "ok": true,
+   "seen": 39,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:hex"
+  },
+  {
+   "company": "Hightouch",
+   "ats": "auto",
+   "token": "hightouch",
+   "ok": true,
+   "seen": 1,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:hightouch"
+  },
+  {
    "company": "Hitachi (Rail)",
    "ats": "workday",
    "token": "hitachi",
@@ -1370,6 +1660,16 @@
    "resolved": ""
   },
   {
+   "company": "Labelbox",
+   "ats": "auto",
+   "token": "labelbox",
+   "ok": true,
+   "seen": 10,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:labelbox"
+  },
+  {
    "company": "LangChain",
    "ats": "ashby",
    "token": "langchain",
@@ -1418,6 +1718,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "LlamaIndex",
+   "ats": "auto",
+   "token": "llamaindex",
+   "ok": true,
+   "seen": 4,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:llamaindex"
   },
   {
    "company": "Loopio",
@@ -1720,6 +2030,26 @@
    "resolved": ""
   },
   {
+   "company": "Perplexity",
+   "ats": "auto",
+   "token": "perplexity;perplexityai",
+   "ok": true,
+   "seen": 137,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:perplexity"
+  },
+  {
+   "company": "Physical Intelligence",
+   "ats": "auto",
+   "token": "physicalintelligence",
+   "ok": true,
+   "seen": 45,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:physicalintelligence"
+  },
+  {
    "company": "Pinecone",
    "ats": "ashby",
    "token": "pinecone",
@@ -1828,6 +2158,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Replit",
+   "ats": "auto",
+   "token": "replit",
+   "ok": true,
+   "seen": 28,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:replit"
   },
   {
    "company": "Revvity",
@@ -1970,6 +2310,16 @@
    "resolved": ""
   },
   {
+   "company": "Sardine",
+   "ats": "auto",
+   "token": "sardine",
+   "ok": true,
+   "seen": 41,
+   "kept": 3,
+   "error": "",
+   "resolved": "ashby:sardine"
+  },
+  {
    "company": "Scale AI",
    "ats": "greenhouse",
    "token": "scaleai",
@@ -2010,6 +2360,16 @@
    "resolved": ""
   },
   {
+   "company": "Shield AI",
+   "ats": "auto",
+   "token": "shieldai",
+   "ok": true,
+   "seen": 656,
+   "kept": 0,
+   "error": "",
+   "resolved": "lever:shieldai"
+  },
+  {
    "company": "Sierra",
    "ats": "ashby",
    "token": "sierra",
@@ -2030,11 +2390,21 @@
    "resolved": ""
   },
   {
+   "company": "Snorkel AI",
+   "ats": "auto",
+   "token": "snorkelai",
+   "ok": true,
+   "seen": 42,
+   "kept": 0,
+   "error": "",
+   "resolved": "greenhouse:snorkelai"
+  },
+  {
    "company": "Snowflake",
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 372,
+   "seen": 374,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2124,7 +2494,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 768,
+   "seen": 767,
    "kept": 18,
    "error": "",
    "resolved": ""
@@ -2198,6 +2568,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Tennr",
+   "ats": "auto",
+   "token": "tennr",
+   "ok": true,
+   "seen": 24,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:tennr"
   },
   {
    "company": "Tenstorrent",
@@ -2348,6 +2728,26 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Unstructured",
+   "ats": "auto",
+   "token": "unstructured;unstructuredtechnologies",
+   "ok": true,
+   "seen": 4,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:unstructured"
+  },
+  {
+   "company": "Vapi",
+   "ats": "auto",
+   "token": "vapi",
+   "ok": true,
+   "seen": 5,
+   "kept": 0,
+   "error": "",
+   "resolved": "ashby:vapi"
   },
   {
    "company": "Veeda AI",

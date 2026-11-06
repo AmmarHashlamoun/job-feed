@@ -1,7 +1,122 @@
 {
- "generated_at": "2026-11-06T01:49:37Z",
- "count": 326,
+ "generated_at": "2026-11-06T02:46:23Z",
+ "count": 352,
  "jobs": [
+  {
+   "id": "ashby:sardine:2c8f0342-b8af-4cc2-85cd-67bc48275568",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "api",
+    "go",
+    "gcp",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "llm"
+   ],
+   "skills_has": [
+    "python",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "gcp",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "llm"
+   ],
+   "requirements": "What you'll need | - Experience building, not just using, model serving infrastructure. | - Production ownership of ML systems: you've been paged when something broke, you found out why, and you changed something so it didn't happen again. | - Strong Python, and solid software engineering fundamentals, testing, code review, CI/CD, the discipline that makes a platform other people can rely on. | - Comfort with Kubernetes, containers and a major cloud (we're mostly GCP), plus infrastructure-as-code. | - Enough understanding of models to debug them. You don't need to have trained one recently, but when precision drops you should know the difference between a data problem, a feature pipeline problem, and a model problem | - Experience building tooling other engineers or data scientists actually use, and the judgement to know what should be self-serve and what shouldn't. | Bonus Points | -",
+   "student_rule": "",
+   "company": "Sardine",
+   "title": "Machine Learning Engineer",
+   "via": "",
+   "location": "North America (remote); United States (remote); Canada (remote)",
+   "url": "https://jobs.ashbyhq.com/sardine/2c8f0342-b8af-4cc2-85cd-67bc48275568",
+   "ats": "ashby",
+   "posted": "2025-09-09",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:sardine:5a6411d4-455f-48d5-a282-7bec2bec3494",
+   "min_years": 2,
+   "years_text": "teams, both internal and external.   - 2+ years of B2B SaaS experience working in the rele",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "sql",
+    "bash",
+    "api",
+    "go",
+    "ruby"
+   ],
+   "skills_has": [
+    "python",
+    "sql",
+    "bash",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "ruby"
+   ],
+   "requirements": "requirements into solutions, and ensure a smooth, successful deployment. This is a hands-on role working closely with clients and internal teams, perfect for someone who thrives in fast-paced environments and enjoys solving complex problems with practical, scalable solutions. | What you’ll be doing | - Manage implementation and integration efforts for fraud and compliance products | - Work closely with clients and provide end-to-end support during their onboarding process, setting our clients up for success | - Own APIs, SDK documentation, integration guides, and overall support documents | - Analyze clients' requirements from the technical and functional perspectives and design solutions by having a deep understanding of our system and products' capabilities | - Manage implementation projects, including monitoring project quality, managing timelines, mitigating risk, and driving delive",
+   "student_rule": "",
+   "company": "Sardine",
+   "title": "Forward Deployed Engineer, Integrations",
+   "via": "",
+   "location": "United States / Canada",
+   "url": "https://jobs.ashbyhq.com/sardine/5a6411d4-455f-48d5-a282-7bec2bec3494",
+   "ats": "ashby",
+   "posted": "2026-10-23",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:sardine:4ff32b5d-13c6-4024-826c-04ed2881d688",
+   "min_years": 5,
+   "years_text": "performance.    What you’ll need:    - 5+ years of experience in Data Science or",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "sql"
+   ],
+   "skills_has": [
+    "python",
+    "sql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "requirements, and then roll up your sleeves to build the solution. | You will not just be analyzing data; you will be architecting, training, and deploying custom AI agents and intelligent workflows into production environments. This role demands the technical rigor of a seasoned data scientist and the strategic, client-facing acumen to drive a project from conception to deployment. If you thrive at the intersection of client consulting, advanced machine learning, and hands-on engineering, this is the role for you. | What you’ll be doing: | - Embed directly with clients to gather requirements, translating ambiguous operational challenges into concrete technical architectures and delivering high-impact, AI-driven solutions with extreme ownership. | - Train and deploy custom AI agents to prevent fraud and automate complex fincrime workflows across a diverse portfolio of use cases. | - Uti",
+   "student_rule": "",
+   "company": "Sardine",
+   "title": "Forward Deployed AI Engineer",
+   "via": "",
+   "location": "North America (remote); United States (remote); Canada (remote)",
+   "url": "https://jobs.ashbyhq.com/sardine/4ff32b5d-13c6-4024-826c-04ed2881d688",
+   "ats": "ashby",
+   "posted": "2026-06-11",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
   {
    "id": "ashby:rivianvw.tech:840928b2-010b-413b-b614-edf7f01dbc4c",
    "min_years": null,
@@ -87,6 +202,940 @@
    "level_hint": "intern",
    "remote": false,
    "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:clickhouse:b3e6d985-b540-456c-8eee-edfd79580572",
+   "min_years": 5,
+   "years_text": "oducts.   WHAT YOU WILL BRING ALONG   - 5+ years of software engineering experience in production envir",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "rest",
+    "api",
+    "aws",
+    "gcp",
+    "azure",
+    "pytorch"
+   ],
+   "skills_has": [
+    "python",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "gcp",
+    "azure",
+    "pytorch"
+   ],
+   "requirements": "Nice to have | - Familiarity with cloud technologies such as AWS, Azure, or GCP, particularly services related to AI/ML deployment | - Understanding of database systems and data processing pipelines, with ClickHouse experience being a significant plus | - Experience with embedding-based systems (retrieval, ranking, recommenders) and the representation-learning ideas underneath them | PERKS | - Flexible work environment - ClickHouse is a globally distributed company and remote-friendly. We currently operate in over 25 countries. | - Healthcare - Employer contributions towards your healthcare. | - Equity in the company - Every new team member who joins our company receives stock options. | - Time off - Flexible time off in the US, generous entitlement in other countries. | - A USD$500 Home office setup if you’re a remote employee. | - Global Gatherings – We believe in the power of in-perso",
+   "student_rule": "",
+   "company": "ClickHouse",
+   "title": "Machine Learning Engineer (AI/ML)",
+   "via": "",
+   "location": "New York (remote); Detroit (remote); Canada (remote); Austin (remote); Phoenix (remote); Los Angeles (remote); San Francisco (remote); Dallas (remote); United States (remote)",
+   "url": "https://jobs.ashbyhq.com/clickhouse/b3e6d985-b540-456c-8eee-edfd79580572",
+   "ats": "ashby",
+   "posted": "2026-10-07",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:clickhouse:bd6d5e55-790a-4f3d-a905-193fe39ed5cf",
+   "min_years": 6,
+   "years_text": "continuous improvement.  About you:   - 6+ years of software engineering experience, including 3+ years",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "typescript",
+    "javascript",
+    "sql",
+    "react",
+    "node.js",
+    "git",
+    "rest",
+    "api",
+    "aws",
+    "gcp",
+    "azure",
+    "ci/cd"
+   ],
+   "skills_has": [
+    "typescript",
+    "javascript",
+    "sql",
+    "react",
+    "node.js",
+    "git",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "gcp",
+    "azure",
+    "ci/cd"
+   ],
+   "requirements": "About you: | - 6+ years of software engineering experience, including 3+ years in cloud computing (AWS, Azure, or GCP) or platform engineering. | - Strong proficiency in Typescript, Node.js and React. | - Familiarity with RESTful APIs and JSON. | - Understanding of fundamental design principles for scalable applications. | - Proficient understanding of code versioning tools, such as Git. | - Excellent communication and collaboration skills. | Preferred Qualifications: | - Experience with ClickHouse | - Knowledge of CI/CD pipelines | - Previous experience in developing analytics or data-intensive applications | Nice to Have: | - Experience with Auth0, or similar integrations | - Monorepo experience (Yarn workspaces, TurboRepo, Nx) | - Previous work on developer tools, IDEs, or BI platforms | - WebSocket/real-time features | PERKS | - Flexible work environment - ClickHouse is a globally di",
+   "student_rule": "",
+   "company": "ClickHouse",
+   "title": "Full Stack Software Engineer - Control Plane",
+   "via": "",
+   "location": "United States (remote); Canada (remote); San Francisco, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/clickhouse/bd6d5e55-790a-4f3d-a905-193fe39ed5cf",
+   "ats": "ashby",
+   "posted": "2025-07-11",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:clickhouse:03b2433e-6a7b-4f79-a75e-c7371365d527",
+   "min_years": 5,
+   "years_text": "uity and ownership.  What you bring   - 5+ years of software engineering experience, including 1–2 year",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "typescript",
+    "javascript",
+    "sql",
+    "node.js",
+    "go",
+    "rust",
+    "docker",
+    "kubernetes",
+    "llm"
+   ],
+   "skills_has": [
+    "python",
+    "typescript",
+    "javascript",
+    "sql",
+    "node.js"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "rust",
+    "docker",
+    "kubernetes",
+    "llm"
+   ],
+   "requirements": "Who you are | - You've been building agents long enough to have opinions — about context engineering, tool design, when to use a skill vs. a tool, what evals catch and miss, and where popular frameworks break down. | - You think in production terms: p99 latency, cost per task, whether the system still works next week without intervention. | - You move quickly, ship often, and learn from what breaks. | - You care about developer tools and have a clear sense of what good DX looks like. | - You do well with ambiguity and ownership. | What you bring | - 5+ years of software engineering experience, including 1–2 years on LLM-powered systems or agents in production. | - Strong backend skills in TypeScript/Node.js and/or Python. Comfortable in both, even if one is primary. | - Hands-on experience building agents: multi-step tool use, planning, memory, error recovery. You've shipped them and dea",
+   "student_rule": "",
+   "company": "ClickHouse",
+   "title": "AI Product Engineer - ClickStack",
+   "via": "",
+   "location": "United Kingdom; Canada; Germany; United States; The Netherlands",
+   "url": "https://jobs.ashbyhq.com/clickhouse/03b2433e-6a7b-4f79-a75e-c7371365d527",
+   "ats": "ashby",
+   "posted": "2026-10-05",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:6e396eb7-acb3-436a-89ec-05e755c477f2",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "api",
+    "docker",
+    "kubernetes",
+    "spark",
+    "pytorch"
+   ],
+   "skills_has": [
+    "python",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "docker",
+    "kubernetes",
+    "spark",
+    "pytorch"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's degree or higher in Computer Science or related field | - Proven track record owning production-grade real-time, large-scale systems where tail latency (p99) matters. | - Proficient coding abilities in one or more popular programming or scripting languages; Python proficiency is a plus. | - Good taste in product, particularly developer-oriented tools | - Interest in ML/AI infrastructure and willingness to learn | - Strong collaboration and communication skills | - Comfortable using AI coding assistants (e.g., Claude Code, Codex, Cursor) as a daily productivity multiplier — as an AI-native company, we see this as a must-have skill. | NICE TO HAVE | - Experience implementing pipeline-level model runtime optimizations such as dynamic batching, async scheduling, or decode-side throughput improvements. | - Experience building developer platforms: SDKs, CLIs, API",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Voice AI (Inference Runtime)",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/6e396eb7-acb3-436a-89ec-05e755c477f2",
+   "ats": "ashby",
+   "posted": "2026-04-23",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:78028a72-2431-4373-aaec-d6e2c9a1cc7d",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "node.js",
+    "go",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "node.js"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "distributed systems"
+   ],
+   "requirements": "REQUIREMENTS | - Strong proficiency in Go and/or Python, with hands-on experience building test tooling and libraries used by other engineers. | - Deep experience with testing frameworks and their internals — pytest, Go's testing package, testify, testcontainers, or equivalents — including the ability to extend them, not just use them. | - Experience designing integration test infrastructure for distributed systems, including ephemeral environment provisioning and dependency management. | - Practical experience with load and performance testing tools (k6, Locust, Vegeta, JMeter, Gatling, or similar) and the judgment to interpret results and drive action from them. | - Solid Kubernetes and Docker fundamentals — you can build test infrastructure that runs on and tests against real cluster environments. | - Advanced understanding of CI/CD, including how to keep large test suites fast, deter",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Testing Frameworks",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/78028a72-2431-4373-aaec-d6e2c9a1cc7d",
+   "ats": "ashby",
+   "posted": "2026-08-11",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:08bededd-d362-453e-b014-384a2003cbf1",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "spark",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "spark",
+    "distributed systems"
+   ],
+   "requirements": "required to support commercial agreements such as revenue sharing. | - Create the partner platform itself. Identify the primitives common across these integrations and turn them into reusable platform capabilities so we can launch increasingly sophisticated partnerships without reinventing the stack every time. | WHAT YOU'LL OWN | - Lead strategic partner integrations from technical discovery and architecture through implementation, launch, and production operation. | - Work directly with partner engineering teams to design APIs, define system boundaries, resolve cross-company dependencies, and make architectural decisions. | - Write substantial production code and own the systems you build. | - Build reusable partner-platform primitives across identity, provisioning, inference, model serving, metering, billing, and other Baseten platform capabilities. | - Own technical delivery acros",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Partner Platform",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/08bededd-d362-453e-b014-384a2003cbf1",
+   "ats": "ashby",
+   "posted": "2026-10-22",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:3e925ab1-2089-4a79-989e-50479b546eda",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "rust",
+    "spark",
+    "llm"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "rust",
+    "spark",
+    "llm"
+   ],
+   "requirements": "REQUIREMENTS | - Have deep experience with at least one observability signal area (metrics, logging, tracing, or error analytics) and familiarity with the others | - Understand high-throughput data pipelines, columnar storage engines, and the tradeoffs involved in ingesting and querying telemetry data at scale | - Have experience operating or building on top of observability platforms such as Prometheus, Grafana, ClickHouse, OpenTelemetry, or similar systems | - Have strong proficiency in at least one of Python, Rust, or Go | - Have excellent communication skills and enjoy partnering with internal teams to improve their operational visibility and incident response capabilities | - Interest in applying AI/LLMs to operational workflows such as automated root cause analysis, anomaly detection, or intelligent alerting | - Are excited about building foundational infrastructure and are comfort",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Observability",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/3e925ab1-2089-4a79-989e-50479b546eda",
+   "ats": "ashby",
+   "posted": "2026-08-10",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:75d7beac-0298-40fa-b206-2e0c0c08a64f",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "transformers",
+    "c++",
+    "ci/cd",
+    "spark",
+    "pytorch",
+    "llm"
+   ],
+   "skills_has": [
+    "python",
+    "transformers"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "ci/cd",
+    "spark",
+    "pytorch",
+    "llm"
+   ],
+   "requirements": "REQUIREMENTS | This is a mid-senior, high leverage role. We care about your technical depth, strong communication skills to drive cross-team efforts, ability to navigate vague requirements and mentor other engineers. We want to talk to you if you have: | - A Love for Systems & Hardware: You aren’t just interested in the AI; you want to understand GPU memory subsystems, InfiniBand, and how data moves across a cluster. | - An Automation Mindset: You believe that if a task has to be done twice, it should be scripted. You have a passion for stress-testing and fuzzy testing to find the \"breaking point\" of a system. | - Mathematical Curiosity: A desire to understand the underlying math of Transformers and how it translates into FLOPs and memory requirements. | - Technical Toolkit: Familiarity with Python, and an eagerness to master the NVIDIA software stack. C++ familiarity is good to have.",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Model Performance Systems",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/75d7beac-0298-40fa-b206-2e0c0c08a64f",
+   "ats": "ashby",
+   "posted": "2026-01-07",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:ae64d1d4-7b0a-4be4-8d77-7f5ce63849a7",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "node.js",
+    "go",
+    "docker",
+    "kubernetes",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "node.js"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "docker",
+    "kubernetes",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's degree or higher in Computer Science or related field | - Proficient coding abilities in one or more popular programming or scripting languages; Go proficiency is a plus | - Working knowledge of Kubernetes and containerization | - Basic understanding of machine learning concepts and model serving | - Familiarity with distributed systems concepts | - Experience with basic monitoring and logging tools | - Interest in ML/AI infrastructure and willingness to learn | - Strong collaboration and communication skills | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!) | - Paid parental leave | - Fertility and family-building stipend",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Infrastructure",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/ae64d1d4-7b0a-4be4-8d77-7f5ce63849a7",
+   "ats": "ashby",
+   "posted": "2025-03-09",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:14c4a663-0b1f-4c11-93ff-1359741ee456",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's, Master's, or Ph.D. in Computer Science, Engineering, or a related field, or equivalent practical experience. | - 3+ years building and operating distributed systems, backend infrastructure, or large-scale APIs where reliability, latency, and scale are first-class concerns. | - A proven track record of owning low-latency, reliable backend services, including rate limiting, auth, quotas, metering, and migrations. | - Infrastructure instincts with a feel for performance: profiling, tracing, capacity planning, and SLO management. | - Comfort debugging performance and reliability issues across multiple layers of the stack, from application behavior down to runtime and infrastructure internals. | - A strong sense of developer experience. You think about how systems are used, not just how they work. | - Eagerness to learn new languages, frameworks, and systems, and",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Inference Platform",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/14c4a663-0b1f-4c11-93ff-1359741ee456",
+   "ats": "ashby",
+   "posted": "2026-10-05",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:7cb19a05-8e5b-44cf-b3e7-19949e2eff04",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "api",
+    "c++",
+    "go",
+    "spark",
+    "pytorch",
+    "cuda",
+    "llm"
+   ],
+   "skills_has": [
+    "python",
+    "api"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "go",
+    "spark",
+    "pytorch",
+    "cuda",
+    "llm"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field. | - Experience with one or more general-purpose programming languages, such as Python or C++. | - Familiarity with LLM optimization techniques (e.g., quantization, speculative decoding, continuous batching). | - Strong familiarity with ML libraries, especially PyTorch, TensorRT, or TensorRT-LLM. | - Demonstrated interest and experience in LLMs. | - Deep understanding of GPU architecture. | NICE TO HAVE | - Proficiency in enhancing the performance of software systems, particularly in the context of large language models (LLMs) | - Contributed to vLLM, SGLang, TensorRT-LLM, or another inference engine. | - Worked on large-scale distributed serving: autoscaling, load balancing, multi-region or multi-cloud capacity. | - Written or optimized GPU kernels (CUDA, Triton, CUTL",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Inference Performance",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/7cb19a05-8e5b-44cf-b3e7-19949e2eff04",
+   "ats": "ashby",
+   "posted": "2026-10-05",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:86331c05-a6b0-4a9f-991d-b46091b696b5",
+   "min_years": 4,
+   "years_text": "the team grows.       REQUIREMENTS   - 4-5+ years of experience building production",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "kubernetes",
+    "spark"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "kubernetes",
+    "spark"
+   ],
+   "requirements": "requirements for how people, services, and agents access the platform. This is the founding role for our identity and authorization team within enterprise engineering. You'll own the identity and access layer of the Baseten platform: the authorization model, credential systems, and admin experiences that enterprise IT teams use to govern access for organizations like Harvey, HubSpot, and Notion. | You'll design and build Baseten's fine-grained authorization system from the ground up to support the workflows customers depend on today while giving them cleaner, more precise ways to manage access as the platform grows. Authorization at Baseten requires low-latency permission checks at high request volume, consistent contracts and behaviors across the product suite, and strong security guarantees for mission-critical, highly regulated workloads. | EXAMPLE INITIATIVES | Recent and upcoming wo",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Identity & Authorization",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/86331c05-a6b0-4a9f-991d-b46091b696b5",
+   "ats": "ashby",
+   "posted": "2026-10-22",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:1f7d7fda-5540-4205-890b-cdbf774f0814",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "node.js",
+    "c++",
+    "go",
+    "rust",
+    "kubernetes",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "node.js"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "go",
+    "rust",
+    "kubernetes",
+    "spark",
+    "llm",
+    "distributed systems"
+   ],
+   "requirements": "required to co-optimize communication and compute for Disaggregated Serving, Wide Expert Parallelism (WideEP), and lightening cold starts. | RESPONSIBILITIES | - Make RDMA First-Class: You will work on integrating RDMA/RoCE/InfiniBand capabilities directly into our inference stack, helping us move beyond TCP/IP to unlock order-of-magnitude improvements in bandwidth and latency. | - Optimize Distributed Inference: You will implement and tune the networking layers necessary for efficient Disaggregated KV Cache Offload and WideEP, ensuring seamless communication across NVLink and InfiniBand for our MoE models. | - Enable Serverless-Grade Startup Speeds for LLMs: You will work deeply with checkpointing and storage mechanisms to enable sub-10-second startup for trillion-parameter models. | - Deep-Dive into Hardware: You will characterize and validate networking performance on bleeding-edge c",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - GPU Networking & Distributed Systems",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/1f7d7fda-5540-4205-890b-cdbf774f0814",
+   "ats": "ashby",
+   "posted": "2026-02-23",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:ddb5bc98-6116-49a2-802e-1c05398663f1",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "transformers",
+    "api",
+    "c++",
+    "aws",
+    "spark",
+    "cuda"
+   ],
+   "skills_has": [
+    "transformers",
+    "api"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "aws",
+    "spark",
+    "cuda"
+   ],
+   "requirements": "REQUIREMENTS | - Strong understanding of GPU architecture and programming paradigms: | - Memory hierarchy (global, shared, registers, L1/L2 cache) | - Thread/block/grid organization | - Synchronization techniques and race condition mitigation | - Proficient in C++ and GPU performance profiling tools | - Knowledge of: | - CUDA C++ API | - Memory access patterns and bandwidth optimization | - Numerical precision and quantization strategies | - Modern GPU features (e.g., tensor cores, async operations) | NICE TO HAVE | - Experience with Transformer models and attention optimization (e.g., Flash Attention) | - Familiarity with GPU kernel libraries: Cutlass, Triton, Thrust, CUB | - Background in GEMM tuning and distributed/multi-GPU compute | - Contributions to open-source GPU projects | - Research publications or conference presentations on GPU performance | BENEFITS | - Competitive",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - GPU Kernels",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/ddb5bc98-6116-49a2-802e-1c05398663f1",
+   "ats": "ashby",
+   "posted": "2025-07-17",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "javascript",
+    "react",
+    "api",
+    "go",
+    "kubernetes",
+    "spark"
+   ],
+   "skills_has": [
+    "python",
+    "javascript",
+    "react",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "kubernetes",
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's degree or higher in Computer Science or related field | - Proficient coding abilities in one or more popular programming or scripting languages; Python, Go, or JavaScript proficiency is a plus | - Familiarity with web applications & databases | - Good taste in product, particularly developer-oriented tools | - Interest in ML/AI infrastructure and willingness to learn | - Strong collaboration and communication skills | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!) | - Paid parental leave | - Fertility and family-building stipend through Carrot | - (U.S. only) Company-facilitated 401(k) | - Exposure to a variety of ML star",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Dedicated Inference",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/fc6e5f2e-eb2d-4a6c-8a51-8422e8662bde",
+   "ats": "ashby",
+   "posted": "2024-07-09",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:fb886b59-fdc3-4315-a9b3-c49808bcd2ce",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "go",
+    "kubernetes",
+    "spark"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "kubernetes",
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - Strong-level proficiency in Go and/or Python. | - Have worked with Kubernetes-based deployment systems at scale | - Have experience building or operating continuous deployment platforms | - Are familiar with GitOps tooling such as ArgoCD or Flux | - Care deeply about safe production rollouts and minimizing blast radius | - Excellent developer tool culture with a focus on best practices. Bonus points if you have personally developed open-source developer tools. | - Are excited about building foundational infrastructure and are comfortable working independently on ambiguous, high-impact technical challenges | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Ev",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Continuous Delivery",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/fb886b59-fdc3-4315-a9b3-c49808bcd2ce",
+   "ats": "ashby",
+   "posted": "2026-08-11",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:34fd4416-49f3-4ef7-b9f8-5883f8d0710c",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "spark"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "spark"
+   ],
+   "requirements": "requirements, propose crisp technical approaches, ship iteratively, and raise the bar on quality and velocity. | - Debug and resolve production issues with urgency, communicating clearly with stakeholders and closing the loop with durable fixes. | REQUIREMENTS | - Bachelor's degree or higher in Computer Science or related field | - Experience with billing systems or building internal tools | - Deep knowledge of the web stack & databases | - Strong collaboration and communication skills | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!) | - Paid parental leave | - Fertility and family-building stipend through Carrot | - (U.S. only) Company-facilitated",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - Billing & Internal Tooling",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/34fd4416-49f3-4ef7-b9f8-5883f8d0710c",
+   "ats": "ashby",
+   "posted": "2026-10-22",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:e71e97a8-6367-4050-b6a9-42ce62ec78f1",
+   "min_years": 4,
+   "years_text": "management.      REQUIREMENTS   - Have 4+ years of relevant industry experience building and enabli",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "go",
+    "ruby",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "llm"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "ruby",
+    "docker",
+    "kubernetes",
+    "ci/cd",
+    "spark",
+    "llm"
+   ],
+   "requirements": "REQUIREMENTS | - Have 4+ years of relevant industry experience building and enabling AI native SDLC | - Strong proficiency in Python and/or Go, building tools other engineers depend on daily. | - Hands-on experience with LLMs and agent frameworks — tool calling, MCP, context management, orchestration, failure handling. You've shipped something agentic that real people used, not just prototyped. | - Deep personal fluency with AI coding tools and well-formed opinions about where they break down. | - Platform mindset: you build for adoption and self-service, treat internal engineers as customers, and would rather ship a good default than write a style guide. | - Developer tooling, CI/CD, and Kubernetes/Docker fundamentals. | - Comfort with ambiguity — this space invalidates its own best practices every few months. | - Excellent written communication. Much of your leverage is docs, templates",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Software Engineer - AI Developer Productivity",
+   "via": "",
+   "location": "San Francisco (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/e71e97a8-6367-4050-b6a9-42ce62ec78f1",
+   "ats": "ashby",
+   "posted": "2026-08-11",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:b85e4b1d-6531-46b5-bc8a-238f3761a50e",
+   "min_years": 3,
+   "years_text": "“security as code.”    REQUIREMENTS   - 3+ years of experience in a Security Engin",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "aws",
+    "gcp",
+    "docker",
+    "ci/cd",
+    "spark"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "gcp",
+    "docker",
+    "ci/cd",
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - 3+ years of experience in a Security Engineer or similar security-focused role, preferably in a fast-paced startup environment. | - Strong knowledge of cloud security (AWS/GCP), container security, and infrastructure-as-code best practices. | - Hands-on experience with security tooling (SIEM, IDS/IPS, vulnerability scanners) and scripting languages to automate security tasks. | - Familiarity with compliance frameworks such as SOC 2, ISO 27001, and GDPR, and the ability to translate requirements into actionable security controls. | - Incident response expertise, including forensic analysis and root cause investigation. | - Excellent communication skills and the ability to collaborate with cross-functional teams to promote a security-first culture. | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vi",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Security Engineer",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/b85e4b1d-6531-46b5-bc8a-238f3761a50e",
+   "ats": "ashby",
+   "posted": "2026-04-01",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:3622a1ee-50a9-4c45-af6e-aa12bd5de22f",
+   "min_years": 5,
+   "years_text": "nd end-to-end flows    REQUIREMENTS   - 5+ years of experience building production",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "typescript",
+    "javascript",
+    "css",
+    "react",
+    "next.js",
+    "tailwind",
+    "api",
+    "spark"
+   ],
+   "skills_has": [
+    "typescript",
+    "javascript",
+    "css",
+    "react",
+    "next.js",
+    "tailwind",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - 5+ years of experience building production-grade web applications | - Deep expertise in React, TypeScript, and modern web development tooling | - Track record of building well-crafted, performant, and scalable UIs | - Strong product intuition and empathy for the user experience | - Experience working in cross-functional product teams in a fast-paced environment | - Excellent communication and collaboration skills | NICE TO HAVE | - Familiarity with Tailwind CSS, Next.js, or other modern frontend frameworks | - Background in developer tools or data/ML infrastructure products | - Experience with WebSockets, real-time data, or custom visualization tooling | - Contributions to open-source projects or public engineering work | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employe",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Frontend Engineer - Dedicated Inference",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/3622a1ee-50a9-4c45-af6e-aa12bd5de22f",
+   "ats": "ashby",
+   "posted": "2026-06-23",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:84c1801c-1a65-49fb-aaaa-beeafd530e7e",
+   "min_years": 2,
+   "years_text": "ing, Mathematics, or related field.   - 2+ years of professional work experience in a fast-paced, hi",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "api",
+    "docker",
+    "spark"
+   ],
+   "skills_has": [
+    "python",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "docker",
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field. | - 2+ years of professional work experience in a fast-paced, high-growth environment. | - Demonstrated experience with one or more general-purpose programming languages in a production-level environment, with a strong preference for Python. | - Familiarity with AI/ML pipelines and the lifecycle of ML model development and deployment. | - Strong communication skills, particularly on complex technical topics. | - Experience in building or optimizing AI/ML projects is highly valued. | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Forward Deployed Engineer",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/84c1801c-1a65-49fb-aaaa-beeafd530e7e",
+   "ats": "ashby",
+   "posted": "2024-03-28",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:916e9d62-492a-4562-971f-3e97e3868392",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "node.js",
+    "kubernetes",
+    "terraform",
+    "ci/cd",
+    "spark",
+    "llm"
+   ],
+   "skills_has": [
+    "node.js"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "kubernetes",
+    "terraform",
+    "ci/cd",
+    "spark",
+    "llm"
+   ],
+   "requirements": "requirements and translate them into technical solutions. | - Mentor junior team members and contribute to knowledge sharing within the organization. | - Navigate ambiguity and exercise good judgment on tradeoffs and tools needed to solve problems, avoiding unnecessary complexity. | - Demonstrate pride, ownership, and accountability for your work, expecting the same from your teammates. | REQUIREMENTS | - Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field. | - Extensive experience with Kubernetes. | - Experience in building and maintaining scalable infrastructure. | - Experience with infrastructure-as-code tools (e.g., Terraform, CloudFormation, Pulumi) and CI/CD tooling (e.g., GitHub Actions, GitLab CI, Circle CI, Jenkins). | - Relevant OSS observability experience (Prometheus, ELK stack, Grafana stack, OpenTelemetry) is a plus. | - Ab",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "Cloud Platform Engineer",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/916e9d62-492a-4562-971f-3e97e3868392",
+   "ats": "ashby",
+   "posted": "2025-10-09",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:baseten:db6477fc-111a-4340-bf00-525fe023e6f3",
+   "min_years": 2,
+   "years_text": "ing, Mathematics, or related field.   - 2+ years of professional work experience in a fast-paced, hi",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "api",
+    "docker",
+    "spark"
+   ],
+   "skills_has": [
+    "python",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "docker",
+    "spark"
+   ],
+   "requirements": "REQUIREMENTS | - Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field. | - 2+ years of professional work experience in a fast-paced, high-growth environment. | - Demonstrated experience with one or more general-purpose programming languages in a production-level environment, with a strong preference for Python. | - Familiarity with AI/ML pipelines and the lifecycle of ML model development and deployment. | - Strong communication skills, particularly on complex technical topics. | - Experience in building or optimizing AI/ML projects is highly valued. | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)",
+   "student_rule": "",
+   "company": "Baseten",
+   "title": "AI Inference Engineer",
+   "via": "",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3",
+   "ats": "ashby",
+   "posted": "2026-08-03",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
    "tier": "2",
    "first_seen": "2026-11-06"
   },
