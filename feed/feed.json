@@ -1,7 +1,95 @@
 {
- "generated_at": "2026-11-05T21:45:24Z",
- "count": 335,
+ "generated_at": "2026-11-06T01:49:37Z",
+ "count": 326,
  "jobs": [
+  {
+   "id": "ashby:rivianvw.tech:840928b2-010b-413b-b614-edf7f01dbc4c",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "git",
+    "rest",
+    "api",
+    "c++",
+    "c#",
+    "go",
+    "rust",
+    "kotlin",
+    "aws",
+    "docker",
+    "kubernetes",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "git",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c#",
+    "go",
+    "rust",
+    "kotlin",
+    "aws",
+    "docker",
+    "kubernetes",
+    "embedded"
+   ],
+   "requirements": "QUALIFICATIONS | Minimum Qualifications: | - A bachelor's degree in Computer Science, Software Engineering, or a related field - or the equivalent built the practical way. | - Two or more years building and operating backend services in production. Operating counts as much as building here: we want someone who has been paged, debugged something with the clock running, and shipped the fix. | - Strong proficiency in a statically typed, compiled backend language. Go and Python are what we write most; solid Java, Rust, C++, C#, or Kotlin experience translates well. | - Real working knowledge of at least one database and how it behaves under load - indexing, query planning, connection pooling, and the difference between a query that is correct and a query that is fast. Document stores are closest to our world; strong relational experience is equally credible. | - Practical experience designin",
+   "student_rule": "",
+   "company": "Rivian",
+   "title": "Software Engineer II, Vehicle Data Services",
+   "via": "",
+   "location": "Vancouver, British Columbia (remote); Vancouver, British Columbia, Canada (remote)",
+   "url": "https://jobs.ashbyhq.com/rivianvw.tech/840928b2-010b-413b-b614-edf7f01dbc4c",
+   "ats": "ashby",
+   "posted": "2026-11-06",
+   "level_hint": "mid",
+   "remote": true,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "workday:intel:JR0287535",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "linux"
+   ],
+   "skills_has": [
+    "python",
+    "linux"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Qualifications: | You must possess the below minimum qualifications to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates.  Requirements listed would be obtained through a combination of industry relevant job experience, internship experiences and or schoolwork/classes/research. | Minimum Qualifications and Experience : | Candidate must be pursuing a Bachelor's degree in Electrical Engineering, Computer Engineering, Computer Science or related STEM degree. | Candidate must also have 3+ months of educational or work experience with the following: | Computer architecture or computer organization. | Experience with Lab equipment such as supplies/ oscilloscopes/ multimeters/ power supplies/ etc. | Experience with Windows drivers, operating systems, error logs, setting u",
+   "student_rule": "",
+   "company": "Intel",
+   "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+   "via": "",
+   "location": "Canada, Toronto",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "intern",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-06"
+  },
   {
    "id": "yc:yc:115061",
    "min_years": null,
@@ -1586,223 +1674,6 @@
    "posted": "2026-11-04",
    "level_hint": "unlevelled",
    "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "api",
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Cloud & AI Applications",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053335",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557026078",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements, infusing AI to automate business functions, while highlighting our business value and competitive differentiators and should result in securing the customer’s solution design endorsement. Once the solution design is secured, you will support the Solution Specialist in finalizing the customer proposal. | You will develop relationships with the decision makers and with our customers and position yourself as a trusted advisor in your domain. As a recognized product expert, you are responsible for sharing your technical, industry knowledge and best practices with your peers. | Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to cr",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Apps & Agents",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026078",
-   "ats": "pcsx",
-   "posted": "2026-10-20",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557008790",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "azure"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | •    Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | •    8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | •    6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | •    Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Develo",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Innovative Data Platform Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto; Canada, Alberta, Calgary; Canada, British Columbia, Vancouver; Canada, Ontario, Ottawa",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-   "ats": "pcsx",
-   "posted": "2026-10-07",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557047394",
-   "min_years": 3,
-   "years_text": "m qualifications  Bachelor's Degree AND 4+ years experience in core sales, part",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html",
-    "c"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree AND 4+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Additional or preferred qualifications | Doctorate AND 3+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Master's Degree AND 6+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Bachelor's Degree AND 8+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Partner Solution Sales IC4 - The typical base pay range for this role across Canada is CAD $103,500 - CAD $170,700 per year. | Find additional pay information here: | https://careers.microsoft.com/v2/global/",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud and AI Partner Solution Specialist",
-   "via": "",
-   "location": "Canada, Ontario, Greater Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557047394",
-   "ats": "pcsx",
-   "posted": "2026-10-30",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Solution Engineer - Azure Platform",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557042536",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads—including Windows, Linux, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like AKS, while exploring how Agentic AI and Tooling (e.g., Azure Copilot, GitHub Copilot, Agentic Assessment) can accelerate Frontier transformation. | You complement this with strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, secure routing architectures and trusted partner solutions to ensure secure, optimized, and scalable solutions. | As you join the team, you will have the opportunity to accelerate your career growth, develop deep business acumen, hone your technical skills, and become adept at solution design and deployment. In summary, you’ll help customers modernize their existing platf",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Infrastructure Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557042536",
-   "ats": "pcsx",
-   "posted": "2026-10-20",
-   "level_hint": "unlevelled",
-   "remote": false,
    "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-05"
@@ -3916,31 +3787,6 @@
    "first_seen": "2026-11-04"
   },
   {
-   "id": "greenhouse:samsara:8236004",
-   "min_years": 2,
-   "years_text": "Minimum requirements for the role:      2-4+ years of experience in a senior Custome",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Minimum requirements for the role: | 2-4+ years of experience in a senior Customer Success, account management, or strategic consulting role. Mid-Market SaaS experience preferred | English and French fluency | This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence | Experience supporting or working with technical products | Excellent consultative skills with experience in end-to-end system implementations | Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software | Diplomacy, tact, and poise under pressure when working through customer issues | Bachelor’s degree from a 4-year institution | An ideal candidate also has: | Has strong bias for action, the ability to think big,",
-   "student_rule": "",
-   "company": "Samsara",
-   "title": "Implementation Consultant",
-   "via": "",
-   "location": "Remote - Calgary; Remote - Canada; Remote - Edmonton; Remote - Montreal; Remote - Toronto; Remote - Vancouver",
-   "url": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
-   "ats": "greenhouse",
-   "posted": "2026-11-04",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-04"
-  },
-  {
    "id": "greenhouse:lyft:8927268002",
    "min_years": 1,
    "years_text": "ed field, or relevant work experience   1+ years of backend engineering experience (internships includ",
@@ -5056,37 +4902,6 @@
    "remote": false,
    "pathway_hint": "B",
    "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:tailscale:4710781005",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c#",
-    "go"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "c#",
-    "go"
-   ],
-   "requirements": "qualifications. We encourage you to help us break that statistic! | About Tailscale | Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital. | About the Role | We’re seeking a talented and motivated full-time Software Engineer to join our growing team. You will work as part of the engineering team to: | Develop the Tailscale product, contributing to client code and backend services. The client code is a mix of C#, XAML, a",
-   "student_rule": "",
-   "company": "Tailscale",
-   "title": "Windows Engineer",
-   "via": "",
-   "location": "Remote (Canada)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4710781005",
-   "ats": "greenhouse",
-   "posted": "2026-09-29",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
    "first_seen": "2026-11-01"
   },
   {
@@ -8786,7 +8601,7 @@
     "terraform",
     "ci/cd"
    ],
-   "requirements": "requirements. | Integrate platform capabilities with continuous integration and continuous delivery (CI/CD) pipelines to support end-to-end delivery workflows. | What you’ll bring | Experience operating Kubernetes in production and working with at least one major cloud provider: Amazon Web Services, Google Cloud, or Microsoft Azure. | Experience with Argo CD or comparable GitOps tooling, such as Flux. | Proficiency in Terraform for cloud infrastructure provisioning, including remote state, workspaces, and module design. | Ability to write scripts and automation in Python, Bash, or Go. | Familiarity with Helm for Kubernetes package management. | Understanding of networking fundamentals, including the Domain Name System (DNS), load balancing, ingress, and service mesh concepts. | Clear written and verbal communication, with the ability to document systems and collaborate across teams.",
+   "requirements": "requirements. | Integrate platform capabilities with continuous integration and continuous delivery (CI/CD) pipelines to support end-to-end delivery workflows. | Take part in on-call or operational support where your team’s ownership model requires it. | What you’ll bring | Experience operating Kubernetes in production and working with at least one major cloud provider: Amazon Web Services, Google Cloud, or Microsoft Azure. | Experience with Argo CD or comparable GitOps tooling, such as Flux. | Proficiency in Terraform for cloud infrastructure provisioning, including remote state, workspaces, and module design. | Ability to write scripts and automation in Python, Bash, or Go. | Familiarity with Helm for Kubernetes package management. | Understanding of networking fundamentals, including the Domain Name System (DNS), load balancing, ingress, and service mesh concepts. | Clear written",
    "student_rule": "",
    "company": "GitLab",
    "title": "Cloud Platform Engineer",
@@ -8794,7 +8609,7 @@
    "location": "Remote, Canada; Remote, United States",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8889193002",
    "ats": "greenhouse",
-   "posted": "2026-10-28",
+   "posted": "2026-11-05",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -8838,7 +8653,7 @@
    "location": "Remote, Canada",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922427002",
    "ats": "greenhouse",
-   "posted": "2026-10-29",
+   "posted": "2026-11-05",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -10047,45 +9862,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "ashby:cerebras:8cb78937-ac30-4ab2-98d0-680228ea5e6f",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "New college graduates are welcome",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c",
-    "c#",
-    "embedded"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "c#",
-    "embedded"
-   ],
-   "requirements": "you have strong fundamentals in systems, debugging, and failure analysis—and enjoy building tools and solving hard reliability problems—we want to hear from you. New college graduates are welcome. | Responsibilities | - Contribute to the technical roadmap and execution for kernel-centric reliability of our internal and customer-facing systems. | - Partner with System and Cluster Operations teams to reduce system and service downtime after failure through tooling, analysis, and hands-on debugging support. | - Work with the Debug Team to enhance debug tools with the goal of speeding up failure analysis. | - Collaborate with software teams to improve the software stack—including kernels—to improve on-field debugging and failure analysis. | - Work with ASIC and hardware architecture teams to co-design next-generation architectures with reliability and ease of debug in mind. | - Participate i",
-   "student_rule": "",
-   "company": "Cerebras",
-   "title": "Software Engineer, Kernel Reliability",
-   "via": "",
-   "location": "United States and Canada",
-   "url": "https://jobs.ashbyhq.com/cerebras/8cb78937-ac30-4ab2-98d0-680228ea5e6f",
-   "ats": "ashby",
-   "posted": "2026-09-15",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "B",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "ashby:cerebras:80775253-7fba-4a3b-87ee-0e70ce8e995c",
    "min_years": 3,
    "years_text": "surfaces.  Skills & Qualifications   - 3+ years of experience in software enginee",
@@ -10347,45 +10123,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "ashby:cerebras:0471b24c-013d-4e9c-a1dd-b11beadb95c7",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c#",
-    "embedded",
-    "compilers"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c#",
-    "embedded",
-    "compilers"
-   ],
-   "requirements": "Qualifications | - Strong proficiency in C++ and Python, with a track record of building reliable, high-performance systems and tooling. | - Demonstrated experience debugging complex hardware/software systems and driving issues to root cause. | - Experience analyzing system-level data structures, execution graphs, or dependency networks for diagnostics and validation. | - Proven ability to design and build intuitive visualization and analysis tools for complex technical data. | - Experience with compiler internals, custom hardware interfaces, or low-level protocol design. | - Strong written and verbal communication skills, with the ability to explain technical concepts to diverse stakeholders. | - Ability to work independently and lead complex technical projects end-to-end. | Preferred Skills & Qualifications | - Familiarity with machine learning training and inference pipelines, especia",
-   "student_rule": "",
-   "company": "Cerebras",
-   "title": "ML Software Tool Development Engineer",
-   "via": "",
-   "location": "United States and Canada",
-   "url": "https://jobs.ashbyhq.com/cerebras/0471b24c-013d-4e9c-a1dd-b11beadb95c7",
-   "ats": "ashby",
-   "posted": "2026-02-17",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "B",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "ashby:cerebras:d6df4a44-a05f-4fac-b012-6d2e8bb981f6",
    "min_years": null,
    "years_text": "",
@@ -10469,49 +10206,6 @@
    "url": "https://jobs.ashbyhq.com/cerebras/cb57dac6-84cc-4860-9732-39c60514a2ab",
    "ats": "ashby",
    "posted": "2026-10-02",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "B",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "ashby:cerebras:1fd0045d-8469-4dc6-ab13-d4fd0bf26f8b",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "api",
-    "c++",
-    "c",
-    "c#",
-    "pytorch",
-    "tensorflow"
-   ],
-   "skills_has": [
-    "python",
-    "api"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "c#",
-    "pytorch",
-    "tensorflow"
-   ],
-   "requirements": "Qualifications | - Bachelor’s, Master’s, PhD or foreign equivalents in Computer Science, Computer Engineering, Mathematics, or related fields. | - Understanding of hardware architecture concepts — must be comfortable learning the details of a new hardware architecture. | - Skilled in C++ and Python programming languages. | - Good knowledge of library and/or API development best practices. | - Strong debugging skills and knowledge of debugging complex software stack. | Preferred Skills And Qualifications | - Experience in kernel development and/or testing. | - Familiarity with parallel algorithms and distributed memory systems. | - Experience in programming accelerators such as GPUs and FPGAs. | - Familiarity with Machine Learning neural networks and frameworks such as TensorFlow and PyTorch. | - Familiarity with HPC kernels and their optimization. | Why Join Cerebras | People who are ser",
-   "student_rule": "",
-   "company": "Cerebras",
-   "title": "Kernel Engineer",
-   "via": "",
-   "location": "United States and Canada",
-   "url": "https://jobs.ashbyhq.com/cerebras/1fd0045d-8469-4dc6-ab13-d4fd0bf26f8b",
-   "ats": "ashby",
-   "posted": "2026-02-23",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "B",
@@ -10775,7 +10469,7 @@
    "company": "Cerebras",
    "title": "Applied Machine Learning Research Scientist",
    "via": "",
-   "location": "United States and Canada",
+   "location": "Toronto, CAN (remote); Sunnyvale, CA (remote); Toronto , Ontario , Canada (remote)",
    "url": "https://jobs.ashbyhq.com/cerebras/d654a704-2c58-4ba6-9109-2c92aecb2503",
    "ats": "ashby",
    "posted": "2026-03-05",
@@ -10820,7 +10514,7 @@
    "company": "Cerebras",
    "title": "AI Inference Core - Software Integration Engineer",
    "via": "",
-   "location": "United States and Canada",
+   "location": "Sunnyvale, CA (remote); Toronto, CAN (remote); Sunnyvale , California , United States (remote)",
    "url": "https://jobs.ashbyhq.com/cerebras/90879967-1071-4d05-9180-6e18023ed887",
    "ats": "ashby",
    "posted": "2026-02-05",
