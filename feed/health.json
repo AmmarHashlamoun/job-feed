@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-07T10:29:13Z",
+  "generated_at": "2026-11-07T22:49:23Z",
   "boards": 294,
   "ok": 239,
   "failed": 55,
-  "jobs_seen": 26937,
-  "jobs_kept": 354,
-  "new_today": 8
+  "jobs_seen": 26941,
+  "jobs_kept": 359,
+  "new_today": 14
  },
  "boards": [
   {
@@ -654,7 +654,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 373,
+   "seen": 375,
    "kept": 36,
    "error": "",
    "resolved": ""
@@ -694,7 +694,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2603,
+   "seen": 2600,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -774,7 +774,7 @@
    "ats": "greenhouse",
    "token": "asteralabs",
    "ok": true,
-   "seen": 178,
+   "seen": 179,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1074,7 +1074,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 924,
+   "seen": 922,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1094,7 +1094,7 @@
    "ats": "ashby",
    "token": "decagon",
    "ok": true,
-   "seen": 132,
+   "seen": 131,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1214,7 +1214,7 @@
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 423,
+   "seen": 425,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1464,7 +1464,7 @@
    "ats": "ashby",
    "token": "harvey",
    "ok": true,
-   "seen": 371,
+   "seen": 370,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1664,7 +1664,7 @@
    "ats": "ashby",
    "token": "langchain",
    "ok": true,
-   "seen": 99,
+   "seen": 100,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1745,7 +1745,7 @@
    "token": "jobs.luxcapital.com",
    "ok": true,
    "seen": 156,
-   "kept": 9,
+   "kept": 11,
    "error": "",
    "resolved": ""
   },
@@ -1994,7 +1994,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 820,
+   "seen": 819,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2274,7 +2274,7 @@
    "ats": "workday",
    "token": "salesforce",
    "ok": true,
-   "seen": 52,
+   "seen": 51,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 315,
+   "seen": 316,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2364,7 +2364,7 @@
    "ats": "auto",
    "token": "shieldai",
    "ok": true,
-   "seen": 661,
+   "seen": 660,
    "kept": 0,
    "error": "",
    "resolved": "lever:shieldai"
@@ -2404,7 +2404,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 371,
+   "seen": 372,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2445,7 +2445,7 @@
    "token": "jobs.spacecapital.com",
    "ok": true,
    "seen": 500,
-   "kept": 10,
+   "kept": 12,
    "error": "",
    "resolved": ""
   },
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2898,
+   "seen": 2899,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2494,7 +2494,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 765,
+   "seen": 766,
    "kept": 18,
    "error": "",
    "resolved": ""
@@ -2534,8 +2534,8 @@
    "ats": "getro",
    "token": "jobs.techstars.com",
    "ok": true,
-   "seen": 217,
-   "kept": 15,
+   "seen": 220,
+   "kept": 16,
    "error": "",
    "resolved": ""
   },
@@ -2844,7 +2844,7 @@
    "ats": "ashby",
    "token": "wayve",
    "ok": true,
-   "seen": 172,
+   "seen": 173,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2915,7 +2915,7 @@
    "token": "yc",
    "ok": true,
    "seen": 69,
-   "kept": 13,
+   "kept": 14,
    "error": "",
    "resolved": ""
   },
