@@ -1,7 +1,61 @@
 {
- "generated_at": "2026-11-06T23:46:21Z",
- "count": 354,
+ "generated_at": "2026-11-07T01:14:22Z",
+ "count": 350,
  "jobs": [
+  {
+   "id": "greenhouse:scaleai:4744402005",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "llm"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "llm"
+   ],
+   "requirements": "you have one), and one research project you substantially owned, with 2–3 sentences on your contribution. | ML research take-home: You’ll receive a high-level research question and turn it into something testable: form hypotheses, design and run small-scale experiments, and write up what you found and what it tells us. We care more about your reasoning and how you interpret results than about polished or conclusive outcomes. | Research discussion (30 min): We’ll have an open-ended discussion about key questions in AI safety. We’re interested in how you reason about the problems and what directions you find promising. | 15-minute hiring manager chat. | About the Role | Location: Remote within the United States, including California and New York | Hours: 20 hours per week | Term: 3 months, with the option to extend to 6–12 months for exceptional candidates (part-time Internship struc",
+   "student_rule": "",
+   "company": "Scale AI",
+   "title": "AI Safety Residency - SLPreP",
+   "via": "",
+   "location": "Canada; United Kingdom; United States",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4744402005",
+   "ats": "greenhouse",
+   "posted": "2026-11-06",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "greenhouse:samsara:8236004",
+   "min_years": 2,
+   "years_text": "Minimum requirements for the role:      2-4+ years of experience in a senior Custome",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Minimum requirements for the role: | 2-4+ years of experience in a senior Customer Success, account management, or strategic consulting role. Mid-Market SaaS experience preferred | English and French fluency | This is a demanding position with high internal visibility, that requires strong priority management and high emotional intelligence | Experience supporting or working with technical products | Excellent consultative skills with experience in end-to-end system implementations | Proven track record of building trust and communicating effectively with a wide variety of stakeholders: executives, Product and Engineering leadership, day-to-day users of our software | Diplomacy, tact, and poise under pressure when working through customer issues | Bachelor’s degree from a 4-year institution | An ideal candidate also has: | Has strong bias for action, the ability to think big,",
+   "student_rule": "",
+   "company": "Samsara",
+   "title": "Implementation Consultant",
+   "via": "",
+   "location": "Remote - Calgary; Remote - Canada; Remote - Edmonton; Remote - Montreal; Remote - Toronto; Remote - Vancouver",
+   "url": "https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004",
+   "ats": "greenhouse",
+   "posted": "2026-11-06",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-07"
+  },
   {
    "id": "ashby:sardine:2c8f0342-b8af-4cc2-85cd-67bc48275568",
    "min_years": null,
@@ -202,223 +256,6 @@
    "remote": false,
    "pathway_hint": "C",
    "tier": "1",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "api",
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Cloud & AI Applications",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053335",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557026078",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements, infusing AI to automate business functions, while highlighting our business value and competitive differentiators and should result in securing the customer’s solution design endorsement. Once the solution design is secured, you will support the Solution Specialist in finalizing the customer proposal. | You will develop relationships with the decision makers and with our customers and position yourself as a trusted advisor in your domain. As a recognized product expert, you are responsible for sharing your technical, industry knowledge and best practices with your peers. | Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to cr",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Apps & Agents",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026078",
-   "ats": "pcsx",
-   "posted": "2026-10-20",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557008790",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "azure"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | •    Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | •    8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | •    6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | •    Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Develo",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Innovative Data Platform Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto; Canada, Alberta, Calgary; Canada, British Columbia, Vancouver; Canada, Ontario, Ottawa",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-   "ats": "pcsx",
-   "posted": "2026-10-07",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557047394",
-   "min_years": 3,
-   "years_text": "m qualifications  Bachelor's Degree AND 4+ years experience in core sales, part",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html",
-    "c"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree AND 4+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Additional or preferred qualifications | Doctorate AND 3+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Master's Degree AND 6+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Bachelor's Degree AND 8+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Partner Solution Sales IC4 - The typical base pay range for this role across Canada is CAD $103,500 - CAD $170,700 per year. | Find additional pay information here: | https://careers.microsoft.com/v2/global/",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud and AI Partner Solution Specialist",
-   "via": "",
-   "location": "Canada, Ontario, Greater Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557047394",
-   "ats": "pcsx",
-   "posted": "2026-10-30",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Solution Engineer - Azure Platform",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557042536",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads—including Windows, Linux, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like AKS, while exploring how Agentic AI and Tooling (e.g., Azure Copilot, GitHub Copilot, Agentic Assessment) can accelerate Frontier transformation. | You complement this with strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, secure routing architectures and trusted partner solutions to ensure secure, optimized, and scalable solutions. | As you join the team, you will have the opportunity to accelerate your career growth, develop deep business acumen, hone your technical skills, and become adept at solution design and deployment. In summary, you’ll help customers modernize their existing platf",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Infrastructure Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557042536",
-   "ats": "pcsx",
-   "posted": "2026-10-20",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
    "first_seen": "2026-11-06"
   },
   {
@@ -5379,7 +5216,7 @@
    "location": "Toronto, Canada",
    "url": "https://job-boards.greenhouse.io/verkada/jobs/5273275007",
    "ats": "greenhouse",
-   "posted": "2026-11-04",
+   "posted": "2026-11-06",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
