@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-07T22:49:23Z",
+  "generated_at": "2026-11-08T00:56:46Z",
   "boards": 294,
-  "ok": 239,
-  "failed": 55,
-  "jobs_seen": 26941,
-  "jobs_kept": 359,
-  "new_today": 14
+  "ok": 238,
+  "failed": 56,
+  "jobs_seen": 26878,
+  "jobs_kept": 353,
+  "new_today": 0
  },
  "boards": [
   {
@@ -327,6 +327,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -654,7 +664,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 375,
+   "seen": 376,
    "kept": 36,
    "error": "",
    "resolved": ""
@@ -1084,7 +1094,7 @@
    "ats": "greenhouse",
    "token": "datadog",
    "ok": true,
-   "seen": 400,
+   "seen": 401,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1594,7 +1604,7 @@
    "ats": "greenhouse",
    "token": "jetsonhome",
    "ok": true,
-   "seen": 59,
+   "seen": 60,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1836,16 +1846,6 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 64,
-   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 316,
+   "seen": 315,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2884,7 +2884,7 @@
    "ats": "workday",
    "token": "workday",
    "ok": true,
-   "seen": 2,
+   "seen": 1,
    "kept": 0,
    "error": "",
    "resolved": ""
