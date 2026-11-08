@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-08T10:37:04Z",
- "count": 358,
+ "generated_at": "2026-11-08T22:57:43Z",
+ "count": 359,
  "jobs": [
   {
    "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
@@ -220,6 +220,31 @@
    "first_seen": "2026-11-08"
   },
   {
+   "id": "getro:jobs.techstars.com:99340360",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": false,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "",
+   "student_rule": "",
+   "company": "DataRobot",
+   "title": "Software Design Engineer Intern",
+   "via": "Techstars portfolio",
+   "location": "Toronto, ON, Canada",
+   "url": "https://ca.linkedin.com/jobs/view/software-design-engineer-intern-at-datarobot-4486294577",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "intern",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-08"
+  },
+  {
    "id": "yc:yc:91982",
    "min_years": 6,
    "years_text": "6+ years of experience. Amazon Web Service",
@@ -399,12 +424,24 @@
    "min_years": null,
    "years_text": "",
    "grad_text": "",
-   "desc_read": false,
-   "stack": [],
-   "skills_has": [],
+   "desc_read": true,
+   "stack": [
+    "python",
+    "typescript",
+    "javascript",
+    "html",
+    "css"
+   ],
+   "skills_has": [
+    "python",
+    "typescript",
+    "javascript",
+    "html",
+    "css"
+   ],
    "skills_learning": [],
    "skills_missing": [],
-   "requirements": "",
+   "requirements": "Python (Programming Language) Github DevOps Markdown HTML5 CSS Codes JavaScript (Programming Language) TypeScript",
    "student_rule": "",
    "company": "DataRobot",
    "title": "Software Design Engineer Intern",
@@ -4757,7 +4794,7 @@
    "title": "Wearable Developer",
    "via": "Techstars portfolio",
    "location": "Canada; Remote",
-   "url": "https://www.awakelabs.com/careers?questionId=8aeddc22-9930-48e5-a089-c7bced0f64b6 ",
+   "url": "https://www.awakelabs.com/careers?questionId=8aeddc22-9930-48e5-a089-c7bced0f64b6",
    "ats": "getro",
    "posted": "",
    "level_hint": "unlevelled",

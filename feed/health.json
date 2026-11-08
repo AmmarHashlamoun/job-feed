@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-08T10:37:04Z",
+  "generated_at": "2026-11-08T22:57:43Z",
   "boards": 294,
   "ok": 239,
   "failed": 55,
-  "jobs_seen": 26934,
-  "jobs_kept": 358,
-  "new_today": 6
+  "jobs_seen": 26939,
+  "jobs_kept": 359,
+  "new_today": 7
  },
  "boards": [
   {
@@ -694,7 +694,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2600,
+   "seen": 2601,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -794,7 +794,7 @@
    "ats": "auto",
    "token": "baseten",
    "ok": true,
-   "seen": 102,
+   "seen": 101,
    "kept": 20,
    "error": "",
    "resolved": "ashby:baseten"
@@ -944,7 +944,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 538,
+   "seen": 537,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1004,7 +1004,7 @@
    "ats": "auto",
    "token": "cognition",
    "ok": true,
-   "seen": 108,
+   "seen": 110,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cognition"
@@ -1024,7 +1024,7 @@
    "ats": "greenhouse",
    "token": "coinbase",
    "ok": true,
-   "seen": 284,
+   "seen": 283,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1214,7 +1214,7 @@
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 425,
+   "seen": 426,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1994,7 +1994,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 818,
+   "seen": 816,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 316,
+   "seen": 314,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2364,7 +2364,7 @@
    "ats": "auto",
    "token": "shieldai",
    "ok": true,
-   "seen": 660,
+   "seen": 664,
    "kept": 0,
    "error": "",
    "resolved": "lever:shieldai"
@@ -2445,7 +2445,7 @@
    "token": "jobs.spacecapital.com",
    "ok": true,
    "seen": 500,
-   "kept": 12,
+   "kept": 11,
    "error": "",
    "resolved": ""
   },
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2900,
+   "seen": 2902,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2534,8 +2534,8 @@
    "ats": "getro",
    "token": "jobs.techstars.com",
    "ok": true,
-   "seen": 220,
-   "kept": 16,
+   "seen": 221,
+   "kept": 17,
    "error": "",
    "resolved": ""
   },
@@ -2584,7 +2584,7 @@
    "ats": "greenhouse",
    "token": "tenstorrent",
    "ok": true,
-   "seen": 126,
+   "seen": 127,
    "kept": 8,
    "error": "",
    "resolved": ""
