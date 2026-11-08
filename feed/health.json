@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-08T00:56:46Z",
+  "generated_at": "2026-11-08T10:37:04Z",
   "boards": 294,
-  "ok": 238,
-  "failed": 56,
-  "jobs_seen": 26878,
-  "jobs_kept": 353,
-  "new_today": 0
+  "ok": 239,
+  "failed": 55,
+  "jobs_seen": 26934,
+  "jobs_kept": 358,
+  "new_today": 6
  },
  "boards": [
   {
@@ -327,16 +327,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -664,7 +654,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 376,
+   "seen": 372,
    "kept": 36,
    "error": "",
    "resolved": ""
@@ -944,7 +934,7 @@
    "ats": "workday",
    "token": "ciena",
    "ok": true,
-   "seen": 119,
+   "seen": 118,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -954,7 +944,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 535,
+   "seen": 538,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1234,7 +1224,7 @@
    "ats": "auto",
    "token": "elevenlabs",
    "ok": true,
-   "seen": 139,
+   "seen": 137,
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
@@ -1474,7 +1464,7 @@
    "ats": "ashby",
    "token": "harvey",
    "ok": true,
-   "seen": 370,
+   "seen": 373,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1704,7 +1694,7 @@
    "ats": "ashby",
    "token": "lightspeedhq",
    "ok": true,
-   "seen": 133,
+   "seen": 132,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1764,7 +1754,7 @@
    "ats": "greenhouse",
    "token": "lyft",
    "ok": true,
-   "seen": 167,
+   "seen": 166,
    "kept": 19,
    "error": "",
    "resolved": ""
@@ -1850,6 +1840,16 @@
    "resolved": ""
   },
   {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 61,
+   "kept": 6,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Mila",
    "ats": "workable",
    "token": "mila-2",
@@ -1884,7 +1884,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 375,
+   "seen": 374,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1994,7 +1994,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 819,
+   "seen": 818,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2114,8 +2114,8 @@
    "ats": "pcsx",
    "token": "careers.qualcomm.com",
    "ok": true,
-   "seen": 124,
-   "kept": 9,
+   "seen": 123,
+   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 315,
+   "seen": 316,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2899,
+   "seen": 2900,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2634,7 +2634,7 @@
    "ats": "workday",
    "token": "thomsonreuters",
    "ok": true,
-   "seen": 90,
+   "seen": 89,
    "kept": 0,
    "error": "",
    "resolved": ""
