@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-08T22:57:43Z",
+  "generated_at": "2026-11-09T01:14:46Z",
   "boards": 294,
   "ok": 239,
   "failed": 55,
   "jobs_seen": 26939,
   "jobs_kept": 359,
-  "new_today": 7
+  "new_today": 0
  },
  "boards": [
   {
@@ -654,7 +654,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 372,
+   "seen": 370,
    "kept": 36,
    "error": "",
    "resolved": ""
@@ -1044,7 +1044,7 @@
    "ats": "greenhouse",
    "token": "coursera",
    "ok": true,
-   "seen": 40,
+   "seen": 39,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1084,7 +1084,7 @@
    "ats": "greenhouse",
    "token": "datadog",
    "ok": true,
-   "seen": 401,
+   "seen": 402,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 314,
+   "seen": 315,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2364,7 +2364,7 @@
    "ats": "auto",
    "token": "shieldai",
    "ok": true,
-   "seen": 664,
+   "seen": 665,
    "kept": 0,
    "error": "",
    "resolved": "lever:shieldai"
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2902,
+   "seen": 2901,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2494,7 +2494,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 766,
+   "seen": 767,
    "kept": 18,
    "error": "",
    "resolved": ""
