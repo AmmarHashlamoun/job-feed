@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-11T00:07:26Z",
+  "generated_at": "2026-11-11T01:31:27Z",
   "boards": 294,
-  "ok": 237,
-  "failed": 57,
-  "jobs_seen": 26775,
-  "jobs_kept": 338,
-  "new_today": 10
+  "ok": 239,
+  "failed": 55,
+  "jobs_seen": 26972,
+  "jobs_kept": 352,
+  "new_today": 24
  },
  "boards": [
   {
@@ -330,16 +330,6 @@
    "resolved": ""
   },
   {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
-   "resolved": ""
-  },
-  {
    "company": "Mistral AI",
    "ats": "lever",
    "token": "mistral",
@@ -407,16 +397,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:plusonerobotics:404, lever:plusonerobotics:404, ashby:plusonerobotics:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Qualcomm (careers site)",
-   "ats": "pcsx",
-   "token": "careers.qualcomm.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -674,7 +654,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 368,
+   "seen": 367,
    "kept": 34,
    "error": "",
    "resolved": ""
@@ -714,7 +694,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2579,
+   "seen": 2581,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -724,7 +704,7 @@
    "ats": "auto",
    "token": "anysphere;cursor",
    "ok": true,
-   "seen": 115,
+   "seen": 116,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cursor"
@@ -814,7 +794,7 @@
    "ats": "auto",
    "token": "baseten",
    "ok": true,
-   "seen": 101,
+   "seen": 100,
    "kept": 19,
    "error": "",
    "resolved": "ashby:baseten"
@@ -964,7 +944,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 567,
+   "seen": 570,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -974,7 +954,7 @@
    "ats": "auto",
    "token": "clickhouse",
    "ok": true,
-   "seen": 203,
+   "seen": 204,
    "kept": 3,
    "error": "",
    "resolved": "ashby:clickhouse"
@@ -984,7 +964,7 @@
    "ats": "workday",
    "token": "clio",
    "ok": true,
-   "seen": 43,
+   "seen": 44,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -994,7 +974,7 @@
    "ats": "greenhouse",
    "token": "cloudflare",
    "ok": true,
-   "seen": 471,
+   "seen": 473,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1034,7 +1014,7 @@
    "ats": "ashby",
    "token": "cohere",
    "ok": true,
-   "seen": 126,
+   "seen": 127,
    "kept": 14,
    "error": "",
    "resolved": ""
@@ -1044,7 +1024,7 @@
    "ats": "greenhouse",
    "token": "coinbase",
    "ok": true,
-   "seen": 284,
+   "seen": 286,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1094,7 +1074,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 921,
+   "seen": 920,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1684,7 +1664,7 @@
    "ats": "ashby",
    "token": "langchain",
    "ok": true,
-   "seen": 100,
+   "seen": 101,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1860,6 +1840,16 @@
    "resolved": ""
   },
   {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 68,
+   "kept": 7,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Mila",
    "ats": "workable",
    "token": "mila-2",
@@ -1944,7 +1934,7 @@
    "ats": "ashby",
    "token": "notion",
    "ok": true,
-   "seen": 155,
+   "seen": 156,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1964,7 +1954,7 @@
    "ats": "greenhouse",
    "token": "nuro",
    "ok": true,
-   "seen": 97,
+   "seen": 96,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2004,7 +1994,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 829,
+   "seen": 828,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2074,7 +2064,7 @@
    "ats": "greenhouse",
    "token": "pinterest",
    "ok": true,
-   "seen": 165,
+   "seen": 164,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -2120,6 +2110,16 @@
    "resolved": ""
   },
   {
+   "company": "Qualcomm (careers site)",
+   "ats": "pcsx",
+   "token": "careers.qualcomm.com",
+   "ok": true,
+   "seen": 117,
+   "kept": 7,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Rakuten Kobo",
    "ats": "workday",
    "token": "rakuten",
@@ -2154,7 +2154,7 @@
    "ats": "greenhouse",
    "token": "relativity",
    "ok": true,
-   "seen": 409,
+   "seen": 408,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2194,7 +2194,7 @@
    "ats": "greenhouse",
    "token": "ripple",
    "ok": true,
-   "seen": 120,
+   "seen": 119,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2214,7 +2214,7 @@
    "ats": "greenhouse",
    "token": "robinhood",
    "ok": true,
-   "seen": 156,
+   "seen": 155,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -2284,7 +2284,7 @@
    "ats": "greenhouse",
    "token": "sambanovasystems",
    "ok": true,
-   "seen": 73,
+   "seen": 71,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2334,7 +2334,7 @@
    "ats": "workday",
    "token": "semtech",
    "ok": true,
-   "seen": 31,
+   "seen": 30,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2364,7 +2364,7 @@
    "ats": "auto",
    "token": "shieldai",
    "ok": true,
-   "seen": 675,
+   "seen": 677,
    "kept": 0,
    "error": "",
    "resolved": "lever:shieldai"
@@ -2404,7 +2404,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 372,
+   "seen": 373,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2899,
+   "seen": 2905,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2474,7 +2474,7 @@
    "ats": "lever",
    "token": "spotify",
    "ok": true,
-   "seen": 85,
+   "seen": 86,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2564,7 +2564,7 @@
    "ats": "ashby",
    "token": "temporal",
    "ok": true,
-   "seen": 83,
+   "seen": 84,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2774,7 +2774,7 @@
    "ats": "greenhouse",
    "token": "verkada",
    "ok": true,
-   "seen": 345,
+   "seen": 343,
    "kept": 1,
    "error": "",
    "resolved": ""
