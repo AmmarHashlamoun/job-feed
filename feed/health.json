@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-12T01:36:22Z",
+  "generated_at": "2026-11-12T02:33:36Z",
   "boards": 294,
-  "ok": 237,
-  "failed": 57,
-  "jobs_seen": 26713,
-  "jobs_kept": 335,
-  "new_today": 7
+  "ok": 238,
+  "failed": 56,
+  "jobs_seen": 26786,
+  "jobs_kept": 342,
+  "new_today": 14
  },
  "boards": [
   {
@@ -327,16 +327,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -714,7 +704,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2588,
+   "seen": 2586,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -724,7 +714,7 @@
    "ats": "auto",
    "token": "anysphere;cursor",
    "ok": true,
-   "seen": 114,
+   "seen": 113,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cursor"
@@ -964,7 +954,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 565,
+   "seen": 564,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1264,7 +1254,7 @@
    "ats": "ashby",
    "token": "etched",
    "ok": true,
-   "seen": 116,
+   "seen": 117,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1784,7 +1774,7 @@
    "ats": "lever",
    "token": "magnetforensics",
    "ok": true,
-   "seen": 33,
+   "seen": 34,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1856,6 +1846,16 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 70,
+   "kept": 7,
    "error": "",
    "resolved": ""
   },
@@ -2074,7 +2074,7 @@
    "ats": "greenhouse",
    "token": "pinterest",
    "ok": true,
-   "seen": 161,
+   "seen": 162,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -2154,7 +2154,7 @@
    "ats": "greenhouse",
    "token": "relativity",
    "ok": true,
-   "seen": 411,
+   "seen": 410,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2194,7 +2194,7 @@
    "ats": "greenhouse",
    "token": "ripple",
    "ok": true,
-   "seen": 115,
+   "seen": 116,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2494,7 +2494,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 785,
+   "seen": 787,
    "kept": 17,
    "error": "",
    "resolved": ""
@@ -2504,7 +2504,7 @@
    "ats": "ashby",
    "token": "supabase",
    "ok": true,
-   "seen": 75,
+   "seen": 76,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2774,7 +2774,7 @@
    "ats": "greenhouse",
    "token": "verkada",
    "ok": true,
-   "seen": 340,
+   "seen": 341,
    "kept": 1,
    "error": "",
    "resolved": ""
