@@ -1,7 +1,550 @@
 {
- "generated_at": "2026-11-12T11:32:26Z",
+ "generated_at": "2026-11-13T00:33:18Z",
  "count": 336,
  "jobs": [
+  {
+   "id": "greenhouse:stripe:8281536",
+   "min_years": 6,
+   "years_text": "requirement.   Minimum requirements     6+ years of experience leading implementat",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "api",
+    "llm"
+   ],
+   "skills_has": [
+    "sql",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "llm"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the team | Stripe is building a dedicated Professional Services practice for the world's leading AI companies. We work with AI labs, infrastructure providers, and application companies whose work with Stripe spans products, regions, and teams. | As an Implementation Consultant, you will lead complex implementations, migrations, product launches, and international expansions. You will define the outcome, align owners and dependencies, manage risk, and guide users through production launch. You will also turn lessons from strategic engagements into repeatable delivery methods for the wider AI segment. | What you'll do | Responsibilities | Own the implementation lifecycle for strategic AI companies, from contract signing through planning, buil",
+   "student_rule": "",
+   "company": "Stripe",
+   "title": "Implementation Consultant (Global)",
+   "via": "",
+   "location": "Toronto",
+   "url": "https://stripe.com/jobs/search?gh_jid=8281536",
+   "ats": "greenhouse",
+   "posted": "2026-11-12",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ashby:sentry:1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba",
+   "min_years": 2,
+   "years_text": "ompany.     QUALIFICATIONS   - At least 2-3 years of software engineering experience, with background in",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "api",
+    "go",
+    "rust",
+    "aws",
+    "gcp",
+    "kubernetes",
+    "kafka",
+    "spark",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "rust",
+    "aws",
+    "gcp",
+    "kubernetes",
+    "kafka",
+    "spark",
+    "distributed systems"
+   ],
+   "requirements": "QUALIFICATIONS | - At least 2-3 years of software engineering experience, with background in distributed systems, data infrastructure, or real-time streaming. | - Proficiency in a programming language such as Python, Rust, Go, or Java (we primarily use Python and Rust, but experience in similar languages is valuable). | - Experience building and operating systems in cloud environments such as Kubernetes, AWS, or GCP. | - Nice to have: experience with streaming technologies such as Kafka, Flink, Spark Streaming, or similar tools. | The base salary range that Sentry reasonably expects to pay for this position is $163,000 to $200,000 CAD or $155,000 to $190,000 USD. A successful candidate’s actual base salary amount will be determined by a variety of relevant factors including, without limitation, the candidate’s work location, education, work and other relevant experience, skills, and job",
+   "student_rule": "",
+   "company": "Sentry",
+   "title": "Software Engineer, Streaming Platform",
+   "via": "",
+   "location": "Toronto, Ontario, Canada (remote); San Francisco, California (remote)",
+   "url": "https://jobs.ashbyhq.com/sentry/1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba",
+   "ats": "ashby",
+   "posted": "2026-10-09",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ashby:sentry:ac8fd540-f3a2-4306-b52c-195fdbd2b998",
+   "min_years": 2,
+   "years_text": "high-trust team.     QUALIFICATIONS   - 2-5 years of industry experience in a detection and",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform"
+   ],
+   "requirements": "you haven't seen before. | - Love working in a developer-forward culture where your colleagues are builders who care deeply about code quality and customer satisfaction. | - Reach for automation first, you'd rather build a scalable, systematic solution to a security problem than make a noisy reactive solution which requires manual triage. | - Thrive with ownership and want more of it, you prefer to drive work end-to-end, and you're energized by the autonomy — and the mentorship — that comes with being on a small, high-trust team. | QUALIFICATIONS | - 2-5 years of industry experience in a detection and response, corporate security, or generalist security engineering role | - Degree in Computer Science or a related field, equivalent training, or professional experience | - Hands-on experience with several of the following: alert triage, detection tuning and writing, detection-as-code, se",
+   "student_rule": "",
+   "company": "Sentry",
+   "title": "Security Engineer, Detection & Response",
+   "via": "",
+   "location": "Toronto, Ontario, Canada (remote)",
+   "url": "https://jobs.ashbyhq.com/sentry/ac8fd540-f3a2-4306-b52c-195fdbd2b998",
+   "ats": "ashby",
+   "posted": "2026-08-26",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ashby:sentry:67f20449-6b01-4cfa-92ca-bace58c10684",
+   "min_years": 2,
+   "years_text": "igh-trust team.      QUALIFICATIONS   - 2-5 years of industry experience designing, building",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "typescript",
+    "go",
+    "rust",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ci/cd"
+   ],
+   "skills_has": [
+    "python",
+    "typescript"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "rust",
+    "aws",
+    "gcp",
+    "azure",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ci/cd"
+   ],
+   "requirements": "you haven't seen before. | - Love working in a developer-forward culture where your colleagues are builders who care deeply about code quality and customer satisfaction. | - Reach for automation first, you'd rather build a scalable, systematic solution to a security problem than solve it manually a hundred times. | - Thrive with ownership and want more of it, you prefer to drive work end-to-end, and you're energized by the autonomy — and the mentorship — that comes with being on a small, high-trust team. | QUALIFICATIONS | - 2-5 years of industry experience designing, building, or securing complex applications and cloud systems | - Degree in Computer Science or a related field, equivalent training, or professional experience | - Hands-on experience with several of the following: security reviews, SDLC practices, secure CI/CD, architecture reviews, threat modeling, vulnerability manage",
+   "student_rule": "",
+   "company": "Sentry",
+   "title": "Security Engineer, Application Security",
+   "via": "",
+   "location": "Toronto, Ontario, Canada (remote)",
+   "url": "https://jobs.ashbyhq.com/sentry/67f20449-6b01-4cfa-92ca-bace58c10684",
+   "ats": "ashby",
+   "posted": "2026-08-26",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "getro:jobs.luxcapital.com:85626032",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Technical Services Customer Success Oracle Cloud Software as a Service (SaaS) API Management",
+   "student_rule": "",
+   "company": "Ramp",
+   "title": "Technical Consultant, Strategic, Oracle Cloud",
+   "via": "Lux Capital portfolio",
+   "location": "United States; Canada; San Francisco, CA, USA; Toronto, ON, Canada; Miami, FL, USA; Remote; New York, NY, USA",
+   "url": "https://jobs.ashbyhq.com/ramp/13fe8467-b624-4f30-8aad-af441dfb1797",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "B",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557054121",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "azure"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Swarm Data Platform Solution Engineer",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557054121",
+   "ats": "pcsx",
+   "posted": "2026-11-10",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "api",
+    "azure",
+    "docker",
+    "kubernetes"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "docker",
+    "kubernetes"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Solution Engineer - Cloud & AI Applications",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053335",
+   "ats": "pcsx",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557026078",
+   "min_years": 3,
+   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "html"
+   ],
+   "skills_has": [
+    "html"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "requirements, infusing AI to automate business functions, while highlighting our business value and competitive differentiators and should result in securing the customer’s solution design endorsement. Once the solution design is secured, you will support the Solution Specialist in finalizing the customer proposal. | You will develop relationships with the decision makers and with our customers and position yourself as a trusted advisor in your domain. As a recognized product expert, you are responsible for sharing your technical, industry knowledge and best practices with your peers. | Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to cr",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Solution Engineer - Apps & Agents",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026078",
+   "ats": "pcsx",
+   "posted": "2026-10-20",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557008790",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "azure"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | •    Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | •    8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | •    6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | •    Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Develo",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Innovative Data Platform Solution Engineer",
+   "via": "",
+   "location": "Canada, Ontario, Toronto; Canada, Alberta, Calgary; Canada, British Columbia, Vancouver; Canada, Ontario, Ottawa",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
+   "ats": "pcsx",
+   "posted": "2026-10-07",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557047394",
+   "min_years": 3,
+   "years_text": "m qualifications  Bachelor's Degree AND 4+ years experience in core sales, part",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "html",
+    "c"
+   ],
+   "skills_has": [
+    "html"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "c"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree AND 4+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Additional or preferred qualifications | Doctorate AND 3+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Master's Degree AND 6+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Bachelor's Degree AND 8+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Partner Solution Sales IC4 - The typical base pay range for this role across Canada is CAD $103,500 - CAD $170,700 per year. | Find additional pay information here: | https://careers.microsoft.com/v2/global/",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Cloud and AI Partner Solution Specialist",
+   "via": "",
+   "location": "Canada, Ontario, Greater Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557047394",
+   "ats": "pcsx",
+   "posted": "2026-10-30",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
+   "min_years": 3,
+   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "linux",
+    "azure",
+    "docker"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql",
+    "linux"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "docker"
+   ],
+   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Cloud & AI Solution Engineer - Azure Platform",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
+   "ats": "pcsx",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557042536",
+   "min_years": 3,
+   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "linux",
+    "azure",
+    "docker"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "linux"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "docker"
+   ],
+   "requirements": "You bring deep expertise in migrating core workloads—including Windows, Linux, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like AKS, while exploring how Agentic AI and Tooling (e.g., Azure Copilot, GitHub Copilot, Agentic Assessment) can accelerate Frontier transformation. | You complement this with strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, secure routing architectures and trusted partner solutions to ensure secure, optimized, and scalable solutions. | As you join the team, you will have the opportunity to accelerate your career growth, develop deep business acumen, hone your technical skills, and become adept at solution design and deployment. In summary, you’ll help customers modernize their existing platf",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Cloud & AI Infrastructure Solution Engineer",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557042536",
+   "ats": "pcsx",
+   "posted": "2026-10-20",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "jibe:careers.amd.com:90462",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "c++",
+    "c",
+    "fpga",
+    "verilog",
+    "embedded"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "fpga",
+    "verilog",
+    "embedded"
+   ],
+   "requirements": "You have interested in architecture model development, testing as well as firmware coding. You are a team player who has excellent communication skills, strong analytical and problem-solving skills and willing to learn and ready to take on problems. A global mindset and ability to work in multi-site environment are keys to being successful in this role. KEY RESPONSIBILTIES: Excellent knowledge of C++, C, and any scripting language Ability to adapt learn new toolsets and framework. Pre-silicon and post-silicon experience developing and debugging firmware, both on simulation/emulation/FPGA platforms and real hardware. Experience with DDR/JEDEC standard IP, DDR PHY, or Memory Controller firmware development. Strong understanding of computer organization/architecture. PREFERRED EXPERIENCE: Knowledge of System C, Verilog and Python. VCS simulation and debug experience. Strong understanding of",
+   "student_rule": "",
+   "company": "AMD (careers site)",
+   "title": "Firmware Engineer",
+   "via": "",
+   "location": "MARKHAM, Ontario, Canada",
+   "url": "https://careers.amd.com/careers-home/jobs/90462",
+   "ats": "jibe",
+   "posted": "2026-09-28",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ashby:1password:13200311-77c5-49ed-a3ce-8460d5c72d91",
+   "min_years": 3,
+   "years_text": "US.    What we're looking for:  • Bring 3+ years of combined experience in information tech",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "sql",
+    "nlp",
+    "bash",
+    "api",
+    "go",
+    "aws",
+    "ci/cd"
+   ],
+   "skills_has": [
+    "python",
+    "sql",
+    "nlp",
+    "bash",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "aws",
+    "ci/cd"
+   ],
+   "requirements": "Bonusly | 🌎 Remote-first work environment | *Some roles in our GTM team are currently being hired for in-person hybrid work in Toronto and Austin. These roles will specify on the posting. | You belong here. | 1Password is proud to be an equal opportunity employer. We are committed to fostering an inclusive, diverse and equitable workplace that is built on trust, support and respect. We welcome all individuals and do not discriminate on the basis of gender identity and expression, race, ethnicity, disability, sexual orientation, colour, religion, creed, gender, national origin, age, marital status, pregnancy, sex, citizenship, education, languages spoken or veteran status. Be yourself, find your people and share the things you love. | Accommodation is available upon request at any point during our recruitment process. If you require an accommodation, please speak to your talent acquisitio",
+   "student_rule": "",
+   "company": "1Password",
+   "title": "Security Engineer, Corporate Security",
+   "via": "",
+   "location": "Remote (United States | Canada) (remote)",
+   "url": "https://jobs.ashbyhq.com/1password/13200311-77c5-49ed-a3ce-8460d5c72d91",
+   "ats": "ashby",
+   "posted": "2026-11-12",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-13"
+  },
   {
    "id": "getro:jobs.spacecapital.com:99549983",
    "min_years": null,
@@ -83,297 +626,6 @@
    "remote": false,
    "pathway_hint": "B",
    "tier": "2",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446715794232",
-   "min_years": 2,
-   "years_text": "rical Engineering, or related field.    10+ years of compiler experience, or 10+ years of co",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "rest",
-    "compilers"
-   ],
-   "skills_has": [
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "compilers"
-   ],
-   "requirements": "Minimum Qualifications: | •    Bachelor's degree in Computer Engineering, Computer Science, Electrical Engineering, or related field and 2+ years of Software Engineering, Hardware Engineering, Systems Engineering, or related work experience. | OR | Master's degree in Computer Engineering, Computer Science, Electrical Engineering, or related field and 1+ year of Software Engineering, Hardware Engineering, Systems Engineering, or related work experience. | OR | PhD in Computer Engineering, Computer Science, Electrical Engineering, or related field. | Preferred Qualifications: | Master's degree or PhD in Computer Engineering, Computer Science, Electrical Engineering, or related field. | 10+ years of compiler experience, or 10+ years of compiler + GPU related experience (e.g., driver or game experience). | 2+ years of work experience in a role requiring interaction with senior leadership (e.",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "GPU Compiler Engineer - Multiple Levels",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446715794232",
-   "ats": "pcsx",
-   "posted": "2026-09-17",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446721125876",
-   "min_years": 4,
-   "years_text": "n and verbal) and collaboration skills  4+ years of experience         Minimum Qua",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "git",
-    "rest",
-    "c",
-    "fpga",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "git",
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c",
-    "fpga",
-    "embedded"
-   ],
-   "requirements": "requirements | Required: | Min 2+ years embedded firmware development with C, firmware, silicon validation, or related work experience. | Preferred Qualifications: | Strong programming and/or scripting skills (C, assembly, python, etc.) | Strong understanding of embedded system design ( CPU, Bus architectures, Caches, interconnects, clocks ) | Experience with Real-Time embedded operating systems | Proficiency with lab equipment such as protocol analyzers, oscilloscopes, and probes. | Experience working in an embedded environment | Experience with low level CPU or DSP processor control/programming | Familiarity with machine learning algorithms and techniques. | Experience with tools such as JTAG and ARM compliant debuggers | Experience with ARM AHB, AXI, APB  or similar on-chip interconnects | Experience with board/platform-level debug | Experience debugging low level software and hardwar",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "Firmware Engineer, Edge AI Silicon Validation (Embedded C)",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446721125876",
-   "ats": "pcsx",
-   "posted": "2026-10-07",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446720962555",
-   "min_years": 3,
-   "years_text": "Computer Science, or related field and 6+ years of Software Engineering or related work experience.   OR Master's degr",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "git",
-    "linux",
-    "bash",
-    "rest",
-    "api",
-    "c++",
-    "c",
-    "rtos",
-    "fpga",
-    "verilog",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "java",
-    "git",
-    "linux",
-    "bash",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "rtos",
-    "fpga",
-    "verilog",
-    "embedded"
-   ],
-   "requirements": "requirements and interfaces. Replacement Position | Minimum Qualifications: | • Bachelor's degree in Engineering, Information Systems, Computer Science, or related field and 6+ years of Software Engineering or related work experience. | OR | Master's degree in Engineering, Information Systems, Computer Science, or related field and 5+ years of Software Engineering or related work experience. | OR | PhD in Engineering, Information Systems, Computer Science, or related field and 4+ years of Software Engineering or related work experience. | • 3+ years of work experience with Programming Language such as C, C++, Java, Python, etc. | We’re building the world’s most advanced SerDes PHY for use in AI data centers and beyond.   The   Embedded Software /   Firmware Team at   Qualcomm   develops critical embedded software that powers high-performance multi-standard Serializer/ Deserializer   (Ser",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "Firmware Engineer – SerDes PHY (all levels)",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446720962555",
-   "ats": "pcsx",
-   "posted": "2026-09-17",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446720740550",
-   "min_years": 3,
-   "years_text": "vements     Preferred Qualifications:   3+ years of relevant work experience   Experience/expert",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "git",
-    "linux",
-    "rest",
-    "c++",
-    "docker",
-    "pytorch",
-    "tensorflow",
-    "embedded",
-    "android",
-    "compilers"
-   ],
-   "skills_has": [
-    "git",
-    "linux",
-    "rest"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "docker",
-    "pytorch",
-    "tensorflow",
-    "embedded",
-    "android",
-    "compilers"
-   ],
-   "requirements": "Preferred Qualifications: | 3+ years of relevant work experience | Experience/expertise with C++, ideally modern C++ 17 language features | Background in mathematical algorithms using fast math libraries and vector instructions sets | Practical experience with developing middleware or firmware software | Experience with multitasking and multithreading driver development | Experience with Hexagon DSP SDK or cross compiler toolchains for embedded systems | Familiarity with TensorFlow, PyTorch or ONNX | Experience with tools such as git, Linux, JIRA and Docker | Knowledge of design patterns | Minimum Qualifications: | • Bachelor's degree in Computer Science, Engineering, Information Systems, or related field. | Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, re",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "Engineer, AI Software/Machine Learning (C++)",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446720740550",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446720885431",
-   "min_years": 2,
-   "years_text": "puter Engineering, or related field and 4+ years of Hardware Applications Engineering or Hardware Design experience or related work exp",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "rest",
-    "embedded"
-   ],
-   "skills_has": [
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "embedded"
-   ],
-   "requirements": "Minimum Qualifications: | • Bachelor's degree in Electrical/Electronics Engineering, Computer Engineering, or related field and 4+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | OR | Master's degree in Electrical/Electronics Engineering, Computer Engineering, or related field and 3+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | OR | PhD in Electrical/Electronics Engineering, Computer Engineering, or related field and 2+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | Preferred Qualifications: | Experience in Automotive platform design, bring-up, or customer-facing technical roles | Deep understanding of high-speed board design principles including: DDR5, PCIe Gen6/Gen7, CXL, SerDes, and Ethernet | o PDN design, SI/PI simul",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "Automotive Infotainment and ADAS Hardware Applications Engineer",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446720885431",
-   "ats": "pcsx",
-   "posted": "2026-09-17",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446720207388",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "rest",
-    "embedded",
-    "compilers"
-   ],
-   "skills_has": [
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "embedded",
-    "compilers"
-   ],
-   "requirements": "Requirements | Proven research excellence on inference efficiency and ML system, demonstrated by publications, community contributions, or equivalent evidence of impact. | Deep expertise in neural network architectures, model compression (e.g., quantization, pruning, knowledge distillation) and efficient inference algorithm | Strong background on compiler stack and ML system optimization for AI accelerators (e.g., graph transformation, graph tiling and scheduling, tensor layout/memory optimization) | Strong understanding of Machine Learning fundamentals, strong programming skills with ML frameworks | Hands-on experience with model development pipelines for AI accelerator, including training, fine-tuning, evaluation, and performance optimization. | Preferred Qualifications | PhD in Computer Science, Electrical Engineering, or related fields or MS with AI research, or related work experien",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "AI/Machine Learning Engineer (Embedded Systems, Inference Efficiency)",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446720207388",
-   "ats": "pcsx",
-   "posted": "2026-09-17",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "pcsx:careers.qualcomm.com:446722003218",
-   "min_years": 1,
-   "years_text": "s:   We’re looking for an engineer with 1–3 years of experience, though new grads a",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "react",
-    "linux",
-    "rest",
-    "api",
-    "c++",
-    "c",
-    "rtos",
-    "embedded",
-    "android"
-   ],
-   "skills_has": [
-    "python",
-    "react",
-    "linux",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "rtos",
-    "embedded",
-    "android"
-   ],
-   "requirements": "requirements, propose and design solutions, and resolve technical issues, partnering with other teams as needed. The candidate may also help support internal and external customers. | The candidate should be self-motivated, enjoy solving complex problems, and be able to work both independently and as part of a team. The candidate should be flexible and able to adapt to changing priorities. The candidate should be able to read abstract problem definitions, define problem statements, and design solutions that meet the goals of our end users and technology. The candidate is expected to follow and demonstrate strong software development practices and processes. New Position | Key Responsibilities | Design and develop processing frameworks running on Android, Linux, and other high-level operating systems as well as the AI Processor to enable AI-based multimedia use cases and hardware acceler",
-   "student_rule": "",
-   "company": "Qualcomm (careers site)",
-   "title": "AI and DSP Applications Software Engineer",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://careers.qualcomm.com/careers/job/446722003218",
-   "ats": "pcsx",
-   "posted": "2026-11-06",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "1",
    "first_seen": "2026-11-12"
   },
   {
@@ -1068,12 +1320,12 @@
    "requirements": "you bring | 2+ years of full-time professional experience with modern Web standards, technologies, and frameworks | Skilled at writing and efficiently debugging JavaScript in Node and browser environments | Obsessed with building a best-in-class developer experience | Have a track record of successfully leading projects and delivering large scope technical projects at scale | Constantly setting a high standard for code quality, advocating for best practices in testing, and improving code review processes | What we offer | Challenging, high-impact work to grow your career | Performance driven compensation with multipliers for outsized impact, bonus programs, and equity ownership | Top tier benefits to fuel your work, including supplemental health insurance, ancillary insurance, and mental health support programs | Access to the best AI tools on the market and con",
    "student_rule": "",
    "company": "Robinhood",
-   "title": "Web Engineer, International Expansion",
+   "title": "Web Engineer, International",
    "via": "",
    "location": "Toronto, Canada",
    "url": "https://boards.greenhouse.io/robinhood/jobs/8177444?t=gh_src=&gh_jid=8177444",
    "ats": "greenhouse",
-   "posted": "2026-11-10",
+   "posted": "2026-11-12",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -1257,7 +1509,7 @@
    "company": "Cohere",
    "title": "Adoption Specialist - Infrastructure & Agentic",
    "via": "",
-   "location": "Toronto (remote); Toronto, Ontario, Canada (remote)",
+   "location": "Toronto (remote); Europe (remote); Canada (remote); London (remote); United States (remote); New York (remote); United Kingdom (remote); Atlanta (remote); Toronto, Ontario, Canada (remote)",
    "url": "https://jobs.ashbyhq.com/cohere/dc881634-ca66-46e5-90ff-43ad83080de2",
    "ats": "ashby",
    "posted": "2026-11-09",
@@ -2729,42 +2981,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ashby:baseten:db6477fc-111a-4340-bf00-525fe023e6f3",
-   "min_years": 2,
-   "years_text": "ing, Mathematics, or related field.   - 2+ years of professional work experience in a fast-paced, hi",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "api",
-    "docker",
-    "spark"
-   ],
-   "skills_has": [
-    "python",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "docker",
-    "spark"
-   ],
-   "requirements": "REQUIREMENTS | - Bachelor's, Master's, or Ph.D. degree in Computer Science, Engineering, Mathematics, or related field. | - 2+ years of professional work experience in a fast-paced, high-growth environment. | - Demonstrated experience with one or more general-purpose programming languages in a production-level environment, with a strong preference for Python. | - Familiarity with AI/ML pipelines and the lifecycle of ML model development and deployment. | - Strong communication skills, particularly on complex technical topics. | - Experience in building or optimizing AI/ML projects is highly valued. | BENEFITS | - Competitive compensation, including meaningful equity | - (U.S. only) 100% coverage of medical, dental, and vision insurance for employee and dependents | - Flexible PTO policy including company wide Winter Break (our offices are closed from Christmas Eve to New Year's Day!)",
-   "student_rule": "",
-   "company": "Baseten",
-   "title": "AI Inference Engineer",
-   "via": "",
-   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); San Francisco, California, United States (remote)",
-   "url": "https://jobs.ashbyhq.com/baseten/db6477fc-111a-4340-bf00-525fe023e6f3",
-   "ats": "ashby",
-   "posted": "2026-08-03",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
    "id": "ashby:aerovect:6058be12-918f-4016-87d8-cdbeb0ecdfbf",
    "min_years": 2,
    "years_text": ", Robotics, or a related discipline   - 2+ years of MLOps or data infrastructure experience, ideally in robotic",
@@ -2808,7 +3024,7 @@
   {
    "id": "lever:achievers:0e61d23f-5b1a-42b8-a385-fc3da0e5eeb5",
    "min_years": 3,
-   "years_text": "you up for success:         Experience: 3+ years of relevant software engineering experience building and delive",
+   "years_text": "you up for success:        Experience: 3+ years of relevant software engineering experience building and delive",
    "grad_text": "",
    "desc_read": true,
    "stack": [
@@ -3437,7 +3653,7 @@
    "skills_missing": [
     "scala"
    ],
-   "requirements": "Who You Are | You have experience in software engineering, particularly within security engineering, developer experience, or internal infrastructure. | You can confidently read, understand, and write code in one or more languages such as Java, Python, Scala, C++, or TypeScript. | You have experience designing and building scalable systems, with an understanding of software architecture and reliable engineering practices. | You have worked with agentic AI systems or AI-assisted development workflows and understand how to apply them to real-world engineering challenges. | You understand common security risks, attack vectors, and vulnerabilities, including those affecting AI and machine learning systems, and approaches to mitigating them. | You have experience integrating security tools or automated workflows into production engineering environments. | You are f",
+   "requirements": "Who You Are | You have experience in software engineering, particularly within security engineering, developer experience, or internal infrastructure. | You can confidently read, understand, and write code in one or more languages such as Java, Python, Scala, C++, or TypeScript. | You have experience designing and building scalable systems, with an understanding of software architecture and reliable engineering practices. | You have worked with agentic AI systems or AI-assisted development workflows and understand how to apply them to real-world engineering challenges. | You understand common security risks, attack vectors, and vulnerabilities, including those affecting AI and machine learning systems, and approaches to mitigating them. | You have experience integrating security tools or automated workflows into production engineering environments. | You are fa",
    "student_rule": "",
    "company": "Spotify",
    "title": "Security Engineer - Product Security",
@@ -3567,35 +3783,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "getro:jobs.spacecapital.com:98617401",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Salesforce.Com Apex Code API Management DevOps Release Management",
-   "student_rule": "",
-   "company": "Reonomy",
-   "title": "Salesforce Platform Developer",
-   "via": "Space Capital portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://altusgroup.wd3.myworkdayjobs.com/AltusGroup/job/Toronto-Ontario/Salesforce-Platform-Developer_R0014087",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
    "tier": "2",
    "first_seen": "2026-11-05"
   },
@@ -5672,12 +5859,12 @@
    "requirements": "requirements into elegant, user-centric technical solutions | What you bring | Experience: 2+ years of professional software engineering experience designing, building, and operating production systems across the full stack | Frontend Depth: Proficiency with modern frontend technologies and frameworks (e.g., React, TypeScript) with an emphasis on performance, accessibility, and state management | Backend & Distributed Systems: Strong experience building scalable distributed services in languages such as Go or Python, utilizing relational and NoSQL databases (e.g., PostgreSQL, MySQL, Redis), and working with event-driven architectures (e.g., Kafka) | Product Ownership: Proven track record of taking complex features from ambiguity through technical design, phased rollout, production validation, and post-launch maintenance | What we offer | Challenging, high-impact work to grow",
    "student_rule": "",
    "company": "Robinhood",
-   "title": "Software Engineer, International Expansion",
+   "title": "Software Engineer, Crypto Expansion",
    "via": "",
    "location": "Toronto, Canada",
    "url": "https://boards.greenhouse.io/robinhood/jobs/8207701?t=gh_src=&gh_jid=8207701",
    "ats": "greenhouse",
-   "posted": "2026-11-03",
+   "posted": "2026-11-12",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -6490,7 +6677,7 @@
    "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
    "url": "https://job-boards.greenhouse.io/tenstorrent/jobs/5257063007",
    "ats": "greenhouse",
-   "posted": "2026-10-07",
+   "posted": "2026-11-12",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "B",
@@ -6956,44 +7143,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:8260985",
-   "min_years": 2,
-   "years_text": "equirement.   Minimum requirements      2-12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the Organization | Payments and Risk Sub-orgs within Payments and Risk: Link and OCS, Payments Acceptance, Risk | The Payments organization focuses on developing products and platforms that enable users to accept payments from customers efficiently. This includes building APIs for processing payments, enabling regional, non-card payment options, and extending Stripe's capabilities to make it easy for businesses to accept in-person payments. Optimized Checkout and Link teams work to create best-in-class checkout experiences that enhance customer satisfaction and drive merchant conversion rates. The Risk Engineering team develops products that minimize financial and regulatory risks while ensuring a seamless user experience, thereby safeguar",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Backend Engineer, Payments & Risk",
-   "via": "",
-   "location": "Toronto, Canada",
-   "url": "https://stripe.com/jobs/search?gh_jid=8260985",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7557899",
    "min_years": 3,
    "years_text": "ering across a wide range of products   3+ years of experience as a Golang softwar",
@@ -7025,44 +7174,6 @@
    "via": "",
    "location": "Toronto, NY, SEA, SF",
    "url": "https://stripe.com/jobs/search?gh_jid=7557899",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:stripe:7476555",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "via": "",
-   "location": "SEA, SF, NY, Toronto",
-   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
    "ats": "greenhouse",
    "posted": "2026-10-29",
    "level_hint": "unlevelled",
@@ -7105,6 +7216,44 @@
    "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": true,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7476555",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "student_rule": "",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "via": "",
+   "location": "SEA, SF, NY, Toronto",
+   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
+   "ats": "greenhouse",
+   "posted": "2026-10-29",
+   "level_hint": "unlevelled",
+   "remote": false,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"
@@ -7376,35 +7525,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:semtech:REQ3682",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Minimum Qualifications: | Bachelor of Engineering in Electrical Engineering, Engineering Physics, or a related discipline. | No prior work experience required. Co-op or internship experience in a lab or test environment is an asset. | Familiarity with RF and signal integrity fundamentals, including exposure to VNA measurements through coursework, co-op, or project work. | Exposure to test equipment such as Bit Error Rate Testers, oscilloscopes, and network analyzers is an asset. | Knowledge of Python, or the ability to learn it, to create equipment drivers for control and automation of lab equipment. | Strong written and oral communication skills. | Effective time management and ability to work in a fast-paced environment. | The intent of this job description is to describe the major duties and responsibilities performed by incumbents of this job. Incumbents may be required to perform jo",
-   "student_rule": "",
-   "company": "Semtech",
-   "title": "Applications Engineer",
-   "via": "",
-   "location": "CAN - Burlington, ON",
-   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Associate-Applications-Engineer_REQ3682",
-   "ats": "workday",
-   "posted": "Posted 8 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -8025,56 +8145,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:okta:8093199",
-   "min_years": 6,
-   "years_text": "ses.     What skills you'll bring:      6-8 years of experience in software or glob",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "react",
-    "git",
-    "rest",
-    "api",
-    "go",
-    "ruby",
-    "ci/cd",
-    "llm",
-    "distributed systems"
-   ],
-   "skills_has": [
-    "python",
-    "java",
-    "react",
-    "git",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "ruby",
-    "ci/cd",
-    "llm",
-    "distributed systems"
-   ],
-   "requirements": "qualifications, experience, and work location. In addition, Okta offers equity (where applicable), bonus, and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit: https://rewards.okta.com/us . | The annual base salary range for this position for candidates located in the San Francisco Bay area is between: | $148,000 — $203,500 USD | Below is the annual base salary range for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York and Washington. Your actual base salary will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable), bonus, and benefits, including heal",
-   "student_rule": "",
-   "company": "Okta",
-   "title": "Globalization Software Engineer",
-   "via": "",
-   "location": "Bellevue, Washington; Chicago, Illinois; San Francisco, California; Toronto, Ontario, Canada",
-   "url": "https://www.okta.com/company/careers/opportunity/8093199?gh_jid=8093199",
-   "ats": "greenhouse",
-   "posted": "2026-10-16",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "ashby:kindred:6070b239-54da-4e17-8f46-880a70629586",
    "min_years": null,
    "years_text": "",
@@ -8142,7 +8212,7 @@
    "location": "Toronto, Canada (ONT40); Ontario,Canada Offsite",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Toronto-Canada-ONT40/Cloud-Video-Specialist--Canada-_R68672",
    "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
+   "posted": "Posted Today",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
@@ -8193,7 +8263,7 @@
    "location": "Toronto",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8313374",
    "ats": "greenhouse",
-   "posted": "2026-11-10",
+   "posted": "2026-11-12",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -8255,7 +8325,7 @@
    "location": "Toronto",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8153137",
    "ats": "greenhouse",
-   "posted": "2026-11-10",
+   "posted": "2026-11-12",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -8512,44 +8582,6 @@
    "posted": "2026-09-16",
    "level_hint": "unlevelled",
    "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:lyft:8806552002",
-   "min_years": 3,
-   "years_text": "ering best practices     Experience     3+ years of engineering experience working in any of t",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "java",
-    "go",
-    "aws",
-    "gcp"
-   ],
-   "skills_has": [
-    "python",
-    "java"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "aws",
-    "gcp"
-   ],
-   "requirements": "bonus or benefits. Salary ranges are dependent on a variety of factors, including qualifications, experience and geographic location. Your recruiter can share more information about the salary range specific to your working location and other factors during the hiring process. | Lyft may use artificial intelligence to screen applicants, however, Lyft employees make the ultimate selection and hiring decisions. | This job fills an existing vacancy.",
-   "student_rule": "",
-   "company": "Lyft",
-   "title": "Software Engineer, Identity",
-   "via": "",
-   "location": "Toronto, Canada",
-   "url": "https://app.careerpuck.com/job-board/lyft/job/8806552002?gh_jid=8806552002",
-   "ats": "greenhouse",
-   "posted": "2026-11-10",
-   "level_hint": "unlevelled",
-   "remote": false,
    "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-01"
@@ -12579,54 +12611,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "ashby:1password:b9ff2259-517c-4ec2-b92f-646be8bf12b6",
-   "min_years": 2,
-   "years_text": "What we're looking for:   - You have 2+ years of experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "typescript",
-    "javascript",
-    "react",
-    "node.js",
-    "nlp",
-    "go",
-    "ruby",
-    "kubernetes",
-    "distributed systems"
-   ],
-   "skills_has": [
-    "python",
-    "typescript",
-    "javascript",
-    "react",
-    "node.js",
-    "nlp"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "ruby",
-    "kubernetes",
-    "distributed systems"
-   ],
-   "requirements": "You have 2+ years of experience in software development | - Experience with a modern backend language (e.g. Go, Node.js, Ruby, or Python) | - A drive for and proven experience in software development best practices and coding standards | - You enjoy solving moderately complex problems and have demonstrated an ability to propose effective solutions | - You enjoy communicating and collaborating, with experience working effectively across teams and explaining technical concepts to non-technical cross-functional partners | - You’re passionate about testing methodologies and debugging techniques that ensure high-quality code | - You’re comfortable working across multiple services and collaborating with other teams to deliver complete, impactful solutions | Bonus points for: | - Experience with DevOps practices while also contributing to application development | - Experience working with Kub",
-   "student_rule": "",
-   "company": "1Password",
-   "title": "Developer, Enterprise Tenants and Policies",
-   "via": "",
-   "location": "Remote (United States | Canada) (remote)",
-   "url": "https://jobs.ashbyhq.com/1password/b9ff2259-517c-4ec2-b92f-646be8bf12b6",
-   "ats": "ashby",
-   "posted": "2026-10-30",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
