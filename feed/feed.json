@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14T00:22:35Z",
- "count": 337,
+ "generated_at": "2026-11-14T01:47:59Z",
+ "count": 307,
  "jobs": [
   {
    "id": "greenhouse:tailscale:4754059005",
@@ -421,255 +421,44 @@
    "first_seen": "2026-11-14"
   },
   {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557054121",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "azure"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Swarm Data Platform Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557054121",
-   "ats": "pcsx",
-   "posted": "2026-11-10",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "api",
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker",
-    "kubernetes"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Cloud & AI Applications",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053335",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557026078",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements, infusing AI to automate business functions, while highlighting our business value and competitive differentiators and should result in securing the customer’s solution design endorsement. Once the solution design is secured, you will support the Solution Specialist in finalizing the customer proposal. | You will develop relationships with the decision makers and with our customers and position yourself as a trusted advisor in your domain. As a recognized product expert, you are responsible for sharing your technical, industry knowledge and best practices with your peers. | Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to cr",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Solution Engineer - Apps & Agents",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026078",
-   "ats": "pcsx",
-   "posted": "2026-10-20",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557008790",
-   "min_years": 4,
-   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "azure"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | •    Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | •    8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | •    6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | •    Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Develo",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Innovative Data Platform Solution Engineer",
-   "via": "",
-   "location": "Canada, Ontario, Toronto; Canada, Alberta, Calgary; Canada, British Columbia, Vancouver; Canada, Ontario, Ottawa",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-   "ats": "pcsx",
-   "posted": "2026-10-07",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557047394",
-   "min_years": 3,
-   "years_text": "m qualifications  Bachelor's Degree AND 4+ years experience in core sales, part",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "html",
-    "c"
-   ],
-   "skills_has": [
-    "html"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c"
-   ],
-   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree AND 4+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Additional or preferred qualifications | Doctorate AND 3+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Master's Degree AND 6+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Bachelor's Degree AND 8+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Partner Solution Sales IC4 - The typical base pay range for this role across Canada is CAD $103,500 - CAD $170,700 per year. | Find additional pay information here: | https://careers.microsoft.com/v2/global/",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud and AI Partner Solution Specialist",
-   "via": "",
-   "location": "Canada, Ontario, Greater Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557047394",
-   "ats": "pcsx",
-   "posted": "2026-10-30",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Solution Engineer - Azure Platform",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "workday:altera:R03108",
+   "id": "ashby:baseten:bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0",
    "min_years": null,
    "years_text": "",
    "grad_text": "",
    "desc_read": true,
    "stack": [
-    "c++",
-    "c",
-    "fpga",
-    "verilog",
-    "compilers"
+    "linux",
+    "api",
+    "go",
+    "kubernetes",
+    "terraform",
+    "spark",
+    "distributed systems"
    ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
+   "skills_has": [
+    "linux",
+    "api"
    ],
+   "skills_learning": [],
    "skills_missing": [
-    "c",
-    "fpga",
-    "verilog",
-    "compilers"
+    "go",
+    "kubernetes",
+    "terraform",
+    "spark",
+    "distributed systems"
    ],
-   "requirements": "required for this role. Applicants must be eligible for any required Canada export authorizations. | Qualifications: | The candidate must be pursuing a Bachelor's Degree in ECE, Computer Science or other related area. | Job Type: | Student / Intern (Fixed Term) | Shift: | Shift 1 (Canada) | Primary Location: | Toronto, Ontario, Canada | Additional Locations: | Posting Statement: | All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance.",
+   "requirements": "REQUIREMENTS | - Experience building and owning production infrastructure software or distributed systems. | - Strong programming skills in Go or another systems or backend language, with the ability to contribute to a Go codebase. | - Deep experience with Kubernetes infrastructure, including developing controllers or operators and understanding reconciliation, custom resources, and failure handling. | - Practical experience with infrastructure as code and GitOps tools such as Terraform and Flux or Argo CD. | - Strong Linux, networking, and debugging fundamentals, with sound judgment about reliability and the impact of production changes. | - Ability to turn ambiguous operational problems into maintainable software and communicate design tradeoffs clearly. | NICE TO HAVE | - Experience managing Kubernetes fleets across multiple clouds or GPU infrastructure providers. | - Contributions to",
    "student_rule": "",
-   "company": "Altera",
-   "title": "Quartus Compiler Software - Intern",
+   "company": "Baseten",
+   "title": "Software Engineer, Cloud Platform",
    "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108",
-   "ats": "workday",
-   "posted": "Posted Today",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
+   "location": "San Francisco (remote); Remote (remote); Toronto (remote); New York (remote); Montreal (remote); Seattle (remote); San Francisco, California, United States (remote)",
+   "url": "https://jobs.ashbyhq.com/baseten/bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0",
+   "ats": "ashby",
+   "posted": "2026-11-14",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "D",
    "tier": "2",
    "first_seen": "2026-11-14"
   },
@@ -1468,48 +1257,6 @@
    "first_seen": "2026-11-11"
   },
   {
-   "id": "workday:hitachi:R0145523",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "Business Intern Events: Intern Showcase & Graduation ceremony",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "git",
-    "aws",
-    "docker",
-    "kubernetes",
-    "terraform",
-    "ci/cd"
-   ],
-   "skills_has": [
-    "python",
-    "git"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "terraform",
-    "ci/cd"
-   ],
-   "requirements": "basic troubleshooting. | •    Automation Pipelines: Learn to design, implement, and manage automation pipelines using Jenkins. | •    Infrastructure as Code (IaC): Develop and maintain infrastructure as code using Terraform and Ansible | •    Team Collaboration: Collaborate with development and operations teams to ensure high availability, scalability, and security of applications. | Key Requirements: | The ideal candidate will be: | •    Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, Information Technology, or a related field, preferably in the penultimate or final year of study. | •    Strong presentation and communication skills, fluent in written and oral English. | •    Basic knowledge of AWS and OpenStack services. | •    Familiarity with Jenkins for CI/CD pipeline management. | •    Strong foundational knowledge of Terraform, Ansible,",
-   "student_rule": "enrolled",
-   "company": "Hitachi (Rail)",
-   "title": "DevOps Analyst Intern",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523",
-   "ats": "workday",
-   "posted": "Posted 3 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-11"
-  },
-  {
    "id": "greenhouse:dropbox:8328537",
    "min_years": 5,
    "years_text": "licant is applying.    Requirements     5+ years of security engineering experience, including substant",
@@ -1799,44 +1546,6 @@
    "first_seen": "2026-11-10"
   },
   {
-   "id": "workday:intel:JR0288430",
-   "min_years": 1,
-   "years_text": "ring, or a related technical field with 1+ year of experience in compiler develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | Minimum Qualifications: | Candidates must possess one of the following: | Master's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field with 1+ year of experience in compiler development, compiler performance analysis, or compiler optimization . | OR | Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, or a related technical field with 2+ years of experience in compiler development, compiler performance analysis, or compiler optimization . | Completed academic coursework in data structures and/or algorithms. | Preferred Qualifications: | Strong written and oral communication skills, with the ability to clearly communicate technical details and concepts. | Precise attention to detail and genuine motivation to learn and improve product performance. | Familiarity with Intel x86 instruction ",
-   "student_rule": "",
-   "company": "Intel",
-   "title": "Compiler Performance Engineer",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Performance-Engineer_JR0288430",
-   "ats": "workday",
-   "posted": "Posted 4 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-10"
-  },
-  {
    "id": "getro:jobs.spacecapital.com:99393877",
    "min_years": null,
    "years_text": "",
@@ -1897,47 +1606,6 @@
    "remote": true,
    "pathway_hint": "D",
    "tier": "1",
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "workday:altera:R03414",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c",
-    "fpga",
-    "verilog",
-    "ios"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "fpga",
-    "verilog",
-    "ios"
-   ],
-   "requirements": "required for this role. | Qualifications: | Minimum Qualifications: | The candidate must be pursuing a Bachelor’s Degree in Computer Engineering, Electrical Engineering, Engineering Science, Computer Science, Mathematics, or similar. | 3+ months of experience or coursework in one, or more, of the following: C/C++, Python, digital logic, FPGAs, Verilog, or similar. | Job Type: | Student / Intern (Fixed Term) | Shift: | Shift 1 (Canada) | Primary Location: | Toronto, Ontario, Canada | Additional Locations: | Posting Statement: | All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, o",
-   "student_rule": "",
-   "company": "Altera",
-   "title": "Software Engineer -  Intern",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414",
-   "ats": "workday",
-   "posted": "Posted 4 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
    "first_seen": "2026-11-10"
   },
   {
@@ -2272,44 +1940,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "workday:rakuten:1039494",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "react",
-    "c",
-    "swift",
-    "spark",
-    "ios"
-   ],
-   "skills_has": [
-    "react"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c",
-    "swift",
-    "spark",
-    "ios"
-   ],
-   "requirements": "requirements, break down work, and ship iteratively | Must Have Qualifications | 5+ years building production iOS apps with Swift, including meaningful ownership of shipped features. | Strong proficiency with SwiftUI, with experience building complex UI | Solid grasp of Swift concurrency (async/await, structured concurrency, cancellation, thread-safety). | Excellent problem-solving skills and attention to detail | Strong communication and collaboration skills | Nice to Have Qualifications | Experience with a unidirectional architecture such as The Composable Architecture (TCA) or similar patterns. | Strong functional programming fundamentals | Previous UIKit and Objective-C experience, although our app is fully written in Swift/SwiftUI. | Experience with modularization (Swift Package Manager) and CI improvements. | The Perks: | Flexible hours and hybrid remote working environment | Weekl",
-   "student_rule": "",
-   "company": "Rakuten Kobo",
-   "title": "iOS Developer (12 month contract)",
-   "via": "",
-   "location": "Toronto, Canada",
-   "url": "https://rakuten.wd1.myworkdayjobs.com/Kobo/job/Toronto-Canada/iOS-Developer--12-month-contract-_1039494",
-   "ats": "workday",
-   "posted": "Posted 7 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-06"
   },
@@ -3475,51 +3105,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "workday:trimble:R57963",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "With a program specifically designed to train prospective candidates for full-time roles upon graduation, you’ll be deeply embedded in our engineering team, solving complex problems in debugging, data analysis, and algor",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "javascript",
-    "html",
-    "css",
-    "git",
-    "c++",
-    "c",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "javascript",
-    "html",
-    "css",
-    "git"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "embedded"
-   ],
-   "requirements": "Bonus Points For | Experience or knowledge of HTML, CSS, and JavaScript. | A demonstrated interest in the geospatial industry and positioning products. | Logistics | Location: Richmond Hill, ON – In-Office | Travel Requirement: 0% | Start Date: May 2027 | Why You'll Love Working With Us At Trimble, we're not just a company that \"does good\"—we are a team dedicated to making a tangible, positive Real-World Impact. | You'll work on projects that truly matter: Our purpose-driven culture means you'll be helping to build and deliver solutions that make work faster, safer, and more sustainable for millions of people worldwide. | Collaborate with like-minded people: Our strong internal culture is a \"hidden gem.\" You will work with a collaborative, supportive team that shares your purpose and fosters a genuine sense of belonging. | Be an owner: Trimble thrives on individuals who take initiative a",
-   "student_rule": "enrolled",
-   "company": "Trimble",
-   "title": "Software Engineering Intern",
-   "via": "",
-   "location": "Canada - Richmond Hill, Ontario (Applanix)",
-   "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Software-Engineering-Intern_R57963",
-   "ats": "workday",
-   "posted": "Posted 21 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
    "id": "getro:jobs.spacecapital.com:98784839",
    "min_years": null,
    "years_text": "",
@@ -4011,56 +3596,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:semtech:REQ3615",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements. | Organize and package customer samples for shipment. | Lab Support | Collaborate with multiple internal departments to plan and arrange the installation of lab benches, ensuring the necessary cables and equipment are in place. | Coordinate with external vendors for the procurement of equipment and lab peripherals. | Arrange for equipment calibration. | Minimum Qualifications: | Demonstrated self-motivation and ability to work independently with minimal supervision. | Proficient in analogue and digital circuit theory. | Experience in troubleshooting PCBs and systems is preferred. | Skilled in soldering techniques. | Strong written and oral communication skills. | Excellent organizational abilities. | Familiarity with CAD tools. | Highly adaptable and capable of thriving in a fast-paced environment. | The intent of this job description is to describe the major duties and res",
-   "student_rule": "",
-   "company": "Semtech",
-   "title": "Applications Engineering Intern",
-   "via": "",
-   "location": "CAN - Burlington, ON",
-   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3615",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:semtech:REQ3616",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements. | Organize and package customer samples for shipment. | Lab Support | Collaborate with multiple internal departments to plan and arrange the installation of lab benches, ensuring the necessary cables and equipment are in place. | Coordinate with external vendors for the procurement of equipment and lab peripherals. | Arrange for equipment calibration. | Minimum Qualifications: | Demonstrated self-motivation and ability to work independently with minimal supervision. | Proficient in analogue and digital circuit theory. | Experience in troubleshooting PCBs and systems is preferred. | Skilled in soldering techniques. | Strong written and oral communication skills. | Excellent organizational abilities. | Familiarity with CAD tools. | Highly adaptable and capable of thriving in a fast-paced environment. | The intent of this job description is to describe the major duties and res",
-   "student_rule": "",
-   "company": "Semtech",
-   "title": "Applications Engineering Intern",
-   "via": "",
-   "location": "CAN - Burlington, ON",
-   "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-05"
   },
@@ -4824,128 +4359,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:intel:JR0287934",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "Currently pursuing a Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, Informatics, or a related techn",
-   "desc_read": true,
-   "stack": [
-    "hugging face",
-    "git",
-    "linux",
-    "c++",
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [
-    "hugging face",
-    "git",
-    "linux"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | This position is not eligible for intel immigration sponsorship. | Minimum Qualifications | Currently pursuing a Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, Informatics, or a related technical discipline | 3+ months of coursework or project experience in data structures, algorithms, computer architecture, operating systems, programming languages, or compiler construction | Experience programming in C++ through coursework, research, personal projects, or prior internships | Experience using software development and debugging tools in a Linux or similar development environment | Preferred Qualifications | Compiler-related coursework or project experience, including parsing, intermediate representations, optimization, code generation, or runtimes | Hands-on compiler development experience with LLVM, MLIR, Trito",
-   "student_rule": "enrolled",
-   "company": "Intel",
-   "title": "Compiler Engineering Intern",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Intern_JR0287934",
-   "ats": "workday",
-   "posted": "Posted 29 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:intel:JR0287933",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "This opportunity is designed for a graduate student who can apply deeper technical expertise to an ambiguous engineering or research problem, evaluate alternatives, and deliver a well",
-   "desc_read": true,
-   "stack": [
-    "hugging face",
-    "c++",
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [
-    "hugging face"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "pytorch",
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | Minimum Qualifications | • Currently pursuing a Master's or PhD degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, or a related technical discipline. | • Graduate-level coursework, research, or project experience in compilers, programming languages, computer architecture, parallel computing, systems software, or a closely related area. | • Experience programming in C or C++ and working with complex software systems. | • Experience designing experiments, analyzing technical results, and communicating conclusions. | Preferred Qualifications | • Familiarity with LLVM, MLIR, Clang, Flang, SYCL/DPC++, Triton, OpenMP, CUDA, or another compiler or parallel-programming ecosystem. | • Hands-on experience with LLVM or related compiler infrastructure, including front-end development, intermediate representations, optimization passes, cod",
-   "student_rule": "enrolled",
-   "company": "Intel",
-   "title": "Compiler Engineering Graduate Intern",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933",
-   "ats": "workday",
-   "posted": "Posted 22 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:intel:JR0288443",
-   "min_years": 1,
-   "years_text": "closely related technical discipline.  1+ year of combined relevant experience in one or more of t",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "c",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | Minimum Qualifications | Bachelor's degree in Computer Science, Applied Mathematics, Electronic Engineering, Informatics, or a closely related technical discipline. | 1+ year of combined relevant experience in one or more of the following areas: C/C++, SYCL, CUDA, DSLs programming, object-oriented design principles, and complex data structures. | Compiler technologies and LLVM compiler infrastructure. | Hands-on knowledge of compiler middle-end or backend technologies. | Preferred Qualifications | Experience developing and maintaining production-grade compilers. | Familiarity with Clang, LLVM, or MLIR compiler frameworks. | Experience with vectorization and parallel programming models like TileLang, cuTile, OpenMP, SYCL, CUDA, or GPU programming. | Strong understanding of x86 instruction set architecture and Advanced Vector Extensions (AVX). | Knowledge of performance a",
-   "student_rule": "",
-   "company": "Intel",
-   "title": "Compiler Engineer for AI Tile-based DSL",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineer-for-AI-Tile-based-DSL_JR0288443",
-   "ats": "workday",
-   "posted": "Posted 9 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-05"
   },
@@ -5894,53 +5307,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "workday:altera:R03384",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "Currently pursuing a Bachelor’s degree in Computer Science, Electrical Engineering, Computer Engineering, or a related field, with:",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "git",
-    "linux",
-    "c++",
-    "c",
-    "fpga",
-    "verilog",
-    "embedded",
-    "compilers"
-   ],
-   "skills_has": [
-    "python",
-    "git",
-    "linux"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "fpga",
-    "verilog",
-    "embedded",
-    "compilers"
-   ],
-   "requirements": "required for this role. Applicants must be eligible for any required Canada export authorizations. | Qualifications: | Minimum Qualifications | Currently pursuing a Bachelor’s degree in Computer Science, Electrical Engineering, Computer Engineering, or a related field, with: | Academic or project experience with C/C++ programming. | Familiarity with software development, debugging, and testing through coursework, projects, or internships. | Exposure to digital logic design fundamentals and FPGA or ASIC concepts through coursework or projects. | Good analytical, communication, and teamwork skills. | Preferred Qualifications | Interest in learning about FPGA application tools and hardware-acceleration workflows. | Experience with Python or scripting for automation, testing, or data analysis. | Familiarity with version control systems such as Git. | Exposure to one or more of FPGA AI/ML",
-   "student_rule": "enrolled",
-   "company": "Altera",
-   "title": "Software Engineer - Factory Apps - Intern",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384",
-   "ats": "workday",
-   "posted": "Posted 15 Days Ago",
-   "level_hint": "intern",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
    "id": "greenhouse:tailscale:4750580005",
    "min_years": null,
    "years_text": "",
@@ -6261,42 +5627,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "workday:intel:JR0288425",
-   "min_years": 1,
-   "years_text": "tics, or a related technical field plus 4+ years of experience.  OR  _ Master’s de",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "c",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | You must possess the below minimum qualifications to be initially considered for this position. Additional preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. | Qualifications | - Bachelor's degree in Computer Science, Applied Mathematics, Informatics, or a related technical field plus 4+ years of experience. | OR | _ Master’s degree in in Computer Science, Applied Mathematics, Informatics, or a related technical field plus 3+ years of experience. | OR | PhD degree in in Computer Science, Applied Mathematics, Informatics, or a related technical field plus 1+ years of experience. | The experience listed above should be a combination of the following: | - Experience in C/C++, SYCL, CUDA, DSLs, object-oriented programming, and development of production-quality compilers or similar software too",
-   "student_rule": "",
-   "company": "Intel",
-   "title": "Compiler Engineer for Tile-based AI DSLs",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineer-for-Tile-based-AI-DSLs_JR0288425",
-   "ats": "workday",
-   "posted": "Posted 11 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-02"
   },
@@ -7410,44 +6740,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7476555",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "via": "",
-   "location": "SEA, SF, NY, Toronto",
-   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7292520",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -7481,6 +6773,44 @@
    "posted": "2026-11-03",
    "level_hint": "unlevelled",
    "remote": true,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7476555",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "student_rule": "",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "via": "",
+   "location": "SEA, SF, NY, Toronto",
+   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
+   "ats": "greenhouse",
+   "posted": "2026-10-29",
+   "level_hint": "unlevelled",
+   "remote": false,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"
@@ -7854,106 +7184,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:rockwellautomation:R26-3070",
-   "min_years": 8,
-   "years_text": "ering.  Typically requires a minimum of 8+ years of relevant experience.  Be able to read a",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "c"
-   ],
-   "requirements": "required | The Essentials - you will have: | Bachelor's degree or equivalent years of relevant work experience | The Preferred- you might also have: | P.Eng or C.E.T. certification or ability to obtain it. | University Degree or Technologist Diploma in Electrical Engineering. | Typically requires a minimum of 8+ years of relevant experience. | Be able to read and interpret Electrical schematics and technical specifications. | Experience with Programmable Controllers, HMI's, and Industrial Networks. | Solid understanding of industry accepted MV motor control products (drives, SMC's, starters, circuit breakers, protection relays) | ACAD, CREO and SAP Experience | Understanding of AC/DC drive systems with A-B PowerFlex Products | Knowledge of RA industrial networks (Ethernet/IP, DeviceNet, ControlNet, DH+, AB Remote I/O) | Knowledge of 3rd party industrial protocols (Modbus RTU/TCP, Profibu",
-   "student_rule": "",
-   "company": "Rockwell Automation",
-   "title": "System Programmer - Medium Voltage Applications",
-   "via": "",
-   "location": "Cambridge, Ontario, Canada",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/System-Programmer---Medium-Voltage-Applications_R26-3070",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:rockwellautomation:R26-4200",
-   "min_years": 5,
-   "years_text": "ou Might Also Have:  Typically requires 5+ Years of related work experience.  Education: Gradua",
-   "grad_text": "Education: Graduate degree (Masters or PhD) in Computer Science, Robotics, or related field",
-   "desc_read": true,
-   "stack": [
-    "ros",
-    "pytorch",
-    "tensorflow",
-    "jax",
-    "cuda"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "ros"
-   ],
-   "skills_missing": [
-    "pytorch",
-    "tensorflow",
-    "jax",
-    "cuda"
-   ],
-   "requirements": "About You | You are a \"builder-researcher\", someone who is just as comfortable deriving a loss function on a whiteboard as you are debugging a real-world robot arm. You are: | Driven & Passionate: You have an obsessive curiosity about how machines interact with the physical world. | Autonomous and Collaborative: You can take a vaguely defined research problem and run with it and thrive in a high-performing team where peer review and collective brainstorming elevate everyone. | Innovative: You don't just apply existing tools and libraries; you invent new ones when the current state-of-the-art falls short. | Impact-Oriented: You aren't satisfied with a simulation that works; you want to see your code moving tons of steel in the real world. | Primary Responsibilities: | Architect & Implement: Design and deploy state-of-the-art algorithms for robotic perception, planning, and dexterous manip",
-   "student_rule": "",
-   "company": "Rockwell Automation",
-   "title": "Robotics Researcher",
-   "via": "",
-   "location": "Waterloo, Ontario, Canada; Kitchener, Ontario, Canada",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Waterloo-Ontario-Canada/Robotics-Researcher---Physical-AI_R26-4200",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:rockwellautomation:R26-7172-1",
-   "min_years": 5,
-   "years_text": "The Preferred - You Might Also Have:   5+ years of experience in Customer Success",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "rest",
-    "api"
-   ],
-   "skills_has": [
-    "sql",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements into scalable technical solutions. | Be the trusted advisor on customer success process design, platform optimization, and technology strategy. | Provide user enablement, documentation, troubleshooting, and best practices that maximize adoption and business value. | The Essentials - You Will Have: | Bachelor's Degree in Relevant Field | US Applicants- Legal authorization to work in the U.S. We will not sponsor individuals for employment visas, now or in the future, for this job opening. | The Preferred - You Might Also Have: | 5+ years of experience in Customer Success Operations, Revenue Operations, Business Systems, CRM Administration, or related roles. | Hands-on experience administering and configuring Gainsight. | Experience supporting SaaS, recurring revenue, or customer success operating models. | Experience with Salesforce data structures, workflows, reporting, and",
-   "student_rule": "",
-   "company": "Rockwell Automation",
-   "title": "Gainsight Developer",
-   "via": "",
-   "location": "Milwaukee, Wisconsin, United States; Dallas, Texas, United States; Nashville, Tennessee, United States; Toronto, Ontario, Canada; Mayfield Heights, Ohio, United States",
-   "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Gainsight-Developer_R26-7172-1",
-   "ats": "workday",
-   "posted": "Posted 17 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -8569,80 +7799,6 @@
    "level_hint": "junior",
    "remote": true,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:mastercard:R-286506",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "java",
-    "react",
-    "postgresql",
-    "gcp",
-    "azure"
-   ],
-   "skills_has": [
-    "java",
-    "react",
-    "postgresql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "gcp",
-    "azure"
-   ],
-   "requirements": "About You | • Hands-on software engineering experience, with a strong background in full-stack development, building scalable, high-performance applications. | • Full-stack development expertise across UI, microservices architecture, and database technologies. | • Strong proficiency in Java, Spring Boot, React/Angular, and PostgreSQL; experience with any cloud such as GCP or Azure, Snowflake, GitHub Copilot is a plus. | • Solid understanding of software design patterns, system architecture, data structures, and algorithms, with experience designing maintainable, resilient, and high-performance systems. | • Demonstrated ability to solve complex, real-world technical challenges and innovate with large-scale data sets. | • Proven ability to thrive in collaborative, agile development environments, contributing to team planning, execution, and continuous improvement. | • Excellent written and",
-   "student_rule": "",
-   "company": "Mastercard",
-   "title": "Software Engineer II",
-   "via": "",
-   "location": "Toronto, Canada (Ethoca)",
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada-Ethoca/Software-Engineer-II_R-286506",
-   "ats": "workday",
-   "posted": "Posted 29 Days Ago",
-   "level_hint": "mid",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:mastercard:R-291566",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "sql",
-    "api",
-    "go"
-   ],
-   "skills_has": [
-    "python",
-    "sql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go"
-   ],
-   "requirements": "About You | - Computer/Data Science or Engineering degree, or equivalent experience. | - Experience in a customer-facing or heavily cross-functional role with data science centric project management experience. | - Excellent scripting and analysis skills in python and SQL. | - Excellent presentation and communication skills. | - Experience in a machine learning or data analytics capacity | - Ability to create and understand supervised machine learning models. | - Experience in understanding customer needs and using those to build design docs or technical specifications. | - Proven ability to establish credibility with technical leaders in customer organizations. | Mastercard is a merit-based, inclusive, equal opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characterist",
-   "student_rule": "",
-   "company": "Mastercard",
-   "title": "Field Data Scientist",
-   "via": "",
-   "location": "Toronto, Canada",
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada/Field-Data-Scientist_R-291566",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -9301,79 +8457,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "workday:intel:JR0288432",
-   "min_years": 0,
-   "years_text": ", or a related technical discipline and 1+ years of experience, OR Master's degree",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "cuda",
-    "compilers"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "cuda",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | You must possess the below minimum qualifications to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. Experience listed below would be obtained through a combination of your degree, research and or relevant previous job and or internship experiences. | Minimum Qualifications: | Bachelor's degree in Computer Science, Applied Mathematics, Computer Engineering, Informatics, or a related technical discipline and 1+ years of experience, OR Master's degree and 0+ years of experience OR PhD. | Experience must include: | • Strong programming experience in C++ and/or Python. | • Strong problem-solving and debugging skills. | • Familiarity with computer architecture, operating systems, or systems software concepts. | • Interest in compiler technologies, p",
-   "student_rule": "",
-   "company": "Intel",
-   "title": "Compiler Engineer - Triton and DSLs",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineer---Triton-and-DSLs_JR0288432",
-   "ats": "workday",
-   "posted": "Posted 17 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:intel:JR0288447",
-   "min_years": 3,
-   "years_text": "rmatics, or a related technical field.  3+ years of professional software development experience and advanced knowle",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "c",
-    "pytorch",
-    "compilers"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "pytorch",
-    "compilers"
-   ],
-   "requirements": "Qualifications: | Minimum qualifications are required to be initially considered for this position. Preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. | Minimum Qualifications: | Bachelor's degree in Computer Science, Applied Mathematics, Informatics, or a related technical field. | 3+ years of professional software development experience and advanced knowledge in C/C++. | Strong background in object-oriented programming, algorithms, and data structures. | Experience optimizing software for CPU performance and efficiency. | Excellent analytical, debugging, and problem-solving skills. | Preferred Qualifications: | Master's degree or PhD in Computer Science, Electrical Engineering, or a related discipline. | Proven ability to work independently. | Strong communication and collaboration skills within global en",
-   "student_rule": "",
-   "company": "Intel",
-   "title": "Compiler Engineer",
-   "via": "",
-   "location": "Canada, Toronto",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineer_JR0288447",
-   "ats": "workday",
-   "posted": "Posted 18 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "ashby:ideogram:66610ff2-a888-44cf-b6cb-fd0116949697",
    "min_years": null,
    "years_text": "",
@@ -9408,49 +8491,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:hitachi:R0143365",
-   "min_years": 1,
-   "years_text": "quired Skills and Experience:   Minimum 1 year of relevant professional experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "git",
-    "linux",
-    "c++",
-    "c",
-    "ruby",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "git",
-    "linux"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "ruby",
-    "embedded"
-   ],
-   "requirements": "requirements, implementing software changes, performing testing activities, and ensuring compliance with established software architecture, design patterns, and safety-critical development processes. | Key Responsibilities: | Contribute to the refinement of mission and functional descriptions, software architecture, algorithm design, and functional and non-functional requirements. | Design, code, debug, test, and review software components of low to medium complexity and criticality. | Develop test procedures and execute software verification and validation activities. | Produce and execute integration tests on simulated environments and target hardware test benches. | Perform detailed impact analyses for software changes affecting multiple components under supervision. | Investigate software defects, identify root causes, and implement corrective actions. | Conduct engineering testing i",
-   "student_rule": "",
-   "company": "Hitachi (Rail)",
-   "title": "Software Analyst",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Software-Analyst_R0143365",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -11536,51 +10576,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "workday:analogdevices:R266615",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "Currently pursuing a Bachelor's or Master's Degree in Computer Engineering, Electrical Engineering, Computer Science, or a related field",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "git",
-    "linux",
-    "c++",
-    "c",
-    "go",
-    "rtos",
-    "embedded"
-   ],
-   "skills_has": [
-    "python",
-    "git",
-    "linux"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "go",
-    "rtos",
-    "embedded"
-   ],
-   "requirements": "Must Have Skills | Basic knowledge of embedded systems, software development, and computer engineering principles. | Familiarity with programming languages such as C, C++, Python, or similar languages. | Understanding of software debugging, testing, and problem-solving techniques. | Knowledge of version control tools such as Git or similar platforms. | Strong analytical, troubleshooting, and communication skills. | Ability to work effectively in a collaborative team environment. | Eagerness to learn new technologies, tools, and development methodologies. | Preferred Education and Experience | Currently pursuing a Bachelor's or Master's Degree in Computer Engineering, Electrical Engineering, Computer Science, or a related field. | Familiarity with embedded operating systems, real-time systems (RTOS), or embedded Linux environments. | Exposure to software build systems, scripting, or autom",
-   "student_rule": "enrolled",
-   "company": "Analog Devices",
-   "title": "Embedded Software Engineer",
-   "via": "",
-   "location": "Canada, Toronto; Canada, Vancouver",
-   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "amazon:amazon:10537579",
    "min_years": 3,
    "years_text": "ring, Mathematics, or a related field - 3+ years of non-internship professional software development experience - 2+ years of non-i",
@@ -12569,122 +11564,6 @@
    "remote": false,
    "pathway_hint": "A",
    "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:altera:R02871",
-   "min_years": 2,
-   "years_text": "ng, Computer Science or related field   2+ years of experience in Digital logic ha",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c",
-    "fpga",
-    "verilog",
-    "embedded"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "fpga",
-    "verilog",
-    "embedded"
-   ],
-   "requirements": "required   for this role.   Applicants must be eligible for any required Canada export authorizations. | #LI-MD1 | Qualifications: | You must possess the below minimum education requirements and minimum required qualifications to be initially considered for this position. Relevant experience can be obtained through schoolwork, classes, project work, internships, and/or military experience. Additional preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates. | Minimum Qualifications: | Bachelor's degree in Computer Engineering, Engineering Science, Electrical Engineering, Computer Science or related field | 2+ years of experience in Digital logic hardware (e.g. SystemVerilog, Verilog and/or VHDL) design or verification | 2+ years of experience in scripting languages and/or software programming (e.g. Pyth",
-   "student_rule": "",
-   "company": "Altera",
-   "title": "IP Firmware Design Engineer",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/IP-Firmware-Design-Engineer_R02871",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:altera:R02532",
-   "min_years": 8,
-   "years_text": "ter Science or a close related field    8+ years   of professional experience building   compiler",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "go",
-    "fpga",
-    "compilers"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "go",
-    "fpga",
-    "compilers"
-   ],
-   "requirements": "required for this role. | Qualifications: | Required Qualifications: | Bachelor's or Master's Degree in Electrical Engineering, Computer Engineering, Computer Science or a close related field | 8+ years   of professional experience building   compilers, LLVM/MLIR-based tools, or EDA/FPGA implementation software . | Strong C++   for production systems (performance, multi-threading, large codebases). | Hands-on experience with MLIR and/or LLVM   (IR design, passes, backends, or integration with a larger compiler or EDA flow). | Solid digital design and FPGA background : LUT/FF/BRAM/DSP primitives, clocks and timing, and how tool choices affect QoR. | Familiarity with FPGA or ASIC implementation flows   (synthesis, place-and-route, STA, constraints) and what can go wrong in real designs. | Communication and collaboration : comfortable   working with customers   and translating their",
-   "student_rule": "",
-   "company": "Altera",
-   "title": "High Level Synthesis Compiler Engineer",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/High-Level-Synthesis-Compiler-Engineer_R02532",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:altera:R02895",
-   "min_years": 6,
-   "years_text": ", Computer Science, or related field.   6+ years of experience in FPGA/ASIC CAD, E",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c",
-    "fpga",
-    "compilers"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "fpga",
-    "compilers"
-   ],
-   "requirements": "required   for this role.   Applicants must be eligible for any required Canada export authorizations. | Qualifications: | Minimum Qualifications: | Bachelor’s or Master’s degree in Electrical Engineering, Computer Engineering, Computer Science, or related field. | 6+ years of experience in FPGA/ASIC CAD, EDA tools, or related fields. | Experience in algorithms and data structures (optimization, graph theory, heuristics) | Experience with placement algorithms or physical design flows | Experience in C/C++ and software engineering best practices | Experience with placement techniques (analytical placement, simulated annealing, partitioning, clustering) | Experience with Timing-driven and congestion-driven optimization | Experience in ASIC or FPGA physical design methodologies | Experience in solving complex, large-scale optimization problems with high performance and scalability re",
-   "student_rule": "",
-   "company": "Altera",
-   "title": "FPGA Compiler (Placer) Engineer",
-   "via": "",
-   "location": "Toronto, Ontario, Canada",
-   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Compiler--Placer--Engineer_R02895",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
    "first_seen": "2026-11-01"
   },
   {

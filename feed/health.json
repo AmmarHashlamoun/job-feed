@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-14T00:22:35Z",
+  "generated_at": "2026-11-14T01:47:59Z",
   "boards": 294,
-  "ok": 223,
-  "failed": 71,
-  "jobs_seen": 24946,
-  "jobs_kept": 337,
-  "new_today": 18
+  "ok": 203,
+  "failed": 91,
+  "jobs_seen": 24162,
+  "jobs_kept": 307,
+  "new_today": 12
  },
  "boards": [
   {
@@ -33,6 +33,26 @@
    "company": "Adobe",
    "ats": "workday",
    "token": "adobe",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Altera",
+   "ats": "workday",
+   "token": "altera",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Analog Devices",
+   "ats": "workday",
+   "token": "analogdevices",
    "ok": false,
    "seen": 0,
    "kept": 0,
@@ -70,6 +90,16 @@
    "resolved": ""
   },
   {
+   "company": "Arctic Wolf",
+   "ats": "workday",
+   "token": "arcticwolf",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "Atlassian",
    "ats": "auto",
    "token": "atlassian",
@@ -77,6 +107,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:atlassian:404, lever:atlassian:404, ashby:atlassian:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Autodesk",
+   "ats": "workday",
+   "token": "autodesk",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
    "resolved": ""
   },
   {
@@ -170,6 +210,16 @@
    "resolved": ""
   },
   {
+   "company": "Danaher (SCIEX)",
+   "ats": "workday",
+   "token": "danaher",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "Dejero",
    "ats": "auto",
    "token": "dejero",
@@ -197,6 +247,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:ecobee:404, lever:ecobee:404, ashby:ecobee:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Entrust",
+   "ats": "workday",
+   "token": "entrust",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
    "resolved": ""
   },
   {
@@ -270,6 +330,16 @@
    "resolved": ""
   },
   {
+   "company": "Genesys",
+   "ats": "workday",
+   "token": "genesys",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "Georgian portfolio",
    "ats": "getro",
    "token": "jobs.georgian.io",
@@ -330,6 +400,16 @@
    "resolved": ""
   },
   {
+   "company": "Hitachi (Rail)",
+   "ats": "workday",
+   "token": "hitachi",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "HPE",
    "ats": "workday",
    "token": "hpe",
@@ -347,6 +427,16 @@
    "seen": 0,
    "kept": 0,
    "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
+   "company": "Intel",
+   "ats": "workday",
+   "token": "intel",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
    "resolved": ""
   },
   {
@@ -417,6 +507,46 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Marvell",
+   "ats": "workday",
+   "token": "marvell",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Marvell (grads)",
+   "ats": "workday",
+   "token": "marvell",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Mastercard",
+   "ats": "workday",
+   "token": "mastercard",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -500,6 +630,16 @@
    "resolved": ""
   },
   {
+   "company": "PayPal",
+   "ats": "workday",
+   "token": "paypal",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "Plus One Robotics",
    "ats": "auto",
    "token": "plusonerobotics",
@@ -517,6 +657,16 @@
    "seen": 0,
    "kept": 0,
    "error": "<urlopen error [Errno -2] Name or service not known>",
+   "resolved": ""
+  },
+  {
+   "company": "Rakuten Kobo",
+   "ats": "workday",
+   "token": "rakuten",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
    "resolved": ""
   },
   {
@@ -550,9 +700,39 @@
    "resolved": ""
   },
   {
+   "company": "Rockwell Automation",
+   "ats": "workday",
+   "token": "rockwellautomation",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Rockwell Automation (OTTO, Clearpath) early careers",
+   "ats": "workday",
+   "token": "rockwellautomation",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "RTX (Collins, Pratt)",
    "ats": "workday",
    "token": "globalhr",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
+   "company": "Semtech",
+   "ats": "workday",
+   "token": "semtech",
    "ok": false,
    "seen": 0,
    "kept": 0,
@@ -630,6 +810,16 @@
    "resolved": ""
   },
   {
+   "company": "Teledyne (FLIR, DALSA)",
+   "ats": "workday",
+   "token": "flir",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
+   "resolved": ""
+  },
+  {
    "company": "Thomson Reuters",
    "ats": "workday",
    "token": "thomsonreuters",
@@ -647,6 +837,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:trexorobotics:404, lever:trexorobotics:404, ashby:trexorobotics:404, greenhouse:trexo:404, lever:trexo:404, ashby:trexo:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Trimble",
+   "ats": "workday",
+   "token": "trimble",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 521",
    "resolved": ""
   },
   {
@@ -764,7 +964,7 @@
    "ats": "ashby",
    "token": "aerovect",
    "ok": true,
-   "seen": 41,
+   "seen": 42,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -786,16 +986,6 @@
    "ok": true,
    "seen": 215,
    "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Altera",
-   "ats": "workday",
-   "token": "altera",
-   "ok": true,
-   "seen": 12,
-   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -830,21 +1020,11 @@
    "resolved": ""
   },
   {
-   "company": "Analog Devices",
-   "ats": "workday",
-   "token": "analogdevices",
-   "ok": true,
-   "seen": 8,
-   "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Anduril",
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2594,
+   "seen": 2595,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -880,16 +1060,6 @@
    "resolved": ""
   },
   {
-   "company": "Arctic Wolf",
-   "ats": "workday",
-   "token": "arcticwolf",
-   "ok": true,
-   "seen": 1,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Asana",
    "ats": "greenhouse",
    "token": "asana",
@@ -914,17 +1084,7 @@
    "ats": "greenhouse",
    "token": "asteralabs",
    "ok": true,
-   "seen": 174,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Autodesk",
-   "ats": "workday",
-   "token": "autodesk",
-   "ok": true,
-   "seen": 0,
+   "seen": 173,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -934,8 +1094,8 @@
    "ats": "auto",
    "token": "baseten",
    "ok": true,
-   "seen": 101,
-   "kept": 18,
+   "seen": 102,
+   "kept": 19,
    "error": "",
    "resolved": "ashby:baseten"
   },
@@ -1164,7 +1324,7 @@
    "ats": "greenhouse",
    "token": "coursera",
    "ok": true,
-   "seen": 39,
+   "seen": 38,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1180,21 +1340,11 @@
    "resolved": ""
   },
   {
-   "company": "Danaher (SCIEX)",
-   "ats": "workday",
-   "token": "danaher",
-   "ok": true,
-   "seen": 54,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Databricks",
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 895,
+   "seen": 896,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1314,7 +1464,7 @@
    "ats": "greenhouse",
    "token": "doordashcanada",
    "ok": true,
-   "seen": 42,
+   "seen": 43,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1348,16 +1498,6 @@
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
-  },
-  {
-   "company": "Entrust",
-   "ats": "workday",
-   "token": "entrust",
-   "ok": true,
-   "seen": 9,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
   },
   {
    "company": "Etched",
@@ -1454,7 +1594,7 @@
    "ats": "auto",
    "token": "formic;formictechnologies",
    "ok": true,
-   "seen": 58,
+   "seen": 60,
    "kept": 0,
    "error": "",
    "resolved": "greenhouse:formic"
@@ -1475,16 +1615,6 @@
    "token": "GDMSI",
    "ok": true,
    "seen": 62,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Genesys",
-   "ats": "workday",
-   "token": "genesys",
-   "ok": true,
-   "seen": 2,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1564,7 +1694,7 @@
    "ats": "ashby",
    "token": "harvey",
    "ok": true,
-   "seen": 381,
+   "seen": 386,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1608,16 +1738,6 @@
    "kept": 0,
    "error": "",
    "resolved": "ashby:hightouch"
-  },
-  {
-   "company": "Hitachi (Rail)",
-   "ats": "workday",
-   "token": "hitachi",
-   "ok": true,
-   "seen": 175,
-   "kept": 2,
-   "error": "",
-   "resolved": ""
   },
   {
    "company": "Hootsuite",
@@ -1666,16 +1786,6 @@
    "ok": true,
    "seen": 85,
    "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Intel",
-   "ats": "workday",
-   "token": "intel",
-   "ok": true,
-   "seen": 16,
-   "kept": 7,
    "error": "",
    "resolved": ""
   },
@@ -1860,36 +1970,6 @@
    "resolved": ""
   },
   {
-   "company": "Marvell",
-   "ats": "workday",
-   "token": "marvell",
-   "ok": true,
-   "seen": 4,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Marvell (grads)",
-   "ats": "workday",
-   "token": "marvell",
-   "ok": true,
-   "seen": 5,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Mastercard",
-   "ats": "workday",
-   "token": "mastercard",
-   "ok": true,
-   "seen": 292,
-   "kept": 2,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "MDA Space",
    "ats": "ukg",
    "token": "MAC5000MCDW",
@@ -1906,16 +1986,6 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 70,
-   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -2014,7 +2084,7 @@
    "ats": "greenhouse",
    "token": "nuro",
    "ok": true,
-   "seen": 99,
+   "seen": 100,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2044,7 +2114,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 837,
+   "seen": 836,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2055,16 +2125,6 @@
    "token": "oxa",
    "ok": true,
    "seen": 7,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "PayPal",
-   "ats": "workday",
-   "token": "paypal",
-   "ok": true,
-   "seen": 9,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2114,7 +2174,7 @@
    "ats": "greenhouse",
    "token": "pinterest",
    "ok": true,
-   "seen": 164,
+   "seen": 163,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -2124,7 +2184,7 @@
    "ats": "greenhouse",
    "token": "planetlabs",
    "ok": true,
-   "seen": 115,
+   "seen": 116,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2170,16 +2230,6 @@
    "resolved": ""
   },
   {
-   "company": "Rakuten Kobo",
-   "ats": "workday",
-   "token": "rakuten",
-   "ok": true,
-   "seen": 7,
-   "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Reddit",
    "ats": "greenhouse",
    "token": "reddit",
@@ -2194,7 +2244,7 @@
    "ats": "greenhouse",
    "token": "relativity",
    "ok": true,
-   "seen": 398,
+   "seen": 396,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2270,26 +2320,6 @@
    "resolved": ""
   },
   {
-   "company": "Rockwell Automation",
-   "ats": "workday",
-   "token": "rockwellautomation",
-   "ok": true,
-   "seen": 33,
-   "kept": 3,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Rockwell Automation (OTTO, Clearpath) early careers",
-   "ats": "workday",
-   "token": "rockwellautomation",
-   "ok": true,
-   "seen": 6,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Rose Rocket",
    "ats": "workable",
    "token": "rose-rocket",
@@ -2360,16 +2390,6 @@
    "resolved": ""
   },
   {
-   "company": "Semtech",
-   "ats": "workday",
-   "token": "semtech",
-   "ok": true,
-   "seen": 28,
-   "kept": 2,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Sentry",
    "ats": "auto",
    "token": "sentry;getsentry",
@@ -2414,7 +2434,7 @@
    "ats": "ashby",
    "token": "skydio",
    "ok": true,
-   "seen": 190,
+   "seen": 189,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2484,7 +2504,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2772,
+   "seen": 2757,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2570,16 +2590,6 @@
    "resolved": ""
   },
   {
-   "company": "Teledyne (FLIR, DALSA)",
-   "ats": "workday",
-   "token": "flir",
-   "ok": true,
-   "seen": 30,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "TELUS Digital",
    "ats": "ashby",
    "token": "telus-digital",
@@ -2644,7 +2654,7 @@
    "ats": "workday",
    "token": "thales",
    "ok": true,
-   "seen": 100,
+   "seen": 101,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2686,16 +2696,6 @@
    "ok": true,
    "seen": 45,
    "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Trimble",
-   "ats": "workday",
-   "token": "trimble",
-   "ok": true,
-   "seen": 16,
-   "kept": 1,
    "error": "",
    "resolved": ""
   },
