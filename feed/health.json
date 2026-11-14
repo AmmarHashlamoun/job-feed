@@ -1,10 +1,10 @@
 {
  "summary": {
-  "generated_at": "2026-11-14T01:47:59Z",
+  "generated_at": "2026-11-14T10:41:35Z",
   "boards": 294,
   "ok": 203,
   "failed": 91,
-  "jobs_seen": 24162,
+  "jobs_seen": 24160,
   "jobs_kept": 307,
   "new_today": 12
  },
@@ -36,7 +36,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -46,7 +46,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -56,7 +56,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -86,7 +86,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -96,7 +96,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -116,7 +116,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -166,7 +166,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -176,7 +176,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -216,7 +216,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -256,7 +256,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -316,7 +316,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -326,7 +326,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -336,7 +336,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -406,7 +406,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -416,7 +416,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -436,7 +436,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -476,7 +476,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -516,7 +516,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -526,7 +526,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -536,7 +536,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -566,7 +566,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -606,7 +606,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -636,7 +636,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -666,7 +666,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -676,7 +676,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -706,7 +706,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -716,7 +716,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -726,7 +726,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -736,7 +736,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -816,7 +816,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -826,7 +826,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -846,7 +846,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -906,7 +906,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -916,7 +916,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 521",
+   "error": "Expecting value: line 1 column 1 (char 0)",
    "resolved": ""
   },
   {
@@ -984,7 +984,7 @@
    "ats": "greenhouse",
    "token": "airbnb",
    "ok": true,
-   "seen": 215,
+   "seen": 214,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1024,7 +1024,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2595,
+   "seen": 2598,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1034,7 +1034,7 @@
    "ats": "auto",
    "token": "anysphere;cursor",
    "ok": true,
-   "seen": 100,
+   "seen": 99,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cursor"
@@ -1284,7 +1284,7 @@
    "ats": "auto",
    "token": "cognition",
    "ok": true,
-   "seen": 114,
+   "seen": 112,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cognition"
@@ -1454,7 +1454,7 @@
    "ats": "greenhouse",
    "token": "doordashusa",
    "ok": true,
-   "seen": 428,
+   "seen": 427,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1694,7 +1694,7 @@
    "ats": "ashby",
    "token": "harvey",
    "ok": true,
-   "seen": 386,
+   "seen": 387,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1864,7 +1864,7 @@
    "ats": "ashby",
    "token": "langchain",
    "ok": true,
-   "seen": 100,
+   "seen": 99,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1944,7 +1944,7 @@
    "ats": "greenhouse",
    "token": "lyft",
    "ok": true,
-   "seen": 150,
+   "seen": 148,
    "kept": 14,
    "error": "",
    "resolved": ""
@@ -2044,7 +2044,7 @@
    "ats": "workday",
    "token": "navcanada",
    "ok": true,
-   "seen": 32,
+   "seen": 30,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2064,7 +2064,7 @@
    "ats": "ashby",
    "token": "notion",
    "ok": true,
-   "seen": 167,
+   "seen": 166,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2104,7 +2104,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 363,
+   "seen": 362,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2114,7 +2114,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 836,
+   "seen": 838,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2504,7 +2504,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2757,
+   "seen": 2758,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2524,7 +2524,7 @@
    "ats": "lever",
    "token": "spotify",
    "ok": true,
-   "seen": 85,
+   "seen": 87,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2654,7 +2654,7 @@
    "ats": "workday",
    "token": "thales",
    "ok": true,
-   "seen": 101,
+   "seen": 100,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2944,7 +2944,7 @@
    "ats": "lever",
    "token": "zoox",
    "ok": true,
-   "seen": 239,
+   "seen": 241,
    "kept": 0,
    "error": "",
    "resolved": ""

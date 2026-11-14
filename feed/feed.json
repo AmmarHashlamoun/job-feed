@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T01:47:59Z",
+ "generated_at": "2026-11-14T10:41:35Z",
  "count": 307,
  "jobs": [
   {
@@ -665,7 +665,7 @@
    "location": "Canada - Toronto",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Canada---Toronto/Talent-Advisor--AI-Labs_JR368090",
    "ats": "workday",
-   "posted": "Posted Today",
+   "posted": "Posted Yesterday",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -6740,44 +6740,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7292520",
-   "min_years": 2,
-   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "docker",
-    "kubernetes",
-    "graphql"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer & End-user Experience Platform",
-   "via": "",
-   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
-   "ats": "greenhouse",
-   "posted": "2026-11-03",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7476555",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -6811,6 +6773,44 @@
    "posted": "2026-10-29",
    "level_hint": "unlevelled",
    "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-01"
+  },
+  {
+   "id": "greenhouse:stripe:7292520",
+   "min_years": 2,
+   "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "docker",
+    "kubernetes",
+    "graphql"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe's Developer & End-user Experience Platform (DEEP) organization empowers all of Stripe's products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant's ability to create value using Stripe. | Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found here . | What you’ll do | We're looking for Backen",
+   "student_rule": "",
+   "company": "Stripe",
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "via": "",
+   "location": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
+   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+   "ats": "greenhouse",
+   "posted": "2026-11-03",
+   "level_hint": "unlevelled",
+   "remote": true,
    "pathway_hint": "A",
    "tier": "1",
    "first_seen": "2026-11-01"
@@ -9683,7 +9683,7 @@
    "location": "Toronto; Remote - Canada",
    "url": "https://clio.wd3.myworkdayjobs.com/cliocareersite/job/Toronto/Application-Security-Developer_REQ-5443",
    "ats": "workday",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted 5 Days Ago",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -10568,7 +10568,7 @@
    "location": "Toronto",
    "url": "https://blackline.wd108.myworkdayjobs.com/blacklinecareers/job/Toronto/Associate-Software-Engineer_002014",
    "ats": "workday",
-   "posted": "Posted 14 Days Ago",
+   "posted": "Posted 15 Days Ago",
    "level_hint": "junior",
    "remote": false,
    "pathway_hint": "A",
