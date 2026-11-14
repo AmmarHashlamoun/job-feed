@@ -1,7 +1,678 @@
 {
- "generated_at": "2026-11-13T11:17:26Z",
- "count": 332,
+ "generated_at": "2026-11-14T00:22:35Z",
+ "count": 337,
  "jobs": [
+  {
+   "id": "greenhouse:tailscale:4754059005",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api",
+    "go"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go"
+   ],
+   "requirements": "qualifications. We encourage you to help us break that statistic! | About Tailscale | Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital. | About the Role | Tailscale is looking for a Developer Relations Engineer to own and improve the developer experience across Tailscale’s expanding product portfolio. You’ll help developers understand, adopt, extend, and build with our core VPN/connectivity product, while also shaping",
+   "student_rule": "",
+   "company": "Tailscale",
+   "title": "Developer Relations Engineer",
+   "via": "",
+   "location": "Remote (Canada)",
+   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4754059005",
+   "ats": "greenhouse",
+   "posted": "2026-11-13",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "greenhouse:stripe:8203977",
+   "min_years": 6,
+   "years_text": "requirement.   Minimum requirements     6+ years of experience leading implementat",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "api",
+    "llm"
+   ],
+   "skills_has": [
+    "sql",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "llm"
+   ],
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the team | Stripe is building a dedicated Professional Services practice for the world's leading AI companies. We work with AI labs, infrastructure providers, and application companies whose work with Stripe spans products, regions, and teams. | As an Implementation Consultant, you will lead complex implementations, migrations, product launches, and international expansions. You will define the outcome, align owners and dependencies, manage risk, and guide users through production launch. You will also turn lessons from strategic engagements into repeatable delivery methods for the wider AI segment. | What you'll do | Responsibilities | Own the implementation lifecycle for strategic AI companies, from contract signing through planning, buil",
+   "student_rule": "",
+   "company": "Stripe",
+   "title": "Implementation Consultant, Professional Services",
+   "via": "",
+   "location": "Chicago, Toronto",
+   "url": "https://stripe.com/jobs/search?gh_jid=8203977",
+   "ats": "greenhouse",
+   "posted": "2026-11-13",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446722098332",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "transformers",
+    "rest",
+    "llm",
+    "compilers"
+   ],
+   "skills_has": [
+    "transformers",
+    "rest"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "llm",
+    "compilers"
+   ],
+   "requirements": "Minimum Qualifications: | • Master's degree in Computer Engineering, Computer Science, Electrical Engineering, or related field and 4+ years of Hardware Engineering, Software Engineering, Systems Engineering, or related work experience. | OR | PhD in Computer Engineering, Computer Science, Electrical Engineering, or related field and 2+ years of Hardware Engineering, Software Engineering, Systems Engineering, or related work experience. | • 6+ months of experience developing and/or optimizing machine learning models, systems, platforms, or methods. | Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, rest assured that Qualcomm is committed to providing an accessible process. You may e-mail  disability-accomodations@qualcomm.com  or call Qualcomm's toll-free number found  here . Upon",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "Multiple roles in Machine Learning & Deep Learning NeurIPS 2026",
+   "via": "",
+   "location": "San Diego, California, United States of America; Amsterdam, Netherlands; Austin, Texas, United States of America; Folsom, California, United States of America; Hillsboro, Oregon, United States of America; Republic of - Remote KOR, Korea, Republic of; Markham, Ontario, Canada; Santa Clara, California",
+   "url": "https://careers.qualcomm.com/careers/job/446722098332",
+   "ats": "pcsx",
+   "posted": "2026-11-12",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446715794232",
+   "min_years": 2,
+   "years_text": "rical Engineering, or related field.    10+ years of compiler experience, or 10+ years of co",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "rest",
+    "compilers"
+   ],
+   "skills_has": [
+    "rest"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "compilers"
+   ],
+   "requirements": "Minimum Qualifications: | •    Bachelor's degree in Computer Engineering, Computer Science, Electrical Engineering, or related field and 2+ years of Software Engineering, Hardware Engineering, Systems Engineering, or related work experience. | OR | Master's degree in Computer Engineering, Computer Science, Electrical Engineering, or related field and 1+ year of Software Engineering, Hardware Engineering, Systems Engineering, or related work experience. | OR | PhD in Computer Engineering, Computer Science, Electrical Engineering, or related field. | Preferred Qualifications: | Master's degree or PhD in Computer Engineering, Computer Science, Electrical Engineering, or related field. | 10+ years of compiler experience, or 10+ years of compiler + GPU related experience (e.g., driver or game experience). | 2+ years of work experience in a role requiring interaction with senior leadership (e.",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "GPU Compiler Engineer - Multiple Levels",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446715794232",
+   "ats": "pcsx",
+   "posted": "2026-09-17",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446721125876",
+   "min_years": 4,
+   "years_text": "n and verbal) and collaboration skills  4+ years of experience         Minimum Qua",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "git",
+    "rest",
+    "c",
+    "fpga",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "git",
+    "rest"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "c",
+    "fpga",
+    "embedded"
+   ],
+   "requirements": "requirements | Required: | Min 2+ years embedded firmware development with C, firmware, silicon validation, or related work experience. | Preferred Qualifications: | Strong programming and/or scripting skills (C, assembly, python, etc.) | Strong understanding of embedded system design ( CPU, Bus architectures, Caches, interconnects, clocks ) | Experience with Real-Time embedded operating systems | Proficiency with lab equipment such as protocol analyzers, oscilloscopes, and probes. | Experience working in an embedded environment | Experience with low level CPU or DSP processor control/programming | Familiarity with machine learning algorithms and techniques. | Experience with tools such as JTAG and ARM compliant debuggers | Experience with ARM AHB, AXI, APB  or similar on-chip interconnects | Experience with board/platform-level debug | Experience debugging low level software and hardwar",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "Firmware Engineer, Edge AI Silicon Validation (Embedded C)",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446721125876",
+   "ats": "pcsx",
+   "posted": "2026-10-07",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446720962555",
+   "min_years": 3,
+   "years_text": "Computer Science, or related field and 6+ years of Software Engineering or related work experience.   OR Master's degr",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "git",
+    "linux",
+    "bash",
+    "rest",
+    "api",
+    "c++",
+    "c",
+    "rtos",
+    "fpga",
+    "verilog",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "git",
+    "linux",
+    "bash",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "rtos",
+    "fpga",
+    "verilog",
+    "embedded"
+   ],
+   "requirements": "requirements and interfaces. Replacement Position | Minimum Qualifications: | • Bachelor's degree in Engineering, Information Systems, Computer Science, or related field and 6+ years of Software Engineering or related work experience. | OR | Master's degree in Engineering, Information Systems, Computer Science, or related field and 5+ years of Software Engineering or related work experience. | OR | PhD in Engineering, Information Systems, Computer Science, or related field and 4+ years of Software Engineering or related work experience. | • 3+ years of work experience with Programming Language such as C, C++, Java, Python, etc. | We’re building the world’s most advanced SerDes PHY for use in AI data centers and beyond.   The   Embedded Software /   Firmware Team at   Qualcomm   develops critical embedded software that powers high-performance multi-standard Serializer/ Deserializer   (Ser",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "Firmware Engineer – SerDes PHY (all levels)",
+   "via": "",
+   "location": "Toronto, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446720962555",
+   "ats": "pcsx",
+   "posted": "2026-09-17",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446720740550",
+   "min_years": 3,
+   "years_text": "vements     Preferred Qualifications:   3+ years of relevant work experience   Experience/expert",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "git",
+    "linux",
+    "rest",
+    "c++",
+    "docker",
+    "pytorch",
+    "tensorflow",
+    "embedded",
+    "android",
+    "compilers"
+   ],
+   "skills_has": [
+    "git",
+    "linux",
+    "rest"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "docker",
+    "pytorch",
+    "tensorflow",
+    "embedded",
+    "android",
+    "compilers"
+   ],
+   "requirements": "Preferred Qualifications: | 3+ years of relevant work experience | Experience/expertise with C++, ideally modern C++ 17 language features | Background in mathematical algorithms using fast math libraries and vector instructions sets | Practical experience with developing middleware or firmware software | Experience with multitasking and multithreading driver development | Experience with Hexagon DSP SDK or cross compiler toolchains for embedded systems | Familiarity with TensorFlow, PyTorch or ONNX | Experience with tools such as git, Linux, JIRA and Docker | Knowledge of design patterns | Minimum Qualifications: | • Bachelor's degree in Computer Science, Engineering, Information Systems, or related field. | Applicants : Qualcomm is an equal opportunity employer. If you are an individual with a disability and need an accommodation during the application/hiring process, re",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "Engineer, AI Software/Machine Learning (C++)",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446720740550",
+   "ats": "pcsx",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446720885431",
+   "min_years": 2,
+   "years_text": "puter Engineering, or related field and 4+ years of Hardware Applications Engineering or Hardware Design experience or related work exp",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "rest",
+    "embedded"
+   ],
+   "skills_has": [
+    "rest"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "embedded"
+   ],
+   "requirements": "Minimum Qualifications: | • Bachelor's degree in Electrical/Electronics Engineering, Computer Engineering, or related field and 4+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | OR | Master's degree in Electrical/Electronics Engineering, Computer Engineering, or related field and 3+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | OR | PhD in Electrical/Electronics Engineering, Computer Engineering, or related field and 2+ years of Hardware Applications Engineering or Hardware Design experience or related work experience. | Preferred Qualifications: | Experience in Automotive platform design, bring-up, or customer-facing technical roles | Deep understanding of high-speed board design principles including: DDR5, PCIe Gen6/Gen7, CXL, SerDes, and Ethernet | o PDN design, SI/PI simul",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "Automotive Infotainment and ADAS Hardware Applications Engineer",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446720885431",
+   "ats": "pcsx",
+   "posted": "2026-09-17",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446720207388",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "rest",
+    "embedded",
+    "compilers"
+   ],
+   "skills_has": [
+    "rest"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "embedded",
+    "compilers"
+   ],
+   "requirements": "Requirements | Proven research excellence on inference efficiency and ML system, demonstrated by publications, community contributions, or equivalent evidence of impact. | Deep expertise in neural network architectures, model compression (e.g., quantization, pruning, knowledge distillation) and efficient inference algorithm | Strong background on compiler stack and ML system optimization for AI accelerators (e.g., graph transformation, graph tiling and scheduling, tensor layout/memory optimization) | Strong understanding of Machine Learning fundamentals, strong programming skills with ML frameworks | Hands-on experience with model development pipelines for AI accelerator, including training, fine-tuning, evaluation, and performance optimization. | Preferred Qualifications | PhD in Computer Science, Electrical Engineering, or related fields or MS with AI research, or related work experien",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "AI/Machine Learning Engineer (Embedded Systems, Inference Efficiency)",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446720207388",
+   "ats": "pcsx",
+   "posted": "2026-09-17",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:careers.qualcomm.com:446722003218",
+   "min_years": 1,
+   "years_text": "s:   We’re looking for an engineer with 1–3 years of experience, though new grads a",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "react",
+    "linux",
+    "rest",
+    "api",
+    "c++",
+    "c",
+    "rtos",
+    "embedded",
+    "android"
+   ],
+   "skills_has": [
+    "python",
+    "react",
+    "linux",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "rtos",
+    "embedded",
+    "android"
+   ],
+   "requirements": "requirements, propose and design solutions, and resolve technical issues, partnering with other teams as needed. The candidate may also help support internal and external customers. | The candidate should be self-motivated, enjoy solving complex problems, and be able to work both independently and as part of a team. The candidate should be flexible and able to adapt to changing priorities. The candidate should be able to read abstract problem definitions, define problem statements, and design solutions that meet the goals of our end users and technology. The candidate is expected to follow and demonstrate strong software development practices and processes. New Position | Key Responsibilities | Design and develop processing frameworks running on Android, Linux, and other high-level operating systems as well as the AI Processor to enable AI-based multimedia use cases and hardware acceler",
+   "student_rule": "",
+   "company": "Qualcomm (careers site)",
+   "title": "AI and DSP Applications Software Engineer",
+   "via": "",
+   "location": "Markham, Ontario, Canada",
+   "url": "https://careers.qualcomm.com/careers/job/446722003218",
+   "ats": "pcsx",
+   "posted": "2026-11-06",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "1",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "getro:jobs.techstars.com:95921524",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Reliability Cost Management Workflow Technology Software Engineering Debugging",
+   "student_rule": "",
+   "company": "OpenLoop",
+   "title": "Applied AI Engineer",
+   "via": "Techstars portfolio",
+   "location": "United States; Toronto, ON, Canada; Remote",
+   "url": "https://jobs.ashbyhq.com/openloophealth/6aa1ee73-a9d9-4e25-a905-a228e8cece5a",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557054121",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "azure"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Swarm Data Platform Solution Engineer",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557054121",
+   "ats": "pcsx",
+   "posted": "2026-11-10",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557053335",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "api",
+    "azure",
+    "docker",
+    "kubernetes"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "docker",
+    "kubernetes"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | 8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | 6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Development exams, Cloud P",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Solution Engineer - Cloud & AI Applications",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557053335",
+   "ats": "pcsx",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557026078",
+   "min_years": 3,
+   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "html"
+   ],
+   "skills_has": [
+    "html"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "requirements, infusing AI to automate business functions, while highlighting our business value and competitive differentiators and should result in securing the customer’s solution design endorsement. Once the solution design is secured, you will support the Solution Specialist in finalizing the customer proposal. | You will develop relationships with the decision makers and with our customers and position yourself as a trusted advisor in your domain. As a recognized product expert, you are responsible for sharing your technical, industry knowledge and best practices with your peers. | Microsoft’s mission is to empower every person and every organization on the planet to achieve more. As employees we come together with a growth mindset, innovate to empower others, and collaborate to realize our shared goals. Each day we build on our values of respect, integrity, and accountability to cr",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Solution Engineer - Apps & Agents",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557026078",
+   "ats": "pcsx",
+   "posted": "2026-10-20",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557008790",
+   "min_years": 4,
+   "years_text": "mation Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "azure"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | •    Master's Degree in Computer Science, Information Technology, or related field AND 4+ years technical pre-sales or technical consulting experience OR Bachelor's Degree in Computer Science, Information Technology, or related field AND 6+ years technical pre-sales or technical consulting experience OR 7+ years technical pre-sales or technical consulting experience OR equivalent experience. | Additional or preferred qualifications | •    8+ years technical pre-sales, technical consulting, or technology delivery, or related experience OR equivalent experience. | •    6+ years experience with cloud and hybrid, or on premises infrastructures, architecture designs, migrations, industry standards, and/or technology management. | •    Certification in relevant technologies or disciplines (e.g., Office 365, Power BI, Azure Architect and Develo",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Innovative Data Platform Solution Engineer",
+   "via": "",
+   "location": "Canada, Ontario, Toronto; Canada, Alberta, Calgary; Canada, British Columbia, Vancouver; Canada, Ontario, Ottawa",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
+   "ats": "pcsx",
+   "posted": "2026-10-07",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557047394",
+   "min_years": 3,
+   "years_text": "m qualifications  Bachelor's Degree AND 4+ years experience in core sales, part",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "html",
+    "c"
+   ],
+   "skills_has": [
+    "html"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "c"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree AND 4+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Additional or preferred qualifications | Doctorate AND 3+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Master's Degree AND 6+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR Bachelor's Degree AND 8+ years experience in core sales, partner sales, industry or solution selling, marketing, or business development OR equivalent experience. | Partner Solution Sales IC4 - The typical base pay range for this role across Canada is CAD $103,500 - CAD $170,700 per year. | Find additional pay information here: | https://careers.microsoft.com/v2/global/",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Cloud and AI Partner Solution Specialist",
+   "via": "",
+   "location": "Canada, Ontario, Greater Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557047394",
+   "ats": "pcsx",
+   "posted": "2026-10-30",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
+   "min_years": 3,
+   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "sql",
+    "html",
+    "postgresql",
+    "linux",
+    "azure",
+    "docker"
+   ],
+   "skills_has": [
+    "sql",
+    "html",
+    "postgresql",
+    "linux"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "docker"
+   ],
+   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Cloud & AI Solution Engineer - Azure Platform",
+   "via": "",
+   "location": "Canada, Ontario, Toronto",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
+   "ats": "pcsx",
+   "posted": "2026-11-05",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "workday:altera:R03108",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "c++",
+    "c",
+    "fpga",
+    "verilog",
+    "compilers"
+   ],
+   "skills_has": [],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "fpga",
+    "verilog",
+    "compilers"
+   ],
+   "requirements": "required for this role. Applicants must be eligible for any required Canada export authorizations. | Qualifications: | The candidate must be pursuing a Bachelor's Degree in ECE, Computer Science or other related area. | Job Type: | Student / Intern (Fixed Term) | Shift: | Shift 1 (Canada) | Primary Location: | Toronto, Ontario, Canada | Additional Locations: | Posting Statement: | All qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance.",
+   "student_rule": "",
+   "company": "Altera",
+   "title": "Quartus Compiler Software - Intern",
+   "via": "",
+   "location": "Toronto, Ontario, Canada",
+   "url": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "intern",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "greenhouse:stripe:8281536",
    "min_years": 6,
@@ -24,12 +695,12 @@
    "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the team | Stripe is building a dedicated Professional Services practice for the world's leading AI companies. We work with AI labs, infrastructure providers, and application companies whose work with Stripe spans products, regions, and teams. | As an Implementation Consultant, you will lead complex implementations, migrations, product launches, and international expansions. You will define the outcome, align owners and dependencies, manage risk, and guide users through production launch. You will also turn lessons from strategic engagements into repeatable delivery methods for the wider AI segment. | What you'll do | Responsibilities | Own the implementation lifecycle for strategic AI companies, from contract signing through planning, buil",
    "student_rule": "",
    "company": "Stripe",
-   "title": "Implementation Consultant (Global)",
+   "title": "Implementation Consultant Professional Services (AI Companies)",
    "via": "",
    "location": "Toronto",
    "url": "https://stripe.com/jobs/search?gh_jid=8281536",
    "ats": "greenhouse",
-   "posted": "2026-11-12",
+   "posted": "2026-11-13",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -209,35 +880,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-13"
-  },
-  {
-   "id": "getro:jobs.spacecapital.com:98617401",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Salesforce.Com Apex Code API Management DevOps Release Management",
-   "student_rule": "",
-   "company": "Reonomy",
-   "title": "Salesforce Platform Developer",
-   "via": "Space Capital portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://altusgroup.wd3.myworkdayjobs.com/AltusGroup/job/Toronto-Ontario/Salesforce-Platform-Developer_R0014087",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
    "tier": "2",
    "first_seen": "2026-11-13"
   },
@@ -598,77 +1240,6 @@
    "first_seen": "2026-11-12"
   },
   {
-   "id": "workday:generalmotors:JR-202620338",
-   "min_years": 7,
-   "years_text": "e team.      Requires Qualifications    7+ years  of professional experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "api",
-    "c++"
-   ],
-   "skills_has": [
-    "python",
-    "api"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [],
-   "requirements": "Qualifications | 7+ years  of professional experience in software development, with a significant portion focused on  large-scale platforms, tooling, or SDK development . | Proven ability to  lead technical projects from concept to production. | Expert-level proficiency in  Python , including deep knowledge of best practices, performance optimization, and building robust APIs/SDKs for external consumers. | Solid foundation in  3D graphics, computational geometry, and/or real-time simulation concepts . | A track record of  mentoring and coaching  mid-level and senior engineers, raising the technical bar, and driving code quality standards within a team. | Desired Skills (Bonus Points) | Experience with  C++  for performance-critical components or integration with simulation engines. | Direct experience developing or extending a  Domain-Specific Language (DSL)  or high-level scri",
-   "student_rule": "",
-   "company": "General Motors",
-   "title": "Software Developer- Simulation Tooling",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Software-Engineer---Simulation-Tooling_JR-202620338",
-   "ats": "workday",
-   "posted": "Posted 2 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-12"
-  },
-  {
-   "id": "workday:generalmotors:JR-202623877",
-   "min_years": 2,
-   "years_text": "Engineering, or a related discipline.   2+ years of experience using MATLAB/Simuli",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c++",
-    "c",
-    "embedded"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "embedded"
-   ],
-   "requirements": "requirements and supports reliable test capability. The successful candidate is hands-on, methodical, safety-conscious, and eager to deepen their expertise in HIL systems and automotive controls. | What You'll Do (Responsibilities) | Design, implement, and test MATLAB/Simulink real-time plant and environment models for automotive lighting, visibility, sensing and actuation, low-voltage distribution, power management, and electrical loads. | Integrate and validate real-time models, ECUs, loads, sensors, electrical interfaces, and hardware on dSPACE platforms. | Develop communication models for CAN, LIN, Ethernet, and UART | Configure and verify bench I/O, signal mapping, network interfaces, test equipment, and ECU connections in accordance with approved bench requirements. | Work with bench users, model engineers, and ECU software teams to clarify requirements, debug issues, and verify",
-   "student_rule": "",
-   "company": "General Motors",
-   "title": "HIL Simulation Integration Engineer",
-   "via": "",
-   "location": "Markham, Ontario, Canada; Oshawa, Ontario, Canada",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/HIL-Simulation-Integration-Engineer_JR-202623877",
-   "ats": "workday",
-   "posted": "Posted 2 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-12"
-  },
-  {
    "id": "amazon:amazon:10589122",
    "min_years": null,
    "years_text": "",
@@ -769,91 +1340,10 @@
    "location": "Toronto, Ontario, Canada",
    "url": "https://www.okta.com/company/careers/opportunity/8333990?gh_jid=8333990",
    "ats": "greenhouse",
-   "posted": "2026-11-10",
+   "posted": "2026-11-13",
    "level_hint": "mid",
    "remote": false,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-11"
-  },
-  {
-   "id": "workday:motorolasolutions:R70559",
-   "min_years": 2,
-   "years_text": "f software engineering/development  AND 2+ years of salesforce experience   Travel Requiremen",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "rest",
-    "api"
-   ],
-   "skills_has": [
-    "rest",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements and align with best practices. | Develop custom solutions using Apex, Lightning Web Components (LWC), Visualforce, and other Salesforce technologies. | Provide architectural guidance and ensure that solutions are scalable, efficient, and follow Salesforce platform best practices. | Revenue Cloud (CPQ + Billing): | Develop and maintain Salesforce CPQ solutions, including complex product configurations, pricing rules, and quote templates. | Optimize CPQ processes for efficiency and accuracy, ensuring alignment with business goals. | Troubleshoot and resolve CPQ-related issues to ensure smooth operations. | Sales Cloud & Service Cloud Expertise: | Customize and enhance Sales Cloud and Service Cloud to meet the needs of sales, service, and support teams. | Build and optimize workflows, approval processes, and automation to streamline business operations. | Provide hands-on suppo",
-   "student_rule": "",
-   "company": "Motorola Solutions",
-   "title": "Software Engineer (Salesforce) (CANADA REMOTE)",
-   "via": "",
-   "location": "Vancouver, Canada; Ontario Remote Work; Quebec Remote Work; British Columbia Remote Work; Toronto, Canada (ONT40)",
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Software-Engineer--Salesforce---CANADA-REMOTE-_R70559",
-   "ats": "workday",
-   "posted": "Posted 3 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-11"
-  },
-  {
-   "id": "workday:motorolasolutions:R66300",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "postgresql",
-    "rest",
-    "go",
-    "rust",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "kubernetes",
-    "llm"
-   ],
-   "skills_has": [
-    "python",
-    "postgresql",
-    "rest"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "rust",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "kubernetes",
-    "llm"
-   ],
-   "requirements": "you haven’t done it all yet. | You use AI tools daily, but you do not confuse speed with quality. | You care about quality — you write tests, read documentation, and try to understand a system before you change it. | You take feedback well and act on it. | You have strong product instincts and care about the humans using what you build. | You thrive in a small, fast-moving team where you’ll have real ownership early — and you’re comfortable asking for help. | You want to work on AI systems that matter beyond demos. | Relevant Experience | We don’t expect you to have shipped production systems. We care most about engineering fundamentals, learning velocity, curiosity, and how you think. Coursework, internships, research, and personal projects all count. | Relevant exposure may include: | Projects involving LLMs, AI agents, AI pipelines, RAG systems, evals, or prompt test harnesses. | Spee",
-   "student_rule": "",
-   "company": "Motorola Solutions",
-   "title": "Jr. Software Engineer, AI Agent Platform",
-   "via": "",
-   "location": "Ontario Remote Work; British Columbia Remote Work",
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ontario-Remote-Work/Jr-Software-Engineer--AI-Agent-Platform_R66300",
-   "ats": "workday",
-   "posted": "Posted 3 Days Ago",
-   "level_hint": "junior",
-   "remote": true,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-11"
   },
@@ -1407,42 +1897,6 @@
    "remote": true,
    "pathway_hint": "D",
    "tier": "1",
-   "first_seen": "2026-11-10"
-  },
-  {
-   "id": "workday:cisco:2028996",
-   "min_years": 5,
-   "years_text": "ering, or a related technical field     5+ years of professional experience in backend software",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "go",
-    "kubernetes",
-    "distributed systems"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "go",
-    "kubernetes",
-    "distributed systems"
-   ],
-   "requirements": "requirements, writing system design documents, develop, test, automate and deploy software | Set technical vision for the team, including improving the process, providing coding and design guidelines to set a high engineering standard | Identify and resolve pre-production system bottlenecks and production issues | Engage in design and code reviews of the product, and enhance your knowledge of customers’ experiences to prevent future problems | Make code maintainable and the product diagnosable and serviceable | Participate in rotating on-call duties to diagnose and solve customer issues. | Minimum Qualifications | Bachelor’s or Master’s degree in Computer Science, Computer Engineering, or a related technical field | 5+ years of professional experience in backend software development, with a primary focus on large-scale distributed systems | Expert-level",
-   "student_rule": "",
-   "company": "Cisco",
-   "title": "Software Developer",
-   "via": "",
-   "location": "Vancouver, British Columbia, Canada; Kanata, Ontario, Canada; Calgary, Alberta, Canada; Toronto, Ontario, Canada; Montreal, Quebec, Canada; Ottawa, Ontario, Canada",
-   "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Vancouver-British-Columbia-Canada/Software-Developer_2028996",
-   "ats": "workday",
-   "posted": "Posted 4 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
    "first_seen": "2026-11-10"
   },
   {
@@ -3021,35 +3475,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "getro:jobs.techstars.com:95999212",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Full Stack Software Engineering API Development New Product Development Problem Solving Collaboration Continuous Training",
-   "student_rule": "",
-   "company": "VanHack",
-   "title": "Full Stack Developer",
-   "via": "Techstars portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://app.vanhack.com/job/12033",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
    "id": "workday:trimble:R57963",
    "min_years": null,
    "years_text": "",
@@ -3706,6 +4131,40 @@
    "first_seen": "2026-11-05"
   },
   {
+   "id": "getro:jobs.luxcapital.com:30139973",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "aws",
+    "terraform"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "aws",
+    "terraform"
+   ],
+   "requirements": "DevOps Cloud Computing Security Amazon Web Services Terraform Python (Programming Language) Flask (Web Framework) Infrastructure Management",
+   "student_rule": "",
+   "company": "Ramp",
+   "title": "Software Engineer, Security, Cloud",
+   "via": "Lux Capital portfolio",
+   "location": "United States; Canada; Miami, FL, USA; Remote; New York, NY, USA",
+   "url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "B",
+   "tier": "2",
+   "first_seen": "2026-11-05"
+  },
+  {
    "id": "getro:jobs.luxcapital.com:76454774",
    "min_years": null,
    "years_text": "",
@@ -3821,40 +4280,6 @@
    "via": "Lux Capital portfolio",
    "location": "United States; Canada; San Francisco, CA, USA; Remote; New York, NY, USA",
    "url": "https://jobs.ashbyhq.com/ramp/f564dcf9-9390-4a3f-896f-8047a5086040",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "getro:jobs.luxcapital.com:30139973",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "aws",
-    "terraform"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "terraform"
-   ],
-   "requirements": "DevOps Cloud Computing Security Amazon Web Services Terraform Python (Programming Language) Flask (Web Framework) Infrastructure Management",
-   "student_rule": "",
-   "company": "Ramp",
-   "title": "Security Engineer, Cloud",
-   "via": "Lux Capital portfolio",
-   "location": "United States; Canada; Miami, FL, USA; Remote; New York, NY, USA",
-   "url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245",
    "ats": "getro",
    "posted": "",
    "level_hint": "unlevelled",
@@ -5082,35 +5507,6 @@
    "first_seen": "2026-11-05"
   },
   {
-   "id": "getro:jobs.techstars.com:86917115",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Full Stack Software Engineering API Design Database Administration Front-End Engineering Product Ownership Problem Solving Agility Real Time Systems",
-   "student_rule": "",
-   "company": "Between",
-   "title": "Full-Stack Engineer",
-   "via": "Techstars portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://attentionlabs.ai/careers/full-stack-engineer",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-05"
-  },
-  {
    "id": "getro:jobs.techstars.com:26264505",
    "min_years": null,
    "years_text": "",
@@ -5543,31 +5939,6 @@
    "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-05"
-  },
-  {
-   "id": "workday:workday:JR-0110858-1",
-   "min_years": 5,
-   "years_text": "About You     Basic Qualifications:   5+ years of experience as a Product Owner,",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "requirements to ensure clear direction for engineering and data development teams. | Participate actively in all Agile/Scrum ceremonies, including sprint planning, daily stand-ups, backlog grooming, and sprint reviews/demos. | Collaborate closely with cross-functional stakeholders (Business Technology, Data Governance, Sales, Marketing, and Operations) to gather requirements and align product roadmaps. | Review and accept completed work from the engineering team to ensure it meets definition-of-done and acceptance criteria before release. | Track key product performance metrics (KPIs), user adoption, and feedback loops to continuously drive iterative product improvements. | Work with Data Governance and Architecture teams to ensure data products align with enterprise data quality, security, and compliance standards. | About You | Basic Qualifications: | 5+ years of experience as a Pr",
-   "student_rule": "",
-   "company": "Workday (all roles)",
-   "title": "Enterprise DataOps & Governance Platform Product Owner",
-   "via": "",
-   "location": "Canada, ON, Toronto",
-   "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/Canada-ON-Toronto/Enterprise-DataOps---Governance-Platform-Product-Owner_JR-0110858-1",
-   "ats": "workday",
-   "posted": "Posted 10 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-04"
   },
   {
    "id": "greenhouse:tailscale:4750580005",
@@ -6883,7 +7254,7 @@
   {
    "id": "greenhouse:stripe:8203975",
    "min_years": 6,
-   "years_text": "equirement.   Minimum requirements      6+ years of experience in software enginee",
+   "years_text": "requirement.   Minimum requirements     6+ years of experience in software enginee",
    "grad_text": "",
    "desc_read": true,
    "stack": [
@@ -6914,15 +7285,15 @@
     "llm",
     "distributed systems"
    ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Stripe’s Professional Services team works with our most strategic users. You will work on the highest visibility projects to provide technical expertise to our customers to help accelerate their knowledge, solution design and integrations with Stripe. This role is responsible for leading strategic conversations and developing plans that will transform the payments and financial infrastructure for leading enterprises. | What you’ll do | Responsibilities | Plan and execute integration engineering end to end, from architecture through code implementation, testing, launch, and stabilization. | Lead discovery with users, understand their goals and systems, and translate complex use cases into reliable Stripe integration designs.",
+   "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the team | Stripe is building a dedicated Professional Services practice for the world's leading AI companies. We work with AI labs, infrastructure providers, and application companies that launch quickly, change their business models often, and expand globally early. Their work with Stripe spans products, regions, and technical teams, creating some of our most important implementation challenges. | As an Integration Engineer, you will work directly with these companies' engineering teams to move complex implementations, migrations, product launches, and international expansions into production. You will also turn what you learn into reusable code, tools, and delivery methods for the wider AI segment. | What you'll do | Responsibilities | P",
    "student_rule": "",
    "company": "Stripe",
-   "title": "Integration Engineer",
+   "title": "Integration Engineer, Professional Services",
    "via": "",
    "location": "Toronto or Chicago",
    "url": "https://stripe.com/jobs/search?gh_jid=8203975",
    "ats": "greenhouse",
-   "posted": "2026-11-11",
+   "posted": "2026-11-13",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -6958,40 +7329,6 @@
    "url": "https://stripe.com/jobs/search?gh_jid=6447175",
    "ats": "greenhouse",
    "posted": "2026-11-03",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:stripe:8113100",
-   "min_years": 4,
-   "years_text": "or MA with 2-6 years, or BS or BA with 4-8 years of data science or quantitative modeling experience   Experience with F",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "sql",
-    "spark"
-   ],
-   "skills_has": [
-    "python",
-    "sql"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "spark"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. | About the team | Our Data Science team partners deeply with teams across Stripe to ensure that our users, our products, and our business have the models, data products, and insights needed to make decisions and grow responsibly. We're looking for data scientists with a passion for analyzing data, building machine learning and statistical models, and running experiments to drive impact. Our Fraud, Losses, and Financial Crime Data Science team builds the models and data products that protect Stripe and its users from fraud, account takeover, and financial crime. We own the full fraud and loss modeling stack - from account takeover detection and card fraud classification to merchant-level loss estimation, unsupervised anomaly detection, and financial",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Data Scientist, Fraud",
-   "via": "",
-   "location": "Toronto",
-   "url": "https://stripe.com/jobs/search?gh_jid=8113100",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -7521,42 +7858,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "workday:globalhr:01874399-1",
-   "min_years": 5,
-   "years_text": "ineering or computer science.  At least 5 years of experience in controls, embedd",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c++",
-    "c",
-    "go",
-    "embedded"
-   ],
-   "skills_has": [],
-   "skills_learning": [
-    "c++"
-   ],
-   "skills_missing": [
-    "c",
-    "go",
-    "embedded"
-   ],
-   "requirements": "requirements capture and design through verification and certification. You’ll collaborate with our engineering teams, suppliers, customers, and test organizations to develop and support both new and in-service products. If you’re driven by innovation, collaboration, and the thrill of seeing your work take to the skies, this is the role for you! | The position is based at either our Mississauga , Ontario, or Longueuil , Quebec, locations. This position is fully on-site, Monday through Friday. | What will your day-to-day look like? | Develop aircraft engine control system software architecture, requirements, and code using model-based design, Assembly, Ada, C/C++, and other programming languages. | Perform in-depth reviews, analysis, and testing of software systems in collaboration with our global engineering team. | Create and review certification artifacts, support SOI audits, and ensur",
-   "student_rule": "",
-   "company": "RTX (Collins, Pratt)",
-   "title": "Ingénieur(e) en conception de logiciels de systèmes de commande / Control Systems Software Design Engineer",
-   "via": "",
-   "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG; CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Ingnieur-e--en-conception-de-logiciels-de-systmes-de-commande---Control-Systems-Software-Design-Engineer_01874399-1",
-   "ats": "workday",
-   "posted": "Posted 28 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "workday:rockwellautomation:R26-3070",
    "min_years": 8,
    "years_text": "ering.  Typically requires a minimum of 8+ years of relevant experience.  Be able to read a",
@@ -8077,35 +8378,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:motorolasolutions:R68672",
-   "min_years": 5,
-   "years_text": "idate.    #LI-LD    Basic Requirements  5+ years of technical sales experience     Travel Requirem",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "c"
-   ],
-   "requirements": "Requirements | Technical Expertise | SaaS & Cloud Video Platforms to present, configure, and demonstrate software-defined video security, access control, and cloud-native solutions | Salesforce CRM & Pipeline Forecasting to manage sales pipelines, forecast quarterly revenue, and track account activity within CRM platforms | Technical Pre-Sales Collaboration to partner with Sales Engineers, navigate complex RFP responses, and lead technical evaluations with client stakeholders | Professional Experience | Enterprise & Public Sector Prospecting to hunt, qualify, and close net-new business across mid-market, large enterprise, and public sector end-user accounts | Channel Strategy Execution to co-sell alongside security integrators, consultants, and regional channel partners | Executive & C-Suite Communication to build trusted relationships and deliver technical solution presentations to CISO",
-   "student_rule": "",
-   "company": "Motorola Solutions",
-   "title": "Cloud Video Specialist (Canada)",
-   "via": "",
-   "location": "Toronto, Canada (ONT40); Ontario,Canada Offsite",
-   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Toronto-Canada-ONT40/Cloud-Video-Specialist--Canada-_R68672",
-   "ats": "workday",
-   "posted": "Posted Yesterday",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -9388,48 +9660,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:generalmotors:JR-202621673",
-   "min_years": 15,
-   "years_text": "experience. Advanced degree preferred.  15 years of experience in software develop",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "linux",
-    "ruby",
-    "azure",
-    "docker",
-    "kubernetes",
-    "ci/cd",
-    "embedded"
-   ],
-   "skills_has": [
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "ruby",
-    "azure",
-    "docker",
-    "kubernetes",
-    "ci/cd",
-    "embedded"
-   ],
-   "requirements": "minimum. | Specific job responsibilities include: | The architect will: | Establish the end-to-end CI/CD reference architecture for Platform Software delivery across component, pillar, system-of-systems, and release-train flows. | Define how independently delivered software components are built, versioned, validated, combined, promoted, and consumed by downstream teams and release processes. | Create a coherent quality-gating strategy that protects the core mainline and prevents known-bad software, invalid configurations, incompatible artifacts, and insufficient test evidence from advancing. | Connect developer workflows, GitHub Enterprise, cloud build infrastructure, artifact repositories, virtual and physical test environments, dashboards, and release systems into a traceable delivery path. | Advise senior engineering and program leadership on release risk, pipeline health, quality sig",
-   "student_rule": "",
-   "company": "General Motors",
-   "title": "Principle Software Engineering – Continuous Integration & Quality Gating",
-   "via": "",
-   "location": "Markham, Ontario, Canada",
-   "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Principle-Software-Engineering---Continuous-Integration---Quality-Gating_JR-202621673",
-   "ats": "workday",
-   "posted": "Posted 14 Days Ago",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
