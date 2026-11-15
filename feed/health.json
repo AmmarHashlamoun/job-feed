@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-15T01:20:25Z",
+  "generated_at": "2026-11-15T11:16:05Z",
   "boards": 294,
   "ok": 237,
   "failed": 57,
-  "jobs_seen": 25935,
-  "jobs_kept": 340,
-  "new_today": 0
+  "jobs_seen": 25934,
+  "jobs_kept": 341,
+  "new_today": 1
  },
  "boards": [
   {
@@ -674,7 +674,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 357,
+   "seen": 352,
    "kept": 37,
    "error": "",
    "resolved": ""
@@ -964,7 +964,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 539,
+   "seen": 533,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1094,7 +1094,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 896,
+   "seen": 895,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1444,7 +1444,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 251,
+   "seen": 254,
    "kept": 7,
    "error": "",
    "resolved": ""
@@ -1664,7 +1664,7 @@
    "ats": "greenhouse",
    "token": "kodiak",
    "ok": true,
-   "seen": 49,
+   "seen": 48,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1764,7 +1764,7 @@
    "ats": "getro",
    "token": "jobs.luxcapital.com",
    "ok": true,
-   "seen": 157,
+   "seen": 159,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -1934,7 +1934,7 @@
    "ats": "ashby",
    "token": "notion",
    "ok": true,
-   "seen": 166,
+   "seen": 165,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1964,7 +1964,7 @@
    "ats": "workday",
    "token": "nvidia",
    "ok": true,
-   "seen": 18,
+   "seen": 17,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1994,7 +1994,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 839,
+   "seen": 840,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2756,
+   "seen": 2758,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2494,7 +2494,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 786,
+   "seen": 785,
    "kept": 17,
    "error": "",
    "resolved": ""
@@ -2534,7 +2534,7 @@
    "ats": "getro",
    "token": "jobs.techstars.com",
    "ok": true,
-   "seen": 215,
+   "seen": 221,
    "kept": 15,
    "error": "",
    "resolved": ""
@@ -2694,7 +2694,7 @@
    "ats": "greenhouse",
    "token": "tulip",
    "ok": true,
-   "seen": 65,
+   "seen": 66,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2885,7 +2885,7 @@
    "token": "workday",
    "ok": true,
    "seen": 1,
-   "kept": 0,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
