@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-14T23:02:31Z",
+  "generated_at": "2026-11-15T01:20:25Z",
   "boards": 294,
-  "ok": 238,
-  "failed": 56,
-  "jobs_seen": 26003,
-  "jobs_kept": 346,
-  "new_today": 52
+  "ok": 237,
+  "failed": 57,
+  "jobs_seen": 25935,
+  "jobs_kept": 340,
+  "new_today": 0
  },
  "boards": [
   {
@@ -337,6 +337,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -704,7 +714,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2599,
+   "seen": 2598,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1194,7 +1204,7 @@
    "ats": "greenhouse",
    "token": "doordashusa",
    "ok": true,
-   "seen": 427,
+   "seen": 428,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1604,7 +1614,7 @@
    "ats": "greenhouse",
    "token": "jetsonhome",
    "ok": true,
-   "seen": 55,
+   "seen": 54,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1836,16 +1846,6 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 65,
-   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -2294,7 +2294,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 318,
+   "seen": 319,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2314,7 +2314,7 @@
    "ats": "auto",
    "token": "sardine",
    "ok": true,
-   "seen": 39,
+   "seen": 40,
    "kept": 3,
    "error": "",
    "resolved": "ashby:sardine"
@@ -2454,7 +2454,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2759,
+   "seen": 2756,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2704,7 +2704,7 @@
    "ats": "greenhouse",
    "token": "twilio",
    "ok": true,
-   "seen": 115,
+   "seen": 114,
    "kept": 0,
    "error": "",
    "resolved": ""
