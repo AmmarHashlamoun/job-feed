@@ -117,7 +117,7 @@ def http(url, data=None, headers=None, method=None):
         h["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, headers=h, method=method or ("POST" if body else "GET"))
     last = None
-    for attempt in range(2):
+    for attempt in range(4):
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 raw = r.read()
@@ -126,9 +126,16 @@ def http(url, data=None, headers=None, method=None):
             if e.code in (404, 410, 400, 401, 403):
                 raise
             last = e
+            if e.code == 429:  # rate limited: honour Retry-After, else back off 5s, 10s, 20s
+                try:
+                    wait = min(60, int(e.headers.get("Retry-After") or 0))
+                except (TypeError, ValueError):
+                    wait = 0
+                time.sleep(wait or 5 * (2 ** attempt))
+                continue
         except Exception as e:  # timeouts, resets, bad JSON
             last = e
-        time.sleep(2)
+        time.sleep(2 * (attempt + 1))
     raise last
 
 
@@ -313,6 +320,33 @@ def workable(token, _):
         out.append({"id": j.get("shortcode"), "title": j.get("title", ""), "locations": [loc],
                     "url": j.get("url") or f"https://apply.workable.com/{token}/j/{j.get('shortcode')}/",
                     "posted": iso(j.get("published_on"))})
+    return out
+
+
+def bamboohr(token, _):
+    d = http(f"https://{token}.bamboohr.com/careers/list")
+    out = []
+    for j in (d or {}).get("result", []) or []:
+        l = j.get("location") or {}
+        loc = ", ".join(x for x in [l.get("city"), l.get("state"), l.get("country")] if x)
+        if j.get("isRemote"):
+            loc = (loc + " (remote)") if loc else "Remote"
+        out.append({"id": j.get("id"), "title": j.get("jobOpeningName", ""), "locations": [loc],
+                    "url": f"https://{token}.bamboohr.com/careers/{j.get('id')}", "posted": ""})
+    return out
+
+
+def recruitee(token, _):
+    d = http(f"https://{token}.recruitee.com/api/offers/")
+    out = []
+    for j in (d or {}).get("offers", []) or []:
+        loc = ", ".join(x for x in [j.get("city"), j.get("state_name") or j.get("state_code"), j.get("country")] if x)
+        if j.get("remote"):
+            loc = (loc + " (remote)") if loc else "Remote"
+        out.append({"id": j.get("id"), "title": j.get("title", ""), "locations": [loc],
+                    "url": j.get("careers_url") or f"https://{token}.recruitee.com/o/{j.get('slug')}",
+                    "posted": iso(j.get("published_at") or j.get("created_at")),
+                    "desc": strip_html((j.get("description") or "") + " " + (j.get("requirements") or ""))})
     return out
 
 
@@ -520,14 +554,29 @@ def _get_text(url):
         return r.read().decode("utf-8", "replace")
 
 
+GETRO_RESOLVED = {}
+
+
 def getro(host, _):
     """VC portfolio job boards powered by Getro (Techstars, Radical, Golden, Garage, Lux and others).
     Finds the board's collection id in its page, then pages through jobs located in Canada."""
-    page_html = _get_text(f"https://{host}/jobs")
-    m = re.search(r'"network":\{"id":"?(\d+)', page_html)
-    if not m:
-        raise RuntimeError("no Getro collection id on page")
-    cid = m.group(1)
+    base = re.sub(r"^(jobs|careers|talent)\.", "", host)
+    cid, errors = None, []
+    for h in dict.fromkeys([host, f"careers.{base}", f"jobs.{base}", f"talent.{base}"]):
+        try:
+            page_html = _get_text(f"https://{h}/jobs")
+        except Exception as e:
+            errors.append(f"{h}:{getattr(e, 'code', type(e).__name__)}")
+            continue
+        m = re.search(r'"network":\{"id":"?(\d+)', page_html)
+        if m:
+            cid = m.group(1)
+            if h != host:
+                GETRO_RESOLVED[host] = h
+            break
+        errors.append(f"{h}:no collection id")
+    if not cid:
+        raise RuntimeError("no Getro board (" + ", ".join(errors) + ")")
     out = []
     for page in range(0, 25):
         d = http(f"https://api.getro.com/api/v2/collections/{cid}/search/jobs",
@@ -619,24 +668,29 @@ def betakit_discoveries():
 
 
 ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
-            "workable": workable, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
+            "workable": workable, "bamboohr": bamboohr, "recruitee": recruitee, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
             "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx,
             "getro": getro, "yc": yc, "hn": hn}
 
 
 def probe(slugs):
-    """Try Greenhouse, Lever and Ashby for each slug; return (ats, token, jobs)."""
-    errors = []
+    """Try each supported no-login ATS for each slug; return (ats, token, jobs).
+    Boards that answer but list nothing (Ashby, SmartRecruiters, Workable, BambooHR, Recruitee
+    return 200 for unknown names) only count when the probe finds nothing better."""
+    errors, empty = [], None
     for slug in slugs:
-        for ats in ("greenhouse", "lever", "ashby"):
+        for ats in ("greenhouse", "lever", "ashby", "smartrecruiters", "workable", "bamboohr", "recruitee"):
             try:
                 jobs = ADAPTERS[ats](slug, "")
-                if ats == "ashby" and not jobs:
+                if not jobs and ats not in ("greenhouse", "lever"):
+                    empty = empty or (ats, slug, jobs)
                     continue
                 return ats, slug, jobs
             except Exception as e:
                 errors.append(f"{ats}:{slug}:{getattr(e, 'code', type(e).__name__)}")
-    raise RuntimeError("no board found (" + ", ".join(errors[:6]) + ")")
+    if empty:
+        errors.insert(0, f"{empty[0]}:{empty[1]}:empty board")
+    raise RuntimeError("no board found (" + ", ".join(errors[:8]) + ")")
 
 
 # ---------------------------------------------------------------- main
@@ -653,6 +707,8 @@ def run_board(row):
             ats_used = ats
         rec["ok"] = True
         rec["seen"] = len(jobs)
+        if ats == "getro" and token in GETRO_RESOLVED:
+            rec["resolved"] = f"getro:{GETRO_RESOLVED[token]}"
         kept = []
         for j in jobs:
             title = (j.get("title") or "").strip()
