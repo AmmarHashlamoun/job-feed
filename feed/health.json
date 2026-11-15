@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-15T11:16:05Z",
-  "boards": 294,
-  "ok": 237,
-  "failed": 57,
-  "jobs_seen": 25934,
-  "jobs_kept": 341,
-  "new_today": 1
+  "generated_at": "2026-11-15T19:35:05Z",
+  "boards": 278,
+  "ok": 243,
+  "failed": 35,
+  "jobs_seen": 26600,
+  "jobs_kept": 405,
+  "new_today": 65
  },
  "boards": [
   {
@@ -16,27 +16,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:ableinnovations:404, lever:ableinnovations:404, ashby:ableinnovations:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Absolute Security",
-   "ats": "auto",
-   "token": "absolute;absolutesoftware",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:absolute:404, lever:absolute:404, ashby:absolute:404, greenhouse:absolutesoftware:404, lever:absolutesoftware:404, ashby:absolutesoftware:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Anyscale",
-   "ats": "lever",
-   "token": "anyscale",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
+   "error": "no board found (smartrecruiters:ableinnovations:empty board, greenhouse:ableinnovations:404, lever:ableinnovations:404, ashby:ableinnovations:404, workable:ableinnovations:404, bamboohr:ableinnovation",
    "resolved": ""
   },
   {
@@ -46,7 +26,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:appliedintuition:404, lever:appliedintuition:404, ashby:appliedintuition:404, greenhouse:applied-intuition:404, lever:applied-intuition:404, ashby:applied-intuition:404)",
+   "error": "no board found (smartrecruiters:appliedintuition:empty board, greenhouse:appliedintuition:404, lever:appliedintuition:404, ashby:appliedintuition:404, workable:appliedintuition:404, bamboohr:appliedin",
    "resolved": ""
   },
   {
@@ -56,17 +36,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:atlassian:404, lever:atlassian:404, ashby:atlassian:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Avidbots",
-   "ats": "auto",
-   "token": "avidbots",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:avidbots:404, lever:avidbots:404, ashby:avidbots:404)",
+   "error": "no board found (smartrecruiters:atlassian:empty board, greenhouse:atlassian:404, lever:atlassian:404, ashby:atlassian:404, bamboohr:atlassian:JSONDecodeError, recruitee:atlassian:404)",
    "resolved": ""
   },
   {
@@ -76,7 +46,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:axonify:404, lever:axonify:404, ashby:axonify:404)",
+   "error": "no board found (smartrecruiters:axonify:empty board, greenhouse:axonify:404, lever:axonify:404, ashby:axonify:404, workable:axonify:404, bamboohr:axonify:JSONDecodeError, recruitee:axonify:404)",
    "resolved": ""
   },
   {
@@ -86,7 +56,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "error": "no Getro board (jobs.bdc.ca:URLError, careers.bdc.ca:no collection id, talent.bdc.ca:URLError)",
    "resolved": ""
   },
   {
@@ -96,7 +66,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:canadensys:404, lever:canadensys:404, ashby:canadensys:404)",
+   "error": "no board found (smartrecruiters:canadensys:empty board, greenhouse:canadensys:404, lever:canadensys:404, ashby:canadensys:404, workable:canadensys:404, bamboohr:canadensys:JSONDecodeError, recruitee:c",
    "resolved": ""
   },
   {
@@ -106,17 +76,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:clearpathrobotics:404, lever:clearpathrobotics:404, ashby:clearpathrobotics:404, greenhouse:clearpath:404, lever:clearpath:404, ashby:clearpath:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Contextual AI",
-   "ats": "auto",
-   "token": "contextualai",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:contextualai:404, lever:contextualai:404, ashby:contextualai:404)",
+   "error": "no board found (smartrecruiters:clearpathrobotics:empty board, greenhouse:clearpathrobotics:404, lever:clearpathrobotics:404, ashby:clearpathrobotics:404, workable:clearpathrobotics:404, bamboohr:clea",
    "resolved": ""
   },
   {
@@ -126,7 +86,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:coveo:404, lever:coveo:404, ashby:coveo:404)",
+   "error": "no board found (smartrecruiters:coveo:empty board, greenhouse:coveo:404, lever:coveo:404, ashby:coveo:404, workable:coveo:404, bamboohr:coveo:JSONDecodeError, recruitee:coveo:404)",
    "resolved": ""
   },
   {
@@ -136,7 +96,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:dejero:404, lever:dejero:404, ashby:dejero:404)",
+   "error": "no board found (smartrecruiters:dejero:empty board, greenhouse:dejero:404, lever:dejero:404, ashby:dejero:404, workable:dejero:404, bamboohr:dejero:JSONDecodeError, recruitee:dejero:404)",
    "resolved": ""
   },
   {
@@ -146,7 +106,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 404",
+   "error": "no Getro board (jobs.eclipse.vc:404, careers.eclipse.vc:URLError, talent.eclipse.vc:URLError)",
    "resolved": ""
   },
   {
@@ -156,27 +116,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:ecobee:404, lever:ecobee:404, ashby:ecobee:404)",
-   "resolved": ""
-  },
-  {
-   "company": "EvenUp",
-   "ats": "auto",
-   "token": "evenup",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:evenup:404, lever:evenup:404, ashby:evenup:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Faros AI",
-   "ats": "auto",
-   "token": "farosai;faros",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:farosai:404, lever:farosai:404, ashby:farosai:404, greenhouse:faros:404, lever:faros:404, ashby:faros:404)",
+   "error": "no board found (smartrecruiters:ecobee:empty board, greenhouse:ecobee:404, lever:ecobee:404, ashby:ecobee:404, workable:ecobee:404, bamboohr:ecobee:JSONDecodeError, recruitee:ecobee:404)",
    "resolved": ""
   },
   {
@@ -186,7 +126,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:fleetrobotics:404, lever:fleetrobotics:404, ashby:fleetrobotics:404)",
+   "error": "no board found (smartrecruiters:fleetrobotics:empty board, greenhouse:fleetrobotics:404, lever:fleetrobotics:404, ashby:fleetrobotics:404, workable:fleetrobotics:404, bamboohr:fleetrobotics:JSONDecode",
    "resolved": ""
   },
   {
@@ -196,27 +136,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
-   "resolved": ""
-  },
-  {
-   "company": "Gatik",
-   "ats": "auto",
-   "token": "gatik",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:gatik:404, lever:gatik:404, ashby:gatik:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Georgian portfolio",
-   "ats": "getro",
-   "token": "jobs.georgian.io",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "error": "no Getro board (jobs.garage.vc:URLError, careers.garage.vc:URLError, talent.garage.vc:URLError)",
    "resolved": ""
   },
   {
@@ -226,17 +146,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
-   "resolved": ""
-  },
-  {
-   "company": "Groq",
-   "ats": "auto",
-   "token": "groq;groqinc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:groq:404, lever:groq:404, ashby:groq:404, greenhouse:groqinc:404, lever:groqinc:404, ashby:groqinc:404)",
+   "error": "no Getro board (jobs.golden.vc:URLError, careers.golden.vc:URLError, talent.golden.vc:URLError)",
    "resolved": ""
   },
   {
@@ -246,37 +156,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:haply:404, lever:haply:404, ashby:haply:404, greenhouse:haplyrobotics:404, lever:haplyrobotics:404, ashby:haplyrobotics:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Harvey (lever)",
-   "ats": "lever",
-   "token": "harvey",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
-   "resolved": ""
-  },
-  {
-   "company": "Hebbia (ashby)",
-   "ats": "ashby",
-   "token": "hebbia",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
-   "resolved": ""
-  },
-  {
-   "company": "Inovia portfolio",
-   "ats": "getro",
-   "token": "jobs.inovia.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "error": "no board found (smartrecruiters:haply:empty board, greenhouse:haply:404, lever:haply:404, ashby:haply:404, bamboohr:haply:JSONDecodeError, recruitee:haply:404, greenhouse:haplyrobotics:404, lever:hapl",
    "resolved": ""
   },
   {
@@ -286,17 +166,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:intellijoint:404, lever:intellijoint:404, ashby:intellijoint:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Kinaxis",
-   "ats": "auto",
-   "token": "kinaxis",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:kinaxis:404, lever:kinaxis:404, ashby:kinaxis:404)",
+   "error": "no board found (smartrecruiters:intellijoint:empty board, greenhouse:intellijoint:404, lever:intellijoint:404, ashby:intellijoint:404, workable:intellijoint:404, bamboohr:intellijoint:JSONDecodeError,",
    "resolved": ""
   },
   {
@@ -306,27 +176,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:kinova:404, lever:kinova:404, ashby:kinova:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Machina Labs",
-   "ats": "auto",
-   "token": "machinalabs",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:machinalabs:404, lever:machinalabs:404, ashby:machinalabs:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Maple",
-   "ats": "ashby",
-   "token": "maple",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
+   "error": "no board found (smartrecruiters:kinova:empty board, greenhouse:kinova:404, lever:kinova:404, ashby:kinova:404, workable:kinova:404, bamboohr:kinova:JSONDecodeError, recruitee:kinova:404)",
    "resolved": ""
   },
   {
@@ -336,37 +186,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 429",
-   "resolved": ""
-  },
-  {
-   "company": "Mistral AI",
-   "ats": "lever",
-   "token": "mistral",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
-   "resolved": ""
-  },
-  {
-   "company": "Mujin",
-   "ats": "auto",
-   "token": "mujin",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:mujin:404, lever:mujin:404, ashby:mujin:404)",
+   "error": "no board found (smartrecruiters:mappedin:empty board, greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404, workable:mappedin:404, bamboohr:mappedin:JSONDecodeError, recruitee:mappedin:404)",
    "resolved": ""
   },
   {
@@ -376,7 +196,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:northslope:404, lever:northslope:404, ashby:northslope:404, greenhouse:northslopetechnologies:404, lever:northslopetechnologies:404, ashby:northslopetechnologies:404)",
+   "error": "no board found (smartrecruiters:northslope:empty board, greenhouse:northslope:404, lever:northslope:404, ashby:northslope:404, workable:northslope:404, bamboohr:northslope:JSONDecodeError, recruitee:n",
    "resolved": ""
   },
   {
@@ -386,7 +206,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:nuportrobotics:404, lever:nuportrobotics:404, ashby:nuportrobotics:404, greenhouse:nuport:404, lever:nuport:404, ashby:nuport:404)",
+   "error": "no board found (smartrecruiters:nuportrobotics:empty board, greenhouse:nuportrobotics:404, lever:nuportrobotics:404, ashby:nuportrobotics:404, workable:nuportrobotics:404, bamboohr:nuportrobotics:JSON",
    "resolved": ""
   },
   {
@@ -396,7 +216,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 404",
+   "error": "no Getro board (jobs.omersventures.com:404, careers.omersventures.com:URLError, talent.omersventures.com:URLError)",
    "resolved": ""
   },
   {
@@ -406,17 +226,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:ouster:404, lever:ouster:404, ashby:ouster:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Plus One Robotics",
-   "ats": "auto",
-   "token": "plusonerobotics",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:plusonerobotics:404, lever:plusonerobotics:404, ashby:plusonerobotics:404)",
+   "error": "no board found (smartrecruiters:ouster:empty board, greenhouse:ouster:404, lever:ouster:404, ashby:ouster:404, workable:ouster:404, bamboohr:ouster:JSONDecodeError, recruitee:ouster:404)",
    "resolved": ""
   },
   {
@@ -426,17 +236,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
-   "resolved": ""
-  },
-  {
-   "company": "Replicate",
-   "ats": "ashby",
-   "token": "replicate",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "HTTP 404",
+   "error": "no Getro board (jobs.radical.vc:URLError, careers.radical.vc:URLError, talent.radical.vc:URLError)",
    "resolved": ""
   },
   {
@@ -446,7 +246,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:retool:404, lever:retool:404, ashby:retool:404)",
+   "error": "no board found (smartrecruiters:retool:empty board, greenhouse:retool:404, lever:retool:404, ashby:retool:404, workable:retool:404, bamboohr:retool:JSONDecodeError, recruitee:retool:404)",
    "resolved": ""
   },
   {
@@ -456,7 +256,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "<urlopen error [Errno -2] Name or service not known>",
+   "error": "no Getro board (jobs.seraphim.vc:URLError, careers.seraphim.vc:URLError, talent.seraphim.vc:URLError)",
    "resolved": ""
   },
   {
@@ -466,17 +266,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:shopify:404, lever:shopify:404, ashby:shopify:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Skild AI",
-   "ats": "auto",
-   "token": "skildai;skild",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:skildai:404, lever:skildai:404, ashby:skildai:404, greenhouse:skild:404, lever:skild:404, ashby:skild:404)",
+   "error": "no board found (smartrecruiters:shopify:empty board, greenhouse:shopify:404, lever:shopify:404, ashby:shopify:404, bamboohr:shopify:JSONDecodeError, recruitee:shopify:404)",
    "resolved": ""
   },
   {
@@ -486,7 +276,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:snapchat:404, lever:snapchat:404, ashby:snapchat:404, greenhouse:snap:404, lever:snap:404, ashby:snap:404)",
+   "error": "no board found (smartrecruiters:snapchat:empty board, greenhouse:snapchat:404, lever:snapchat:404, ashby:snapchat:404, bamboohr:snapchat:JSONDecodeError, recruitee:snapchat:404, greenhouse:snap:404, l",
    "resolved": ""
   },
   {
@@ -496,7 +286,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:swiftmedical:404, lever:swiftmedical:404, ashby:swiftmedical:404)",
+   "error": "no board found (smartrecruiters:swiftmedical:empty board, greenhouse:swiftmedical:404, lever:swiftmedical:404, ashby:swiftmedical:404, workable:swiftmedical:404, bamboohr:swiftmedical:JSONDecodeError,",
    "resolved": ""
   },
   {
@@ -506,7 +296,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:synaptivemedical:404, lever:synaptivemedical:404, ashby:synaptivemedical:404, greenhouse:synaptive:404, lever:synaptive:404, ashby:synaptive:404)",
+   "error": "no board found (smartrecruiters:synaptivemedical:empty board, greenhouse:synaptivemedical:404, lever:synaptivemedical:404, ashby:synaptivemedical:404, workable:synaptivemedical:404, bamboohr:synaptive",
    "resolved": ""
   },
   {
@@ -516,7 +306,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:taalas:404, lever:taalas:404, ashby:taalas:404)",
+   "error": "no board found (smartrecruiters:taalas:empty board, greenhouse:taalas:404, lever:taalas:404, ashby:taalas:404, workable:taalas:404, bamboohr:taalas:JSONDecodeError, recruitee:taalas:404)",
    "resolved": ""
   },
   {
@@ -526,7 +316,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:trexorobotics:404, lever:trexorobotics:404, ashby:trexorobotics:404, greenhouse:trexo:404, lever:trexo:404, ashby:trexo:404)",
+   "error": "no board found (smartrecruiters:trexorobotics:empty board, greenhouse:trexorobotics:404, lever:trexorobotics:404, ashby:trexorobotics:404, workable:trexorobotics:404, bamboohr:trexorobotics:JSONDecode",
    "resolved": ""
   },
   {
@@ -536,7 +326,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:untetherai:404, lever:untetherai:404, ashby:untetherai:404, greenhouse:untether:404, lever:untether:404, ashby:untether:404)",
+   "error": "no board found (smartrecruiters:untetherai:empty board, greenhouse:untetherai:404, lever:untetherai:404, ashby:untetherai:404, workable:untetherai:404, bamboohr:untetherai:JSONDecodeError, recruitee:u",
    "resolved": ""
   },
   {
@@ -546,7 +336,7 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:vectorinstitute:404, lever:vectorinstitute:404, ashby:vectorinstitute:404)",
+   "error": "no board found (smartrecruiters:vectorinstitute:empty board, greenhouse:vectorinstitute:404, lever:vectorinstitute:404, ashby:vectorinstitute:404, bamboohr:vectorinstitute:JSONDecodeError, recruitee:v",
    "resolved": ""
   },
   {
@@ -556,27 +346,17 @@
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "no board found (greenhouse:vention:404, lever:vention:404, ashby:vention:404)",
+   "error": "no board found (smartrecruiters:vention:empty board, greenhouse:vention:404, lever:vention:404, ashby:vention:404, bamboohr:vention:JSONDecodeError, recruitee:vention:404)",
    "resolved": ""
   },
   {
    "company": "Vidyard",
-   "ats": "greenhouse",
+   "ats": "auto",
    "token": "vidyard",
    "ok": false,
    "seen": 0,
    "kept": 0,
-   "error": "HTTP 404",
-   "resolved": ""
-  },
-  {
-   "company": "Weights & Biases",
-   "ats": "auto",
-   "token": "wandb;weightsandbiases",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (greenhouse:wandb:404, lever:wandb:404, ashby:wandb:404, greenhouse:weightsandbiases:404, lever:weightsandbiases:404, ashby:weightsandbiases:404)",
+   "error": "no board found (smartrecruiters:vidyard:empty board, greenhouse:vidyard:404, lever:vidyard:404, ashby:vidyard:404, workable:vidyard:404, bamboohr:vidyard:JSONDecodeError, recruitee:vidyard:404)",
    "resolved": ""
   },
   {
@@ -598,6 +378,16 @@
    "kept": 0,
    "error": "",
    "resolved": "ashby:abridge"
+  },
+  {
+   "company": "Absolute Security",
+   "ats": "auto",
+   "token": "absolute;absolutesoftware",
+   "ok": true,
+   "seen": 2,
+   "kept": 0,
+   "error": "",
+   "resolved": "bamboohr:absolute"
   },
   {
    "company": "Achievers",
@@ -654,7 +444,7 @@
    "ats": "greenhouse",
    "token": "airbnb",
    "ok": true,
-   "seen": 214,
+   "seen": 213,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -714,7 +504,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2598,
+   "seen": 2597,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -808,6 +598,16 @@
    "kept": 0,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Avidbots",
+   "ats": "auto",
+   "token": "avidbots",
+   "ok": true,
+   "seen": 12,
+   "kept": 0,
+   "error": "",
+   "resolved": "bamboohr:avidbots"
   },
   {
    "company": "Baseten",
@@ -964,7 +764,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 533,
+   "seen": 535,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1244,7 +1044,7 @@
    "ats": "auto",
    "token": "elevenlabs",
    "ok": true,
-   "seen": 128,
+   "seen": 127,
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
@@ -1374,7 +1174,7 @@
    "ats": "workday",
    "token": "gevernova",
    "ok": true,
-   "seen": 75,
+   "seen": 76,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1418,6 +1218,16 @@
    "kept": 1,
    "error": "",
    "resolved": ""
+  },
+  {
+   "company": "Georgian portfolio",
+   "ats": "getro",
+   "token": "jobs.georgian.io",
+   "ok": true,
+   "seen": 197,
+   "kept": 29,
+   "error": "",
+   "resolved": "getro:careers.georgian.io"
   },
   {
    "company": "Geotab",
@@ -1586,6 +1396,16 @@
    "ok": true,
    "seen": 4,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Inovia portfolio",
+   "ats": "getro",
+   "token": "careers.inovia.vc",
+   "ok": true,
+   "seen": 385,
+   "kept": 44,
    "error": "",
    "resolved": ""
   },
@@ -1800,6 +1620,16 @@
    "resolved": ""
   },
   {
+   "company": "Maple",
+   "ats": "auto",
+   "token": "maple;getmaple",
+   "ok": true,
+   "seen": 12,
+   "kept": 0,
+   "error": "",
+   "resolved": "lever:getmaple"
+  },
+  {
    "company": "Marvell",
    "ats": "workday",
    "token": "marvell",
@@ -1846,6 +1676,16 @@
    "ok": true,
    "seen": 3,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": true,
+   "seen": 61,
+   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -1984,7 +1824,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 362,
+   "seen": 361,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1994,7 +1834,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 840,
+   "seen": 837,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2264,7 +2104,7 @@
    "ats": "workday",
    "token": "globalhr",
    "ok": true,
-   "seen": 53,
+   "seen": 54,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2294,7 +2134,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 319,
+   "seen": 318,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2574,7 +2414,7 @@
    "ats": "auto",
    "token": "tennr",
    "ok": true,
-   "seen": 23,
+   "seen": 24,
    "kept": 0,
    "error": "",
    "resolved": "ashby:tennr"
