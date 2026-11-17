@@ -1,10 +1,10 @@
 {
  "summary": {
-  "generated_at": "2026-11-17T05:42:04Z",
-  "boards": 278,
-  "ok": 251,
+  "generated_at": "2026-11-17T05:46:55Z",
+  "boards": 277,
+  "ok": 250,
   "failed": 27,
-  "jobs_seen": 29008,
+  "jobs_seen": 28087,
   "jobs_kept": 421,
   "new_today": 53
  },
@@ -1074,7 +1074,7 @@
    "ats": "auto",
    "token": "fireworksai;fireworks",
    "ok": true,
-   "seen": 101,
+   "seen": 102,
    "kept": 0,
    "error": "",
    "resolved": "ashby:fireworks"
@@ -1810,16 +1810,6 @@
    "resolved": ""
   },
   {
-   "company": "Oracle",
-   "ats": "oraclehcm",
-   "token": "eeho.fa.us2.oraclecloud.com",
-   "ok": true,
-   "seen": 923,
-   "kept": 0,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Oxa",
    "ats": "ashby",
    "token": "oxa",
@@ -2244,7 +2234,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 373,
+   "seen": 374,
    "kept": 1,
    "error": "",
    "resolved": ""
