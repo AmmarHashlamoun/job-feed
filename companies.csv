@@ -294,7 +294,7 @@ Domino Data Lab,auto,dominodatalab,,D,2
 Northslope,auto,northslope;northslopetechnologies,,D,2
 C3 AI,auto,c3iot;c3ai,,D,2
 Google (incl. DeepMind; Canada),google,google,,A,1
-Oracle,oraclehcm,eeho.fa.us2.oraclecloud.com,CX_45001,A,2
+# removed Nov 17 (Ammar: does not want to work at Oracle): Oracle,oraclehcm,eeho.fa.us2.oraclecloud.com,CX_45001,A,2
 Ford (Canada R&I Centre),oraclehcm,efds.fa.em5.oraclecloud.com,CX_1,C,2
 Magna,workday,magna,wd3|Magna,C,2
 HubSpot,greenhouse,hubspotjobs,,A,2
