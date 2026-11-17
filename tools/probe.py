@@ -24,9 +24,13 @@ LINK_RX = re.compile(r"https?://[^\s\"'<>]*(?:job|career|talent|getro|consider|a
 
 
 def fetch(line):
-    dump = None
+    dump, size = None, 3500
     if " #dump=" in line:
         line, dump = line.split(" #dump=", 1)
+        size = 3500
+        if " #n=" in dump:
+            dump, n = dump.split(" #n=", 1)
+            size = int(n)
     parts = line.split(" ", 2)
     method, url, body = ("GET", line, None)
     if parts[0] in ("POST", "GET") and len(parts) >= 2:
@@ -54,7 +58,7 @@ def fetch(line):
     if dump:
         for m in list(re.finditer(dump, raw))[:2]:
             print(f"  DUMP {dump!r} at {m.start()}:")
-            print(raw[m.start():m.start() + 3500])
+            print(raw[m.start():m.start() + size])
         return
     links = list(dict.fromkeys(LINK_RX.findall(raw)))[:25]
     for l in links:
