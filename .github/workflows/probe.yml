@@ -1,0 +1,34 @@
+name: Probe (manual)
+
+# Manual tool for building new board readers: fetches test URLs and runs test
+# companies.csv rows through the feed code, printing results to the log.
+# Writes nothing to the repo.
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "One request per line: URL, or POST URL {json}"
+        required: false
+        default: ""
+      rows:
+        description: "companies.csv-style rows (company,ats,token,extra,pathway,tier), one per line"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe
+        env:
+          PROBE_URLS: ${{ inputs.urls }}
+          PROBE_ROWS: ${{ inputs.rows }}
+        run: python3 tools/probe.py
