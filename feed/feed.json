@@ -1,7 +1,255 @@
 {
- "generated_at": "2026-11-16T11:48:40Z",
- "count": 404,
+ "generated_at": "2026-11-17T02:34:21Z",
+ "count": 398,
  "jobs": [
+  {
+   "id": "workday:salesforce:JR367059",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "java",
+    "rest",
+    "api"
+   ],
+   "skills_has": [
+    "java",
+    "rest",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "required, build integrations with EIP to generate requests for access changes. | Secured integrations: authenticated API access to internal Salesforce orgs and other systems (JWT, external client apps, certificates), and integrations to support access change requests and execution. | Quality and bug fixes: triaging and fixing defects in ACE services. | Support rotation: participating in production support for ACE services. | Minimum Requirements | Proven experience delivering features to production and working relatively independently on a team once a plan is agreed to | Strong programming skills in Apex, Java or a comparable object-oriented language; Salesforce platform experience is required | Experience writing automated tests, debugging, and supporting production services | Experience building or consuming REST APIs and integrations; familiarity with authentication patterns such",
+   "student_rule": "",
+   "company": "Salesforce",
+   "title": "Software Engineering MTS",
+   "via": "",
+   "location": "Canada - Toronto",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Canada---Toronto/Software-Engineering-MTS_JR367059",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "workday:globalhr:01889150",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "go"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "go"
+   ],
+   "requirements": "requirements. | Provide technical support during development engine builds at Plant 1 and other facilities. | Contribute to the continuous improvement of assembly methods and participate in various initiatives supporting new engine development. | Every day will be an opportunity to turn technical challenges into practical solutions and see the direct impact of your work on the development of our engines. | This position is part of a French-speaking work environment, it requires a very good knowledge of English to read and understand, daily, documentation and technical terms that may emanate from international organizations, as well as to write and communicate in English with customers, suppliers or international colleagues. | What do you need to be successful? | We are looking for a curious, proactive individual who enjoys technical challenges, collaboration, and finding practical soluti",
+   "student_rule": "",
+   "company": "RTX (Collins, Pratt)",
+   "title": "Development Assembly Planner / Method Agent",
+   "via": "",
+   "location": "CA-ON-MISSISSAUGA-P22M01 ~ 1801 Courtney Park Dr ~ P22M01 BLDG",
+   "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-ON-MISSISSAUGA-P22M01--1801-Courtney-Park-Dr--P22M01-BLDG/Development-Assembly-Planner---Method-Agent_01889150",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "B",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "pcsx:apply.careers.microsoft.com:1970393557070180",
+   "min_years": 3,
+   "years_text": "ss Administration, or related field AND 5+ years of technology-related sales or account management experience OR 6+ years of tech",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "html",
+    "c"
+   ],
+   "skills_has": [
+    "html"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "c"
+   ],
+   "requirements": "Qualifications | Required/minimum qualifications | Bachelor's Degree in Information Technology, Business Administration, or related field AND 5+ years of technology-related sales or account management experience OR 6+ years of technology-related sales or account management experience. | Additional or preferred qualifications | Master's Degree in Business Administration (e.g., MBA), Information Technology, or related field AND 5+ years of technology-related sales or account management experience OR Bachelor's Degree in Information Technology, or related field AND 6+ years of technology-related sales or account management experience OR 8+ years of technology-related sales or account management experience. | 3+ years of solution sales or consulting services sales experience | Digital Solution Area Specialists IC4 - The typical base pay range for this role across Canada is CAD $106,100 -",
+   "student_rule": "",
+   "company": "Microsoft (careers site)",
+   "title": "Digital AI Workforce Specialist",
+   "via": "",
+   "location": "Canada, Ontario, Toronto; Canada, British Columbia, Vancouver",
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557070180",
+   "ats": "pcsx",
+   "posted": "2026-11-16",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "getro:careers.inovia.vc:89488235",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "api"
+   ],
+   "skills_has": [
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Production Code Integration Application Programming Interface (API)",
+   "student_rule": "",
+   "company": "Cohere",
+   "title": "Software Engineer, Integrations",
+   "via": "Inovia portfolio",
+   "location": "Toronto, ON, Canada; Europe; London, UK; Montreal, QC, Canada; New York, NY, USA; Europe, Paris, France",
+   "url": "https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "workday:cisco:2025999",
+   "min_years": 0,
+   "years_text": "onths ):         A Master's degree with 0 years of work experience ; or         A Bach",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "linux",
+    "c++",
+    "c",
+    "aws",
+    "gcp",
+    "azure",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "linux"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "aws",
+    "gcp",
+    "azure",
+    "embedded"
+   ],
+   "requirements": "Minimum Qualifications | Meet one of the following (completed within the past 3 years or expected to be completed within the next 12 months ): | A Master's degree with 0 years of work experience ; or | A Bachelor's degree with 2 years of work experience. | Qualifying education and work experience should be in Computer Science, Software Engineering, Computer Engineering, Information Technology, or a related field. | Proficiency in at least one of the following programming or scripting languages: C/C++, Python, or Java, with evidence of recent (within the 12 months) coursework, projects, or work experience. | Experience in quality assurance (QA), testing, and/or debugging in an academic, project-based, or work related setting. | Preferred Qualifications | Knowledge of Linux, networking concepts, operating system fundamentals, embedded development,",
+   "student_rule": "",
+   "company": "Cisco",
+   "title": "Software Developer Full Stack / Backend II (Full Time) - Canada",
+   "via": "",
+   "location": "Vancouver, British Columbia, Canada; Kanata, Ontario, Canada; Calgary, Alberta, Canada; Toronto, Ontario, Canada",
+   "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Vancouver-British-Columbia-Canada/Software-Developer-Full-Stack---Backend-II--Full-Time----Canada_2025999",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "mid",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "workday:cisco:2024139",
+   "min_years": 0,
+   "years_text": "- A Master’s degree program with 0 years of work experience ;      - An undergr",
+   "grad_text": "Currently enrolled in one of the following:",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "git",
+    "linux",
+    "bash",
+    "c++",
+    "c",
+    "ci/cd",
+    "rtos",
+    "fpga",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "git",
+    "linux",
+    "bash"
+   ],
+   "skills_learning": [
+    "c++"
+   ],
+   "skills_missing": [
+    "c",
+    "ci/cd",
+    "rtos",
+    "fpga",
+    "embedded"
+   ],
+   "requirements": "Minimum Qualifications | Currently enrolled in one of the following: | - A Master’s degree program with 0 years of work experience ; | - An undergraduate degree program (Associate's or Bachelor's) with 2 years of work experience ; | - An educational or workforce development program (e.g., Apprenticeship, Boot camp, or Certification) with 2 years of work experience. | Qualifying education and work experience should be in Computer Science, Computer Engineering, Electrical Engineering, Software Engineering, or a related field. | Expected to continue enrollment in a degree or qualifying educational or workforce development program following completion of the internship. | Strong proficiency in C and C++ systems programming, with demonstrated expertise in multi-threading, concurrency, memory optimization, and asynchronous architectures. | In-depth understanding of",
+   "student_rule": "enrolled",
+   "company": "Cisco",
+   "title": "Software Developer Embedded Systems II (Full Time) – Canada",
+   "via": "",
+   "location": "Kanata, Ontario, Canada; Saint-Laurent, Quebec, Canada; Calgary, Alberta, Canada; Toronto, Ontario, Canada; Montreal, Quebec, Canada; Vancouver, British Columbia, Canada; Ottawa, Ontario, Canada",
+   "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/Kanata-Ontario-Canada/Software-Developer-Embedded-Systems-II--Full-Time----Canada_2024139",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "mid",
+   "remote": false,
+   "pathway_hint": "C",
+   "tier": "2",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "amazon:amazon:10606496",
+   "min_years": 3,
+   "years_text": "global fulfillment network locations. - 3+ years of non-internship professional software development experience - 2+ years of non-i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "distributed systems"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "distributed systems"
+   ],
+   "requirements": "requirements, designing components, implementing robust code and testing it with unit tests. You strive for the best quality, but never lose sight of timelines and delivering important results for your customers. You thrive on deep discussions with your teammates and are open minded and eager to learn from diversity of thought. You are ready to take on stretch assignments that take your career to the next level. | Key job responsibilities | You will design, develop and test software components that interact with fulfillment center technologies, such as material handling equipment, computer vision, robotics and cloud services | Build software using best practices and high quality standards | Design novel large scale data store solutions for high frequency data and with low latency access | Contribute to definition of coding standards and apply them in code and design reviews | Provide est",
+   "student_rule": "",
+   "company": "Amazon (incl. Robotics)",
+   "title": "Software Development Engineer II, Amazon Fulfillment Technologies (AFT) - Workforce Optimization",
+   "via": "",
+   "location": "Toronto, Ontario, CAN; CA, ON, Toronto",
+   "url": "https://www.amazon.jobs/en/jobs/10606496/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization",
+   "ats": "amazon",
+   "posted": "November 16, 2026",
+   "level_hint": "mid",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-17"
+  },
   {
    "id": "getro:jobs.georgian.io:93102000",
    "min_years": null,
@@ -1450,46 +1698,6 @@
    "first_seen": "2026-11-15"
   },
   {
-   "id": "pcsx:apply.careers.microsoft.com:1970393557048308",
-   "min_years": 3,
-   "years_text": "mation Technology, or related field AND 3+ years technical pre-sales or technical consulting experience OR Bachelor's Degre",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux",
-    "azure",
-    "docker"
-   ],
-   "skills_has": [
-    "sql",
-    "html",
-    "postgresql",
-    "linux"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "docker"
-   ],
-   "requirements": "You bring deep expertise in migrating core workloads - including Windows, SQL Server, Linux, PostgreSQL, and Oracle—to Azure. Beyond migration, you lead customers through modernization using the 6R strategy, containerization best practices, and Azure-native services like App Service and AKS, while exploring how AI and intelligent agents can accelerate legacy transformation. | You also apply strong networking knowledge to design hybrid and cloud-native solutions, including virtual networks, VPNs, and secure routing architectures that meet enterprise performance and compliance needs. You complement this with trusted partner solutions like NetApp, VMware, RedHat, and SAP to ensure a secure, optimized, and scalable migration experience. | As you join the team, you will have the opportunity to grow your technical expertise with access to a wide range of Microsoft learning resources - includi",
-   "student_rule": "",
-   "company": "Microsoft (careers site)",
-   "title": "Cloud & AI Solution Engineer - Azure Platform",
-   "via": "",
-   "location": "Canada, Ontario, Toronto",
-   "url": "https://apply.careers.microsoft.com/careers/job/1970393557048308",
-   "ats": "pcsx",
-   "posted": "2026-11-05",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-15"
-  },
-  {
    "id": "getro:careers.inovia.vc:91768394",
    "min_years": null,
    "years_text": "",
@@ -2744,7 +2952,7 @@
    "location": "Toronto, Canada (ONT40); Ontario,Canada Offsite",
    "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Toronto-Canada-ONT40/Cloud-Video-Specialist--Canada-_R68672",
    "ats": "workday",
-   "posted": "Posted 4 Days Ago",
+   "posted": "Posted Today",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
@@ -4254,7 +4462,7 @@
    "location": "Toronto, Ontario, Canada",
    "url": "https://www.okta.com/company/careers/opportunity/8333990?gh_jid=8333990",
    "ats": "greenhouse",
-   "posted": "2026-11-13",
+   "posted": "2026-11-16",
    "level_hint": "mid",
    "remote": false,
    "pathway_hint": "A",
@@ -5065,38 +5273,6 @@
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "id": "greenhouse:hootsuite:8359647",
-   "min_years": 1,
-   "years_text": "in Computer Science or Engineering, and 1-2 years of experience developing and main",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "java",
-    "go"
-   ],
-   "skills_has": [
-    "java"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go"
-   ],
-   "requirements": "WHAT YOU’LL NEED: | A degree in Computer Science or Engineering, and 1-2 years of experience developing and maintaining software (including co-op terms and internships) or an equivalent level of education or work experience. | Learn and follow existing patterns and best practices in delivering code and writing tests for individual stories. | Experience with Java or a functional programming language . | Ability to learn about and use root cause analysis to identify and address bugs and outages. Follow logging, monitoring and debugging best practices in the components and classes you work on. | Learn and follow existing architecture concepts and best practices to extend existing software modules and components that meet system performance, modifiability, maintainability and reliability needs. | Learn about and follow basic security and compliance practices in daily work. | Follow com",
-   "student_rule": "return",
-   "company": "Hootsuite",
-   "title": "Junior Software Developer",
-   "via": "",
-   "location": "Toronto, Ontario, Canada, Vancouver, British Columbia, Canada",
-   "url": "https://job-boards.greenhouse.io/hootsuite/jobs/8359647",
-   "ats": "greenhouse",
-   "posted": "2026-11-09",
-   "level_hint": "junior",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-06"
   },
@@ -6627,31 +6803,6 @@
    "remote": false,
    "pathway_hint": "A",
    "tier": "1",
-   "first_seen": "2026-11-05"
-  },
-  {
-   "id": "hn:hn:50341753",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Strello Health | Toronto (hybrid in-person/virtual) Clinic Sales & Onboarding Lead | https://strello.health Strello is an AI front desk for Canadian medical clinics. It answers calls, books and moves appointments, and works directly inside the clinic's EMR. We're physician-founded (I'm a practising rheumatologist), and the product came out of our own front-desk turnover problems. What you'll do: | - Own inbound leads and respond fast. Screen for fit first: are they on an EMR we integrate with, and is Strello the right answer for their phones? - Run discovery and demo calls with physicians and clinic managers, then quote, close, send contracts and payment links, and keep the CRM current. - Lead onboarding: workflow meetings with clinic staff, phone and EMR access, and launch coordination with our engineers. - Stay the go-to contact after launch, and bring what you hear back to the product",
-   "student_rule": "",
-   "company": "Strello Health",
-   "title": "https://strello.health Strello is an AI front desk for Canadian medical clinics. It answers calls, books and moves appointments, and works directly inside the c",
-   "via": "Hacker News Who is hiring",
-   "location": "Toronto (hybrid in-person/virtual) Clinic Sales & Onboarding Lead",
-   "url": "https://news.ycombinator.com/item?id=50341753",
-   "ats": "hn",
-   "posted": "2026-11-02",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
    "first_seen": "2026-11-05"
   },
   {
@@ -8683,40 +8834,6 @@
    "url": "https://jobs.ashbyhq.com/top-hat/e8d43056-b380-4658-a54e-79e8e507a999",
    "ats": "ashby",
    "posted": "2026-09-01",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-02"
-  },
-  {
-   "id": "greenhouse:tailscale:4749592005",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "react",
-    "ruby",
-    "llm"
-   ],
-   "skills_has": [
-    "react"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "ruby",
-    "llm"
-   ],
-   "requirements": "qualifications. We encourage you to help us break that statistic! | About Tailscale | Tailscale is making safe connection effortless by delivering software that makes it easy to securely interconnect people and their devices, no matter where they are. From hobbyists to multinational corporations, teams of every size use Tailscale each day to protect their networks, share access to internal tools, and more. We're building a future for the Internet that's easy, sensible, and safe, like it used to be. Founded in 2019 and fully distributed, we're backed by Accel, CRV, Insight, Heavybit, and Uncork Capital. | About the Role | We’re seeking a skilled and diligent full-time Frontend Engineer to join our growing team. You will work as part of our team to: | Own the technical direction and architecture of Tailscale’s next-generation web console | Build frontend infrastructure and platform c",
-   "student_rule": "",
-   "company": "Tailscale",
-   "title": "Front End Engineer",
-   "via": "",
-   "location": "Remote (Canada)",
-   "url": "https://job-boards.greenhouse.io/tailscale/jobs/4749592005",
-   "ats": "greenhouse",
-   "posted": "2026-11-02",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -10780,7 +10897,7 @@
    "location": "Toronto",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8313374",
    "ats": "greenhouse",
-   "posted": "2026-11-12",
+   "posted": "2026-11-16",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -10842,7 +10959,7 @@
    "location": "Toronto",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=8153137",
    "ats": "greenhouse",
-   "posted": "2026-11-12",
+   "posted": "2026-11-16",
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
@@ -12051,74 +12168,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "ashby:decagon:e5881147-3d9f-43b2-89bb-2b8614360666",
-   "min_years": 5,
-   "years_text": "ound looks something like this   - Have 5+ years of relevant experience in a technical cust",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "ruby",
-    "llm"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "ruby",
-    "llm"
-   ],
-   "requirements": "required to deliver best-in-class agents—writing and configuring key components, validating integrations, and ensuring agents perform reliably at scale. This team brings greater specialization and focus to build quality. Agent Deployment Engineers are technical and customer-facing: you’ll interface with senior technical stakeholders on the customer side while also going deep on agent configuration and build execution. | About the Role | As an Agent Deployment Engineer, you will be responsible for end-to-end execution of AI agent builds for strategic customers. This is a highly technical delivery role where you will own the implementation work required to launch and scale enterprise-quality agents—partnering with customers and internal teams to define success, translate requirements into build plans, and deliver agents that meaningfully impact the customer’s business. | You’ll work closel",
-   "student_rule": "",
-   "company": "Decagon",
-   "title": "Agent Deployment Engineer - Spanish Speaking",
-   "via": "",
-   "location": "Toronto; Toronto, Ontario, Canada",
-   "url": "https://jobs.ashbyhq.com/decagon/e5881147-3d9f-43b2-89bb-2b8614360666",
-   "ats": "ashby",
-   "posted": "2026-07-21",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "ashby:decagon:270e066f-b327-4774-9085-744f4aabde0c",
-   "min_years": 5,
-   "years_text": "ound looks something like this   - Have 5+ years of relevant experience in a technical cust",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api",
-    "ruby",
-    "llm"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "ruby",
-    "llm"
-   ],
-   "requirements": "required to deliver best-in-class agents—writing and configuring key components, validating integrations, and ensuring agents perform reliably at scale. This team brings greater specialization and focus to build quality. Agent Deployment Engineers are technical and customer-facing: you’ll interface with senior technical stakeholders on the customer side while also going deep on agent configuration and build execution. | About the Role | As an Agent Deployment Engineer, you will be responsible for end-to-end execution of AI agent builds for strategic customers. This is a highly technical delivery role where you will own the implementation work required to launch and scale enterprise-quality agents—partnering with customers and internal teams to define success, translate requirements into build plans, and deliver agents that meaningfully impact the customer’s business. | You’ll work closel",
-   "student_rule": "",
-   "company": "Decagon",
-   "title": "Agent Deployment Engineer",
-   "via": "",
-   "location": "Toronto; Toronto, Ontario, Canada",
-   "url": "https://jobs.ashbyhq.com/decagon/270e066f-b327-4774-9085-744f4aabde0c",
-   "ats": "ashby",
-   "posted": "2026-05-12",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:d2l:1273753",
    "min_years": null,
    "years_text": "",
@@ -12189,74 +12238,6 @@
    "url": "https://www.d2l.com/careers/jobs/?job_id=260466&gh_jid=260466",
    "ats": "greenhouse",
    "posted": "2026-06-25",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:coinbase:8165389",
-   "min_years": 3,
-   "years_text": "Required Skills and Experience:      3+ years of experience in application secu",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "go",
-    "llm"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "llm"
-   ],
-   "requirements": "Required Skills and Experience: | 3+ years of experience in application security, penetration testing, or offensive security with demonstrated ability to build custom security tooling. | Hands-on experience using LLMs or frontier models to automate security tasks, scale vulnerability research, or build security scanners. | Demonstrated experience red teaming AI-based systems (prompt injection, jailbreak testing, tool abuse). | Deep understanding of common vulnerability classes (OWASP Top 10, SANS Top 25) and proven track record identifying and exploiting them in production environments. | Proficiency in at least one programming language (Python, Go, or similar) with experience writing production-grade security tooling. | Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and",
-   "student_rule": "",
-   "company": "Coinbase",
-   "title": "Product Security Engineer",
-   "via": "",
-   "location": "Remote - Canada",
-   "url": "https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389",
-   "ats": "greenhouse",
-   "posted": "2026-10-30",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:coinbase:8318599",
-   "min_years": 3,
-   "years_text": "Required Skills and Experience:      3+ years of experience in application secu",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "go",
-    "llm"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "llm"
-   ],
-   "requirements": "Required Skills and Experience: | 3+ years of experience in application security, penetration testing, or offensive security with demonstrated ability to build custom security tooling. | Hands-on experience using LLMs or frontier models to automate security tasks, scale vulnerability research, or build security scanners. | Demonstrated experience red teaming AI-based systems (prompt injection, jailbreak testing, tool abuse). | Deep understanding of common vulnerability classes (OWASP Top 10, SANS Top 25) and proven track record identifying and exploiting them in production environments. | Proficiency in at least one programming language (Python, Go, or similar) with experience writing production-grade security tooling. | Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and",
-   "student_rule": "",
-   "company": "Coinbase",
-   "title": "Offensive Security Engineer, AI",
-   "via": "",
-   "location": "Remote - Canada",
-   "url": "https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599",
-   "ats": "greenhouse",
-   "posted": "2026-10-30",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -12363,35 +12344,6 @@
    "url": "https://jobs.ashbyhq.com/cohere/a10a96b5-f772-466d-9297-f021f78ca9c0",
    "ats": "ashby",
    "posted": "2026-09-17",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "D",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "ashby:cohere:96c74af4-b3d7-4960-a666-212ce4debac8",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "You have shipped production code and are comfortable building integrations against external APIs. | - You have a background in evaluating agentic systems (ideal), or at minimum know what an eval is and are comfortable with prompt engineering and tool-description tuning. | - You excel in fast-paced environments and can execute while priorities are a moving target. | - You bring high agency: you learn quickly and drive change without waiting for perfect instructions. | - You've owned things end-to-end before and care about the quality of what ships, not just that it shipped. | - You enjoy helping other engineers succeed, not just shipping your own work. | Working Location: | This role can be based remotely or from one of our office locations listed on the job description - there is no minimum in-office qualification requirement. We care most about hiring exceptional people regardless of lo",
-   "student_rule": "",
-   "company": "Cohere",
-   "title": "Software Engineer, Integrations",
-   "via": "",
-   "location": "Europe (remote); London (remote); United States (remote); New York (remote); United Kingdom (remote); Toronto (remote); Montreal (remote); European Union (remote)",
-   "url": "https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8",
-   "ats": "ashby",
-   "posted": "2026-08-11",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "D",
@@ -12699,7 +12651,7 @@
    "location": "Canada - Remote",
    "url": "https://job-boards.greenhouse.io/coconutsoftware/jobs/6224564004",
    "ats": "greenhouse",
-   "posted": "2026-10-21",
+   "posted": "2026-11-16",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -12780,35 +12732,6 @@
    "url": "https://clio.wd3.myworkdayjobs.com/cliocareersite/job/Vancouver/Machine-Learning-Engineer_BF-REQ-3169",
    "ats": "workday",
    "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:clio:REQ-5443",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "c#"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "c#"
-   ],
-   "requirements": "minimum twice per week. ( Find your Hub ) | Flexible time off policy, with an encouraged 20 days off per year. | $2000 annual counseling benefit | RRSP matching and RESP contribution | Clioversary recognition program with special acknowledgement at 3, 5, 7, and 10 years | The expected salary range for this role is $119,000 to $161,000 CAD. Initial placement within the range is informed by geographic region, experience, and skillset, with room to progress as impact and tenure grow. Final offer amounts will vary based on candidate profile. | Diversity, Inclusion, Belonging and Equity (DIBE) & Accessibility | Our team shows up as their authentic selves, and are united by our mission. We are dedicated to  diversity, equity and inclusion . We pride ourselves in building and fostering an environment where our teams feel included, valued, and enabled to do the best work of their careers, wher",
-   "student_rule": "",
-   "company": "Clio",
-   "title": "Application Security Developer",
-   "via": "",
-   "location": "Toronto; Remote - Canada",
-   "url": "https://clio.wd3.myworkdayjobs.com/cliocareersite/job/Toronto/Application-Security-Developer_REQ-5443",
-   "ats": "workday",
-   "posted": "Posted 7 Days Ago",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -13350,52 +13273,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "ashby:cerebras:2b22599f-b1ee-46ef-8684-1475bc49bac0",
-   "min_years": 5,
-   "years_text": "ity org.    Skills & Qualifications   - 5+ years of experience in Cloud Infrastruc",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "c#",
-    "go",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "kubernetes",
-    "terraform"
-   ],
-   "skills_has": [
-    "python"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "c#",
-    "go",
-    "aws",
-    "gcp",
-    "azure",
-    "docker",
-    "kubernetes",
-    "terraform"
-   ],
-   "requirements": "Qualifications | - 5+ years of experience in Cloud Infrastructure, Identity & Access Management (IAM), Identity Engineering, or Security Engineering. | - Strong knowledge of authentication, authorization, identity lifecycle management, and federation protocols including SAML, OAuth2, OIDC, SCIM, and RBAC. | - Experience designing and operating identity and access controls within AWS environments, with experience building and operating production level services on AWS. | - Experience working with container technology. | - Experience deploying and operating services on Kubernetes. | - Strong automation and coding skills with Python, Go, Terraform, or similar technologies. | - A security-first mindset with experience implementing Zero Trust, least-privilege access, and compliance frameworks such as SOC2, FedRAMP, or ITAR. | - An product and operational mindset with experience supporting and",
-   "student_rule": "",
-   "company": "Cerebras",
-   "title": "Cloud Infrastructure Engineer",
-   "via": "",
-   "location": "Sunnyvale, CA (remote); Toronto, CAN (remote); Sunnyvale , California , United States (remote)",
-   "url": "https://jobs.ashbyhq.com/cerebras/2b22599f-b1ee-46ef-8684-1475bc49bac0",
-   "ats": "ashby",
-   "posted": "2026-08-25",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "B",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "ashby:cerebras:d654a704-2c58-4ba6-9109-2c92aecb2503",
    "min_years": 4,
    "years_text": "e, Engineering, or a related field.   - 4+ years of experience (including internsh",
@@ -13672,31 +13549,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "D",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "workday:blackline:002014",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Make Your Mark: | As an Associate Software Engineer, you will play a crucial role in delivering high quality releases to our customers by designing, developing, troubleshooting, maintaining, optimizing and scaling BlackLine's cloud-based backend services and driving innovation into our product suite. In this role, you will research, test, benchmark and evaluate new technologies, collaborate with other teams to define and build new features, optimize existing features while writing clean code, and communicating with people at all levels. Your attention to detail, tenacity, and creative problem-solving and thinking ahead will directly impact the company's success, as well as the success of your peers across the organization. | You'll Get To: | As an Associate Software Engineer, you will play a crucial role in delivering high quality releases to our customers by designing, developing, troub",
-   "student_rule": "",
-   "company": "BlackLine",
-   "title": "Associate Software Engineer",
-   "via": "",
-   "location": "Toronto",
-   "url": "https://blackline.wd108.myworkdayjobs.com/blacklinecareers/job/Toronto/Associate-Software-Engineer_002014",
-   "ats": "workday",
-   "posted": "Posted 17 Days Ago",
-   "level_hint": "junior",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-01"
   },
@@ -14023,35 +13875,6 @@
    "url": "https://www.amazon.jobs/en/jobs/10579232/software-development-engineer-ii-campaign-management",
    "ats": "amazon",
    "posted": "October 14, 2026",
-   "level_hint": "mid",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "amazon:amazon:10561786",
-   "min_years": 3,
-   "years_text": "global fulfillment network locations. - 3+ years of non-internship professional software development experience - 2+ years of non-i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "distributed systems"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "distributed systems"
-   ],
-   "requirements": "you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. | The base salary range for this position is listed below. As a total compensation company, Amazon's package may include other elements such as sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon offers comprehensive benefits including health insurance (medical, dental, vision, prescription, basic life & AD&D insurance), Registered Retirement Savings Plan (RRSP), Deferred Profit Sharing Plan (DPSP), paid time off, and oth",
-   "student_rule": "",
-   "company": "Amazon (incl. Robotics)",
-   "title": "Software Development Engineer II, Amazon Fulfillment Technologies (AFT) - Workforce Optimization",
-   "via": "",
-   "location": "Toronto, Ontario, CAN; CA, ON, Toronto",
-   "url": "https://www.amazon.jobs/en/jobs/10561786/software-development-engineer-ii-amazon-fulfillment-technologies-aft-workforce-optimization",
-   "ats": "amazon",
-   "posted": "September 28, 2026",
    "level_hint": "mid",
    "remote": false,
    "pathway_hint": "A",
