@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-17T04:14:15Z",
+  "generated_at": "2026-11-17T05:42:04Z",
   "boards": 278,
-  "ok": 243,
-  "failed": 35,
-  "jobs_seen": 26628,
-  "jobs_kept": 398,
-  "new_today": 7
+  "ok": 251,
+  "failed": 27,
+  "jobs_seen": 29008,
+  "jobs_kept": 421,
+  "new_today": 53
  },
  "boards": [
   {
@@ -50,16 +50,6 @@
    "resolved": ""
   },
   {
-   "company": "BDC Capital portfolio",
-   "ats": "getro",
-   "token": "jobs.bdc.ca",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.bdc.ca:URLError, careers.bdc.ca:no collection id, talent.bdc.ca:URLError)",
-   "resolved": ""
-  },
-  {
    "company": "Canadensys Aerospace",
    "ats": "auto",
    "token": "canadensys",
@@ -100,16 +90,6 @@
    "resolved": ""
   },
   {
-   "company": "Eclipse portfolio",
-   "ats": "getro",
-   "token": "jobs.eclipse.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.eclipse.vc:404, careers.eclipse.vc:URLError, talent.eclipse.vc:URLError)",
-   "resolved": ""
-  },
-  {
    "company": "ecobee",
    "ats": "auto",
    "token": "ecobee",
@@ -127,26 +107,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (smartrecruiters:fleetrobotics:empty board, greenhouse:fleetrobotics:404, lever:fleetrobotics:404, ashby:fleetrobotics:404, workable:fleetrobotics:404, bamboohr:fleetrobotics:JSONDecode",
-   "resolved": ""
-  },
-  {
-   "company": "Garage Capital portfolio",
-   "ats": "getro",
-   "token": "jobs.garage.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.garage.vc:URLError, careers.garage.vc:URLError, talent.garage.vc:URLError)",
-   "resolved": ""
-  },
-  {
-   "company": "Golden Ventures portfolio",
-   "ats": "getro",
-   "token": "jobs.golden.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.golden.vc:URLError, careers.golden.vc:URLError, talent.golden.vc:URLError)",
    "resolved": ""
   },
   {
@@ -210,16 +170,6 @@
    "resolved": ""
   },
   {
-   "company": "OMERS Ventures portfolio",
-   "ats": "getro",
-   "token": "jobs.omersventures.com",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.omersventures.com:404, careers.omersventures.com:URLError, talent.omersventures.com:URLError)",
-   "resolved": ""
-  },
-  {
    "company": "Ouster",
    "ats": "auto",
    "token": "ouster",
@@ -230,16 +180,6 @@
    "resolved": ""
   },
   {
-   "company": "Radical Ventures portfolio",
-   "ats": "getro",
-   "token": "jobs.radical.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.radical.vc:URLError, careers.radical.vc:URLError, talent.radical.vc:URLError)",
-   "resolved": ""
-  },
-  {
    "company": "Retool",
    "ats": "auto",
    "token": "retool",
@@ -247,26 +187,6 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (smartrecruiters:retool:empty board, greenhouse:retool:404, lever:retool:404, ashby:retool:404, workable:retool:404, bamboohr:retool:JSONDecodeError, recruitee:retool:404)",
-   "resolved": ""
-  },
-  {
-   "company": "Seraphim Space portfolio",
-   "ats": "getro",
-   "token": "jobs.seraphim.vc",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no Getro board (jobs.seraphim.vc:URLError, careers.seraphim.vc:URLError, talent.seraphim.vc:URLError)",
-   "resolved": ""
-  },
-  {
-   "company": "Shopify",
-   "ats": "auto",
-   "token": "shopify",
-   "ok": false,
-   "seen": 0,
-   "kept": 0,
-   "error": "no board found (smartrecruiters:shopify:empty board, greenhouse:shopify:404, lever:shopify:404, ashby:shopify:404, bamboohr:shopify:JSONDecodeError, recruitee:shopify:404)",
    "resolved": ""
   },
   {
@@ -504,7 +424,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2614,
+   "seen": 2613,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -764,7 +684,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 557,
+   "seen": 554,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1030,11 +950,21 @@
    "resolved": ""
   },
   {
+   "company": "Eclipse portfolio",
+   "ats": "getro",
+   "token": "jobs.eclipse.capital",
+   "ok": true,
+   "seen": 132,
+   "kept": 31,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Elastic",
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 391,
+   "seen": 387,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1150,6 +1080,16 @@
    "resolved": "ashby:fireworks"
   },
   {
+   "company": "Ford (Canada R&I Centre)",
+   "ats": "oraclehcm",
+   "token": "efds.fa.em5.oraclecloud.com",
+   "ok": true,
+   "seen": 850,
+   "kept": 3,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Formic",
    "ats": "auto",
    "token": "formic;formictechnologies",
@@ -1174,7 +1114,7 @@
    "ats": "workday",
    "token": "gevernova",
    "ok": true,
-   "seen": 81,
+   "seen": 79,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1184,7 +1124,7 @@
    "ats": "smartrecruiters",
    "token": "GDMSI",
    "ok": true,
-   "seen": 59,
+   "seen": 58,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1266,6 +1206,16 @@
    "ok": true,
    "seen": 119,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Google (incl. DeepMind; Canada)",
+   "ats": "google",
+   "token": "google",
+   "ok": true,
+   "seen": 56,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -1375,6 +1325,16 @@
    "token": "hpe",
    "ok": true,
    "seen": 24,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "HubSpot",
+   "ats": "greenhouse",
+   "token": "hubspotjobs",
+   "ok": true,
+   "seen": 139,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1600,6 +1560,16 @@
    "resolved": ""
   },
   {
+   "company": "Magna",
+   "ats": "workday",
+   "token": "magna",
+   "ok": true,
+   "seen": 1,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Magnet Forensics",
    "ats": "lever",
    "token": "magnetforensics",
@@ -1654,7 +1624,7 @@
    "ats": "workday",
    "token": "mastercard",
    "ok": true,
-   "seen": 289,
+   "seen": 288,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1754,7 +1724,7 @@
    "ats": "workday",
    "token": "navcanada",
    "ok": true,
-   "seen": 28,
+   "seen": 26,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1835,6 +1805,16 @@
    "token": "openai",
    "ok": true,
    "seen": 841,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Oracle",
+   "ats": "oraclehcm",
+   "token": "eeho.fa.us2.oraclecloud.com",
+   "ok": true,
+   "seen": 923,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1956,6 +1936,16 @@
    "ok": true,
    "seen": 116,
    "kept": 8,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Radical Ventures portfolio",
+   "ats": "getro",
+   "token": "radical.getro.com",
+   "ok": true,
+   "seen": 269,
+   "kept": 44,
    "error": "",
    "resolved": ""
   },
@@ -2208,6 +2198,16 @@
    "kept": 0,
    "error": "",
    "resolved": "lever:shieldai"
+  },
+  {
+   "company": "Shopify",
+   "ats": "shopify",
+   "token": "shopify",
+   "ok": true,
+   "seen": 25,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
   },
   {
    "company": "Sierra",
@@ -2554,7 +2554,7 @@
    "ats": "smartrecruiters",
    "token": "Ubisoft2",
    "ok": true,
-   "seen": 138,
+   "seen": 137,
    "kept": 0,
    "error": "",
    "resolved": ""
