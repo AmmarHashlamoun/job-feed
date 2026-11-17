@@ -538,6 +538,95 @@ def pcsx(host, domain):
             return out
 
 
+def google(_, __):
+    """Google Careers (also DeepMind, Waymo, YouTube): the results page carries its job list
+    in an AF_initDataCallback 'ds:1' block. Pages through Canada results, 20 per page."""
+    out, seen = [], set()
+    for page in range(1, 31):
+        html_text = _get_text("https://www.google.com/about/careers/applications/jobs/results/"
+                              f"?location=Canada&sort_by=date&page={page}")
+        m = re.search(r"AF_initDataCallback\(\{key: 'ds:1', hash: '\d+', data:(.*?), sideChannel: \{\}\}\);</script>",
+                      html_text, re.S)
+        if not m:
+            if page == 1:
+                raise RuntimeError("Google results block not found")
+            break
+        data = json.loads(m.group(1))
+        jobs = (data or [None])[0] or []
+        fresh = 0
+        for j in jobs:
+            if not isinstance(j, list) or len(j) < 10 or j[0] in seen:
+                continue
+            seen.add(j[0])
+            fresh += 1
+            locs = [l[0] for l in (j[9] or []) if isinstance(l, list) and l]
+            desc = " ".join(strip_html(x[1]) for x in (j[3], j[4]) if isinstance(x, list) and len(x) > 1 and x[1])
+            slug = re.sub(r"[^a-z0-9]+", "-", (j[1] or "").lower()).strip("-")
+            company = j[7] if len(j) > 7 and j[7] and j[7] != "Google" else ""
+            out.append({"id": j[0], "title": j[1] or "", "locations": locs, "desc": desc, "company": company,
+                        "url": f"https://www.google.com/about/careers/applications/jobs/results/{j[0]}-{slug}"})
+        if not fresh:
+            break
+    return out
+
+
+def shopify(_, __):
+    """Shopify careers: server-rendered list of every open posting (remote, mostly Americas)."""
+    import html as _h
+    html_text = _get_text("https://www.shopify.com/careers")
+    out, seen = [], set()
+    for m in re.finditer(r'href="(/careers/[^"]+_([0-9a-f-]{36}))"', html_text):
+        path, pid = m.group(1), m.group(2)
+        if pid in seen:
+            continue
+        seen.add(pid)
+        t = re.search(rf'id="[^"]*-{pid}-title"[^>]*>([^<]+)<', html_text)
+        l = re.search(rf'id="[^"]*-{pid}-location"[^>]*>([^<]+)<', html_text)
+        if not t:
+            continue
+        out.append({"id": pid, "title": _h.unescape(t.group(1)).strip(),
+                    "locations": [_h.unescape(l.group(1)).strip()] if l else [],
+                    "url": "https://www.shopify.com" + path})
+    if not out:
+        raise RuntimeError("no postings found on shopify.com/careers")
+    return out
+
+
+def oraclehcm(host, site):
+    """Oracle Recruiting Cloud career sites (Oracle itself, Ford and others).
+    token = the *.oraclecloud.com host, extra = site number (e.g. CX_45001).
+    Uses the location facet to filter to Canada when the site offers one."""
+    api = f"https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+
+    def page(finder_extra, offset, limit=25):
+        url = (f"{api}?onlyData=true&expand=requisitionList.secondaryLocations"
+               f"&finder=findReqs;siteNumber={site},limit={limit},offset={offset}{finder_extra}")
+        d = http(url)
+        items = (d or {}).get("items") or [{}]
+        return items[0]
+
+    first = page(",facetsList=LOCATIONS", 0, 1)
+    loc_id = None
+    for f in first.get("LocationsFacet") or []:
+        if str(f.get("Name", "")).strip().lower() == "canada":
+            loc_id = f.get("Id")
+            break
+    extra = f",locationId={loc_id}" if loc_id else ""
+    out, offset = [], 0
+    while offset < 1500:
+        res = page(extra, offset)
+        reqs = res.get("requisitionList") or []
+        for r in reqs:
+            locs = [r.get("PrimaryLocation") or ""] + [s.get("Name", "") for s in (r.get("secondaryLocations") or [])]
+            out.append({"id": r.get("Id"), "title": r.get("Title", ""), "locations": locs,
+                        "posted": r.get("PostedDate", ""), "desc": r.get("ShortDescriptionStr") or "",
+                        "url": f"https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{r.get('Id')}"})
+        offset += len(reqs)
+        if len(reqs) < 25 or offset >= (res.get("TotalJobsCount") or 0):
+            break
+    return out
+
+
 def _ukg_desc(html_text):
     m = re.search(r'"Description":"(.*?)","', html_text or "", re.S)
     if not m:
@@ -670,7 +759,7 @@ def betakit_discoveries():
 ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
             "workable": workable, "bamboohr": bamboohr, "recruitee": recruitee, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
             "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx,
-            "getro": getro, "yc": yc, "hn": hn}
+            "getro": getro, "yc": yc, "hn": hn, "google": google, "shopify": shopify, "oraclehcm": oraclehcm}
 
 
 def probe(slugs):
