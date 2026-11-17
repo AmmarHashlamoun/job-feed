@@ -1,7 +1,7 @@
 company,ats,token,extra,pathway,tier
 Stripe,greenhouse,stripe,,A,1
 Amazon (incl. Robotics),amazon,amazon,,A,1
-Shopify,auto,shopify,,A,2
+Shopify,shopify,shopify,,A,2
 Instacart,greenhouse,instacart,,A,2
 Pinterest,greenhouse,pinterest,,A,2
 Lyft,greenhouse,lyft,,A,2
@@ -240,17 +240,17 @@ AMD (careers site),jibe,careers.amd.com,,C,1
 Qualcomm (careers site),pcsx,careers.qualcomm.com,qualcomm.com,C,1
 Microsoft (careers site),pcsx,apply.careers.microsoft.com,microsoft.com,A,2
 Techstars portfolio,getro,jobs.techstars.com,,A,2
-Radical Ventures portfolio,getro,jobs.radical.vc,,D,2
+Radical Ventures portfolio,getro,radical.getro.com,,D,2
 Inovia portfolio,getro,careers.inovia.vc,,A,2
-Golden Ventures portfolio,getro,jobs.golden.vc,,A,2
-Garage Capital portfolio,getro,jobs.garage.vc,,B,2
+# pruned Nov 17 (VC no longer runs a public job board; checked its site and *.getro.com): Golden Ventures portfolio,getro,jobs.golden.vc,,A,2
+# pruned Nov 17 (VC no longer runs a public job board; checked its site and *.getro.com): Garage Capital portfolio,getro,jobs.garage.vc,,B,2
 Lux Capital portfolio,getro,jobs.luxcapital.com,,B,2
-Eclipse portfolio,getro,jobs.eclipse.vc,,B,2
+Eclipse portfolio,getro,jobs.eclipse.capital,,B,2
 Space Capital portfolio,getro,jobs.spacecapital.com,,B,2
-Seraphim Space portfolio,getro,jobs.seraphim.vc,,B,2
+# pruned Nov 17 (VC no longer runs a public job board; checked its site and *.getro.com): Seraphim Space portfolio,getro,jobs.seraphim.vc,,B,2
 Georgian portfolio,getro,jobs.georgian.io,,A,2
-BDC Capital portfolio,getro,jobs.bdc.ca,,A,2
-OMERS Ventures portfolio,getro,jobs.omersventures.com,,A,2
+# pruned Nov 17 (VC no longer runs a public job board; checked its site and *.getro.com): BDC Capital portfolio,getro,jobs.bdc.ca,,A,2
+# pruned Nov 17 (VC no longer runs a public job board; checked its site and *.getro.com): OMERS Ventures portfolio,getro,jobs.omersventures.com,,A,2
 Y Combinator startups (Toronto and Canada),yc,yc,,A,2
 Hacker News Who is hiring,hn,hn,,A,2
 Baseten,auto,baseten,,D,2
@@ -293,3 +293,9 @@ Fleet Robotics,auto,fleetrobotics,,B,2
 Domino Data Lab,auto,dominodatalab,,D,2
 Northslope,auto,northslope;northslopetechnologies,,D,2
 C3 AI,auto,c3iot;c3ai,,D,2
+Google (incl. DeepMind; Canada),google,google,,A,1
+Oracle,oraclehcm,eeho.fa.us2.oraclecloud.com,CX_45001,A,2
+Ford (Canada R&I Centre),oraclehcm,efds.fa.em5.oraclecloud.com,CX_1,C,2
+Magna,workday,magna,wd3|Magna,C,2
+HubSpot,greenhouse,hubspotjobs,,A,2
+# not readable Nov 17 (bot protection or client-side only): Meta (metacareers.com 400), Apple (jobs.apple.com results load client-side), SAP (jobs.sap.com Cloudflare), OpenText (blocks automated access), Uber (moved to jobs.uber.com; data loads client-side). Covered by email alerts instead.
