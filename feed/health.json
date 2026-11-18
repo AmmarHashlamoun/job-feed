@@ -1,10 +1,10 @@
 {
  "summary": {
-  "generated_at": "2026-11-18T01:42:32Z",
+  "generated_at": "2026-11-18T03:12:07Z",
   "boards": 277,
   "ok": 250,
   "failed": 27,
-  "jobs_seen": 28160,
+  "jobs_seen": 28166,
   "jobs_kept": 417,
   "new_today": 11
  },
@@ -424,7 +424,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2616,
+   "seen": 2612,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -534,7 +534,7 @@
    "ats": "auto",
    "token": "baseten",
    "ok": true,
-   "seen": 102,
+   "seen": 103,
    "kept": 19,
    "error": "",
    "resolved": "ashby:baseten"
@@ -684,7 +684,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 568,
+   "seen": 569,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -714,7 +714,7 @@
    "ats": "greenhouse",
    "token": "cloudflare",
    "ok": true,
-   "seen": 481,
+   "seen": 482,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1054,7 +1054,7 @@
    "ats": "greenhouse",
    "token": "figma",
    "ok": true,
-   "seen": 139,
+   "seen": 140,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1064,7 +1064,7 @@
    "ats": "greenhouse",
    "token": "figureai",
    "ok": true,
-   "seen": 105,
+   "seen": 104,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1084,7 +1084,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 882,
+   "seen": 881,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1104,7 +1104,7 @@
    "ats": "greenhouse",
    "token": "formlabs",
    "ok": true,
-   "seen": 264,
+   "seen": 266,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1174,7 +1174,7 @@
    "ats": "greenhouse",
    "token": "geotab",
    "ok": true,
-   "seen": 63,
+   "seen": 62,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1194,7 +1194,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 254,
+   "seen": 253,
    "kept": 7,
    "error": "",
    "resolved": ""
@@ -1704,7 +1704,7 @@
    "ats": "workday",
    "token": "motorolasolutions",
    "ok": true,
-   "seen": 36,
+   "seen": 37,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -2014,7 +2014,7 @@
    "ats": "greenhouse",
    "token": "ripple",
    "ok": true,
-   "seen": 113,
+   "seen": 112,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2094,7 +2094,7 @@
    "ats": "workday",
    "token": "salesforce",
    "ok": true,
-   "seen": 51,
+   "seen": 50,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2284,7 +2284,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2786,
+   "seen": 2794,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2464,7 +2464,7 @@
    "ats": "workday",
    "token": "thomsonreuters",
    "ok": true,
-   "seen": 92,
+   "seen": 93,
    "kept": 0,
    "error": "",
    "resolved": ""
