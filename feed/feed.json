@@ -1,7 +1,374 @@
 {
- "generated_at": "2026-11-17T12:09:36Z",
+ "generated_at": "2026-11-18T01:42:32Z",
  "count": 417,
  "jobs": [
+  {
+   "id": "getro:radical.getro.com:72471823",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "azure",
+    "ci/cd"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "azure",
+    "ci/cd"
+   ],
+   "requirements": "Security Engineering Microsoft Azure Infrastructure Security Application Security Cyber Defense Threat Modeling CI/CD pipeline management Incident Response Vulnerability Assessments",
+   "student_rule": "",
+   "company": "Signal 1",
+   "title": "Security Engineer",
+   "via": "Radical Ventures portfolio",
+   "location": "Toronto, ON, Canada",
+   "url": "https://signal1.bamboohr.com/careers/41",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "getro:radical.getro.com:87115268",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "Problem Solving Clinical Research Informatics",
+   "student_rule": "",
+   "company": "Signal 1",
+   "title": "Forward Deployed Engineer",
+   "via": "Radical Ventures portfolio",
+   "location": "Toronto, ON, Canada",
+   "url": "https://signal1.bamboohr.com/careers/42",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "greenhouse:pinterest:7987854",
+   "min_years": 3,
+   "years_text": "y Lifecycle, memory management, etc.    3+ years of industry Android application development experience, building consumer",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "java",
+    "kotlin",
+    "android"
+   ],
+   "skills_has": [
+    "java"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "kotlin",
+    "android"
+   ],
+   "requirements": "required in order for big bets and smart risks to pay off, you’ll be invited to create and drive new initiatives, seeing them from inception through to technical design, implementation, and release. | What you’ll do: | Build out Pinner-facing frontend features in Android to power the future of inspiration on Pinterest | Contribute to and lead each step of the product development process, from ideation to implementation to release; from rapidly prototyping, running A/B tests, to architecting and building solutions that can scale to support millions of users | Partner with design, product, and backend teams to build end to end functionality | Put on your Pinner hat to suggest new product ideas and features | Employ automated testing to build features with a high degree of technical quality, taking responsibility for the components and features you develop | Grow as an engineer b",
+   "student_rule": "",
+   "company": "Pinterest",
+   "title": "Software Engineer II, Android",
+   "via": "",
+   "location": "Toronto, ON, CA",
+   "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7987854",
+   "ats": "greenhouse",
+   "posted": "2026-11-17",
+   "level_hint": "mid",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "greenhouse:lyft:8944659002",
+   "min_years": 1,
+   "years_text": "M field, and relevant work experience   3+ years of engineering experience (or 2+ with Master’",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "go",
+    "pytorch",
+    "tensorflow"
+   ],
+   "skills_has": [
+    "python",
+    "java"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "pytorch",
+    "tensorflow"
+   ],
+   "requirements": "Nice to Have: Experience with GenAI and agentic systems, including AI assisted coding | Benefits: | Extended health and dental coverage options, along with life insurance and disability benefits | Mental health benefits | Family building benefits | Child care and pet benefits | Access to a Lyft funded Health Care Savings Account | RRSP plan with company match to help save for your future | In addition to provincial observed holidays, salaried team members are covered under Lyft's flexible paid time off policy. The policy allows team members to take off as much time as they need (with manager approval). Hourly team members get 15 days paid time off, with an additional day for each year of service | Lyft is proud to support new parents with 18 weeks of paid time off, designed as a top-up plan to complement provincial programs. Biological, adoptive, and foster parents are all eligible",
+   "student_rule": "",
+   "company": "Lyft",
+   "title": "ML Engineer, Marketplace",
+   "via": "",
+   "location": "Toronto, Canada",
+   "url": "https://app.careerpuck.com/job-board/lyft/job/8944659002?gh_jid=8944659002",
+   "ats": "greenhouse",
+   "posted": "2026-11-17",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "lever:kepler:f6e97518-8e72-491c-b4d5-e54781607ffa",
+   "min_years": 4,
+   "years_text": "e, or equivalent practical experience   4+ years of hardware design experience, including at least",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "git",
+    "api",
+    "go",
+    "docker",
+    "ci/cd",
+    "llm",
+    "fpga",
+    "embedded"
+   ],
+   "skills_has": [
+    "python",
+    "git",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "docker",
+    "ci/cd",
+    "llm",
+    "fpga",
+    "embedded"
+   ],
+   "requirements": "you have likely found yourself writing scripts or building tools to eliminate repetitive work, improve consistency, and catch problems earlier. In this role you will own the Altium component library, develop automation, and then build and integrate scripted and AI-assisted tools across our electrical design and analysis workflows for years to come. | This is a hands-on individual contributor role, working alongside our electrical, FPGA, RF, software, and test engineers where you will combine practical electrical engineering judgment with programming and automation to build tools that engineers can trust, maintain, and use over time. | Key Responsibilities | Own the Altium Designer component library for Kepler's electrical team: part creation, symbol and footprint standards, lifecycle and parameter data, and supplier/ERP linkage. Then automate it. The expectation is that within your first",
+   "student_rule": "",
+   "company": "Kepler Communications",
+   "title": "Electrical Design Automation Engineer",
+   "via": "",
+   "location": "Toronto, Ontario; Canada",
+   "url": "https://jobs.lever.co/kepler/f6e97518-8e72-491c-b4d5-e54781607ffa",
+   "ats": "lever",
+   "posted": "2026-11-09",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "B",
+   "tier": "1",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "greenhouse:hootsuite:8359647",
+   "min_years": 1,
+   "years_text": "in Computer Science or Engineering, and 1-2 years of experience developing and main",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "java",
+    "go"
+   ],
+   "skills_has": [
+    "java"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go"
+   ],
+   "requirements": "WHAT YOU’LL NEED: | A degree in Computer Science or Engineering, and 1-2 years of experience developing and maintaining software (including co-op terms and internships) or an equivalent level of education or work experience. | Learn and follow existing patterns and best practices in delivering code and writing tests for individual stories. | Experience with Java or a functional programming language . | Ability to learn about and use root cause analysis to identify and address bugs and outages. Follow logging, monitoring and debugging best practices in the components and classes you work on. | Learn and follow existing architecture concepts and best practices to extend existing software modules and components that meet system performance, modifiability, maintainability and reliability needs. | Learn about and follow basic security and compliance practices in daily work. | Follow com",
+   "student_rule": "return",
+   "company": "Hootsuite",
+   "title": "Junior Software Developer",
+   "via": "",
+   "location": "Toronto, Ontario, Canada, Vancouver, British Columbia, Canada",
+   "url": "https://job-boards.greenhouse.io/hootsuite/jobs/8359647",
+   "ats": "greenhouse",
+   "posted": "2026-11-17",
+   "level_hint": "junior",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "getro:jobs.techstars.com:100046081",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": false,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "",
+   "student_rule": "",
+   "company": "Goodszilla",
+   "title": "Software Developer - Intermediate-C# and .NET (.NET Core / .NET 6",
+   "via": "Techstars portfolio",
+   "location": "Toronto, ON, Canada",
+   "url": "https://fr.glassdoor.ca/job-listing/software-developer-intermediate-c-and-net-net-core-net-6-procom-JV_IC2281069_KO0,56_KE57,63.htm?jl=1010324715776",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "yc:yc:123272",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [],
+   "requirements": "required. Salary $241K - $266K. Building the library for superintelligence.",
+   "student_rule": "",
+   "company": "Firecrawl (YC S22)",
+   "title": "Founding Security Engineer",
+   "via": "Y Combinator startups (Toronto and Canada)",
+   "location": "San Francisco HQ; Toronto Hub",
+   "url": "https://www.ycombinator.com/companies/firecrawl/jobs/7wzcyhY-founding-security-engineer",
+   "ats": "yc",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "getro:radical.getro.com:37538239",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "spark",
+    "pytorch"
+   ],
+   "skills_has": [
+    "python"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "spark",
+    "pytorch"
+   ],
+   "requirements": "Machine Learning Data Infrastructure snowflake Python (Programming Language) Distributed Computing PyTorch (Machine Learning Library) Apache Spark",
+   "student_rule": "",
+   "company": "datologyai",
+   "title": "Research Engineer",
+   "via": "Radical Ventures portfolio",
+   "location": "San Mateo, CA, USA; London, ON, Canada",
+   "url": "https://jobs.ashbyhq.com/DatologyAI/4c20a093-1476-4f2a-b049-26bdb05c1f65",
+   "ats": "getro",
+   "posted": "",
+   "level_hint": "unlevelled",
+   "remote": false,
+   "pathway_hint": "D",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "workday:clio:REQ-5443",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "c#"
+   ],
+   "skills_has": [],
+   "skills_learning": [],
+   "skills_missing": [
+    "c#"
+   ],
+   "requirements": "minimum twice per week. ( Find your Hub ) | Flexible time off policy, with an encouraged 20 days off per year. | $2000 annual counseling benefit | RRSP matching and RESP contribution | Clioversary recognition program with special acknowledgement at 3, 5, 7, and 10 years | The expected salary range for this role is $119,000 to $161,000 CAD. Initial placement within the range is informed by geographic region, experience, and skillset, with room to progress as impact and tenure grow. Final offer amounts will vary based on candidate profile. | Diversity, Inclusion, Belonging and Equity (DIBE) & Accessibility | Our team shows up as their authentic selves, and are united by our mission. We are dedicated to  diversity, equity and inclusion . We pride ourselves in building and fostering an environment where our teams feel included, valued, and enabled to do the best work of their careers, wher",
+   "student_rule": "",
+   "company": "Clio",
+   "title": "Software Developer, Defensive Security",
+   "via": "",
+   "location": "Toronto; Remote - Canada",
+   "url": "https://clio.wd3.myworkdayjobs.com/cliocareersite/job/Toronto/Application-Security-Developer_REQ-5443",
+   "ats": "workday",
+   "posted": "Posted Today",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "amazon:amazon:10572536",
+   "min_years": 3,
+   "years_text": "u work on, this is the place for you. - 3+ years of non-internship professional software development experience - 3+ years of non-i",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "python",
+    "java",
+    "typescript",
+    "api",
+    "kotlin",
+    "ruby",
+    "aws",
+    "android",
+    "graphql",
+    "distributed systems"
+   ],
+   "skills_has": [
+    "python",
+    "java",
+    "typescript",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "kotlin",
+    "ruby",
+    "aws",
+    "android",
+    "graphql",
+    "distributed systems"
+   ],
+   "requirements": "requirements gathering, system design, coding, testing, deployment, and operational support, ensuring high-quality and maintainable code. | - Collaborate with cross-functional teams including product managers, engineers, and stakeholders to understand business and customer needs, translating them into well-architected technical solutions that balance scalability, performance, and security. | - Identify root causes of operational issues and drive permanent fixes, while proactively uncovering opportunities to improve system reliability and team processes. | - Mentor and coach other engineers through code reviews and technical discussions, raising the overall quality bar and helping teammates grow their skills. | - Evaluate new tools, technologies, and approaches—including generative AI capabilities—to recommend and adopt improvements that increase team productivity and software quality. | ",
+   "student_rule": "",
+   "company": "Amazon (incl. Robotics)",
+   "title": "Software Dev Engineer II, Goodreads",
+   "via": "",
+   "location": "Toronto, Ontario, CAN; CA, ON, Toronto",
+   "url": "https://www.amazon.jobs/en/jobs/10572536/software-dev-engineer-ii-goodreads",
+   "ats": "amazon",
+   "posted": "October  7, 2026",
+   "level_hint": "mid",
+   "remote": false,
+   "pathway_hint": "A",
+   "tier": "1",
+   "first_seen": "2026-11-18"
+  },
   {
    "id": "getro:radical.getro.com:93102000",
    "min_years": null,
@@ -573,62 +940,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "B",
-   "tier": "2",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "getro:careers.inovia.vc:72471823",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "azure",
-    "ci/cd"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "azure",
-    "ci/cd"
-   ],
-   "requirements": "Security Engineering Microsoft Azure Infrastructure Security Application Security Cyber Defense Threat Modeling CI/CD pipeline management Incident Response Vulnerability Assessments",
-   "student_rule": "",
-   "company": "Signal 1",
-   "title": "Security Engineer",
-   "via": "Inovia portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://signal1.bamboohr.com/careers/41",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "getro:careers.inovia.vc:87115268",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Problem Solving Clinical Research Informatics",
-   "student_rule": "",
-   "company": "Signal 1",
-   "title": "Forward Deployed Engineer",
-   "via": "Inovia portfolio",
-   "location": "Toronto, ON, Canada",
-   "url": "https://signal1.bamboohr.com/careers/42",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-17"
   },
@@ -1306,64 +1617,6 @@
    "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "oraclehcm:efds.fa.em5.oraclecloud.com:68556",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "embedded"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "embedded"
-   ],
-   "requirements": "Software Development (Embedded) Engineer",
-   "student_rule": "",
-   "company": "Ford (Canada R&I Centre)",
-   "title": "Embedded Software Developer",
-   "via": "",
-   "location": "Ottawa, ON, Canada; Waterloo, ON, Canada",
-   "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/68556",
-   "ats": "oraclehcm",
-   "posted": "2026-08-13",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "C",
-   "tier": "2",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "id": "getro:careers.inovia.vc:89488235",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "api"
-   ],
-   "skills_has": [
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [],
-   "requirements": "Production Code Integration Application Programming Interface (API)",
-   "student_rule": "",
-   "company": "Cohere",
-   "title": "Software Engineer, Integrations",
-   "via": "Inovia portfolio",
-   "location": "Toronto, ON, Canada; Europe; London, UK; Montreal, QC, Canada; New York, NY, USA; Europe, Paris, France",
-   "url": "https://jobs.ashbyhq.com/cohere/96c74af4-b3d7-4960-a666-212ce4debac8",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
    "tier": "2",
    "first_seen": "2026-11-17"
   },
@@ -2437,44 +2690,6 @@
    "via": "Inovia portfolio",
    "location": "United States; Canada; Remote",
    "url": "https://ats.rippling.com/gaiias-open-positions/jobs/56e20470-0648-4e6a-a2c4-acf907196110",
-   "ats": "getro",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-15"
-  },
-  {
-   "id": "getro:careers.inovia.vc:69399150",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "typescript",
-    "javascript",
-    "react",
-    "aws"
-   ],
-   "skills_has": [
-    "python",
-    "typescript",
-    "javascript",
-    "react"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws"
-   ],
-   "requirements": "Full Stack Software Engineering Python (Programming Language) Django (Web Framework) TypeScript React.js Amazon Web Services",
-   "student_rule": "",
-   "company": "Float",
-   "title": "Full Stack Development (Remote - Canada)",
-   "via": "Inovia portfolio",
-   "location": "Canada",
-   "url": "https://jobs.ashbyhq.com/Float/7495796a-7e24-4ed7-bad6-e71265ef6f50",
    "ats": "getro",
    "posted": "",
    "level_hint": "unlevelled",
@@ -3575,42 +3790,6 @@
    "ats": "workday",
    "posted": "Posted 30+ Days Ago",
    "level_hint": "mid",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "workday:mastercard:R-291566",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "python",
-    "sql",
-    "api",
-    "go"
-   ],
-   "skills_has": [
-    "python",
-    "sql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go"
-   ],
-   "requirements": "About You | - Computer/Data Science or Engineering degree, or equivalent experience. | - Experience in a customer-facing or heavily cross-functional role with data science centric project management experience. | - Excellent scripting and analysis skills in python and SQL. | - Excellent presentation and communication skills. | - Experience in a machine learning or data analytics capacity | - Ability to create and understand supervised machine learning models. | - Experience in understanding customer needs and using those to build design docs or technical specifications. | - Proven ability to establish credibility with technical leaders in customer organizations. | Mastercard is a merit-based, inclusive, equal opportunity employer that considers applicants without regard to gender, gender identity, sexual orientation, race, ethnicity, disabled or veteran status, or any other characterist",
-   "student_rule": "",
-   "company": "Mastercard",
-   "title": "Field Data Scientist",
-   "via": "",
-   "location": "Toronto, Canada",
-   "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Toronto-Canada/Field-Data-Scientist_R-291566",
-   "ats": "workday",
-   "posted": "Posted 30+ Days Ago",
-   "level_hint": "unlevelled",
    "remote": false,
    "pathway_hint": "A",
    "tier": "2",
@@ -5562,44 +5741,6 @@
    "first_seen": "2026-11-08"
   },
   {
-   "id": "yc:yc:91982",
-   "min_years": 6,
-   "years_text": "6+ years of experience. Amazon Web Service",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "typescript",
-    "javascript",
-    "node.js",
-    "aws",
-    "distributed systems"
-   ],
-   "skills_has": [
-    "typescript",
-    "javascript",
-    "node.js"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "distributed systems"
-   ],
-   "requirements": "6+ years of experience. Amazon Web Services (AWS) Serverless Distributed Systems TypeScript Node.js Salary $185K - $285K CAD. Plaid for Telematics Data in Commercial Trucking",
-   "student_rule": "",
-   "company": "Terminal (YC S23)",
-   "title": "Software Engineer, Backend",
-   "via": "Y Combinator startups (Toronto and Canada)",
-   "location": "📍 Toronto, ON",
-   "url": "https://www.ycombinator.com/companies/terminal/jobs/ViOLGXo-software-engineer-backend",
-   "ats": "yc",
-   "posted": "",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-07"
-  },
-  {
    "id": "greenhouse:scaleai:4744402005",
    "min_years": null,
    "years_text": "",
@@ -5974,58 +6115,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "id": "ashby:clickhouse:bd6d5e55-790a-4f3d-a905-193fe39ed5cf",
-   "min_years": 6,
-   "years_text": "continuous improvement.  About you:   - 6+ years of software engineering experience, including 3+ years",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "typescript",
-    "javascript",
-    "sql",
-    "react",
-    "node.js",
-    "git",
-    "rest",
-    "api",
-    "aws",
-    "gcp",
-    "azure",
-    "ci/cd"
-   ],
-   "skills_has": [
-    "typescript",
-    "javascript",
-    "sql",
-    "react",
-    "node.js",
-    "git",
-    "rest",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "gcp",
-    "azure",
-    "ci/cd"
-   ],
-   "requirements": "About you: | - 6+ years of software engineering experience, including 3+ years in cloud computing (AWS, Azure, or GCP) or platform engineering. | - Strong proficiency in Typescript, Node.js and React. | - Familiarity with RESTful APIs and JSON. | - Understanding of fundamental design principles for scalable applications. | - Proficient understanding of code versioning tools, such as Git. | - Excellent communication and collaboration skills. | Preferred Qualifications: | - Experience with ClickHouse | - Knowledge of CI/CD pipelines | - Previous experience in developing analytics or data-intensive applications | Nice to Have: | - Experience with Auth0, or similar integrations | - Monorepo experience (Yarn workspaces, TurboRepo, Nx) | - Previous work on developer tools, IDEs, or BI platforms | - WebSocket/real-time features | PERKS | - Flexible work environment - ClickHouse is a globally di",
-   "student_rule": "",
-   "company": "ClickHouse",
-   "title": "Full Stack Software Engineer - Control Plane",
-   "via": "",
-   "location": "United States (remote); Canada (remote); San Francisco, CA, United States (remote)",
-   "url": "https://jobs.ashbyhq.com/clickhouse/bd6d5e55-790a-4f3d-a905-193fe39ed5cf",
-   "ats": "ashby",
-   "posted": "2025-07-11",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-06"
-  },
-  {
    "id": "ashby:clickhouse:03b2433e-6a7b-4f79-a75e-c7371365d527",
    "min_years": 5,
    "years_text": "uity and ownership.  What you bring   - 5+ years of software engineering experience, including 1–2 year",
@@ -6119,7 +6208,7 @@
    "location": "Canada",
    "url": "https://job-boards.greenhouse.io/brave/jobs/8360001",
    "ats": "greenhouse",
-   "posted": "2026-11-06",
+   "posted": "2026-11-17",
    "level_hint": "intern",
    "remote": true,
    "pathway_hint": "A",
@@ -7020,7 +7109,7 @@
   {
    "id": "yc:yc:120008",
    "min_years": 3,
-   "years_text": "3+ years of experience. Python LangChain A",
+   "years_text": "3+ years of experience. LLMs LangChain AI",
    "grad_text": "",
    "desc_read": true,
    "stack": [
@@ -7034,7 +7123,7 @@
    "skills_missing": [
     "llm"
    ],
-   "requirements": "3+ years of experience. Python LangChain AI Agents LLMs Salary $100K - $140K CAD. Exoskeletons to help people walk, starting with children",
+   "requirements": "3+ years of experience. LLMs LangChain AI Agents Python Salary $100K - $140K CAD. Exoskeletons to help people walk, starting with children",
    "student_rule": "",
    "company": "Trexo Robotics (YC W19)",
    "title": "Forward Deployed Engineer (Internal tools)",
@@ -8845,7 +8934,7 @@
    "skills_missing": [
     "embedded"
    ],
-   "requirements": "requirements into actionable feature plans, validation strategies, test coverage, dependencies, and measurable exit criteria. You excel at driving technical alignment across hardware and software teams, leading discussions, resolving complex issues, and delivering key program milestones. .    KEY RESPONSIBILITIES:  Serve as ROCm Feature Enablement Technical Lead for Client and dGPU programs Drive pre-silicon planning, post-silicon bring-up, feature enablement, and system validation to ensure on-time program execution Define and maintain feature lists, validation plans, test strategies, dependencies, coverage, and exit criteria Collaborate closely with architecture, design, firmware, software, diagnostics, and validation teams to drive feature readiness and execution Lead issue triage, root-cause analysis, debugging, and fix verification during bring-up, validation, and production phases",
+   "requirements": "requirements into actionable feature plans, validation strategies, test coverage, dependencies, and measurable exit criteria. You excel at driving technical alignment across hardware and software teams, leading discussions, resolving complex issues, and delivering key program milestones. Key RESPONSIBILITIES: Serve as Software Feature Enablement Technical Lead for Client and dGPU programs Drive pre-silicon planning, post-silicon bring-up, feature enablement, and system validation to ensure on-time program execution Define and maintain feature lists, validation plans, test strategies, dependencies, coverage, and exit criteria Collaborate closely with architecture, design, firmware, software, diagnostics, and validation teams to drive feature readiness and execution Lead issue triage, root-cause analysis, debugging, and fix verification during bring-up, validation, and production phases of",
    "student_rule": "",
    "company": "AMD (careers site)",
    "title": "Systems Design Engineer - dGPU / CPU Software Feature Enablement",
@@ -9535,39 +9624,6 @@
    "url": "https://jobs.ashbyhq.com/zip/4f2ba8b4-144e-43c8-a83d-72ea40f70123",
    "ats": "ashby",
    "posted": "2026-11-11",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "lever:waveapps:a16580aa-7947-4d7b-babd-83ee6f922f0c",
-   "min_years": 3,
-   "years_text": "Following:      Experience: Minimum of 3–5 years of professional experience in machine learning",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "aws",
-    "terraform",
-    "spark"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "aws",
-    "terraform",
-    "spark"
-   ],
-   "requirements": "you have what you need to be successful and connected. The mark of true success at Wave is the ability to be bold, learn quickly and share your knowledge generously. | As a Machine Learning Engineer, you will be a key contributor to the design, development, and deployment of our foundational AI and ML models. You will build robust, scalable machine learning pipelines and platforms that support advanced analytics and business intelligence. This role is perfect for an experienced person who wants to ensure our ML systems are efficient, reliable, and deeply integrated into our organizational goals. | Here's How You Make an Impact: | Develop & Deploy: Focus on the hands-on building, training, and operational deployment of machine learning models, ensuring they perform reliably within existing production environments. | Champion Technical Standards: Advocate for top-tier practices acros",
-   "student_rule": "",
-   "company": "Wave",
-   "title": "Machine Learning Engineer",
-   "via": "",
-   "location": "Canada (remote); Canada",
-   "url": "https://jobs.lever.co/waveapps/a16580aa-7947-4d7b-babd-83ee6f922f0c",
-   "ats": "lever",
-   "posted": "2026-08-12",
    "level_hint": "unlevelled",
    "remote": true,
    "pathway_hint": "A",
@@ -10525,46 +10581,6 @@
    "first_seen": "2026-11-01"
   },
   {
-   "id": "greenhouse:stripe:7557899",
-   "min_years": 3,
-   "years_text": "ering across a wide range of products   3+ years of experience as a Golang softwar",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "javascript",
-    "node.js",
-    "api",
-    "go",
-    "ruby",
-    "php"
-   ],
-   "skills_has": [
-    "javascript",
-    "node.js",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "ruby",
-    "php"
-   ],
-   "requirements": "you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. | About the team | Our team owns open-source SDKs that reflect the Stripe API in seven different programming languages. A vast majority of server-side Stripe integrations are built using our open-source SDKs. Our team also owns an in-house code generation framework, which we use to generate not just the SDKs, but the code snippets in our documentation and the commands in Stripe Shell, which is an in-browser version of the Stripe CLI. | We are dedicated to providing a world-class experience for developers using our SDKs. We influence how Stripe authors and releases APIs so that SDKs and documentation represent them in a user-friendly way. We want to collaborate with and help our friends in the Stripe community who build and maintain SDKs in programmi",
-   "student_rule": "",
-   "company": "Stripe",
-   "title": "Backend Engineer, Developer SDKs",
-   "via": "",
-   "location": "Toronto, NY, SEA, SF",
-   "url": "https://stripe.com/jobs/search?gh_jid=7557899",
-   "ats": "greenhouse",
-   "posted": "2026-10-29",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
    "id": "greenhouse:stripe:7292520",
    "min_years": 2,
    "years_text": "requirement.   Minimum requirements     2–12+ years of industry software engineering experience (does not include i",
@@ -10851,6 +10867,7 @@
    "stack": [
     "typescript",
     "react",
+    "go",
     "llm"
    ],
    "skills_has": [
@@ -10859,6 +10876,7 @@
    ],
    "skills_learning": [],
    "skills_missing": [
+    "go",
     "llm"
    ],
    "requirements": "ABOUT US | Sierra is the leading platform for customer-facing AI agents, working with many of the world's biggest brands — including The GAP, Rocket Mortgage, SoFi, Sutter Health, and SoftBank — to transform how they serve customers and grow their businesses. We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. | We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and a commitment to balancing Family along the way. These values are the foundation of our work, and we are committed to upholding them in everything we do. | Sierra was co-founded by Bret Taylor https://www.linkedin.com/in/brettaylor/ and Clay Bavor https://www.linkedin.com/in/claybavor/ who first met while working together at Google over 20 years ago. Bret currentl",
@@ -10885,6 +10903,7 @@
    "stack": [
     "typescript",
     "react",
+    "go",
     "llm"
    ],
    "skills_has": [
@@ -10893,6 +10912,7 @@
    ],
    "skills_learning": [],
    "skills_missing": [
+    "go",
     "llm"
    ],
    "requirements": "ABOUT US | Sierra is the leading platform for customer-facing AI agents, working with many of the world's biggest brands — including The GAP, Rocket Mortgage, SoFi, Sutter Health, and SoftBank — to transform how they serve customers and grow their businesses. We are primarily an in-person company based in San Francisco, with growing offices across North America, Europe, and Asia. | We are guided by a set of values that are at the core of our actions and define our culture: Trust, Customer Obsession, Craftsmanship, Intensity, and a commitment to balancing Family along the way. These values are the foundation of our work, and we are committed to upholding them in everything we do. | Sierra was co-founded by Bret Taylor https://www.linkedin.com/in/brettaylor/ and Clay Bavor https://www.linkedin.com/in/claybavor/ who first met while working together at Google over 20 years ago. Bret currentl",
@@ -11309,13 +11329,13 @@
    "requirements": "required in order for big bets and smart risks to pay off, you’ll be invited to create and drive new initiatives, seeing them from inception through to technical design, implementation, and release. | What you’ll do: | Build out Pinner-facing frontend features in iOS to power the future of inspiration on Pinterest | Contribute to and lead each step of the product development process, from ideation to implementation to release; from rapidly prototyping, running A/B tests, to architecting and building solutions that can scale to support millions of users | Partner with design, product, and backend teams to build end to end functionality | Put on your Pinner hat to suggest new product ideas and features | Employ automated testing to build features with a high degree of technical quality, taking responsibility for the components and features you develop | Grow as an engineer by workin",
    "student_rule": "",
    "company": "Pinterest",
-   "title": "Software Engineer, iOS",
+   "title": "Software Engineer II, iOS",
    "via": "",
    "location": "Toronto, ON, CA",
    "url": "https://www.pinterestcareers.com/jobs/?gh_jid=6922682",
    "ats": "greenhouse",
-   "posted": "2026-11-06",
-   "level_hint": "unlevelled",
+   "posted": "2026-11-17",
+   "level_hint": "mid",
    "remote": false,
    "pathway_hint": "A",
    "tier": "2",
@@ -12320,6 +12340,50 @@
    "first_seen": "2026-11-01"
   },
   {
+   "id": "greenhouse:gitlab:8922427002",
+   "min_years": null,
+   "years_text": "",
+   "grad_text": "",
+   "desc_read": true,
+   "stack": [
+    "postgresql",
+    "api",
+    "go",
+    "rust",
+    "ruby",
+    "docker",
+    "kubernetes",
+    "ci/cd"
+   ],
+   "skills_has": [
+    "postgresql",
+    "api"
+   ],
+   "skills_learning": [],
+   "skills_missing": [
+    "go",
+    "rust",
+    "ruby",
+    "docker",
+    "kubernetes",
+    "ci/cd"
+   ],
+   "requirements": "requirements through delivery and follow-up; your code will run on a platform used by millions of users. | Learning and Growth : You’ll work alongside your engineering team, who treat code review and design review as a learning loop rather than a gate — one of the fastest ways to grow your engineering judgment. | Innovative Culture: You’ll use AI as a genuine part of daily engineering work, developing the judgment to know when to trust it and when not to. | Autonomy: You’ll thrive in our remote-first, asynchronous organization, where clear written communication and self-direction are the pillars of success. | User-Centric Collaboration: You’ll partner closely with PMs and designers to shape requirements, so you understand why you’re building something, not just what. | What you’ll do | Own and Ship Features: Design, implement, test, and ship backend features and improvements with mi",
+   "student_rule": "",
+   "company": "GitLab",
+   "title": "Fullstack Engineer, Source Code: Repository Services (Ruby)",
+   "via": "",
+   "location": "Remote, Canada",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922427002",
+   "ats": "greenhouse",
+   "posted": "2026-11-17",
+   "level_hint": "unlevelled",
+   "remote": true,
+   "pathway_hint": "A",
+   "tier": "2",
+   "first_seen": "2026-11-01"
+  },
+  {
    "id": "greenhouse:gitlab:8698330002",
    "min_years": null,
    "years_text": "",
@@ -12390,50 +12454,6 @@
    "via": "",
    "location": "Remote, Canada; Remote, United States",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8889193002",
-   "ats": "greenhouse",
-   "posted": "2026-11-06",
-   "level_hint": "unlevelled",
-   "remote": true,
-   "pathway_hint": "A",
-   "tier": "2",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "greenhouse:gitlab:8922427002",
-   "min_years": null,
-   "years_text": "",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "postgresql",
-    "api",
-    "go",
-    "rust",
-    "ruby",
-    "docker",
-    "kubernetes",
-    "ci/cd"
-   ],
-   "skills_has": [
-    "postgresql",
-    "api"
-   ],
-   "skills_learning": [],
-   "skills_missing": [
-    "go",
-    "rust",
-    "ruby",
-    "docker",
-    "kubernetes",
-    "ci/cd"
-   ],
-   "requirements": "requirements through delivery and follow-up; your code will run on a platform used by millions of users. | Learning and Growth : You’ll work alongside your engineering team, who treat code review and design review as a learning loop rather than a gate — one of the fastest ways to grow your engineering judgment. | Innovative Culture: You’ll use AI as a genuine part of daily engineering work, developing the judgment to know when to trust it and when not to. | Autonomy: You’ll thrive in our remote-first, asynchronous organization, where clear written communication and self-direction are the pillars of success. | User-Centric Collaboration: You’ll partner closely with PMs and designers to shape requirements, so you understand why you’re building something, not just what. | What you’ll do | Own and Ship Features: Design, implement, test, and ship backend features and improvements with mi",
-   "student_rule": "",
-   "company": "GitLab",
-   "title": "Backend Engineer, Source Code: Repository Services (Ruby)",
-   "via": "",
-   "location": "Remote, Canada",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922427002",
    "ats": "greenhouse",
    "posted": "2026-11-06",
    "level_hint": "unlevelled",
@@ -14646,35 +14666,6 @@
    "via": "",
    "location": "Toronto, Ontario, CAN; CA, ON, Toronto",
    "url": "https://www.amazon.jobs/en/jobs/10482782/software-development-engineer-supply-chain-optimization-tech-inbound-systems",
-   "ats": "amazon",
-   "posted": "July 23, 2026",
-   "level_hint": "unlevelled",
-   "remote": false,
-   "pathway_hint": "A",
-   "tier": "1",
-   "first_seen": "2026-11-01"
-  },
-  {
-   "id": "amazon:amazon:10482781",
-   "min_years": 3,
-   "years_text": "e, because the network depends on us. - 3+ years of non-internship professional software development experience - 2+ years of non-i",
-   "grad_text": "",
-   "desc_read": true,
-   "stack": [
-    "distributed systems"
-   ],
-   "skills_has": [],
-   "skills_learning": [],
-   "skills_missing": [
-    "distributed systems"
-   ],
-   "requirements": "you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. | The base salary range for this position is listed below. As a total compensation company, Amazon's package may include other elements such as sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon offers comprehensive benefits including health insurance (medical, dental, vision, prescription, basic life & AD&D insurance), Registered Retirement Savings Plan (RRSP), Deferred Profit Sharing Plan (DPSP), paid time off, and oth",
-   "student_rule": "",
-   "company": "Amazon (incl. Robotics)",
-   "title": "Software Development Engineer - Supply Chain Optimization Tech, Inbound Systems",
-   "via": "",
-   "location": "Toronto, Ontario, CAN; CA, ON, Toronto",
-   "url": "https://www.amazon.jobs/en/jobs/10482781/software-development-engineer-supply-chain-optimization-tech-inbound-systems",
    "ats": "amazon",
    "posted": "July 23, 2026",
    "level_hint": "unlevelled",
