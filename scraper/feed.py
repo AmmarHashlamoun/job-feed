@@ -30,43 +30,74 @@ UA = "job-feed/1.0 (+https://github.com/AmmarHashlamoun/job-feed)"
 TIMEOUT = 25
 
 # ---------------------------------------------------------------- filters
+# Area (config.md, Nov 18): Toronto/GTA, Hamilton, Niagara, Waterloo region, Ottawa region and London ON,
+# or remote within Canada. Ottawa and London were added Nov 18 (flagged as relocation by the runs).
 AREA_STRICT = (r"toronto|north york|scarborough|etobicoke|mississauga|markham|vaughan|brampton|oakville|"
                r"guelph|richmond hill|oshawa|pickering|whitby|st\.? catharines|niagara|kitchener|waterloo|"
-               r"thornhill|stoney creek|grimsby|welland")
-AREA_NEEDS_PROVINCE = r"hamilton|burlington|cambridge|milton|aurora|newmarket|concord|woodbridge|bolton|ajax|king city"
+               r"thornhill|stoney creek|grimsby|welland|ottawa|kanata|nepean|orl[eé]ans|gatineau")
+AREA_NEEDS_PROVINCE = (r"hamilton|burlington|cambridge|milton|aurora|newmarket|concord|woodbridge|bolton|ajax|"
+                       r"king city|london")
 RX_STRICT = re.compile(rf"\b({AREA_STRICT})\b", re.I)
 RX_PROV = re.compile(rf"\b({AREA_NEEDS_PROVINCE})\b[ ,\-]*(on\b|ont\b|ontario|canada|can\b)", re.I)
-RX_ONTARIO = re.compile(r"\bontario\b|,\s*on\b(?!\w)|\bON,\s*(CA|CAN|Canada)\b", re.I)
-RX_OTTAWA_ONLY = re.compile(r"ottawa|kanata|nepean|gatineau", re.I)
+RX_ONTARIO = re.compile(r"\bontario\b|,\s*on\b(?!\w)|\bON,\s*(CA|CAN|Canada)\b|\bCA-ON\b", re.I)
 RX_CANADA = re.compile(r"\bcanada\b|\bCAN\b|\bCA-ON\b", re.I)
 RX_REMOTE = re.compile(r"remote|anywhere|work from home|wfh|virtual|distributed", re.I)
 RX_OTHER_CA = re.compile(r"vancouver|burnaby|victoria|montr[eé]al|qu[eé]bec|calgary|edmonton|halifax|winnipeg|"
-                         r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|ottawa|kanata|gatineau|laval", re.I)
+                         r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|laval", re.I)
 
+# Titles that are never wanted: seniority, student terms, and professions that are not software.
 EXCLUDE_TITLE = re.compile(
     r"co-?op\b|\bco op\b|student|apprentice|work term|stagiaire|\bstage\b|phd intern|intern,? phd|"
-    r"returning intern|intern conversion|winter 20\d\d|fall 20\d\d|\d+[- ]?months?\)?\s*$|\(\d+ (or \d+ )?months?\)|"
+    r"returning intern|intern conversion|winter 20\d\d|fall 20\d\d|"
     r"\bsenior\b|\bsr\.?\b|\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
-    r"architect|distinguished|\bfellow\b|\b(iii|iv|v)\b|\bphd\b|post-?doc|"
-    r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|account manager|"
-    r"sales engineer|sales\b|marketing|counsel|attorney|accountant|payroll|\bhr\b|human resources|"
-    r"customer success manager|support specialist|help ?desk|it support|desktop support|"
-    r"quality assurance analyst|qa analyst|manual test|support engineer|technical services|maintenance engineer|"
-    r"stagiaire|\bstage\b|systems engineer(?!.*software)", re.I)
+    r"chief|distinguished|\bfellow\b|\bphd\b|post-?doc|"
+    r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|"
+    r"sales engineer|sales\b|counsel|attorney|accountant|"
+    r"support specialist|help ?desk|it support|desktop support|service desk|"
+    r"quality assurance analyst|qa analyst|manual test|maintenance engineer", re.I)
+# Profession words that only rule a title out when nothing in it says the job is technical
+# ("HR Systems Analyst" and "Marketing Technology Developer" stay; "Marketing Coordinator" goes).
+EXCLUDE_UNLESS_TECH = re.compile(r"marketing|payroll|\bhr\b|human resources|technical services", re.I)
+TECH_WORD = re.compile(r"developer|engineer|programmer|software|systems|technology|technical|data|analyst|"
+                       r"automation|integration|\bit\b|digital", re.I)
+# Co-op style "(8 months)" terms; a contract or temporary role with a month count is kept.
+TERM_MONTHS = re.compile(r"\d+[- ]?months?\)?\s*$|\(\d+[- ]?(or \d+[- ]?)?months?\)", re.I)
+CONTRACT = re.compile(r"contract|temporary|\btemp\b|fixed[- ]term|term position|\bterm\b|maternity|parental|"
+                      r"leave (coverage|replacement)|secondment|freelance", re.I)
 SOFTWARE_TITLE = re.compile(
-    r"software|developer|programmer|\bswe\b|\bsde\b|machine learning|\bml\b|\bai\b|data (engineer|scien)|"
+    r"software|developer|programmer|\bswe\b|\bsde\b|sdet|machine learning|\bml\b|\bai\b|data (engineer|scien|analyst)|"
     r"devops|\bsre\b|site reliability|firmware|embedded|robotic|autonom|perception|computer vision|"
     r"back[- ]?end|front[- ]?end|full[- ]?stack|mobile|\bios\b|android|\bplatform\b|infrastructure|cloud|"
-    r"security engineer|forward deployed|deployed engineer|deployment engineer|solutions engineer|"
-    r"applications? engineer|implementation (engineer|specialist|consultant)|integration engineer|"
+    r"security engineer|forward deployed|deployed engineer|deployment engineer|solutions? (engineer|architect|developer)|"
+    r"applications? engineer|implementation (engineer|specialist|consultant|analyst)|integration (engineer|specialist|analyst|consultant)|"
     r"customer engineer|field (application )?engineer|technical solutions|compiler|kernel|graphics|"
-    r"research engineer|automation engineer|test automation|windows engineer|networking|distributed systems|"
-    r"web (developer|engineer)|\bllm\b|agent", re.I)
+    r"research engineer|automation engineer|test automation|qa automation|automation (tester|developer|qa)|"
+    r"windows engineer|networking|distributed systems|web (developer|engineer|designer)|\bllm\b|agent|"
+    r"product engineer|systems engineer|architect|"
+    # analyst titles (Nov 18): the technical ones only
+    r"(technical|technology|systems?|business systems|application|applications|\bit|information technology|"
+    r"integration|solutions?|software|digital|reporting|\bbi|business intelligence|database|gis|erp|crm|hris|hcm|"
+    r"salesforce|servicenow|sap|workday|dynamics|cloud|automation|devops|security|cyber ?security|"
+    r"information security|infrastructure|network|web|edi|mainframe|product support|application support|"
+    r"production support|programmer|developer|quantitative|analytics|data|ai|ml) analyst|"
+    r"analyst,?\s*[-–(]?\s*(it|information technology|technology|application|applications|systems|data|software|"
+    r"technical|digital|analytics|ai|automation|development)\b|analyst programmer|developer analyst|"
+    # consultant titles (Nov 18)
+    r"(technical|technology|implementation|integration|solutions?|\bit|digital|salesforce|servicenow|sap|erp|crm|"
+    r"cloud|data|software|ai|automation|power platform|dynamics|workday|analytics|devops|cyber ?security) consultant|"
+    r"consultant,?\s*[-–(]?\s*(technology|technical|it|digital|data|ai|software|cloud|analytics|engineering)\b|"
+    r"technology consulting|tech consulting|digital consulting|"
+    # support engineering and other entry routes (Nov 18)
+    r"support engineer|application support|production support|technical support engineer|"
+    r"\bit (developer|specialist|analyst|consultant|associate|programmer)|technology (associate|graduate|program)|"
+    r"(technology|tech|digital|it|engineering|software) (graduate|rotational|development|leadership|associate) program",
+    re.I)
 HARDWARE_ONLY = re.compile(r"(electrical|hardware|asic|fpga|rf|analog|layout|verification|validation|process|"
                            r"manufacturing|test|reliability|quality|mechanical|optical|photonic) engineer", re.I)
 JUNIOR = re.compile(r"new grad|graduate|early career|entry[- ]level|junior|\bjr\b|associate|university|campus|"
-                    r"recent grad|\b(i|1)\b\s*$|\b(engineer|developer|analyst) (i|1)\b|engineer in training|\beit\b", re.I)
-MID = re.compile(r"\b(ii|2)\b", re.I)
+                    r"recent grad|\b(i|1)\b\s*$|\b(engineer|developer|analyst|consultant|programmer|specialist) (i|1)\b|"
+                    r"engineer in training|\beit\b|(rotational|development|graduate|leadership) program", re.I)
+MID = re.compile(r"\b(ii|iii|iv|2|3|4)\b", re.I)
 
 
 def location_verdict(texts):
@@ -76,7 +107,7 @@ def location_verdict(texts):
         return False, False
     if RX_STRICT.search(joined) or RX_PROV.search(joined):
         return True, bool(RX_REMOTE.search(joined))
-    if RX_ONTARIO.search(joined) and not RX_OTTAWA_ONLY.search(joined):
+    if RX_ONTARIO.search(joined):
         return True, bool(RX_REMOTE.search(joined))
     if RX_CANADA.search(joined):
         parts = [p.strip() for p in re.split(r"\||;|/| or ", joined) if p.strip()]
@@ -89,9 +120,17 @@ def location_verdict(texts):
     return False, False
 
 
+def is_contract(title):
+    return bool(CONTRACT.search(title or ""))
+
+
 def title_verdict(title):
     """Return (keep, level_hint, reason)."""
     if EXCLUDE_TITLE.search(title):
+        return False, "", "title_excluded"
+    if TERM_MONTHS.search(title) and not CONTRACT.search(title):
+        return False, "", "title_excluded"
+    if EXCLUDE_UNLESS_TECH.search(title) and not TECH_WORD.search(EXCLUDE_UNLESS_TECH.sub(" ", title)):
         return False, "", "title_excluded"
     if not SOFTWARE_TITLE.search(title):
         return False, "", "not_software"
@@ -831,7 +870,7 @@ def run_board(row):
                 "company": j.get("company") or company, "title": title, "via": company if j.get("company") else "",
                 "location": "; ".join(dict.fromkeys(str(x) for x in j.get("locations", []) if x))[:300],
                 "url": j.get("url", ""), "ats": ats_used, "posted": j.get("posted", ""),
-                "level_hint": level, "remote": remote, "pathway_hint": row.get("pathway", ""),
+                "level_hint": level, "remote": remote, "contract": is_contract(title), "pathway_hint": row.get("pathway", ""),
                 "tier": row.get("tier", ""),
             })
         rec["kept"] = len(kept)
