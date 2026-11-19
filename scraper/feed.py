@@ -49,7 +49,7 @@ RX_OTHER_CA = re.compile(r"vancouver|burnaby|victoria|montr[eé]al|qu[eé]bec|ca
 EXCLUDE_TITLE = re.compile(
     r"co-?op\b|\bco op\b|student|apprentice|work term|stagiaire|\bstage\b|phd intern|intern,? phd|"
     r"returning intern|intern conversion|winter 20\d\d|fall 20\d\d|"
-    r"\bsenior\b|\bsr\.?\b|\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
+    r"\bsenior\b|\bsr\.?\b|(?<!technical )\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
     r"chief|distinguished|\bfellow\b|\bphd\b|post-?doc|professor|lecturer|instructor|faculty|\bmgr\b|"
     r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|"
     r"sales engineer|sales\b|counsel|attorney|accountant|"
@@ -436,6 +436,10 @@ def workday(tenant, extra):
         for j in posts:
             path = j.get("externalPath", "")
             loc = j.get("locationsText", "") or ""
+            if not loc.strip():
+                # e.g. /job/Toronto-40-King-St-W-Corp/Title_R00123 -> "Toronto 40 King St W Corp"
+                seg = path.split("/job/", 1)[-1].split("/", 1)[0] if "/job/" in path else ""
+                loc = urllib.parse.unquote(seg).replace("-", " ").strip()
             locs = [loc]
             if re.match(r"^\d+ Locations?$", loc.strip()) or "More..." in loc:
                 try:
@@ -711,6 +715,52 @@ def _get_browser(url):
     raise last
 
 
+def _rmk_api(base, loc_text=""):
+    """Newer SuccessFactors sites (careers.deloitte.ca and others) draw the search page with script and
+    load jobs from POST /services/recruiting/v1/jobs, 10 per page, with the CSRF token the page sets."""
+    import http.cookiejar
+    import html as _h
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    hdr = {"User-Agent": BROWSER_UA, "Accept": "application/json, text/plain, */*"}
+    with opener.open(urllib.request.Request(f"{base}/search/", headers=dict(hdr, Accept="text/html")),
+                     timeout=TIMEOUT) as r:
+        page = r.read().decode("utf-8", "replace")
+    m = re.search(r"CSRFToken\s*=\s*[\"']([^\"']+)", page)
+    if not m:
+        return []
+    netloc = urllib.parse.urlparse(base).netloc
+    out, seen, page_no, total = [], set(), 0, None
+    while page_no < 150:
+        body = {"locale": "en_US", "pageNumber": page_no, "sortBy": "", "keywords": "", "location": loc_text or "",
+                "facetFilters": {}, "brand": "", "skills": [], "categoryId": 0, "alertId": "", "rcmCandidateId": ""}
+        req = urllib.request.Request(f"https://{netloc}/services/recruiting/v1/jobs", data=json.dumps(body).encode(),
+                                     headers=dict(hdr, **{"Content-Type": "application/json", "X-CSRF-Token": m.group(1),
+                                                          "Referer": f"{base}/search/"}), method="POST")
+        with opener.open(req, timeout=TIMEOUT) as r:
+            d = json.loads(r.read().decode("utf-8", "replace"))
+        if total is None:
+            total = d.get("totalJobs") or 0
+        rows = d.get("jobSearchResult") or []
+        for x in rows:
+            j = x.get("response") or {}
+            jid = str(j.get("id") or "")
+            if not jid or jid in seen:
+                continue
+            seen.add(jid)
+            locs = [re.sub(r"<[^>]+>", " ", v).strip() for v in (j.get("jobLocationShort") or [])]
+            locs += [v for v in (j.get("mfield1") or []) if isinstance(v, str)]
+            if j.get("workModel") and any("remote" in str(w).lower() for w in j["workModel"]):
+                locs = [l + " (remote)" for l in locs] or ["Remote"]
+            title = _h.unescape(j.get("unifiedStandardTitle") or j.get("title") or "").strip()
+            slug = j.get("unifiedUrlTitle") or j.get("urlTitle") or "job"
+            out.append({"id": jid, "title": title, "locations": locs or [""],
+                        "url": f"https://{netloc}/job/{slug}/{jid}-en_US", "posted": ""})
+        page_no += 1
+        if not rows or len(seen) >= total:
+            break
+    return out
+
+
 def rmk(host, extra):
     """SAP SuccessFactors career sites ("Recruiting Marketing": jobs.rogers.com, jobs.hydroone.com,
     careers.telus.com, jobs.toronto.ca/jobsatcity and many others).
@@ -748,7 +798,13 @@ def rmk(host, extra):
             break
     if out:
         return out
-    # RSS fallback (sites whose search page is drawn by script)
+    try:
+        api_rows = _rmk_api(base, extra)
+    except Exception:
+        api_rows = []
+    if api_rows:
+        return api_rows
+    # RSS fallback (last resort: only the newest 20 postings)
     xml = _get_browser(f"{base}/services/rss/job/?locale=en_US&keywords=")
     for blk in re.findall(r"<item>(.*?)</item>", xml, re.S):
         t = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", blk, re.S) or [None, ""])[1]).strip()

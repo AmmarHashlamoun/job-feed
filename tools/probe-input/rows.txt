@@ -1,8 +1,9 @@
 Accenture,workday,accenture,wd103|AccentureCareers,E,3
-Autodesk,workday,autodesk,wd1|Ext,A,2
 Deloitte Canada,rmk,careers.deloitte.ca,,E,3
-PwC Canada,phenom,jobs-ca.pwc.com/ca/en,,E,3
-TELUS,rmk,careers.telus.com,Ontario,E,3
-Doppel,ashby,doppel,,A,2
+CN Rail,rmk,jobs.cn.ca,,E,3
+HCLTech,rmk,careers.hcltech.com,Canada,E,3
 Phylo,ashby,phylo,,D,2
-Publicis Sapient,smartrecruiters,PublicisSapient,,E,3
+Autodesk,pcsx,jobs.autodesk.com,autodesk.com,A,2
+Magna,workday,magna,wd3|Magna,C,2
+Red Hat,workday,redhat,wd5|jobs,A,2
+Hydro One,rmk,jobs.hydroone.com,,E,3
