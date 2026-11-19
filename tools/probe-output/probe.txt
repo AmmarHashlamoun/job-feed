@@ -1,0 +1,88 @@
+
+=== ROW {'company': 'Accenture', 'ats': 'workday', 'token': 'accenture', 'extra': 'wd103|AccentureCareers', 'pathway': 'E', 'tier': '3'}
+  raw seen 360
+   raw: US / Canada Payroll Tax Lead | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/US---Canada-Payroll-Tax-Lead_R00352813
+   raw: Entry Level Technology Development Program - Summer Analyst - Canada - NAELFY27 | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Entry-Level-Technology-Development-Program---Summer-Analyst---Canada---NAELFY27_R00363654-1
+   raw: Entry Level Advisory Development Program - Summer Analyst - Canada - NAELFY27 | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Entry-Level-Advisory-Development-Program---Summer-Analyst---Canada---NAELFY27_R00364487
+   raw: Partners in Performance - Performance Strategy Senior Associate - Current MBA Students - Canada - NAELFY27 | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Partners-in-Performance---Performance-Strategy-Senior-Associate---Current-MBA-Students---Canada---NAELFY27_R00361132
+   raw: Marketing Associate Manager | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Marketing-Associate-Manager_R00358768-1
+   raw: Marketing Specialist | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Marketing-Specialist_R00361399-1
+   raw: Gerente SAP - LOG Rollout Lead | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sao-Paulo-Torre-Paineira/Gerente-Snior---Finance-Scrum-Master_14508580
+   raw: Local Technical Support Analyst | [''] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vancouver-510-W-Georgia-Corp/Local-Technical-Support-Analyst_14908758
+  rec: {"company": "Accenture", "ats": "workday", "token": "accenture", "ok": true, "seen": 360, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Autodesk', 'ats': 'workday', 'token': 'autodesk', 'extra': 'wd1|Ext', 'pathway': 'A', 'tier': '2'}
+  raw seen 2
+   raw: Farm Staff - 農作業スタッフ | ['Japan - Remote'] | https://autodesk.wd1.myworkdayjobs.com/Ext/job/Japan---Remote/Farm-Staff---_26WD102093-1
+   raw: Software Engineer (Python/Node.JS,AWS) | ['Pune, IND'] | https://autodesk.wd1.myworkdayjobs.com/Ext/job/Pune-IND/Software-Engineer--Python-NodeJS-AWS-_26WD102191-2
+  rec: {"company": "Autodesk", "ats": "workday", "token": "autodesk", "ok": true, "seen": 2, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Deloitte Canada', 'ats': 'rmk', 'token': 'careers.deloitte.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 20
+   raw: Dynamics 365 CRM / Power Platform Techno-Functional Senior Consultant - Operate (Future Opportunity) | ['Toronto, ON, CA, M5H 0A9'] | https://careers.deloitte.ca/job/Toronto%2C-ON-Dynamics-365-CRM-Power-Platform-Techno-Functional-Senior-Consultant-Operate-%28Future-Opportunity%29-ON-M5H-0A9/1452084200/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Dynamics 365 Finance & Supply Chain Management Senior Consultant - Operate (Future Opportunity) | ['Toronto, ON, CA, M5H 0A9'] | https://careers.deloitte.ca/job/Toronto%2C-ON-Dynamics-365-Finance-&amp;-Supply-Chain-Management-Senior-Consultant-Operate-%28Future-Opportunity%29-ON-M5H-0A9/1452085600/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Vice President (Manager), M&A Corporate Finance | ['Vancouver, BC, CA, V7X 1P4'] | https://careers.deloitte.ca/job/Vancouver%2C-BC-Vice-President-%28Manager%29%2C-M&amp;A-Corporate-Finance-BC-V7X-1P4/1431938200/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Associate (Senior Consultant), M&A Corporate Finance - Vancouver | ['Vancouver, BC, CA, V7X 1P4'] | https://careers.deloitte.ca/job/Vancouver%2C-BC-Associate-%28Senior-Consultant%29%2C-M&amp;A-Corporate-Finance-Vancouver-BC-V7X-1P4/1431926900/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Conseiller principal ou conseillère principale ou leader, Oracle RH | ['Vancouver, BC, CA, V7X 1P4'] | https://careers.deloitte.ca/job/Vancouver%2C-BC-Conseiller-principal-ou-conseill%C3%A8re-principale-ou-leader%2C-Oracle-RH-BC-V7X-1P4/1385398000/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Consultant, Organization & Work Transformation | ['Ottawa, ON, CA, K1P 5T8'] | https://careers.deloitte.ca/job/Ottawa%2C-ON-Consultant%2C-Organization-&amp;-Work-Transformation-ON-K1P-5T8/1386762800/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Senior Accountant - Accounting Services Group (ASG) - Winnipeg | ['Winnipeg, MB, CA, R3C 3Z3'] | https://careers.deloitte.ca/job/Winnipeg%2C-MB-Senior-Accountant-Accounting-Services-Group-%28ASG%29-Winnipeg-MB-R3C-3Z3/1441841400/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Manager, Actuarial Insurance Solutions (AIS) - Life & Health (Toronto) | ['Toronto, ON, CA, M5H 0A9'] | https://careers.deloitte.ca/job/Toronto%2C-ON-Manager%2C-Actuarial-Insurance-Solutions-%28AIS%29-Life-&amp;-Health-%28Toronto%29-ON-M5H-0A9/1432264600/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+  rec: {"company": "Deloitte Canada", "ats": "rmk", "token": "careers.deloitte.ca", "ok": true, "seen": 20, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'PwC Canada', 'ats': 'phenom', 'token': 'jobs-ca.pwc.com/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 158
+   raw: Payments and Open Banking Consulting, Director | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/707141WD/Payments-and-Open-Banking-Consulting-Director
+   raw: Facilities Senior Associate (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/710773WD/Facilities-Senior-Associate-Bilingual-FR-EN
+   raw: Technology Strategy & Transformation Technical Architect, Manager | ['Ottawa', 'Ottawa, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/746945WD/Technology-Strategy-Transformation-Technical-Architect-Manager
+   raw: Senior Associate, Technology Strategy, Consulting (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/753803WD/Senior-Associate-Technology-Strategy-Consulting-Bilingual-FR-EN
+   raw: Financial Crimes Technology Manager | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/657660WD/Financial-Crimes-Technology-Manager
+   raw: Finance AP & AR Operations, Senior Manager | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/750859WD/Finance-AP-AR-Operations-Senior-Manager
+   raw: Consulting Operations, Manager (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/744361WD/Consulting-Operations-Manager-Bilingual-FR-EN
+   raw: Deals Strategy Senior Associate | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/742847WD/Deals-Strategy-Senior-Associate
+  rec: {"company": "PwC Canada", "ats": "phenom", "token": "jobs-ca.pwc.com/ca/en", "ok": true, "seen": 158, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'TELUS', 'ats': 'rmk', 'token': 'careers.telus.com', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw seen 45
+   raw: Full & Part Sales Representative | Ottawa | ['Nepean, ON, CA', 'Nepean Full &amp; Part Sales Representative Ottawa ON'] | https://careers.telus.com/job/Nepean-Full-&amp;-Part-Sales-Representative-Ottawa-ON/605865017/
+   raw: Part Time Sales Representative | Rideau Centre | ['Ottawa, ON, CA, K1N 9J7', 'Ottawa Part Time Sales Representative Rideau Centre ON K1N 9J7'] | https://careers.telus.com/job/Ottawa-Part-Time-Sales-Representative-Rideau-Centre-ON-K1N-9J7/606764517/
+   raw: Part Time Sales Representative | Bayshore Shopping Centre | ['Nepean, ON, CA, K2B 8C1', 'Nepean Part Time Sales Representative Bayshore Shopping Centre ON K2B 8C1'] | https://careers.telus.com/job/Nepean-Part-Time-Sales-Representative-Bayshore-Shopping-Centre-ON-K2B-8C1/606378217/
+   raw: Part Time Sales Representative | Festival Marketplace | ['Stratford, ON, CA', 'Stratford Part Time Sales Representative Festival Marketplace ON'] | https://careers.telus.com/job/Stratford-Part-Time-Sales-Representative-Festival-Marketplace-ON/608039517/
+   raw: Registered Pharmacy Technician | ['Toronto, ON, CA', 'Toronto Registered Pharmacy Technician ON'] | https://careers.telus.com/job/Toronto-Registered-Pharmacy-Technician-ON/605474517/
+   raw: Future Opportunities-Part Time Sales | TELUS Chatham-Kent | ['Chatham, ON, CA', 'Chatham Future Opportunities Part Time Sales TELUS Chatham Kent ON'] | https://careers.telus.com/job/Chatham-Future-Opportunities-Part-Time-Sales-TELUS-Chatham-Kent-ON/608136217/
+   raw: Future Opportunities-Part Time Sales | TELUS London Area | ['London, ON, CA', 'London Future Opportunities Part Time Sales TELUS London Area ON'] | https://careers.telus.com/job/London-Future-Opportunities-Part-Time-Sales-TELUS-London-Area-ON/607944417/
+   raw: Part Time Sales Representative | Cornwall Square | ['Cornwall, ON, CA, K6H 6M2', 'Cornwall Part Time Sales Representative Cornwall Square ON K6H 6M2'] | https://careers.telus.com/job/Cornwall-Part-Time-Sales-Representative-Cornwall-Square-ON-K6H-6M2/607955217/
+  rec: {"company": "TELUS", "ats": "rmk", "token": "careers.telus.com", "ok": true, "seen": 45, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Doppel', 'ats': 'ashby', 'token': 'doppel', 'extra': '', 'pathway': 'A', 'tier': '2'}
+  raw seen 23
+   raw: Frontend Engineer, Platform | ['San Francisco, New York (remote)', 'USA (remote)'] | https://jobs.ashbyhq.com/Doppel/37ab548d-c4a2-4d62-b8f8-95c5fbde78f5
+   raw: Forward Deployed Engineer | ['New York (remote)', 'New York, New York, USA (remote)'] | https://jobs.ashbyhq.com/Doppel/02064b81-b0a6-4e89-9cf0-6a442ef97ce4
+   raw: Software Engineer, Forge | ['San Francisco (remote)', 'San Francisco, California, USA (remote)'] | https://jobs.ashbyhq.com/Doppel/728a413a-3be5-41db-a2a7-fcb0314a6fac
+   raw: Software Engineer, Detection | ['New York (remote)', 'New York, New York, USA (remote)'] | https://jobs.ashbyhq.com/Doppel/8df712b8-be0f-4c2e-bb90-b7b5c8fb8407
+   raw: Software Engineer, Infrastructure | ['San Francisco (remote)', 'New York (remote)', 'San Francisco, California, USA (remote)'] | https://jobs.ashbyhq.com/Doppel/aba5c986-7e85-4f79-8553-e85634400b78
+   raw: Software Engineer, Simulation | ['San Francisco, New York (remote)', 'USA (remote)'] | https://jobs.ashbyhq.com/Doppel/12e61bbe-0a4d-49c7-84c6-d2cc671f791c
+   raw: Software Engineer, Platform | ['New York (remote)', 'New York, New York, USA (remote)'] | https://jobs.ashbyhq.com/Doppel/4a6d8843-8729-44e5-9b7a-1470e181b6de
+   raw: Software Engineer, Detection (TOR) | ['Toronto, ON', 'Toronto, Ontario, Canada'] | https://jobs.ashbyhq.com/Doppel/8f44a385-4310-455c-9eec-cdb9dea528eb
+  rec: {"company": "Doppel", "ats": "ashby", "token": "doppel", "ok": true, "seen": 23, "kept": 5, "error": "", "resolved": ""}
+   kept: Software Engineer, Detection (TOR) | Toronto, ON; Toronto, Ontario, Canada | https://jobs.ashbyhq.com/Doppel/8f44a385-4310-455c-9eec-cdb9dea528eb
+   kept: Software Engineer, Infrastructure (TOR) | Toronto, ON; Toronto, Ontario, Canada | https://jobs.ashbyhq.com/Doppel/e1b5021d-ff37-49de-95c1-1d6dc0e0a076
+   kept: Software Engineer, Simulation | Toronto, ON (remote); Toronto, Ontario, Canada (remote) | https://jobs.ashbyhq.com/Doppel/dd11053e-3b85-4d44-8806-8f54e4116e3f
+   kept: Software Engineer, Email | San Francisco, New York (remote); Toronto, ON (remote); USA (remote) | https://jobs.ashbyhq.com/Doppel/1144603c-07da-48b9-b838-da27ebbd2f1b
+   kept: Data Scientist | San Francisco, New York (remote); Toronto, ON (remote); USA (remote) | https://jobs.ashbyhq.com/Doppel/ff2b9ffa-2f87-4f43-a22e-f1a78523f639
+
+=== ROW {'company': 'Phylo', 'ats': 'ashby', 'token': 'phylo', 'extra': '', 'pathway': 'D', 'tier': '2'}
+  raw seen 8
+   raw: Member of Technical Staff – Product Engineering | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/c691cf71-cb9f-4ca3-a7e4-8b82bd91fca2
+   raw: Member of Technical Staff - Forward Deployed Scientist | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/c5319ac4-5f4d-48bd-8b7f-1bb3025b29b9
+   raw: Enterprise Account Executive | ['Remote (Toronto) or On-Site (SF Bay Area) (remote)', 'South San Francisco (remote)', 'Toronto (on site) (remote)', 'North America (remote)'] | https://jobs.ashbyhq.com/phylo/5e81ece3-4c77-457c-b964-7536d2d627fe
+   raw: Opportunistic Role | ['South San Francisco', 'Toronto (on site)', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/968b468c-0e26-4926-971f-a6ed5c0e9043
+   raw: Member of Technical Staff - Agent Engineer | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/fd68f3cc-def2-4944-b339-01cf1e962e63
+   raw: Scientific Solutions Consultant | ['US East Coast (ideally Boston metro area) (remote)', 'Toronto (on site) (remote)', 'Boston, MA, United States (remote)'] | https://jobs.ashbyhq.com/phylo/ef3c7d80-3984-486f-b899-40f20e2f30fe
+   raw: Product Marketer | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/73e5e04f-0da1-4575-b0c8-f48ea8e21cc2
+   raw: Member of Technical Staff - Forward Deployed Engineer | ['South San Francisco', 'Toronto (on site)', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/462bbffa-5d39-4bac-ac84-6b6c245e6e53
+  rec: {"company": "Phylo", "ats": "ashby", "token": "phylo", "ok": true, "seen": 8, "kept": 1, "error": "", "resolved": ""}
+   kept: Scientific Solutions Consultant | US East Coast (ideally Boston metro area) (remote); Toronto (on site) (remote);  | https://jobs.ashbyhq.com/phylo/ef3c7d80-3984-486f-b899-40f20e2f30fe
+
+=== ROW {'company': 'Publicis Sapient', 'ats': 'smartrecruiters', 'token': 'PublicisSapient', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 0
+  rec: {"company": "Publicis Sapient", "ats": "smartrecruiters", "token": "PublicisSapient", "ok": true, "seen": 0, "kept": 0, "error": "", "resolved": ""}
