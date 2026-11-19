@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T05:53:47Z",
-  "boards": 360,
-  "ok": 333,
+  "generated_at": "2026-11-19T06:11:36Z",
+  "boards": 363,
+  "ok": 336,
   "failed": 27,
-  "jobs_seen": 34985,
-  "jobs_kept": 676,
-  "new_today": 280
+  "jobs_seen": 35125,
+  "jobs_kept": 690,
+  "new_today": 294
  },
  "boards": [
   {
@@ -374,8 +374,8 @@
    "ats": "phenom",
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
-   "seen": 48,
-   "kept": 2,
+   "seen": 46,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -454,7 +454,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2618,
+   "seen": 2619,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -541,11 +541,11 @@
   },
   {
    "company": "Autodesk",
-   "ats": "workday",
-   "token": "autodesk",
+   "ats": "pcsx",
+   "token": "jobs.autodesk.com",
    "ok": true,
-   "seen": 2,
-   "kept": 0,
+   "seen": 88,
+   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -714,7 +714,7 @@
    "ats": "rmk",
    "token": "jobs.canadapost.ca",
    "ok": true,
-   "seen": 561,
+   "seen": 556,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -754,7 +754,7 @@
    "ats": "rmk",
    "token": "careers.celestica.com",
    "ok": true,
-   "seen": 77,
+   "seen": 67,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1160,6 +1160,16 @@
    "resolved": ""
   },
   {
+   "company": "Doppel",
+   "ats": "ashby",
+   "token": "doppel",
+   "ok": true,
+   "seen": 23,
+   "kept": 5,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Dropbox",
    "ats": "greenhouse",
    "token": "dropbox",
@@ -1224,7 +1234,7 @@
    "ats": "workday",
    "token": "enbridge",
    "ok": true,
-   "seen": 9,
+   "seen": 8,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1364,7 +1374,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 903,
+   "seen": 902,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2134,7 +2144,7 @@
    "ats": "pcsx",
    "token": "apply.careers.microsoft.com",
    "ok": true,
-   "seen": 67,
+   "seen": 65,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -2184,7 +2194,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 403,
+   "seen": 402,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2450,6 +2460,16 @@
    "resolved": "ashby:perplexity"
   },
   {
+   "company": "Phylo",
+   "ats": "ashby",
+   "token": "phylo",
+   "ok": true,
+   "seen": 8,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Physical Intelligence",
    "ats": "auto",
    "token": "physicalintelligence",
@@ -2506,6 +2526,16 @@
    "ok": true,
    "seen": 87,
    "kept": 4,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Porter Airlines",
+   "ats": "jibe",
+   "token": "careers.flyporter.com",
+   "ok": true,
+   "seen": 43,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2575,7 +2605,7 @@
    "token": "radical.getro.com",
    "ok": true,
    "seen": 324,
-   "kept": 59,
+   "kept": 61,
    "error": "",
    "resolved": ""
   },
@@ -2764,7 +2794,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 310,
+   "seen": 311,
    "kept": 3,
    "error": "",
    "resolved": ""
