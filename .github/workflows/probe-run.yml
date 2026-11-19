@@ -1,0 +1,45 @@
+name: Probe run (push to a probe-run/* branch)
+
+# Same job as probe.yml, but started by pushing a probe-run/<name> branch, for sessions that can push
+# but can't start workflows. Inputs come from files on that branch:
+#   tools/probe-input/discover.txt  -> tools/discover.py (finds each company's job board)
+#   tools/probe-input/urls.txt      -> PROBE_URLS for tools/probe.py
+#   tools/probe-input/rows.txt      -> PROBE_ROWS for tools/probe.py
+# Results are committed back to the same branch under tools/probe-output/. Never touches main.
+on:
+  push:
+    branches: ["probe-run/**"]
+    paths: ["tools/probe-input/**", "tools/*.py", "scraper/**", ".github/workflows/probe-run.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: probe-run-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Discover
+        run: |
+          mkdir -p tools/probe-output
+          if [ -s tools/probe-input/discover.txt ]; then python3 tools/discover.py > tools/probe-output/discover.txt 2>&1 || true; fi
+      - name: Probe
+        run: |
+          export PROBE_URLS="$(cat tools/probe-input/urls.txt 2>/dev/null || true)"
+          export PROBE_ROWS="$(cat tools/probe-input/rows.txt 2>/dev/null || true)"
+          if [ -n "$PROBE_URLS$PROBE_ROWS" ]; then python3 tools/probe.py > tools/probe-output/probe.txt 2>&1 || true; fi
+      - name: Commit results
+        run: |
+          git config user.name "job-feed bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tools/probe-output
+          git commit -m "Probe results $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]" || exit 0
+          git push origin HEAD:${GITHUB_REF#refs/heads/}

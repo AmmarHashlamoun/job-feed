@@ -683,6 +683,102 @@ def _get_text(url):
         return r.read().decode("utf-8", "replace")
 
 
+def rmk(host, extra):
+    """SAP SuccessFactors career sites ("Recruiting Marketing": jobs.rogers.com, jobs.hydroone.com,
+    careers.telus.com, jobs.toronto.ca/jobsatcity and many others).
+    token = host plus any path prefix (e.g. jobs.toronto.ca/jobsatcity); extra = optional location
+    search text (e.g. "Ontario"). Reads the server-rendered search pages; falls back to the RSS feed."""
+    import html as _h
+    base = "https://" + host.strip("/")
+    path_prefix = urllib.parse.urlparse(base).path.rstrip("/")
+    loc_q = urllib.parse.quote(extra or "")
+    out, seen, start, total = [], set(), 0, None
+    link_rx = re.compile(r'<a[^>]+class="jobTitle-link[^"]*"[^>]*href="([^"]*/job/[^"]+?/(\d+)/?)"[^>]*>\s*([^<]+?)\s*</a>', re.S)
+    while start < 2000:
+        page_html = _get_text(f"{base}/search/?q=&locationsearch={loc_q}&startrow={start}")
+        if total is None:
+            m = re.search(r"of\s*<b>\s*([\d,]+)\s*</b>", page_html)
+            total = int(m.group(1).replace(",", "")) if m else None
+        found = 0
+        for href, jid, title in link_rx.findall(page_html):
+            if jid in seen:
+                continue
+            seen.add(jid)
+            found += 1
+            slug = urllib.parse.unquote(href.rstrip("/").split("/job/", 1)[-1].rsplit("/", 1)[0])
+            idx = page_html.find(href)
+            near = page_html[idx: idx + 1500]
+            lm = re.search(r'class="jobLocation[^"]*"[^>]*>\s*(?:<[^>]+>\s*)*([^<]+)', near)
+            locs = [_h.unescape(lm.group(1)).strip()] if lm else []
+            locs.append(slug.replace("-", " "))
+            url = href if href.startswith("http") else f"https://{urllib.parse.urlparse(base).netloc}{href}"
+            out.append({"id": jid, "title": _h.unescape(title).strip(), "locations": locs, "url": url, "posted": ""})
+        if not found:
+            break
+        start += found
+        if total is not None and start >= total:
+            break
+    if out:
+        return out
+    # RSS fallback (sites whose search page is drawn by script)
+    xml = _get_text(f"{base}/services/rss/job/?locale=en_US&keywords=")
+    for blk in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        t = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", blk, re.S) or [None, ""])[1]).strip()
+        link = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<link>(.*?)</link>", blk, re.S) or [None, ""])[1]).strip()
+        m = re.match(r"(.*)\s+\(([^()]*)\)\s*$", t)
+        title, loc = (m.group(1), m.group(2)) if m else (t, "")
+        jid = (re.search(r"/(\d+)/?$", link) or [None, link])[1]
+        out.append({"id": jid, "title": _h.unescape(title), "locations": [loc], "url": link, "posted": ""})
+    if not out:
+        raise RuntimeError("no postings found (search page and RSS)")
+    return out
+
+
+def phenom(host, extra):
+    """Phenom career sites (careers.opentext.com, jobs.bce.ca, careers.aircanada.com and others).
+    token = host plus locale path (e.g. careers.opentext.com/us/en); extra = optional extra query
+    string for the search page. Reads the job data embedded in the search-results page, 10 at a time."""
+    base = "https://" + host.strip("/")
+    out, frm, total = [], 0, None
+    while frm < 1500:
+        q = f"from={frm}&s=1" + (("&" + extra) if extra else "")
+        page_html = _get_text(f"{base}/search-results?{q}")
+        i = page_html.find('"eagerLoadRefineSearch":')
+        if i < 0:
+            raise RuntimeError("no Phenom job data on the search page")
+        data, _ = json.JSONDecoder().raw_decode(page_html[i + len('"eagerLoadRefineSearch":'):])
+        if total is None:
+            total = data.get("totalHits") or 0
+        jobs = ((data.get("data") or {}).get("jobs")) or []
+        for j in jobs:
+            locs = list(j.get("multi_location") or [])
+            locs.append(", ".join(x for x in [j.get("city"), j.get("state"), j.get("country")] if x))
+            jid = j.get("jobId") or j.get("reqId") or j.get("jobSeqNo")
+            slug = re.sub(r"[^A-Za-z0-9]+", "-", j.get("title", "")).strip("-")
+            out.append({"id": jid, "title": j.get("title", ""), "locations": locs,
+                        "url": f"{base}/job/{jid}/{slug}", "posted": str(j.get("postedDate") or "")[:10],
+                        "desc": " ".join([j.get("descriptionTeaser") or "", " ".join(j.get("ml_skills") or [])])})
+        frm += len(jobs)
+        if not jobs or frm >= total:
+            break
+    return out
+
+
+def pinpoint(host, _):
+    """Pinpoint ATS boards (<company>.pinpointhq.com): public postings.json."""
+    d = http(f"https://{host}/postings.json")
+    out = []
+    for j in (d or {}).get("data", []) or []:
+        loc = j.get("location") or {}
+        locs = [", ".join(x for x in [loc.get("city"), loc.get("province"), loc.get("country")] if x) or loc.get("name", "")]
+        if str(j.get("workplace_type") or "").lower() == "remote":
+            locs = [l + " (remote)" for l in locs]
+        out.append({"id": j.get("id"), "title": j.get("title", ""), "locations": locs,
+                    "url": j.get("url") or f"https://{host}/postings/{j.get('id')}", "posted": "",
+                    "desc": j.get("description") or ""})
+    return out
+
+
 GETRO_RESOLVED = {}
 
 
@@ -799,7 +895,8 @@ def betakit_discoveries():
 ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters,
             "workable": workable, "bamboohr": bamboohr, "recruitee": recruitee, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
             "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx,
-            "getro": getro, "yc": yc, "hn": hn, "google": google, "shopify": shopify, "oraclehcm": oraclehcm}
+            "getro": getro, "yc": yc, "hn": hn, "google": google, "shopify": shopify, "oraclehcm": oraclehcm,
+            "rmk": rmk, "phenom": phenom, "pinpoint": pinpoint}
 
 
 def probe(slugs):
