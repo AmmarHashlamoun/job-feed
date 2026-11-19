@@ -30,20 +30,20 @@ UA = "job-feed/1.0 (+https://github.com/AmmarHashlamoun/job-feed)"
 TIMEOUT = 25
 
 # ---------------------------------------------------------------- filters
-# Area (config.md, Nov 18): Toronto/GTA, Hamilton, Niagara, Waterloo region, Ottawa region and London ON,
-# or remote within Canada. Ottawa and London were added Nov 18 (flagged as relocation by the runs).
+# Area (config.md): Toronto/GTA, Hamilton, Niagara, Waterloo region, or remote within Canada.
+# Not Ottawa or London (Ammar, Nov 18).
 AREA_STRICT = (r"toronto|north york|scarborough|etobicoke|mississauga|markham|vaughan|brampton|oakville|"
                r"guelph|richmond hill|oshawa|pickering|whitby|st\.? catharines|niagara|kitchener|waterloo|"
-               r"thornhill|stoney creek|grimsby|welland|ottawa|kanata|nepean|orl[eé]ans|gatineau")
-AREA_NEEDS_PROVINCE = (r"hamilton|burlington|cambridge|milton|aurora|newmarket|concord|woodbridge|bolton|ajax|"
-                       r"king city|london")
+               r"thornhill|stoney creek|grimsby|welland")
+AREA_NEEDS_PROVINCE = r"hamilton|burlington|cambridge|milton|aurora|newmarket|concord|woodbridge|bolton|ajax|king city"
 RX_STRICT = re.compile(rf"\b({AREA_STRICT})\b", re.I)
 RX_PROV = re.compile(rf"\b({AREA_NEEDS_PROVINCE})\b[ ,\-]*(on\b|ont\b|ontario|canada|can\b)", re.I)
-RX_ONTARIO = re.compile(r"\bontario\b|,\s*on\b(?!\w)|\bON,\s*(CA|CAN|Canada)\b|\bCA-ON\b", re.I)
+RX_ONTARIO = re.compile(r"\bontario\b|,\s*on\b(?!\w)|\bON,\s*(CA|CAN|Canada)\b", re.I)
+RX_OTTAWA_ONLY = re.compile(r"ottawa|kanata|nepean|gatineau", re.I)
 RX_CANADA = re.compile(r"\bcanada\b|\bCAN\b|\bCA-ON\b", re.I)
 RX_REMOTE = re.compile(r"remote|anywhere|work from home|wfh|virtual|distributed", re.I)
 RX_OTHER_CA = re.compile(r"vancouver|burnaby|victoria|montr[eé]al|qu[eé]bec|calgary|edmonton|halifax|winnipeg|"
-                         r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|laval", re.I)
+                         r"saskatoon|regina|fredericton|st\.? john|surrey|richmond, bc|ottawa|kanata|gatineau|laval", re.I)
 
 # Titles that are never wanted: seniority, student terms, and professions that are not software.
 EXCLUDE_TITLE = re.compile(
@@ -107,7 +107,7 @@ def location_verdict(texts):
         return False, False
     if RX_STRICT.search(joined) or RX_PROV.search(joined):
         return True, bool(RX_REMOTE.search(joined))
-    if RX_ONTARIO.search(joined):
+    if RX_ONTARIO.search(joined) and not RX_OTTAWA_ONLY.search(joined):
         return True, bool(RX_REMOTE.search(joined))
     if RX_CANADA.search(joined):
         parts = [p.strip() for p in re.split(r"\||;|/| or ", joined) if p.strip()]
