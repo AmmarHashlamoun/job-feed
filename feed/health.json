@@ -1,6 +1,6 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T04:30:16Z",
+  "generated_at": "2026-11-19T04:46:11Z",
   "boards": 277,
   "ok": 250,
   "failed": 27,
@@ -694,7 +694,7 @@
    "ats": "auto",
    "token": "clickhouse",
    "ok": true,
-   "seen": 207,
+   "seen": 208,
    "kept": 3,
    "error": "",
    "resolved": "ashby:clickhouse"
@@ -1084,7 +1084,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 905,
+   "seen": 904,
    "kept": 3,
    "error": "",
    "resolved": ""
