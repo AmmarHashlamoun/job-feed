@@ -299,3 +299,78 @@ Ford (Canada R&I Centre),oraclehcm,efds.fa.em5.oraclecloud.com,CX_1,C,2
 Magna,workday,magna,wd3|Magna,C,2
 HubSpot,greenhouse,hubspotjobs,,A,2
 # not readable Nov 17 (bot protection or client-side only): Meta (metacareers.com 400), Apple (jobs.apple.com results load client-side), SAP (jobs.sap.com Cloudflare), OpenText (blocks automated access), Uber (moved to jobs.uber.com; data loads client-side). Covered by email alerts instead.
+# ---- Pathway E: broad search (added Nov 18; banks and insurers excluded by config) ----
+# Large employers
+Rogers Communications,rmk,jobs.rogers.com,Ontario,E,3
+TELUS,rmk,careers.telus.com,Ontario,E,3
+TELUS Health (LifeWorks),workday,lifeworks,wd3|External,E,3
+Canadian Tire Corporation,workday,canadiantirecorporation,wd3|Enterprise_External_Careers_Site,E,3
+Celestica,rmk,careers.celestica.com,Canada,E,3
+Enbridge,workday,enbridge,wd3|enbridge_careers,E,3
+Hydro One,rmk,jobs.hydroone.com,,E,3
+Ontario Power Generation,rmk,jobs.opg.com,,E,3
+Toronto Hydro,rmk,jobs.torontohydro.com,,E,3
+IESO,rmk,careers.ieso.ca,,E,3
+Metrolinx,oraclehcm,ehtc.fa.ca2.oraclecloud.com,CX_1,E,3
+CN Rail,rmk,careers.cn.ca,Ontario,E,3
+Canada Post,rmk,jobs.canadapost.ca,,E,3
+Purolator,rmk,careers.purolator.com,Ontario,E,3
+Air Canada,phenom,careers.aircanada.com/ca/en,,E,3
+Cineplex,workday,cineplex,wd3|Cineplex,E,3
+Indigo,smartrecruiters,IndigoBooksMusic,,E,3
+Pelmorex (The Weather Network),lever,pelmorex,,E,3
+OLG,workday,olg,wd3|Careers,E,3
+TMX Group,workday,tmx,wd3|TMX_Careers,E,3
+Interac,workday,interac,wd3|Interac,E,3
+OMERS,phenom,careers.omers.com/ca/en,,E,3
+Ontario Teachers' Pension Plan,workday,otppb,wd3|OntarioTeachers_Careers,E,3
+HOOPP,workday,hoopp,wd10|HOOPP,E,3
+Nokia,oraclehcm,fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com,CX_1,E,3
+Samsung Research,workday,sec,wd3|Samsung_Careers,E,3
+Fortinet,oraclehcm,edel.fa.us2.oraclecloud.com,CX_2001,E,3
+Cadence Design Systems,workday,cadence,wd1|External_Careers,E,3
+Trend Micro,workday,trendmicro,wd3|External,E,3
+# Consulting, IT services, digital agencies
+Accenture,workday,accenture,wd103|AccentureCareers,E,3
+Deloitte Canada,rmk,careers.deloitte.ca,,E,3
+EY Canada,rmk,careers.ey.com,Canada,E,3
+PwC Canada,phenom,jobs-ca.pwc.com/ca/en,,E,3
+BDO Canada,workday,bdo,wd3|BDO,E,3
+MNP,ukg,MNP5000MNPL,062c8fba-7371-4cd7-9e8a-94a0b8019ffc,E,3
+Insight Canada,rmk,jobsearch.insight.com,Canada,E,3
+NTT DATA,workday,nttlimited,wd3|NTT_Careers,E,3
+Wipro,rmk,careers.wipro.com,Canada,E,3
+HCLTech,rmk,careers.hcltech.com,Canada,E,3
+Thoughtworks,greenhouse,thoughtworks,,E,3
+Konrad Group,greenhouse,konradgroup,,E,3
+TribalScale,greenhouse,tribalscale,,E,3
+Electric Mind (Intelliware),lever,electricmind,,E,3
+Info-Tech Research Group,ukg,INF5000IFTC,2526a5be-e33e-4de9-90ae-3b23d42b9441,E,3
+# Mid-size and enterprise software, fintech
+OpenText,phenom,careers.opentext.com/us/en,,E,3
+Harris Computer (Constellation),workday,harriscomputer,wd3|1,E,3
+Enghouse Systems,bamboohr,enghouse,,E,3
+Plusgrade,workday,plusgrade,wd10|Plusgrade_External_Site,E,3
+Vena Solutions,pinpoint,vena.pinpointhq.com,,E,3
+Litera (Kira),workday,litera,wd12|Litera_Careers,E,3
+Solace,bamboohr,solace,,E,3
+Fullscript,lever,fullscript,,E,3
+Xero,ashby,xero,,E,3
+Questrade,greenhouse,questrade,,E,3
+Nuvei,workable,nuvei,,E,3
+KOHO,ashby,koho,,E,3
+Borrowell,workable,borrowell,,E,3
+Clearco,ashby,clearco,,E,3
+Paytm Labs,lever,paytm,,E,3
+Jane App,ashby,jane,,E,3
+Digital Extremes,greenhouse,digitalextremes,,E,3
+Uken Games,bamboohr,uken,,E,3
+# Public sector, universities
+City of Toronto,rmk,jobs.toronto.ca/jobsatcity,,E,3
+City of Hamilton,bamboohr,cityofhamilton,,E,3
+Halton Region,rmk,careers.halton.ca,,E,3
+Ontario Health,workday,oh,wd3|OH,E,3
+FSRA,workday,fsra,wd3|FSRA_Careers,E,3
+WSIB,oraclehcm,wsib-iaepup.fa.ocs.oraclecloud.com,CX_1001,E,3
+University of Toronto,rmk,jobs.utoronto.ca,,E,3
+University of Waterloo,workday,uwaterloo,wd3|uw_careers,E,3

@@ -50,7 +50,7 @@ EXCLUDE_TITLE = re.compile(
     r"co-?op\b|\bco op\b|student|apprentice|work term|stagiaire|\bstage\b|phd intern|intern,? phd|"
     r"returning intern|intern conversion|winter 20\d\d|fall 20\d\d|"
     r"\bsenior\b|\bsr\.?\b|\bstaff\b|principal|\blead\b|\bleader\b|manager|director|head of|\bvp\b|vice president|"
-    r"chief|distinguished|\bfellow\b|\bphd\b|post-?doc|"
+    r"chief|distinguished|\bfellow\b|\bphd\b|post-?doc|professor|lecturer|instructor|faculty|\bmgr\b|"
     r"mechanical|civil\b|structural|chemical|technician|recruit|account executive|"
     r"sales engineer|sales\b|counsel|attorney|accountant|"
     r"support specialist|help ?desk|it support|desktop support|service desk|"
@@ -71,8 +71,9 @@ SOFTWARE_TITLE = re.compile(
     r"security engineer|forward deployed|deployed engineer|deployment engineer|solutions? (engineer|architect|developer)|"
     r"applications? engineer|implementation (engineer|specialist|consultant|analyst)|integration (engineer|specialist|analyst|consultant)|"
     r"customer engineer|field (application )?engineer|technical solutions|compiler|kernel|graphics|"
-    r"research engineer|automation engineer|test automation|qa automation|automation (tester|developer|qa)|"
-    r"windows engineer|networking|distributed systems|web (developer|engineer|designer)|\bllm\b|agent|"
+    r"research engineer|research scientist|automation engineer|test automation|qa automation|automation (tester|developer|qa)|"
+    r"windows engineer|networking|distributed systems|web (developer|engineer|designer)|\bllm\b|agentic|ai agents?|"
+    r"agents? (engineer|developer|platform)|agent engineer|"
     r"\bproduct engineer\b|systems engineer|(solutions?|software|cloud|data|devops|security|application|applications|"
     r"integration|enterprise|technical|ai|ml|platform|salesforce|servicenow|sap|api|web) architect\b|"
     # analyst titles (Nov 18): the technical ones only
@@ -683,6 +684,28 @@ def _get_text(url):
         return r.read().decode("utf-8", "replace")
 
 
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
+
+
+def _get_browser(url):
+    req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Accept-Language": "en-CA,en;q=0.9",
+                                               "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"})
+    last = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code in (404, 410):
+                raise
+            last = e
+        except Exception as e:
+            last = e
+        time.sleep(3 * (attempt + 1))
+    raise last
+
+
 def rmk(host, extra):
     """SAP SuccessFactors career sites ("Recruiting Marketing": jobs.rogers.com, jobs.hydroone.com,
     careers.telus.com, jobs.toronto.ca/jobsatcity and many others).
@@ -695,7 +718,7 @@ def rmk(host, extra):
     out, seen, start, total = [], set(), 0, None
     link_rx = re.compile(r'<a[^>]+class="jobTitle-link[^"]*"[^>]*href="([^"]*/job/[^"]+?/(\d+)/?)"[^>]*>\s*([^<]+?)\s*</a>', re.S)
     while start < 2000:
-        page_html = _get_text(f"{base}/search/?q=&locationsearch={loc_q}&startrow={start}")
+        page_html = _get_browser(f"{base}/search/?q=&locationsearch={loc_q}&startrow={start}")
         if total is None:
             m = re.search(r"of\s*<b>\s*([\d,]+)\s*</b>", page_html)
             total = int(m.group(1).replace(",", "")) if m else None
@@ -721,14 +744,15 @@ def rmk(host, extra):
     if out:
         return out
     # RSS fallback (sites whose search page is drawn by script)
-    xml = _get_text(f"{base}/services/rss/job/?locale=en_US&keywords=")
+    xml = _get_browser(f"{base}/services/rss/job/?locale=en_US&keywords=")
     for blk in re.findall(r"<item>(.*?)</item>", xml, re.S):
         t = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", blk, re.S) or [None, ""])[1]).strip()
         link = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<link>(.*?)</link>", blk, re.S) or [None, ""])[1]).strip()
         m = re.match(r"(.*)\s+\(([^()]*)\)\s*$", t)
         title, loc = (m.group(1), m.group(2)) if m else (t, "")
         jid = (re.search(r"/(\d+)/?$", link) or [None, link])[1]
-        out.append({"id": jid, "title": _h.unescape(title), "locations": [loc], "url": link, "posted": ""})
+        desc = re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<description>(.*?)</description>", blk, re.S) or [None, ""])[1])
+        out.append({"id": jid, "title": _h.unescape(title), "locations": [loc], "url": link, "posted": "", "desc": desc})
     if not out:
         raise RuntimeError("no postings found (search page and RSS)")
     return out
@@ -742,7 +766,7 @@ def phenom(host, extra):
     out, frm, total = [], 0, None
     while frm < 1500:
         q = f"from={frm}&s=1" + (("&" + extra) if extra else "")
-        page_html = _get_text(f"{base}/search-results?{q}")
+        page_html = _get_browser(f"{base}/search-results?{q}")
         i = page_html.find('"eagerLoadRefineSearch":')
         if i < 0:
             raise RuntimeError("no Phenom job data on the search page")
