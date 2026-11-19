@@ -108,7 +108,7 @@ Untether AI,auto,untetherai;untether,,B,2
 Taalas,auto,taalas,,B,2
 "Rockwell Automation (OTTO, Clearpath) early careers",workday,rockwellautomation,wd1|External-Rockwell-Automation-Early-Careers,B,2
 Rockwell Automation,workday,rockwellautomation,wd1|External_Rockwell_Automation,B,2
-Avidbots,auto,avidbots,,B,2
+Avidbots,bamboohr,avidbots,,B,2
 # pruned Nov 15 (no Ontario/remote-Canada roles or Ottawa only): Gatik,auto,gatik,,B,2
 NuPort Robotics,auto,nuportrobotics;nuport,,B,2
 Trexo Robotics,auto,trexorobotics;trexo,,B,2
@@ -390,3 +390,5 @@ eSentire,dayforce,esentire,CANDIDATEPORTAL,E,3
 Doppel,ashby,doppel,,A,2
 Phylo,ashby,phylo,,D,2
 Porter Airlines,jibe,careers.flyporter.com,jobs,E,3
+Communitech Work In Tech board,getro,www1.communitech.ca,,A,2
+MaRS tech jobs board,getro,techjobs.marsdd.com,,A,2
