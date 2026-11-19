@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T01:19:36Z",
+ "generated_at": "2026-11-19T02:52:38Z",
  "count": 417,
  "jobs": [
   {
@@ -282,7 +282,7 @@
    "first_seen": "2026-11-19"
   },
   {
-   "id": "getro:careers.inovia.vc:72471823",
+   "id": "getro:radical.getro.com:72471823",
    "min_years": null,
    "years_text": "",
    "grad_text": "",
@@ -301,19 +301,19 @@
    "student_rule": "",
    "company": "Signal 1",
    "title": "Security Engineer",
-   "via": "Inovia portfolio",
+   "via": "Radical Ventures portfolio",
    "location": "Toronto, ON, Canada",
    "url": "https://signal1.bamboohr.com/careers/41",
    "ats": "getro",
    "posted": "",
    "level_hint": "unlevelled",
    "remote": false,
-   "pathway_hint": "A",
+   "pathway_hint": "D",
    "tier": "2",
    "first_seen": "2026-11-19"
   },
   {
-   "id": "getro:careers.inovia.vc:87115268",
+   "id": "getro:radical.getro.com:87115268",
    "min_years": null,
    "years_text": "",
    "grad_text": "",
@@ -326,14 +326,14 @@
    "student_rule": "",
    "company": "Signal 1",
    "title": "Forward Deployed Engineer",
-   "via": "Inovia portfolio",
+   "via": "Radical Ventures portfolio",
    "location": "Toronto, ON, Canada",
    "url": "https://signal1.bamboohr.com/careers/42",
    "ats": "getro",
    "posted": "",
    "level_hint": "unlevelled",
    "remote": false,
-   "pathway_hint": "A",
+   "pathway_hint": "D",
    "tier": "2",
    "first_seen": "2026-11-19"
   },

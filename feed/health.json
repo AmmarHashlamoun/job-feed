@@ -1,10 +1,10 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T01:19:36Z",
+  "generated_at": "2026-11-19T02:52:38Z",
   "boards": 277,
   "ok": 250,
   "failed": 27,
-  "jobs_seen": 28290,
+  "jobs_seen": 28295,
   "jobs_kept": 417,
   "new_today": 17
  },
@@ -384,7 +384,7 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 355,
+   "seen": 354,
    "kept": 37,
    "error": "",
    "resolved": ""
@@ -434,7 +434,7 @@
    "ats": "auto",
    "token": "anysphere;cursor",
    "ok": true,
-   "seen": 93,
+   "seen": 92,
    "kept": 0,
    "error": "",
    "resolved": "ashby:cursor"
@@ -504,7 +504,7 @@
    "ats": "greenhouse",
    "token": "asteralabs",
    "ok": true,
-   "seen": 173,
+   "seen": 174,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -684,7 +684,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 572,
+   "seen": 571,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -764,7 +764,7 @@
    "ats": "greenhouse",
    "token": "coinbase",
    "ok": true,
-   "seen": 256,
+   "seen": 255,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -814,7 +814,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 900,
+   "seen": 901,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -974,7 +974,7 @@
    "ats": "auto",
    "token": "elevenlabs",
    "ok": true,
-   "seen": 130,
+   "seen": 129,
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
@@ -1104,7 +1104,7 @@
    "ats": "greenhouse",
    "token": "formlabs",
    "ok": true,
-   "seen": 272,
+   "seen": 276,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1444,7 +1444,7 @@
    "ats": "greenhouse",
    "token": "kodiak",
    "ok": true,
-   "seen": 47,
+   "seen": 46,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1694,7 +1694,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 402,
+   "seen": 403,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1804,7 +1804,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 835,
+   "seen": 834,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1864,7 +1864,7 @@
    "ats": "ashby",
    "token": "pinecone",
    "ok": true,
-   "seen": 7,
+   "seen": 8,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1935,7 +1935,7 @@
    "token": "radical.getro.com",
    "ok": true,
    "seen": 324,
-   "kept": 52,
+   "kept": 54,
    "error": "",
    "resolved": ""
   },
@@ -2114,7 +2114,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 309,
+   "seen": 310,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2284,7 +2284,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2800,
+   "seen": 2801,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2344,7 +2344,7 @@
    "ats": "greenhouse",
    "token": "tailscale",
    "ok": true,
-   "seen": 79,
+   "seen": 81,
    "kept": 8,
    "error": "",
    "resolved": ""
