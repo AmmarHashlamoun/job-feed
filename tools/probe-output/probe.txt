@@ -1,0 +1,210 @@
+
+=== ROW {'company': 'KPMG Canada', 'ats': 'jibe', 'token': 'careers.kpmg.ca', 'extra': 'jobs', 'pathway': 'E', 'tier': '3'}
+  raw seen 434
+   raw: Senior Consultant, Turnaround & Restructuring | ['Vancouver, British Columbia, Canada', 'Vancouver, Canada'] | https://careers.kpmg.ca/jobs/34461
+   raw: Senior Manager, Major Projects Advisory | ['Toronto, Ontario, Canada', 'Toronto, Canada'] | https://careers.kpmg.ca/jobs/37092
+   raw: Manager, International Corporate Tax | ['Calgary, Alberta, Canada', 'Calgary, Canada'] | https://careers.kpmg.ca/jobs/34202
+   raw: Manager/Senior Manager, US Corporate Tax | ['Calgary, Alberta, Canada', 'Calgary, Canada'] | https://careers.kpmg.ca/jobs/34989
+   raw: Practice Coordinator, Audit Operations and Audit Technology & Transformation  | ['Toronto, Ontario, Canada', 'Toronto, Canada; Oakville, Canada; Vaughan, Canada; Toronto, Canada; Calgary, Canada; Edmonton, Canada; Vancouver, Canada; Halifax, Canada; Montreal, Canada'] | https://careers.kpmg.ca/jobs/34509
+   raw: Senior Staff, Technology Risk Management | ['London, Ontario, Canada', "London, Canada; Abbotsford, Canada; Burnaby, Canada; Calgary, Canada; Kanata, Canada; Kingston, Canada; Toronto, Canada; Lethbridge, Canada; London, Canada; Moncton, Canada; North Bay, Canada; Chilliwack, Canada; Edmonton, Canada; Fredericton, Canada; Halifax, Canada; Hamilton, Canada; Kamloops, Canada; Kelowna, Canada; North Bay, Canada; Oakville, Canada; Ottawa, Canada; Parry Sound, Canada; Prince George, Canada; Quesnel, Canada; Regina, Canada; Saint John, Canada; Saint John, Canada; Sault Ste. Marie, Canada; St. Catharines, Canada; St. John's, Canada; Sudbury, Canada; Toronto, Canada; Vancouver, Canada; Vanderhoof, Canada; Vaughan, Canada; Vernon, Canada; Victoria, Canada; Windsor, Canada; Waterloo, Canada"] | https://careers.kpmg.ca/jobs/36796
+   raw: Manager, Technology Risk Management | ['London, Ontario, Canada', "London, Canada; Abbotsford, Canada; Burnaby, Canada; Calgary, Canada; Chilliwack, Canada; Edmonton, Canada; Fredericton, Canada; Halifax, Canada; Hamilton, Canada; Kamloops, Canada; Kelowna, Canada; Kanata, Canada; Kingston, Canada; Toronto, Canada; Lethbridge, Canada; London, Canada; Moncton, Canada; North Bay, Canada; North Bay, Canada; Oakville, Canada; Ottawa, Canada; Parry Sound, Canada; Prince George, Canada; Quesnel, Canada; Regina, Canada; Saint John, Canada; Saint John, Canada; Sault Ste. Marie, Canada; St. Catharines, Canada; St. John's, Canada; Sudbury, Canada; Toronto, Canada; Vancouver, Canada; Vanderhoof, Canada; Vaughan, Canada; Vernon, Canada; Victoria, Canada; Windsor, Canada; Waterloo, Canada"] | https://careers.kpmg.ca/jobs/36762
+   raw: Partner Administrative Assistant, Real Estate Tax (12-month Contract) | ['Toronto, Ontario, Canada', 'Toronto, Canada'] | https://careers.kpmg.ca/jobs/36630
+  rec: {"company": "KPMG Canada", "ats": "jibe", "token": "careers.kpmg.ca", "ok": true, "seen": 434, "kept": 6, "error": "", "resolved": ""}
+   kept: Solution Architect-OneStream | Toronto, Ontario, Canada; Toronto, Canada | https://careers.kpmg.ca/jobs/36240
+   kept: Azure Platform & Integration Specialist | Vaughan, Ontario, Canada; Vaughan, Canada; Abbotsford, Canada; Burnaby, Canada;  | https://careers.kpmg.ca/jobs/34570
+   kept: Software Engineer, Asset Management Digital Solutions (AMDS) | Toronto, Ontario, Canada; Toronto, Canada | https://careers.kpmg.ca/jobs/34683
+   kept: Data Consultant | Toronto, Ontario, Canada; Toronto, Canada | https://careers.kpmg.ca/jobs/32686
+   kept: Enterprise Architect, AI Engineering – Security & Compliance | Vaughan, Ontario, Canada; Vaughan, Canada; Toronto, Canada | https://careers.kpmg.ca/jobs/34078
+   kept: Data & AI Alliance Executive | Toronto, Ontario, Canada; Toronto, Canada | https://careers.kpmg.ca/jobs/30989
+
+=== ROW {'company': 'AMD (careers site)', 'ats': 'jibe', 'token': 'careers.amd.com', 'extra': '', 'pathway': 'C', 'tier': '1'}
+  raw seen 78
+   raw: System Level Diagnostic Development Engineer | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/98899
+   raw: Senior Manager- Systems Validation Engineering | ['VANCOUVER, British Columbia, Canada', 'VANCOUVER, Canada'] | https://careers.amd.com/careers-home/jobs/97449
+   raw: RMA FA Technician - GPU Returns Debug | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/98132
+   raw: Silicon Design Engineer | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/95823
+   raw: Principal FPGA Software Engineer | ['Markham, Ontario, Canada', 'Markham, Canada'] | https://careers.amd.com/careers-home/jobs/97678
+   raw: Silicon Support Team Engineer for 3rd Party SERDES PHYs | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/97977
+   raw: Manager, DCGPU Quality Diagnostics | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/97821
+   raw: Silicon Design Engineer | ['MARKHAM, Ontario, Canada', 'MARKHAM, Canada'] | https://careers.amd.com/careers-home/jobs/96257
+  rec: {"company": "AMD (careers site)", "ats": "jibe", "token": "careers.amd.com", "ok": true, "seen": 78, "kept": 7, "error": "", "resolved": ""}
+   kept: Edge & Enterprise System Solution Software Architect | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/97580
+   kept: RTL/Firmware Design Engineer | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/90713
+   kept: Firmware Engineer | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/90462
+   kept: GPU Systems Software Engineer | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/92195
+   kept: Software Development Engineer (Chip Product Security) | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/92300
+   kept: AI Systems Engineer – AI Model (Training & Inference) | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/90266
+   kept: System Firmware Technical Engineer (1 yr contract) | MARKHAM, Ontario, Canada; MARKHAM, Canada | https://careers.amd.com/careers-home/jobs/87355
+
+=== ROW {'company': 'Bell Canada', 'ats': 'phenom', 'token': 'jobs.bell.ca/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 58
+   raw: 2027 Graduate Program -  Bell Media | ['Montreal, Quebec', 'Quebec, Canada'] | https://jobs.bell.ca/ca/en/job/432435/2027-Graduate-Program-Bell-Media
+   raw: 2027 Graduate Program, Technology Services - Emerging AI and Data Solutions | ['Toronto, Ontario', 'Verdun, Quebec', 'Quebec, Canada'] | https://jobs.bell.ca/ca/en/job/432894/2027-Graduate-Program-Technology-Services-Emerging-AI-and-Data-Solutions
+   raw: Senior Manager, Community Affairs -  Alberta | ['Calgary, Alberta', 'Edmonton, Alberta', 'Alberta, Canada'] | https://jobs.bell.ca/ca/en/job/433173/Senior-Manager-Community-Affairs-Alberta
+   raw: Producer | ['Scarborough, Ontario', 'Ontario, Canada'] | https://jobs.bell.ca/ca/en/job/433403/Producer
+   raw: 2027 Graduate Program, Technology Services - Delivery, Excellence & Architecture | ['Toronto, Ontario', 'Verdun, Quebec', 'Quebec, Canada'] | https://jobs.bell.ca/ca/en/job/432718/2027-Graduate-Program-Technology-Services-Delivery-Excellence-Architecture
+   raw: Senior Manager, Health & Safety Environment (HSE),Saskatchewan | ['Regina, Saskatchewan', 'Saskatchewan, Canada'] | https://jobs.bell.ca/ca/en/job/432686/Senior-Manager-Health-Safety-Environment-HSE-Saskatchewan
+   raw: Facility Manager, Building Operations, BC | ['Kamloops, British Columbia', 'British Columbia, Canada'] | https://jobs.bell.ca/ca/en/job/431833/Facility-Manager-Building-Operations-BC
+   raw: Billing Coordinator, 12 months contract, Bell Media | ['Toronto, Ontario', 'Ontario, Canada'] | https://jobs.bell.ca/ca/en/job/433418/Billing-Coordinator-12-months-contract-Bell-Media
+  rec: {"company": "Bell Canada", "ats": "phenom", "token": "jobs.bell.ca/ca/en", "ok": true, "seen": 58, "kept": 1, "error": "", "resolved": ""}
+   kept: 2027 Graduate Program, Technology Services - Emerging AI and Data Solutions | Toronto, Ontario; Verdun, Quebec; Quebec, Canada | https://jobs.bell.ca/ca/en/job/432894/2027-Graduate-Program-Technology-Services-Emerging-AI-and-Data-Solutions
+
+=== ROW {'company': 'Capgemini', 'ats': 'rmk', 'token': 'careers.capgemini.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 94
+   raw: Group Client Delivery Partner | ['Mississauga, CA', 'Mississauga Group Client Delivery Partner ON'] | https://careers.capgemini.com/job/Mississauga-Group-Client-Delivery-Partner-ON/1458572033/
+   raw: Ingénieur(e) en stress Statiques / Stress Engineer - Static | ['Montreal, CA', 'Montreal Ingénieur(e) en stress Statiques Stress Engineer Static QC'] | https://careers.capgemini.com/job/Montreal-Ing%C3%A9nieur%28e%29-en-stress-Statiques-Stress-Engineer-Static-QC/1385647833/
+   raw: Quality Engineer - Corrective Action Requests / Demandes d'actions correctives | ['Montreal, CA', 'Montreal Quality Engineer Corrective Action Requests Demandes d&amp;apos;actions correctives QC'] | https://careers.capgemini.com/job/Montreal-Quality-Engineer-Corrective-Action-Requests-Demandes-d&amp;apos;actions-correctives-QC/1440663133/
+   raw: Application Functional Support- GIS | ['Calgary, CA', 'Calgary Application Functional Support GIS AB'] | https://careers.capgemini.com/job/Calgary-Application-Functional-Support-GIS-AB/1447717633/
+   raw: DevOps Engineer | ['Toronto, CA', 'Toronto DevOps Engineer ON'] | https://careers.capgemini.com/job/Toronto-DevOps-Engineer-ON/1457017333/
+   raw: Airframe Design Repair Engineer (In-service) | ['Montreal, CA', 'Montreal Airframe Design Repair Engineer (In service) QC'] | https://careers.capgemini.com/job/Montreal-Airframe-Design-Repair-Engineer-%28In-service%29-QC/1451358333/
+   raw: Aerospace In Service Engineer - RFC | ['Montreal, CA', 'Montreal Aerospace In Service Engineer RFC QC'] | https://careers.capgemini.com/job/Montreal-Aerospace-In-Service-Engineer-RFC-QC/1431624333/
+   raw: Sr MES Engineer- GE Proficy | ['Calgary, CA', 'Calgary Sr MES Engineer GE Proficy AB'] | https://careers.capgemini.com/job/Calgary-Sr-MES-Engineer-GE-Proficy-AB/1456598733/
+  rec: {"company": "Capgemini", "ats": "rmk", "token": "careers.capgemini.com", "ok": true, "seen": 94, "kept": 12, "error": "", "resolved": ""}
+   kept: DevOps Engineer | Toronto, CA; Toronto DevOps Engineer ON | https://careers.capgemini.com/job/Toronto-DevOps-Engineer-ON/1457017333/
+   kept: Angular Developer | Mississauga, CA; Mississauga Angular Developer ON | https://careers.capgemini.com/job/Mississauga-Angular-Developer-ON/1435817733/
+   kept: .NET Full Stack Developer (Angular) | Mississauga, CA; Mississauga _NET Full Stack Developer (Angular) ON | https://careers.capgemini.com/job/Mississauga-_NET-Full-Stack-Developer-%28Angular%29-ON/1420000133/
+   kept: DevOps Engineer (ML Infrastructure) | Toronto, CA; Toronto DevOps Engineer (ML Infrastructure) ON | https://careers.capgemini.com/job/Toronto-DevOps-Engineer-%28ML-Infrastructure%29-ON/1444936633/
+   kept: SAP S/4HANA  Solution Architect | Mississauga, CA; Mississauga SAP S4HANA Solution Architect ON | https://careers.capgemini.com/job/Mississauga-SAP-S4HANA-Solution-Architect-ON/1453026933/
+   kept: Fullstack Java Developer | Toronto, CA; Toronto Fullstack Java Developer ON | https://careers.capgemini.com/job/Toronto-Fullstack-Java-Developer-ON/1454010433/
+   kept: Java Full Stack Developer | Mississauga, CA; Mississauga Java Full Stack Developer ON | https://careers.capgemini.com/job/Mississauga-Java-Full-Stack-Developer-ON/1451781533/
+   kept: AWS Solution Architect | Toronto, CA; Toronto AWS Solution Architect ON | https://careers.capgemini.com/job/Toronto-AWS-Solution-Architect-ON/1454393433/
+   kept: Mainframe DevOps Migration Consultant | Toronto, CA; Toronto Mainframe DevOps Migration Consultant ON | https://careers.capgemini.com/job/Toronto-Mainframe-DevOps-Migration-Consultant-ON/1401424933/
+   kept: Mainframe Production Support Engineer | Toronto, CA; Toronto Mainframe Production Support Engineer ON | https://careers.capgemini.com/job/Toronto-Mainframe-Production-Support-Engineer-ON/1452280233/
+
+=== ROW {'company': 'Descartes Systems', 'ats': 'rmk', 'token': 'jobs.descartes.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 28
+   raw: Talent Acquisition Specialist | ['Waterloo Talent Acquisition Specialist ON N2V 1C6'] | https://jobs.descartes.com/job/Waterloo-Talent-Acquisition-Specialist-ON-N2V-1C6/608060817/
+   raw: .Net Developer | ['Waterloo _Net Developer ON N2V 1C6'] | https://jobs.descartes.com/job/Waterloo-_Net-Developer-ON-N2V-1C6/607119817/
+   raw: Director, Corporate Development | ['Waterloo Director, Corporate Development ON N2V 1C6'] | https://jobs.descartes.com/job/Waterloo-Director%2C-Corporate-Development-ON-N2V-1C6/599227717/
+   raw: Sales Partnership Representative | ['Sales Partnership Representative'] | https://jobs.descartes.com/job/Sales-Partnership-Representative/601802417/
+   raw: Technical Account Manager | ['Technical Account Manager'] | https://jobs.descartes.com/job/Technical-Account-Manager/607959317/
+   raw: Software QA Analyst | ['Zilina Software QA Analyst 010 01'] | https://jobs.descartes.com/job/Zilina-Software-QA-Analyst-010-01/607893617/
+   raw: Software Developer | ['Sencur Software Developer SI 4208'] | https://jobs.descartes.com/job/Sencur-Software-Developer-SI-4208/606936417/
+   raw: Customer Success Manager - Freight Forwarding | ['Customer Success Manager Freight Forwarding'] | https://jobs.descartes.com/job/Customer-Success-Manager-Freight-Forwarding/606015717/
+  rec: {"company": "Descartes Systems", "ats": "rmk", "token": "jobs.descartes.com", "ok": true, "seen": 28, "kept": 2, "error": "", "resolved": ""}
+   kept: .Net Developer | Waterloo _Net Developer ON N2V 1C6 | https://jobs.descartes.com/job/Waterloo-_Net-Developer-ON-N2V-1C6/607119817/
+   kept: AI System Administrator | Waterloo AI System Administrator ON N2V 1C6 | https://jobs.descartes.com/job/Waterloo-AI-System-Administrator-ON-N2V-1C6/607821617/
+
+=== ROW {'company': 'City of Brampton', 'ats': 'rmk', 'token': 'careers.brampton.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 14
+   raw: Group Fitness Instructor - Winter 2027 | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Group-Fitness-Instructor-Winter-2027-ON-L6Y4R2/608058917/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Specialized Fitness Instructor III - Zumba - Winter 2027 | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Specialized-Fitness-Instructor-III-Zumba-Winter-2027-ON-L6Y4R2/608058417/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Specialized Fitness Instructor III - Pilates - Winter 2027 | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Specialized-Fitness-Instructor-III-Pilates-Winter-2027-ON-L6Y4R2/608058217/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Jr Property Standards Officer - Part-Time | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Jr-Property-Standards-Officer-Part-Time-ON-L6Y4R2/608070717/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Specialized Fitness Instructor III - Yoga - Winter 2027 | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Specialized-Fitness-Instructor-III-Yoga-Winter-2027-ON-L6Y4R2/608058617/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Group Fitness Instructor - Spin - Winter 2027 | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Group-Fitness-Instructor-Spin-Winter-2027-ON-L6Y4R2/608059017/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Temporary School Crossing Guard | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Temporary-School-Crossing-Guard-ON-L6Y4R2/606243417/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Supervisor Forestry Planning | ['BRAMPTON, ON, CA, L6Y4R2'] | https://careers.brampton.ca/job/BRAMPTON-Supervisor-Forestry-Planning-ON-L6Y4R2/607964217/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+  rec: {"company": "City of Brampton", "ats": "rmk", "token": "careers.brampton.ca", "ok": true, "seen": 14, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Sobeys', 'ats': 'rmk', 'token': 'jobs.sobeyscareers.com', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 404: Not Found
+  rec: {"company": "Sobeys", "ats": "rmk", "token": "jobs.sobeyscareers.com", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 404", "resolved": ""}
+
+=== ROW {'company': 'Jonas Software (Constellation)', 'ats': 'workday', 'token': 'talentmanagementsolution', 'extra': 'wd3|JonasSoftwareCanada', 'pathway': 'E', 'tier': '3'}
+  raw seen 51
+   raw: Sr. Financial Analyst-2 | ['Canada - Markham - Ontario'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Markham---Ontario/Sr-Financial-Analyst-2_R55250
+   raw: Head of Enterprise Sales | ['Remote - USA', 'Remote - Canada'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---USA/Head-of-Enterprise-Sales_R55253-2
+   raw: Product Manager | ['Remote - USA'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---USA/Product-Manager_R55248-3
+   raw: Lead Engineer, Cloud Engineering | ['Remote - Chile'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Chile/Lead-Engineer--Cloud-Engineering_R55294-2
+   raw: Solutions Architect | ['Remote - Canada'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Canada/Solutions-Architect_R54659-1
+   raw: Finance Manager | ['Canada - Markham - Ontario'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Markham---Ontario/Finance-Manager_R55164-1
+   raw: Payments Implementation Specialist - Canada | ['Canada - Markham - Ontario'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Markham---Ontario/Payments-Implementation-Specialist---Canada_R54657
+   raw: Business Development Rep (BDR) | ['Remote Canada (ON)'] | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote-Canada-ON/Business-Development-Rep--BDR-_R54994
+  rec: {"company": "Jonas Software (Constellation)", "ats": "workday", "token": "talentmanagementsolution", "ok": true, "seen": 51, "kept": 7, "error": "", "resolved": ""}
+   kept: Solutions Architect | Remote - Canada | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Canada/Solutions-Architect_R54659-1
+   kept: Payments Implementation Specialist - Canada | Canada - Markham - Ontario | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Markham---Ontario/Payments-Implementation-Specialist---Canada_R54657
+   kept: Interactive Web Designer/Developer | Remote - Canada | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Canada/Interactive-Web-Designer-Developer_R54557
+   kept: Automation Engineer | Canada - Toronto - Ontario | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Toronto---Ontario/Automation-Engineer_R54512
+   kept: Forward Deployed Engineer | Remote - Canada | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote---Canada/Forward-Deployed-Engineer_R54287-1
+   kept: BI Data Engineer | Canada - Markham - Ontario | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Canada---Markham---Ontario/BI-Reporting-Developer-Analyst_R49412-2
+   kept: AI-First DevOps Engineer | Remote Canada (ON) | https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Remote-Canada-ON/AI-First-DevOps-Engineer_R52793
+
+=== ROW {'company': 'Volaris Group (Constellation)', 'ats': 'workday', 'token': 'volarisgroup', 'extra': 'wd3|Volaris', 'pathway': 'E', 'tier': '3'}
+  raw seen 6
+   raw: Regional Accountant - North America | ['Canada - Mississauga, ON'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Mississauga-ON/Regional-Accountant---North-America_R73004
+   raw: Service Desk Manager | ['Canada - Mississauga, ON'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Mississauga-ON/Service-Desk-Manager_R72972
+   raw: Financial Systems Manager | ['Canada - Toronto, ON'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Toronto-ON/Financial-Systems-Manager_R72966-1
+   raw: Sr. HR Business Partner | ['Canada - Toronto, ON', 'Canada - Mississauga, ON'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Toronto-ON/Sr-HR-Business-Partner_R70486
+   raw: Software Engineer - Team Lead (Forward Deployed) | ['Canada - Mississauga, ON', 'Canada - Remote'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Mississauga-ON/Software-Engineer---Team-Lead--Forward-Deployed-_R58857-1
+   raw: Business Development Representative | ['Canada - Mississauga, ON', 'Canada - Remote'] | https://volarisgroup.wd3.myworkdayjobs.com/Volaris/job/Canada---Mississauga-ON/Business-Development-Analyst_R67228
+  rec: {"company": "Volaris Group (Constellation)", "ats": "workday", "token": "volarisgroup", "ok": true, "seen": 6, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Unity', 'ats': 'workday', 'token': 'unitytech', 'extra': 'wd1|Unity', 'pathway': 'E', 'tier': '3'}
+  raw seen 25
+   raw: Développeur(se) principal(e), Opérations de sécurité et intervention en cas d’incident / Senior Security Operations and Incident Response Engineer | ['New York, NY, USA', 'Montreal, Canada', 'Toronto, Canada'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/New-York-NY-USA/Dveloppeur-se--principal-e---Oprations-de-scurit-et-intervention-en-cas-d-incident---Senior-Security-Operations-and-Incident-Response-Engineer_JOBREQ-2616344
+   raw: Développeuse ou développeur logiciel backend, Live Content / Backend Software Developer, Live Content | ['Montreal, Canada'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeuse-ou-dveloppeur-logiciel-backend--Live-Content---Backend-Software-Developer--Live-Content_JOBREQ-2616618
+   raw: Créateur(trice) de contenu social / Social Media Content Creator | ['New York, NY, USA', 'Montreal, Canada'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/New-York-NY-USA/Social-Media-Manager_JOBREQ-2616642
+   raw: Développeuse ou développeur SDK sénior, Monétisation / Senior SDK Developer, Monetization | ['Montreal, Canada', 'Remote, Toronto, Canada'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeuse-ou-dveloppeur-SDK-snior--Montisation---Senior-SDK-Developer--Monetization_JOBREQ-2515475-1
+   raw: Senior Product Marketing Manager (Contract)/Gestionnaire principal(e) du marketing produit (poste contractuel) | ['Remote, USA', 'Montreal, Canada', 'San Francisco, CA, USA', 'Remote, Ontario, Canada', 'New York, NY, USA'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Remote-USA/Senior-Product-Marketing-Manager_JOBREQ-2616621
+   raw: Développeur(se) logiciel sénior, optimisation d'actifs 3D (C++) / Senior Software Developer, 3D Asset Optimization (C++) | ['Montreal, Canada'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeur-se--logiciel-snior--optimisation-d-actifs-3D--C------Senior-Software-Developer--3D-Asset-Optimization--C---_JOBREQ-2616530
+   raw: Senior Product Designer | ['Brighton, United Kingdom', 'Montreal, Canada', 'Stratford-upon-Avon, United Kingdom', 'London, United Kingdom', 'Vilnius, Lithuania'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Brighton-United-Kingdom/Senior-Product-Designer_JOBREQ-2616581
+   raw: Senior Data Engineer | ['Brighton, United Kingdom', 'Montreal, Canada', 'Copenhagen, Denmark', 'London, United Kingdom'] | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Brighton-United-Kingdom/Senior-Software-Engineer_JOBREQ-2615690-1
+  rec: {"company": "Unity", "ats": "workday", "token": "unitytech", "ok": true, "seen": 25, "kept": 1, "error": "", "resolved": ""}
+   kept: Développeur(se) de logiciels | Software Developer | Montreal, Canada; Remote, British Columbia, Canada; Remote, Quebec, Canada; Remo | https://unitytech.wd1.myworkdayjobs.com/Unity/job/Montreal-Canada/Dveloppeur-se--de-logiciels---Software-Developer_JOBREQ-2616392-1
+
+=== ROW {'company': 'Publicis Sapient', 'ats': 'smartrecruiters', 'token': 'PublicisGroupe', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 0
+  rec: {"company": "Publicis Sapient", "ats": "smartrecruiters", "token": "PublicisGroupe", "ok": true, "seen": 0, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Dayforce', 'ats': 'dayforce', 'token': 'mydayforce', 'extra': 'alljobs', 'pathway': 'E', 'tier': '3'}
+  raw seen 122
+   raw: Account Executive, Emerging | ['United Kingdom'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104866
+   raw: Revenue Performance Director | ['United States'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104851
+   raw: Revenue Performance Director | ['Canada'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104847
+   raw: Senior Value Advisor | ['United States'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104835
+   raw: Senior Value Advisor | ['Canada'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104831
+   raw: Production Support Specialist II | ['United States'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104821
+   raw: Software Developer Sr | ['Canada'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104809
+   raw: Sales Development Representative III | ['Canada'] | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104796
+  rec: {"company": "Dayforce", "ats": "dayforce", "token": "mydayforce", "ok": true, "seen": 122, "kept": 2, "error": "", "resolved": ""}
+   kept: Systems Engineer | Canada | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104696
+   kept: Services Technical Consultant | Canada | https://jobs.dayforcehcm.com/en-US/mydayforce/alljobs/jobs/104613
+
+=== ROW {'company': 'Dye & Durham', 'ats': 'dayforce', 'token': 'dyedurham', 'extra': 'CANDIDATEPORTAL', 'pathway': 'E', 'tier': '3'}
+  raw seen 14
+   raw: Data Architect | ['25 York St, Toronto, ON M5J 2V5, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/766
+   raw: Platform Engineer | ['Toronto, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/745
+   raw: Chief of Staff | ['Toronto, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/738
+   raw: Technical Lead | ['Toronto, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/731
+   raw: Senior FP&A Analyst | ['Toronto, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/723
+   raw: Business Development Manager | ['Sydney NSW, Australia', 'Melbourne VIC, Australia', 'Brisbane QLD, Australia'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/697
+   raw: AI Enablement Analyst | ['25 York St, Toronto, ON M5J 2V5, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/678
+   raw: Senior Security Engineer | ['25 York St, Toronto, ON M5J 2V5, Canada'] | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/655
+  rec: {"company": "Dye & Durham", "ats": "dayforce", "token": "dyedurham", "ok": true, "seen": 14, "kept": 4, "error": "", "resolved": ""}
+   kept: Data Architect | 25 York St, Toronto, ON M5J 2V5, Canada | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/766
+   kept: Platform Engineer | Toronto, ON, Canada | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/745
+   kept: AI Enablement Analyst | 25 York St, Toronto, ON M5J 2V5, Canada | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/678
+   kept: Software Engineer | 25 York St, Toronto, ON M5J 2V5, Canada | https://jobs.dayforcehcm.com/en-US/dyedurham/CANDIDATEPORTAL/jobs/317
+
+=== ROW {'company': 'De Havilland Canada', 'ats': 'dayforce', 'token': 'westerkirk', 'extra': 'DEHAVILLANDCORPORATECAREERS', 'pathway': 'E', 'tier': '3'}
+  raw seen 70
+   raw: Methods Engineering Technologist - Ground Test Procedures | ['Calgary, AB, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14164
+   raw: Health & Safety Business Partner | ['Victoria, BC, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14442
+   raw: On the Job Trainer | ['Calgary, AB, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14438
+   raw: Hydraulics, Landing Gear and Mechanical Systems Engineering Specialist | ['Calgary, AB, Canada', 'Mississauga, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14446
+   raw: Infrastructure Analyst | ['Calgary, AB, Canada', 'Mississauga, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14432
+   raw: Quality Engineering Technologist | ['Calgary, AB, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14421
+   raw: GSE Maintenance Specialist | ['Calgary, AB, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14411
+   raw: Structural Design Engineer | ['Calgary, AB, Canada', 'Victoria, BC, Canada', 'Mississauga, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14419
+  rec: {"company": "De Havilland Canada", "ats": "dayforce", "token": "westerkirk", "ok": true, "seen": 70, "kept": 1, "error": "", "resolved": ""}
+   kept: Infrastructure Analyst | Calgary, AB, Canada; Mississauga, ON, Canada | https://jobs.dayforcehcm.com/en-US/westerkirk/DEHAVILLANDCORPORATECAREERS/jobs/14432
+
+=== ROW {'company': 'Alectra Utilities', 'ats': 'dayforce', 'token': 'alectra', 'extra': 'CANDIDATEPORTAL', 'pathway': 'E', 'tier': '3'}
+  raw seen 3
+   raw: Supervisor, Lines (East) | ['Addiscott St, Brampton, ON, Canada'] | https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL/jobs/6079
+   raw: Inventory Planner (PWU) | ['200 Kennedy Rd S, Brampton, ON L6W 4V2, Canada'] | https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL/jobs/6070
+   raw: System Control Operator (IBEW) 2026-172 | ['395 Southgate Dr, Guelph, ON N1G 4Y1, Canada'] | https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL/jobs/6054
+  rec: {"company": "Alectra Utilities", "ats": "dayforce", "token": "alectra", "ok": true, "seen": 3, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'eSentire', 'ats': 'dayforce', 'token': 'esentire', 'extra': 'CANDIDATEPORTAL', 'pathway': 'E', 'tier': '3'}
+  raw seen 23
+   raw: Senior Product Manager, AI SOC | ['Canada'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5959
+   raw: Senior Product Manager, SIEM & Data | ['Canada'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5955
+   raw: Senior Product Manager, SIEM & Data | ['United States'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5951
+   raw: Senior Product Manager, AI SOC | ['United States'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5943
+   raw: Principal  Digital Forensics Investigator | ['Canada'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5926
+   raw: Principal  Digital Forensics Investigator | ['United States'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5920
+   raw: Account Manager | ['Melbourne VIC, Australia'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5782
+   raw: Director, Software Development | ['United States'] | https://jobs.dayforcehcm.com/en-US/esentire/CANDIDATEPORTAL/jobs/5916
+  rec: {"company": "eSentire", "ats": "dayforce", "token": "esentire", "ok": true, "seen": 23, "kept": 0, "error": "", "resolved": ""}
