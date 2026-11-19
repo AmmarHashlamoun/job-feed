@@ -1,0 +1,640 @@
+
+=== GET https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0
+status 200 final https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 bytes 109337
+  DUMP 'jobTitle-link' at 44203:
+jobTitle-link">Business Sales Consultant</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Toronto-Business-Sales-Consultant-ON/1396827800/">Business Sales Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 27, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+        
+  DUMP 'jobTitle-link' at 44553:
+jobTitle-link" href="/job/Toronto-Business-Sales-Consultant-ON/1396827800/">Business Sales Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 27, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span>
+											</td>
+											<td class="colDate hidden-phone" nowrap="nowrap" headers="hdrDate">
+												<span class="jobDate">Oct 27, 2026
+												</span>
+											</td>
+                            </tr>
+
+                         
+
+=== GET https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0
+status 200 final https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 bytes 109337
+  DUMP 'paginationLabel|Results <b>' at 40895:
+paginationLabel" aria-label="Results 1 – 25">Results <b>1 – 25</b> of <b>135</b></span>
+                            <span class="srHelp" style="font-size:0px">Page 1 of 6</span>
+                        </div>
+                            <ul class="pagination">
+                                <li><a 
+  DUMP 'paginationLabel|Results <b>' at 40940:
+Results <b>1 – 25</b> of <b>135</b></span>
+                            <span class="srHelp" style="font-size:0px">Page 1 of 6</span>
+                        </div>
+                            <ul class="pagination">
+                                <li><a class="paginationItemFirst" href="?q=&amp;loc
+
+=== GET https://jobs.rogers.com/services/rss/job/?locale=en_US&keywords=developer
+status 200 final https://jobs.rogers.com/services/rss/job/?locale=en_US&keywords=developer bytes 217144
+  DUMP '<item>' at 683:
+<item><title><![CDATA[Account Executive - Public Sector (Toronto, ON, CA)]]></title><description><![CDATA[<p> </p>
+<p><span style="font-size:12.0pt;font-family:verdana, geneva, sans-serif">Our company was built on the dream of a pioneering entrepreneur, and that spirit continues to empower our work with businesses across Canada today. The Rogers Business team helps organizations of all sizes adapt, scale, and win with network services and other innovative technology solutions that are reliable, secure, and scalable. These solutions are built to allow businesses to operate more efficiently, reduce costs and improve productivity and collaboration. We are looking for team members who have a passion for delivering industry-leading value to customers and businesses in the communities where we live and work, so come build a rewarding career at Rogers and be a driving force behind our success story!</span></p>
+<p> </p><p><br><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt"> </span></p>
+<p><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt"><strong>Role Overview:</strong></span></p>
+<p><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt">Rogers is seeking an account executive to lead the Broader Public business development.  This is a critical role to establish strategic direction in Broader Public Sector. In addition to traditional account executive accountabilities, the individual in this role will be responsible to:</s
+  DUMP '<item>' at 22026:
+<item><title><![CDATA[Sales Associate (Calgary, AB, CA)]]></title><description><![CDATA[<p> </p>
+<p><span style="font-size:12.0pt"><span style="font-family:Verdana, Geneva, sans-serif">Our branded retail team is at the heart of our success. We represent the welcoming spirit of our company. Our retail teams are outgoing and approachable individuals who understand how our products and services fit into everyday life, and we’re excited to show customers how that technology can enhance and simplify their lives. We deliver a seamless experience, value expertise, dedication, and commitment to doing what’s right for our customers needs, every time.</span></span></p>
+<p> </p>
+<p><span style="font-size:12.0pt"><span style="font-family:Verdana, Geneva, sans-serif">At Rogers, we believe in fostering an environment that inspires personal growth, building careers, and creating an inclusive future for everyone.  If you’re passionate about technology, enjoy connecting with people, and thrive in a supportive team environment, consider exploring the following opportunity!</span></span></p>
+<p> </p><p style="margin:0.0in;margin-left:0.375in;font-family:verdana;font-size:12.0pt;color:black"><span style="font-weight:bold;background-color:white">What Is in It for You:</span><span style="background-color:white"> </span></p>
+<p style="margin-left:0.75in;margin-top:0.0pt;margin-bottom:7.0pt;font-family:verdana;font-size:12.0pt;color:black"> </p>
+<ul style="margin-top:0.0in;margin-bottom:0.0in"
+
+=== GET https://jobs.hydroone.com/search/?q=&startrow=0
+status 200 final https://jobs.hydroone.com/search/?q=&startrow=0 bytes 58174
+  DUMP 'jobTitle-link' at 26353:
+jobTitle-link">Security Analyst</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Toronto-Security-Analyst-ON/1291764247/">Security Analyst</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+        </span></span>
+                                                                    <span clas
+  DUMP 'jobTitle-link' at 26694:
+jobTitle-link" href="/job/Toronto-Security-Analyst-ON/1291764247/">Security Analyst</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Nov 16, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+         
+
+=== GET https://careers.deloitte.ca/search/?q=&startrow=0
+status 200 final https://careers.deloitte.ca/search/?q=&startrow=0 bytes 83925
+
+=== GET https://jobs.toronto.ca/jobsatcity/search/?q=&startrow=0
+status 200 final https://jobs.toronto.ca/jobsatcity/search/?q=&startrow=0 bytes 134379
+  DUMP 'jobTitle-link' at 26422:
+jobTitle-link fontcolor" data-focus-tile=".job-id-607211717" aria-describedby="jobSearchTileHelpText-607211717" href="/jobsatcity/job/Toronto-Division-Chief%2C-Public-Education-and-Professional-Development-ON-M5V-0C4/607211717/">
+                    Division Chief, Public Education and Professional Development
+                </a>
+            </span>
+        </div>
+                            </div>
+                            <div class="oneline">
+            <div id="job-607211717-desktop-section-department" data-focus-tile=".job-id-607211717" class="section-field department fontcolor" style=" ">
+                <span id="job-607211717-desktop-section-department-label" aria-describedby="job-607211717-desktop-section-department-value" class="section-label fontcolor " style=" ">
+          
+  DUMP 'jobTitle-link' at 28945:
+jobTitle-link fontcolor" data-focus-tile=".job-id-607211717" aria-describedby="jobSearchTileHelpText-607211717" href="/jobsatcity/job/Toronto-Division-Chief%2C-Public-Education-and-Professional-Development-ON-M5V-0C4/607211717/">
+                    Division Chief, Public Education and Professional Development
+                </a>
+            </span>
+        </div>
+                            </div>
+                            <div class="oneline">
+            <div id="job-607211717-tablet-section-department" data-focus-tile=".job-id-607211717" class="section-field department fontcolor" style=" ">
+                <span id="job-607211717-tablet-section-department-label" aria-describedby="job-607211717-tablet-section-department-value" class="section-label fontcolor " style=" ">
+             
+
+=== GET https://careers.opentext.com/us/en/search-results
+status 200 final https://careers.opentext.com/us/en/search-results bytes 86919
+  DUMP 'eagerLoadRefineSearch' at 25053:
+eagerLoadRefineSearch":{"status":200,"hits":10,"totalHits":344,"data":{"jobs":[{"ml_skills":["edi integration","b2b integration","opentext managed services","as2","sftp","ftp","http","edi mapping","technical specification development","integration workflow design","testing and validation","quality assurance","root cause analysis","java","javascript","c#","c++","perl","data flow analysis","stakeholder management","analytical thinking","troubleshooting","client onboarding","operational efficiency improvement","business continuity support","collaboration"],"type":"","descriptionTeaser":"As a Systems Integration Analyst, you will deliver end-to-end EDI and B2B integration solutions for clients within the OpenText Managed Services environment. You will act as the primary liaison for client implementation requests, translating business requirements into technical solutions. Ideal candidates have foundational programming experience and a client-focused approach.","state":"National Capital Region (NCR)","siteType":"external","multi_category":["Client Success & Support"],"reqId":"28667","city":"Makati City","latitude":"14.55027","multi_location":["Makati City, National Capital Region (NCR), PHL"],"address":"36th Floor Tower 2 RCBC Plaza ,6819 Ayala Avenue","ml_job_parser":{"descriptionTeaser":"As a Systems Integration Analyst, you will deliver end-to-end EDI and B2B integration solutions for clients within the OpenText Managed Services environment. You will act as the primary liaison for client implementation requests, translating business requirements into technical solutions. Ideal candidates have foundational programming experience and a client-focused approach.","descriptionTeaser_first200":"OPENTEXT - THE INFORMATION COMPANY. As the Information Company, our mission at OpenText is to create software solutions and deliver services that redefine the future of digital. Be part of a winnin...","descriptionTeaser_keyword":"OPENTEXT - THE INFORMATION COMPANY. As the Information Company, our mission at OpenText is to create software solutions and deliver services that redefine the future of digital. Be part of a winning t...","descriptionTeaser_ats":"More specifically you will create/update technical specifications and create/update maps using OpenText translation software, carry out integration tasks to deploy maps to pre-production and productio..."},"externalApply":false,"cityState":"Makati City, National Capital Region (NCR)","country":"PHL","visibilityType":"External","longitude":"121.03269","jobId":"28667","locale":"en_US","title":"Systems Integration Analyst - APJ & EMEA","jobSeqNo":"OPJOPEUS28667EXTERNALENUS","postedDate":"2026-09-16T20:39:54.000+0000","dateCreated":"2024-10-16T11:53:05.216+0000","cityStateCountry":"Makati City, National Capital Region (NCR), PHL","jobVisibility":["external","internal"],"location":"Makati City, National Capital Region (NCR), PHL","category":"Client Success & Support","isMultiLocation":true,"multi_location_array":[{"l
+  DUMP 'eagerLoadRefineSearch' at 64828:
+eagerLoadRefineSearch"];; phApp.sessionParams = {"pxSegmentState":"stranger","csrfToken":"075055cbf3584765a9d1bf2845110a52","pageType":"default","pxPageState":"stranger","jdsource":"","from":"0","pageName":"search-results"}; /*--&gt;*/</script><meta charset="UTF-8" data-ph-id="ph-page-element-page43-BevbI7" /><meta name="viewport" content="width=device-width, initial-scale=1" data-ph-id="ph-page-element-page43-ioQz5n" /><title data-ph-id="ph-page-element-page43-gvXgQ5">Search-results</title><script id="ph_app_page_id" type="text/javascript"> phApp.pageId = "page13"</script><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/fontfaces/fontface-1715062590172.css" id="fontfaces-default" /><script id="launchScript" type="text/javascript" src="https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1793085641771.js" defer=""></script><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1786344368936.css" id="uiPlatform" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css" id="masterTheme" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/fontfaces/fontface-1782898147698.css" id="fontfaces" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/css/template-theme-1698129135931.css" id="masterTheme-default" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/assets/css/gustavo-test/canvas-site-custom-styles-1786464202982.css" id="customStyles" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/canvas-global-branding1715062590045.css" id="siteBrandingCss-default" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/canvas-global-branding1782898148202.css" id="siteBrandingCss" /><script id="PHAPP-SYSTEM-ICON-URL" type="text/javascript"> phApp.systemIconUrl = "https://cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1789032934566.svg";</script><script id="PHAPP-CUSTOM-ICON-URL" type="text/javascript"> phApp.customIconUrl = "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/icons/gustavo-test/custom-icons-1782898143988.svg";</script><script id="structural-tag" type="application/ld+json">{"@context": "https://schema.org","@type": "WebPage","inLanguage": "en_us","name": "search-results2","url": "https://careers.opentext.com/us/en/search-results","datePublished": "2026-08-03","dateModified": "2026-08-03"}</script><script type="application/ld+json" id="BREADCRUMB_STRUCTURED_D
+
+=== GET https://careers.opentext.com/us/en/search-results?from=10&s=1
+status 200 final https://careers.opentext.com/us/en/search-results?from=10&s=1 bytes 84855
+  DUMP '"totalHits"' at 25100:
+"totalHits":344,"data":{"jobs":[{"ml_skills":["professional services sales","revenue generation","client relationship management","project management","business requirements gathering","solution imple
+
+=== GET https://jobs.bce.ca/
+status 200 final https://jobs.bce.ca/ bytes 49642
+
+=== GET https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1
+status 200 final https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1 bytes 107227
+  DUMP 'iCIMS_JobsTable' at 6453:
+iCIMS_JobsTable').find('.iCIMS_JobListingRow').each(function() {
+var $tr = $(this);
+var href = $tr.find('a').attr('href');
+if(href) {
+$tr.css({'cursor': 'pointer'});
+$tr.click(function(e) {
+document.location = href;
+});
+}
+});
+
+
+}
+paginator = $('#iCIMS_Paginator')[0];
+selectedPage = paginator ? paginator.selectedIndex : -1;
+
+
+
+});
+var paginator;
+var selectedPage;
+function changePage() {
+if (!paginator || (selectedPage != -1 && selectedPage == paginator.selectedIndex)) {
+return;
+}
+selectedPage = paginator.selectedIndex;
+window.location.href = paginator.options[selectedPage].value;
+}
+
+var geoErrNotSupported = 'Sorry, geolocation is not supported by your browser.';
+var geoErrDefault = 'Sorry, we can\'t get your location because an error occurred when retrieving your location.';
+var geoErrPermission = 'Sorry, we can\'t get your location because you don\'t have that enabled. Please turn it on in your system settings.';
+var geoErrPositionUnavailable = 'Sorry, we can\'t get your location because your location information is unavailable.';
+var geoErrTimeout = 'Sorry, we can\'t get your location because the request to get your location timed out.';
+var geoErrUnknown = 'Sorry, we can\'t get your location because an unknown error occurred when retrieving your location.';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Loading resource bundle -->
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/messageformat.js"></script>
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/locale/en.js"></script>
+<script type="text/javascript">
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundl
+  DUMP 'iCIMS_JobsTable' at 28873:
+iCIMS_JobsTable">
+
+<li class="iCIMS_JobCardItem">
+<div class="row">
+<div class="col-xs-6 header left">
+<span class="sr-only field-label">Location</span>
+<span >
+CA-Remote</span>
+</div>
+<div class="col-xs-6 header right">
+<span class="sr-only field-label">ID</span>
+<span >
+2026-36078</span>
+</div>
+<div class="col-xs-12 title">
+<a href="https://careers-kinaxis.icims.com/jobs/36078/staff-software-developer%2c-ai-innovation/job?in_iframe=1" class="iCIMS_Anchor" title="36078 - Staff Software Developer, AI Innovation">
+<span class="sr-only field-label">Title</span>
+<h3 >
+Staff Software Developer, AI Innovation</h3>
+</a>
+</div>
+<div class="col-xs-12 additionalFields">
+<dl class="iCIMS_JobHeaderGroup">
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Posted Date</dt>
+<dd class="iCIMS_JobHeaderData"><span title="11/18/2026 2:22 PM">
+9 hours ago<span class="sr-only">(11/18/2026 2:22 PM)</span></span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Category</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Engineering</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Position Type</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Full-Time</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Remote</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Yes</span>
+</dd>
+</div>
+</dl>
+</div>
+</div>
+</li>
+
+<li class="iCIMS_JobCardItem">
+<div class="row">
+<div class="col-xs-6 header left">
+<span class="sr-only field-label">Location</span>
+<span >
+CA-Remote</span>
+</div>
+<div class="col-xs-6 header right">
+<span class="sr-only field-label">ID</span>
+<span >
+2026-36045</span>
+</div>
+<div class="col-xs-12 title">
+<a href="https://careers-kinaxis.icims.com/jobs/36045/software-developer%2c-ai-innovation/job?in_iframe=1" class="iCIMS_Anchor" title="36045 - Software Developer, AI Innovation">
+<span class="sr-only field-label">Title</span>
+<h3 >
+Software Developer, AI Innovation</h3>
+</a>
+</div>
+<div class="col-xs-12 additionalFields">
+<dl class="iCIMS_JobHeaderGroup">
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Posted Date</dt>
+<dd class="iCIMS_JobHeaderData"><span title="11/18/2026 2:04 PM">
+9 hours ago<span class="sr-only">(11/18/2026 2:04 PM)</span></span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Category</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Engineering</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt clas
+
+=== GET https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL
+status 200 final https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL bytes 530320
+  DUMP '__NEXT_DATA__' at 381753:
+__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_nextI18Next":{"initialI18nStore":{"en-US":{"common":{"accept":"Accept","account-migration-error":"Something went wrong. Your account wasn't migrated. Refresh your browser and try again.","account-migration-error-with-requestid":"Something went wrong. Your account wasn't migrated. Refresh your browser and try again. If this issue keeps repeating, please click the Report Issue button to let your administrator know. \u003cerrorCode\u003eError Code: {{requestId}}\u003c/errorCode\u003e","add-saved-jobs-failed-notification-title":"The job wasn't saved. Try again later.","add-saved-jobs-success-notification-title":"Added to your saved jobs.","add-to-saved-jobs":"Add to Saved Jobs","advanced-search":"Advanced search","all-departments":"All departments","all-pay-classes":"All pay classes","all-pay-types":"All pay types","all-posted-within":"Any time frame","all-travel-requirements":"All travel requirements","already-applied":"Already Applied","always-enabled":"Always enabled","anonymous-session-expired-error":"The file couldn’t be downloaded. Try again. If you still can’t download it, upload the file again. The new file will replace the existing file.","apply":"Apply","apply-with":"Apply with","apply-with-seek":"Apply with Seek","aria-apply-button":"Apply for {{jobTitle}}","aria-apply-button-applied":"Already Applied for {{jobTitle}}","aria-cancel-section":"Cancel {{sectionName}} changes","aria-home-link":"Home","aria-read-more":"Read more about {{jobTitle}}","aria-read-more-req-id":"Read more about {{jobTitle}}, Req# {{jobReq}}","aria-save-job":"Save {{jobTitle}}","aria-saved-job":"{{jobTitle}} is saved","aria-update-section":"Update {{sectionName}}","at-least-one-session":"At least one session","back":"Back","back-to-top":"Back to top","cancel":"Cancel","category":"Category","ce":{"assistant":{"applyBannerTitle":"Applying to {{jobTitle}}","applyCta":"Continue to application","applyJobUnavailable":"This job is no longer accepting applications.","applyOptionsBody":"Sign in to apply with your profile, or continue as a guest and the assistant will ask for your details.","applyOptionsSignedInBody":"You're signed in, so the assistant can fill in your application from your profile.","applyOptionsStart":"Start application","applyOptionsTitle":"Apply in this chat","applyPromptBody":"I can help you apply for {{jobTitle}} right here in this chat. Want to apply?","applyPromptMessage":"I'd like to apply for this job here in the chat.","applyPromptYes":"Yes, apply in chat","applySessionContinueInChat":"We couldn't save this to your application right now. Send a message in the chat to continue.","applySessionExpired":"Your application session has expired. Start a new conversation to apply again.","attach":"Attach a file","attachHint":"Shared with the assistant","documentKindResume":"Resume","documentKindOther":"Other document","documentsTitle":"Documents available in this chat","documentUploading":"Upload
+
+=== GET https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=joblisting&lang=1
+status 200 final https://validate.perfdrive.com/?ssa=40ef1b17-6921-4a93-91c5-1e2daa4e383d&ssb=71803272027&ssc=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djoblisting%26lang%3D1&ssi=9e556a71-dcvu-40e7-a948-e7251cf4b047&ssk=botmanager_support@radware.com&ssm=05596752465822356102046091522672&ssn=cd1d7008cfb761461279ca4d8e6394ac4bcbcb3160d5-192b-47d1-b38cb3&sso=8632943b-3dcd21f3688fa4108da03e61aff4f2dd65a94def12b521d4&ssp=49413155111795066578179502373345239&ssq=45172126231920374406562319014690487796216&ssr=MTcyLjE3Ny4yMDkuMjEw&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/130.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJyZCI6Im5qb3luLmNvbSIsIl9fdXptZiI6IjdmOTAwMGNiMzE2MGQ1LTE5MmItNDdkMS1iNDNiLTNkY2QyMWYzNjg4ZjEtMTc5NTA2MjMxOTM1OTAtMDA1NzcyMTM3Y2ZhZjkxMWE3YzEwIiwidXpteCI6IjdmYzAwMDM5ZDFlZDdkLTY4ODYtNDE1NS05N2E3LWViZjhkZjcyZGYxMzEtMTc5NTA2MjMxOTM1OTAtMDBlNWM2MzUyZjcxZTYyZTBhNDEwIn0= bytes 15110
+
+=== GET https://ats.rippling.com/freshbooks/jobs
+status 200 final https://ats.rippling.com/en-CA/freshbooks/jobs bytes 204275
+  DUMP '__NEXT_DATA__' at 132313:
+__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_nextI18Next":{"initialI18nStore":{"en-CA":{"atsFe":{"atsFe":{"common":{"acceptedOn":"Accepted on","activate":"Activate","active":"Active","activeApplication":"Active applications","activeApplications":"Active applications","activity":"Activity","add":"Add","addApplicationReviewers":"Additional application reviewers","addedSuccessfully":"Added successfully.","addFilters":"Add filters","addHackerRank":"Add HackerRank test","addInterview":"Add interview","addJobReq":"Add job requisition","addOne":"Add one","addRecruiter":"Add recruiter","address":"Address","agree":"Agree","allCaughtUp":"All caught up!","allEmployees":"ALL EMPLOYEES","allEmployees1":"All employees","any":"Any","applicant":"Applicant","application":"Application","applicationDate":"Application date","applicationReviewers":"Application reviewers","applications":"Applications","applicationStatus":"Application status","appliedOn":"Applied on","apply":"Apply","appName":"Recruiting","archived":"Archived","assessment":"Assessment","attachments":"Attachments","available":"Available","back":"Back","between":"Between","body":"Body","bulkUpload":"Bulk upload","bulkUploadResume":"Bulk upload resumes for existing applications","busy":"Busy","cancel":"Cancel","cancelInterviews":"Cancel interviews","cancelInterviewSingular":"Cancel interview","cancelInterviewsQ":"Cancel interviews?","cancelled":"Cancelled","candidate":"Candidate","candidateEmailTemplate":"Candidate email template(s)","candidateInterviewAvailability":"{{candidateName}}’s interview availability","candidateMoveSuccess":"{{candidateName}} is moved to {{stageName}}","candidateRejectEmailScheduleSuccess":"Rejection email has been scheduled to send at {{scheduleTime}}.","candidateRejectEmailSuccess":"Rejection email sent.","candidateRejectSuccess":"{{candidateName}} is rejected.","candidates":"Candidates","canHaveReports":"Can have reports","cannotView":"Cannot view","careerPageBtn":"Careers page","city":"City","clearSelection":"Clear selection","close":"Close","closed":"Closed","closedAt":"Closed at","codePair":"CodePair","collapse":"Collapse","collapseAll":"Collapse all","company":"Company","companyLogoAltImage":"Company logo","completed":"Completed","confidential":"Confidential","confidentialJob":{"tip":{"description":{"line1":"If checked, this job requisition and its applications can only be seen by:","line2":"The members of the hiring team","line3":"Specifically whitelisted users",
+
+=== GET https://vena.pinpointhq.com/postings.json
+status 200 final https://vena.pinpointhq.com/postings.json bytes 142486
+  DUMP '\\{' at 0:
+{"data":[{"id":"501586","benefits":"","benefits_header":"","compensation":"Rs2,139,184 - Rs2,894,190 / year","compensation_minimum":2139184.0,"compensation_maximum":2894190.0,"compensation_currency":"INR","compensation_frequency":"year","compensation_visible":true,"deadline_at":null,"description":"\u003cdiv\u003e\u003c!--block--\u003e\u003cstrong\u003e\u003cem\u003eThis role will be based in Pune, with an in-office requirement. Candidates located in or willing to relocate to Pune are encouraged to apply.\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eVena Solutions is seeking a Senior Developer to help us expand our sophisticated SaaS cloud technology. This role is a match for you if you are an innovative software engineer who loves to create scalable and performant code. Our technology evolves through continuous innovation; we are always on the lookout for emerging technologies, regardless of language or platform, which allow us to improve our products, development tools and infrastructure. Our developer focused team culture encourages our engineers to be self motivated and self directed. We value leadership and people with passion who will take ownership to make the
+  DUMP '\\{' at 9:
+{"id":"501586","benefits":"","benefits_header":"","compensation":"Rs2,139,184 - Rs2,894,190 / year","compensation_minimum":2139184.0,"compensation_maximum":2894190.0,"compensation_currency":"INR","compensation_frequency":"year","compensation_visible":true,"deadline_at":null,"description":"\u003cdiv\u003e\u003c!--block--\u003e\u003cstrong\u003e\u003cem\u003eThis role will be based in Pune, with an in-office requirement. Candidates located in or willing to relocate to Pune are encouraged to apply.\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eVena Solutions is seeking a Senior Developer to help us expand our sophisticated SaaS cloud technology. This role is a match for you if you are an innovative software engineer who loves to create scalable and performant code. Our technology evolves through continuous innovation; we are always on the lookout for emerging technologies, regardless of language or platform, which allow us to improve our products, development tools and infrastructure. Our developer focused team culture encourages our engineers to be self motivated and self directed. We value leadership and people with passion who will take ownership to make their mark o
+
+=== GET https://careers.loblaw.ca/workday-analyst-talent/job/PAF-LCL-626889DF-FC23-4B13-A7BC-5DA4D18506F9_4479_1773435921_0
+ERROR 404 HTTPError: HTTP Error 404: Not Found <!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" con
+
+=== GET https://careers.loblaw.ca/
+status 200 final https://careers.loblaw.ca/ bytes 102755
+  DUMP 'search|jobs\\?|api' at 3386:
+apis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&display=swap"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.sites.paradox.ai/common-libraries/font-awesome/css/all.css">
+<link rel="stylesheet" crossorigin href="/style.css?v=0.1.2">
+<link rel="stylesheet" crossorigin href="/job-detail.css">
+<link rel="stylesheet" crossorigin href="/vendor.css?v=0.0.1">
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-37JWDSN85R');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37JWDSN85R"
+  DUMP 'search|jobs\\?|api' at 3501:
+apis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&display=swap"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.sites.paradox.ai/common-libraries/font-awesome/css/all.css">
+<link rel="stylesheet" crossorigin href="/style.css?v=0.1.2">
+<link rel="stylesheet" crossorigin href="/job-detail.css">
+<link rel="stylesheet" crossorigin href="/vendor.css?v=0.0.1">
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-37JWDSN85R');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37JWDSN85R"></script>
+<script type="module" crossorigin src="/all.js"></script>
+<script type="module" crossorigin src="/carous
+
+=== GET https://digital.canada.ca/jobs/
+status 200 final https://digital.canada.ca/jobs/ bytes 12688
+
+=== GET https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en
+status 200 final https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en bytes 149617
+
+=== GET https://www.ttc.ca/jobs
+status 200 final https://www.ttc.ca/jobs bytes 34309
+  DUMP 'href="[^"]*(job|career|opportunit)' at 19049:
+href="/Jobs/Featured-jobs">Featured Jobs</a></div><div class="field-description">We’re hiring! Check our jobs list for positions available now.</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="Early Talent Recruitment" href="/Jobs/Early-Talent">Early Talent</a></div><div class="field-description">Our programs that support the professional development of emerging talent</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="Whats new" href="/Jobs/whats-new">What's new!</a></div><div class="field-description">Find out why you should work with us and what's changed about how we hire</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="TTC in the Community" href="/Jobs/TTC-in-the-Community">TTC in the Community</a></div><div class="field-description">The TTC partners with community agencies and educational institutions to host job fairs, information sessions, and events.<
+
+=== GET https://careers.telus.com/search/?q=&startrow=0
+status 200 final https://careers.telus.com/search/?q=&startrow=0 bytes 100733
+  DUMP 'jobTitle-link' at 39365:
+jobTitle-link">Senior Security Consultant</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Montr%C3%A9al-Senior-Security-Consultant-QC-H3B-1S6/607249117/">Senior Security Consultant</a>
+                                                                    </span>
+                                                    
+  DUMP 'jobTitle-link' at 39716:
+jobTitle-link" href="/job/Montr%C3%A9al-Senior-Security-Consultant-QC-H3B-1S6/607249117/">Senior Security Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Montréal, QC, CA, H3B 1S6
+            
+                <small class="nobr">+7 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobFacility visible-phone">56758</s
+
+=== GET https://jobs.opg.com/search/?q=&startrow=0
+status 200 final https://jobs.opg.com/search/?q=&startrow=0 bytes 55586
+
+=== GET https://careers.celestica.com/search/?q=&locationsearch=Canada&startrow=0
+status 200 final https://careers.celestica.com/search/?q=&locationsearch=Canada&startrow=0 bytes 113118
+  DUMP 'jobTitle-link' at 29207:
+jobTitle-link">Student Intern, AI Project Coordinator</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Remote-Employee-Canada-Student-Intern%2C-AI-Project-Coordinator-ON/1441161033/">Student Intern, AI Project Coordinator</a>
+                                                                    </span>
+            
+  DUMP 'jobTitle-link' at 29570:
+jobTitle-link" href="/job/Remote-Employee-Canada-Student-Intern%2C-AI-Project-Coordinator-ON/1441161033/">Student Intern, AI Project Coordinator</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Remote Employee Canada, ON, CA
+            
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 23, 2026
+													             
+
+=== GET https://jobs-ca.pwc.com/ca/en/search-results
+status 200 final https://jobs-ca.pwc.com/ca/en/search-results bytes 155771
+  DUMP 'eagerLoadRefineSearch' at 25415:
+eagerLoadRefineSearch":{"status":200,"hits":10,"totalHits":158,"data":{"jobs":[{"ml_skills":["financial services","develop","feedback","business performance","payments domain","execution","build","client relationships","cloud","swift","trusted relationships","networks","ai","delivery leadership","quality delivery","embedded"],"type":"Full time","descriptionTeaser":"As a Digital Payments Consulting, Director, you\u2019ll work as part of a team of problem solvers, helping to solve business issues, deliver high quality client service and operational efficiency....","state":"Ontario","siteType":"external","multi_category":["Consulting"],"reqId":"707141WD","city":"Toronto","managementLevel":"Director","latitude":"43.70011","multi_location":["Toronto"],"address":"NA, Toronto, ON M5J 0B2, Canada","applyUrl":"https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Digital-Payments-Consulting--Director_707141WD/apply","ml_job_parser":{"descriptionTeaser":"As a Digital Payments Consulting, Director, you\u2019ll work as part of a team of problem solvers, helping to solve business issues, deliver high quality client service and operational efficiency....","descriptionTeaser_first200":"At PwC, our people in operations consulting specialise in providing consulting services on optimising operational efficiency and effectiveness. These individuals analyse client needs, develop opera...","descriptionTeaser_keyword":"At PwC, our people in operations consulting specialise in pr
+  DUMP 'eagerLoadRefineSearch' at 55394:
+eagerLoadRefineSearch","jobwidgetsettings","siteConfig"];phApp.eagerLoadParams = {};; phApp.sessionParams = {"pxSegmentState":"stranger","csrfToken":"07a533f02d5c46f7ad66e8e0e7a803f0","pageType":"default","pxPageState":"stranger","jdsource":"","from":"0","pageName":"search-results"}; /*--&gt;*/</script><script type="text/javascript">document.domain = 'phenompro.com'</script><script type="text/javascript">phApp.urlMap = {"featuredOpportunities":":url", "businessUnit":":url", "category": "c/:category","job": "job/:jobSeqNo/:title","glassdoor-reviews": "glassdoor-reviews", "search-results" : "search-results", "home" : "home", "jobcart" : "jobcart"}  </script><script type="text/javascript">phApp.ddoRealPath = {"jobDetail": "data.job"}</script><meta charset="UTF-8" /><meta content="en" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Turn your potential into a transformative experience. Join our community of solvers." key-description="external-default-search-results-description" description="Search results. Find available job openings at PwC Canada" /><meta name="keywords" content="" key-keywords="external-default-search-results-keywords" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@PWC Canada" /><meta name="twitter:creator" content="@Careers - PWC Canada" /><meta name="twitter:image" content="https://cdn.phenompeople.com/CareerConnectResources/prod/PWCACA/images/p3107272-ta
+
+=== GET https://careers.kpmg.ca/
+status 200 final https://careers.kpmg.ca/ bytes 342849
+
+=== ROW {'company': 'Konrad Group', 'ats': 'greenhouse', 'token': 'konradgroup', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 106
+   raw: AEM Developer | ['Gurgaon'] | https://www.konrad.com/careers/job/6085916003?gh_jid=6085916003
+   raw: Android Developer | ['London'] | https://www.konrad.com/careers/job/7669135003?gh_jid=7669135003
+   raw: Android Developer | ['Gurgaon'] | https://www.konrad.com/careers/job/6084538003?gh_jid=6084538003
+   raw: Android Developer | ['Costa Rica'] | https://www.konrad.com/careers/job/6345906003?gh_jid=6345906003
+   raw: Android Developer | ['Toronto'] | https://www.konrad.com/careers/job/8076013003?gh_jid=8076013003
+   raw: Associate Consultant | ['New York'] | https://www.konrad.com/careers/job/8199545003?gh_jid=8199545003
+   raw: Associate Consultant | ['Toronto'] | https://www.konrad.com/careers/job/8109166003?gh_jid=8109166003
+   raw: Associate Consultant | ['London'] | https://www.konrad.com/careers/job/8199620003?gh_jid=8199620003
+  rec: {"company": "Konrad Group", "ats": "greenhouse", "token": "konradgroup", "ok": true, "seen": 106, "kept": 14, "error": "", "resolved": ""}
+   kept: Android Developer | Toronto | https://www.konrad.com/careers/job/8076013003?gh_jid=8076013003
+   kept: Associate Data Analyst | Toronto | https://www.konrad.com/careers/job/8043218003?gh_jid=8043218003
+   kept: Data Analyst | Toronto | https://www.konrad.com/careers/job/8109497003?gh_jid=8109497003
+   kept: Data Architect | Toronto | https://www.konrad.com/careers/job/8036085003?gh_jid=8036085003
+   kept: Data Engineer | Toronto | https://www.konrad.com/careers/job/7894910003?gh_jid=7894910003
+   kept: Full Stack Developer | Toronto | https://www.konrad.com/careers/job/7989358003?gh_jid=7989358003
+   kept: iOS Developer | Toronto | https://www.konrad.com/careers/job/8081638003?gh_jid=8081638003
+   kept: Java Developer | Toronto | https://www.konrad.com/careers/job/7989359003?gh_jid=7989359003
+   kept: MarTech Developer | Toronto | https://www.konrad.com/careers/job/7848364003?gh_jid=7848364003
+   kept: Mobile Developer (Entry Level) | Toronto | https://www.konrad.com/careers/job/7976082003?gh_jid=7976082003
+
+=== ROW {'company': 'Thoughtworks', 'ats': 'auto', 'token': 'thoughtworks', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Thoughtworks", "ats": "auto", "token": "thoughtworks", "ok": true, "seen": 31, "kept": 0, "error": "", "resolved": "greenhouse:thoughtworks"}
+
+=== ROW {'company': 'Unity', 'ats': 'auto', 'token': 'unity3d;unity;unitytechnologies', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Unity", "ats": "auto", "token": "unity3d;unity;unitytechnologies", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:unity3d:empty board, greenhouse:unity3d:404, lever:unity3d:404, ashby:unity3d:404, workable:unity3d:404, bamboohr:unity3d:JSONDecodeError, recruitee:unity3d:404, greenh", "resolved": ""}
+
+=== ROW {'company': 'eSentire', 'ats': 'auto', 'token': 'esentire', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "eSentire", "ats": "auto", "token": "esentire", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:esentire:empty board, greenhouse:esentire:404, lever:esentire:404, ashby:esentire:404, workable:esentire:404, bamboohr:esentire:JSONDecodeError, recruitee:esentire:404)", "resolved": ""}
+
+=== ROW {'company': 'Uken Games', 'ats': 'auto', 'token': 'uken;ukengames', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Uken Games", "ats": "auto", "token": "uken;ukengames", "ok": true, "seen": 1, "kept": 0, "error": "", "resolved": "bamboohr:uken"}
+
+=== ROW {'company': 'Rangle.io', 'ats': 'auto', 'token': 'rangle;rangleio', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Rangle.io", "ats": "auto", "token": "rangle;rangleio", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:rangle:empty board, greenhouse:rangle:404, lever:rangle:404, ashby:rangle:404, recruitee:rangle:404, greenhouse:rangleio:404, lever:rangleio:404, ashby:rangleio:404)", "resolved": ""}
+
+=== ROW {'company': 'Slalom', 'ats': 'auto', 'token': 'slalom;slalomconsulting', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Slalom", "ats": "auto", "token": "slalom;slalomconsulting", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:slalom:empty board, greenhouse:slalom:404, lever:slalom:404, ashby:slalom:404, bamboohr:slalom:JSONDecodeError, recruitee:slalom:404, greenhouse:slalomconsulting:404, l", "resolved": ""}
+
+=== ROW {'company': 'Questrade', 'ats': 'auto', 'token': 'questrade;questradefinancialgroup', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Questrade", "ats": "auto", "token": "questrade;questradefinancialgroup", "ok": true, "seen": 59, "kept": 2, "error": "", "resolved": "greenhouse:questrade"}
+   kept: QA & Automation Engineer | 70 York St., Toronto, Ontario; Headquarters - 5700 Yonge St., Toronto, Ontario | https://job-boards.greenhouse.io/questrade/jobs/4502945009
+   kept: Software Engineer | 70 York St., Toronto, Ontario; Headquarters - 5700 Yonge St., Toronto, Ontario | https://job-boards.greenhouse.io/questrade/jobs/4488185009
+
+=== ROW {'company': 'Descartes Systems', 'ats': 'auto', 'token': 'descartes;descartessystems', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Descartes Systems", "ats": "auto", "token": "descartes;descartessystems", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:descartes:empty board, greenhouse:descartes:404, lever:descartes:404, ashby:descartes:404, workable:descartes:404, bamboohr:descartes:JSONDecodeError, recruitee:descart", "resolved": ""}
+
+=== ROW {'company': 'Electric Mind (Intelliware)', 'ats': 'auto', 'token': 'electricmind;intelliware', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Electric Mind (Intelliware)", "ats": "auto", "token": "electricmind;intelliware", "ok": true, "seen": 15, "kept": 2, "error": "", "resolved": "lever:electricmind"}
+   kept: AI SDLC  Trainer/Coach | Downtown Toronto; Canada | https://jobs.lever.co/electricmind/32f20f0b-615f-48af-991d-0e9949e7f94a
+   kept: Business Systems Analyst | Downtown Toronto; Canada | https://jobs.lever.co/electricmind/510d7946-47f6-4a0c-8f72-a46e6ac3499a
+
+=== ROW {'company': 'Digital Extremes', 'ats': 'auto', 'token': 'digitalextremes', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Digital Extremes", "ats": "auto", "token": "digitalextremes", "ok": true, "seen": 6, "kept": 0, "error": "", "resolved": "greenhouse:digitalextremes"}
+
+=== ROW {'company': 'Payments Canada', 'ats': 'auto', 'token': 'paymentscanada;payments-canada', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Payments Canada", "ats": "auto", "token": "paymentscanada;payments-canada", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:paymentscanada:empty board, greenhouse:paymentscanada:404, lever:paymentscanada:404, ashby:paymentscanada:404, workable:paymentscanada:404, bamboohr:paymentscanada:JSON", "resolved": ""}
+
+=== ROW {'company': 'Nuvei', 'ats': 'auto', 'token': 'nuvei', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Nuvei", "ats": "auto", "token": "nuvei", "ok": true, "seen": 65, "kept": 2, "error": "", "resolved": "workable:nuvei"}
+   kept: Oracle Cloud Developer | Canada (remote) | https://apply.workable.com/j/76343BDD45
+   kept: Oracle Cloud Technical Architect | Canada (remote) | https://apply.workable.com/j/1342A58BCD
+
+=== ROW {'company': 'Moneris', 'ats': 'auto', 'token': 'moneris;monerissolutions', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Moneris", "ats": "auto", "token": "moneris;monerissolutions", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:moneris:empty board, greenhouse:moneris:404, lever:moneris:404, ashby:moneris:404, workable:moneris:404, bamboohr:moneris:JSONDecodeError, recruitee:moneris:404, greenh", "resolved": ""}
+
+=== ROW {'company': 'Canadian Digital Service', 'ats': 'auto', 'token': 'cds-snc;canadiandigitalservice;cds', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Canadian Digital Service", "ats": "auto", "token": "cds-snc;canadiandigitalservice;cds", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:cds-snc:empty board, greenhouse:cds-snc:404, lever:cds-snc:404, ashby:cds-snc:404, workable:cds-snc:404, bamboohr:cds-snc:JSONDecodeError, recruitee:cds-snc:404, greenh", "resolved": ""}
+
+=== ROW {'company': 'Vector Institute', 'ats': 'auto', 'token': 'vectorinstitute;vector-institute', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Vector Institute", "ats": "auto", "token": "vectorinstitute;vector-institute", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:vectorinstitute:empty board, greenhouse:vectorinstitute:404, lever:vectorinstitute:404, ashby:vectorinstitute:404, bamboohr:vectorinstitute:JSONDecodeError, recruitee:v", "resolved": ""}
+
+=== ROW {'company': 'Ross Video', 'ats': 'auto', 'token': 'rossvideo', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Ross Video", "ats": "auto", "token": "rossvideo", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:rossvideo:empty board, greenhouse:rossvideo:404, lever:rossvideo:404, ashby:rossvideo:404, workable:rossvideo:404, bamboohr:rossvideo:JSONDecodeError, recruitee:rossvid", "resolved": ""}
+
+=== ROW {'company': 'Calian', 'ats': 'auto', 'token': 'calian', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Calian", "ats": "auto", "token": "calian", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:calian:empty board, greenhouse:calian:404, lever:calian:404, ashby:calian:404, workable:calian:404, bamboohr:calian:JSONDecodeError, recruitee:calian:404)", "resolved": ""}
+
+=== ROW {'company': 'Softchoice', 'ats': 'auto', 'token': 'softchoice', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Softchoice", "ats": "auto", "token": "softchoice", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:softchoice:empty board, greenhouse:softchoice:404, lever:softchoice:404, ashby:softchoice:404, bamboohr:softchoice:JSONDecodeError, recruitee:softchoice:404)", "resolved": ""}
+
+=== ROW {'company': 'Coinsquare', 'ats': 'auto', 'token': 'coinsquare', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Coinsquare", "ats": "auto", "token": "coinsquare", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:coinsquare:empty board, greenhouse:coinsquare:404, lever:coinsquare:404, ashby:coinsquare:404, workable:coinsquare:404, bamboohr:coinsquare:JSONDecodeError, recruitee:c", "resolved": ""}
+
+=== ROW {'company': 'WonderFi', 'ats': 'auto', 'token': 'wonderfi;bitbuy', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "WonderFi", "ats": "auto", "token": "wonderfi;bitbuy", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:wonderfi:empty board, greenhouse:wonderfi:404, lever:wonderfi:404, ashby:wonderfi:404, workable:wonderfi:404, bamboohr:wonderfi:JSONDecodeError, recruitee:wonderfi:404,", "resolved": ""}
+
+=== ROW {'company': 'Points (Plusgrade)', 'ats': 'auto', 'token': 'points;pointsinternational', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Points (Plusgrade)", "ats": "auto", "token": "points;pointsinternational", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:points:empty board, greenhouse:points:404, lever:points:404, ashby:points:404, workable:points:404, bamboohr:points:JSONDecodeError, recruitee:points:404, greenhouse:po", "resolved": ""}
+
+=== ROW {'company': 'Sangoma', 'ats': 'auto', 'token': 'sangoma', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Sangoma", "ats": "auto", "token": "sangoma", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:sangoma:empty board, greenhouse:sangoma:404, lever:sangoma:404, ashby:sangoma:404, bamboohr:sangoma:JSONDecodeError, recruitee:sangoma:404)", "resolved": ""}
+
+=== ROW {'company': 'Mitel', 'ats': 'auto', 'token': 'mitel', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Mitel", "ats": "auto", "token": "mitel", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:mitel:empty board, greenhouse:mitel:404, lever:mitel:404, ashby:mitel:404, workable:mitel:404, bamboohr:mitel:JSONDecodeError, recruitee:mitel:404)", "resolved": ""}
+
+=== ROW {'company': 'Pivotree', 'ats': 'auto', 'token': 'pivotree', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Pivotree", "ats": "auto", "token": "pivotree", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:pivotree:empty board, greenhouse:pivotree:404, lever:pivotree:404, ashby:pivotree:404, workable:pivotree:404, bamboohr:pivotree:JSONDecodeError, recruitee:pivotree:404)", "resolved": ""}
+
+=== ROW {'company': 'Ecobee', 'ats': 'auto', 'token': 'ecobee', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Ecobee", "ats": "auto", "token": "ecobee", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:ecobee:empty board, greenhouse:ecobee:404, lever:ecobee:404, ashby:ecobee:404, workable:ecobee:404, bamboohr:ecobee:JSONDecodeError, recruitee:ecobee:404)", "resolved": ""}
+
+=== ROW {'company': 'Paytm Labs', 'ats': 'auto', 'token': 'paytmlabs;paytm', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Paytm Labs", "ats": "auto", "token": "paytmlabs;paytm", "ok": true, "seen": 194, "kept": 0, "error": "", "resolved": "lever:paytm"}
+
+=== ROW {'company': 'TextNow', 'ats': 'auto', 'token': 'textnow', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "TextNow", "ats": "auto", "token": "textnow", "ok": true, "seen": 0, "kept": 0, "error": "", "resolved": "lever:textnow"}
+
+=== ROW {'company': 'Clearco', 'ats': 'auto', 'token': 'clearco', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Clearco", "ats": "auto", "token": "clearco", "ok": true, "seen": 6, "kept": 0, "error": "", "resolved": "ashby:clearco"}
+
+=== ROW {'company': 'Properly', 'ats': 'auto', 'token': 'properly', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Properly", "ats": "auto", "token": "properly", "ok": false, "seen": 0, "kept": 0, "error": "no board found (smartrecruiters:properly:empty board, greenhouse:properly:404, lever:properly:404, ashby:properly:404, bamboohr:properly:JSONDecodeError, recruitee:properly:404)", "resolved": ""}
+
+=== ROW {'company': 'Wave', 'ats': 'auto', 'token': 'wave;waveapps', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Wave", "ats": "auto", "token": "wave;waveapps", "ok": true, "seen": 9, "kept": 0, "error": "", "resolved": "lever:waveapps"}
+
+=== ROW {'company': 'Thinkific', 'ats': 'auto', 'token': 'thinkific', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Thinkific", "ats": "auto", "token": "thinkific", "ok": true, "seen": 0, "kept": 0, "error": "", "resolved": "greenhouse:thinkific"}
+
+=== ROW {'company': 'Jane App', 'ats': 'auto', 'token': 'janeapp;jane', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Jane App", "ats": "auto", "token": "janeapp;jane", "ok": true, "seen": 20, "kept": 0, "error": "", "resolved": "ashby:jane"}
+
+=== ROW {'company': 'Tulip', 'ats': 'auto', 'token': 'tulip;tulipretail', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  rec: {"company": "Tulip", "ats": "auto", "token": "tulip;tulipretail", "ok": true, "seen": 67, "kept": 0, "error": "", "resolved": "greenhouse:tulip"}
+
+=== ROW {'company': 'OpenText (Workday guess)', 'ats': 'workday', 'token': 'opentext', 'extra': 'wd3|OpenText', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 422: Unprocessable Entity
+  rec: {"company": "OpenText (Workday guess)", "ats": "workday", "token": "opentext", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 422", "resolved": ""}
+
+=== ROW {'company': 'EA (Workday guess)', 'ats': 'workday', 'token': 'ea', 'extra': 'wd1|EA_Careers', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 422: Unprocessable Entity
+  rec: {"company": "EA (Workday guess)", "ats": "workday", "token": "ea", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 422", "resolved": ""}
+
+=== ROW {'company': 'Cadence (Workday guess)', 'ats': 'workday', 'token': 'cadence', 'extra': 'wd1|External_Careers', 'pathway': 'E', 'tier': '3'}
+  raw seen 13
+   raw: Analog CAD Engineering specialist | ['MOUNT-ROYAL (Montreal)', 'HOME CANADA_AB', 'TORONTO 02', 'HOME CANADA_QC', 'HOME CANADA_ON', 'HOME CANADA_BC', 'HOME CANADA_NB'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-CAD-Engineering-specialist_R54926
+   raw: Principal Analog IC Designer | ['TORONTO 02', 'HOME CANADA_ON', 'MOUNT-ROYAL (Montreal)', 'HOME CANADA_QC'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/TORONTO-02/Design-Architect-Analog-IC-Designer_R56036-1
+   raw: Principal Analog IC Designer | ['TORONTO 02', 'HOME CANADA_ON', 'MOUNT-ROYAL (Montreal)', 'HOME CANADA_QC'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/TORONTO-02/Principal-Analog-IC-Designer_R56875-1
+   raw: Analog/Mixed-Signal IC Design Co-Op/Intern  (Summer 2026) / Stage/Co-Op en Conception de CI Analogiques/Signal Mixte (Été  2026) | ['MOUNT-ROYAL (Montreal)'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2
+   raw: Lead Digital Verification Engineer | ['MOUNT-ROYAL (Montreal)', 'MOUNT-ROYAL 01 (MONTREAL)'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Lead-Digital-Verification-Engineer_R54714
+   raw: Sr. Principal Technical Quality Engineer | ['TORONTO 02', 'MOUNT-ROYAL (Montreal)'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/TORONTO-02/Principle-Design-Engineer_R55495
+   raw: Ingénieur en conception de micrologiciel - Firmware Design Engineer | ['MOUNT-ROYAL (Montreal)', 'MOUNT-ROYAL 01 (MONTREAL)'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55932
+   raw: Ingénieur en conception de micrologiciel - Firmware Design Engineer | ['MOUNT-ROYAL (Montreal)', 'MOUNT-ROYAL 01 (MONTREAL)'] | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55931
+  rec: {"company": "Cadence (Workday guess)", "ats": "workday", "token": "cadence", "ok": true, "seen": 13, "kept": 1, "error": "", "resolved": ""}
+   kept: IC design Implementation and SignOff Architect, (STA SignOff) | HOME OR; SEATTLE 01; TORONTO 02; HOME SD; HOME CA; SAN JOSE; AUSTIN | https://cadence.wd1.myworkdayjobs.com/External_Careers/job/HOME-OR/Application-Engineer-Architect--STA-SignOff-_R56804
+
+=== ROW {'company': 'Ericsson (Workday guess)', 'ats': 'workday', 'token': 'ericsson', 'extra': 'wd3|Ericsson_Careers', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 422: Unprocessable Entity
+  rec: {"company": "Ericsson (Workday guess)", "ats": "workday", "token": "ericsson", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 422", "resolved": ""}
