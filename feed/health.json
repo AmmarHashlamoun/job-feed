@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T04:46:11Z",
-  "boards": 277,
-  "ok": 250,
+  "generated_at": "2026-11-19T04:59:31Z",
+  "boards": 347,
+  "ok": 320,
   "failed": 27,
-  "jobs_seen": 28304,
-  "jobs_kept": 526,
-  "new_today": 126
+  "jobs_seen": 34094,
+  "jobs_kept": 637,
+  "new_today": 240
  },
  "boards": [
   {
@@ -310,6 +310,16 @@
    "resolved": "bamboohr:absolute"
   },
   {
+   "company": "Accenture",
+   "ats": "workday",
+   "token": "accenture",
+   "ok": true,
+   "seen": 360,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Achievers",
    "ats": "lever",
    "token": "achievers",
@@ -356,6 +366,16 @@
    "ok": true,
    "seen": 75,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Air Canada",
+   "ats": "phenom",
+   "token": "careers.aircanada.com/ca/en",
+   "ok": true,
+   "seen": 48,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -540,6 +560,16 @@
    "resolved": "ashby:baseten"
   },
   {
+   "company": "BDO Canada",
+   "ats": "workday",
+   "token": "bdo",
+   "ok": true,
+   "seen": 232,
+   "kept": 11,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "BenchSci",
    "ats": "lever",
    "token": "benchsci",
@@ -590,6 +620,16 @@
    "resolved": ""
   },
   {
+   "company": "Borrowell",
+   "ats": "workable",
+   "token": "borrowell",
+   "ok": true,
+   "seen": 2,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Bosch",
    "ats": "smartrecruiters",
    "token": "BoschGroup",
@@ -630,6 +670,16 @@
    "resolved": "greenhouse:c3iot"
   },
   {
+   "company": "Cadence Design Systems",
+   "ats": "workday",
+   "token": "cadence",
+   "ok": true,
+   "seen": 13,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "CAE",
    "ats": "workday",
    "token": "cae",
@@ -640,12 +690,42 @@
    "resolved": ""
   },
   {
+   "company": "Canada Post",
+   "ats": "rmk",
+   "token": "jobs.canadapost.ca",
+   "ok": true,
+   "seen": 565,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Canadian Tire Corporation",
+   "ats": "workday",
+   "token": "canadiantirecorporation",
+   "ok": true,
+   "seen": 77,
+   "kept": 5,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Canonical",
    "ats": "greenhouse",
    "token": "canonical",
    "ok": true,
    "seen": 317,
    "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Celestica",
+   "ats": "rmk",
+   "token": "careers.celestica.com",
+   "ok": true,
+   "seen": 77,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -680,6 +760,16 @@
    "resolved": ""
   },
   {
+   "company": "Cineplex",
+   "ats": "workday",
+   "token": "cineplex",
+   "ok": true,
+   "seen": 195,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Cisco",
    "ats": "workday",
    "token": "cisco",
@@ -690,12 +780,42 @@
    "resolved": ""
   },
   {
+   "company": "City of Hamilton",
+   "ats": "bamboohr",
+   "token": "cityofhamilton",
+   "ok": true,
+   "seen": 26,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "City of Toronto",
+   "ats": "rmk",
+   "token": "jobs.toronto.ca/jobsatcity",
+   "ok": true,
+   "seen": 13,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Clearco",
+   "ats": "ashby",
+   "token": "clearco",
+   "ok": true,
+   "seen": 6,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "ClickHouse",
    "ats": "auto",
    "token": "clickhouse",
    "ok": true,
    "seen": 208,
-   "kept": 3,
+   "kept": 4,
    "error": "",
    "resolved": "ashby:clickhouse"
   },
@@ -715,6 +835,16 @@
    "token": "cloudflare",
    "ok": true,
    "seen": 497,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "CN Rail",
+   "ats": "rmk",
+   "token": "careers.cn.ca",
+   "ok": true,
+   "seen": 20,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -860,6 +990,16 @@
    "resolved": "ashby:deepgram"
   },
   {
+   "company": "Deloitte Canada",
+   "ats": "rmk",
+   "token": "careers.deloitte.ca",
+   "ok": true,
+   "seen": 20,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Dexterity",
    "ats": "auto",
    "token": "dexterity",
@@ -875,6 +1015,16 @@
    "token": "dialpad",
    "ok": true,
    "seen": 16,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Digital Extremes",
+   "ats": "greenhouse",
+   "token": "digitalextremes",
+   "ok": true,
+   "seen": 6,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -970,6 +1120,16 @@
    "resolved": ""
   },
   {
+   "company": "Electric Mind (Intelliware)",
+   "ats": "lever",
+   "token": "electricmind",
+   "ok": true,
+   "seen": 15,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "ElevenLabs",
    "ats": "auto",
    "token": "elevenlabs",
@@ -978,6 +1138,26 @@
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
+  },
+  {
+   "company": "Enbridge",
+   "ats": "workday",
+   "token": "enbridge",
+   "ok": true,
+   "seen": 9,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Enghouse Systems",
+   "ats": "bamboohr",
+   "token": "enghouse",
+   "ok": true,
+   "seen": 8,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
   },
   {
    "company": "Entrust",
@@ -1006,6 +1186,16 @@
    "ok": true,
    "seen": 10,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "EY Canada",
+   "ats": "rmk",
+   "token": "careers.ey.com",
+   "ok": true,
+   "seen": 432,
+   "kept": 9,
    "error": "",
    "resolved": ""
   },
@@ -1084,7 +1274,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 904,
+   "seen": 905,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1105,6 +1295,36 @@
    "token": "formlabs",
    "ok": true,
    "seen": 276,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Fortinet",
+   "ats": "oraclehcm",
+   "token": "edel.fa.us2.oraclecloud.com",
+   "ok": true,
+   "seen": 174,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "FSRA",
+   "ats": "workday",
+   "token": "fsra",
+   "ok": true,
+   "seen": 6,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Fullscript",
+   "ats": "lever",
+   "token": "fullscript",
+   "ok": true,
+   "seen": 17,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1240,6 +1460,26 @@
    "resolved": ""
   },
   {
+   "company": "Halton Region",
+   "ats": "rmk",
+   "token": "careers.halton.ca",
+   "ok": true,
+   "seen": 20,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Harris Computer (Constellation)",
+   "ats": "workday",
+   "token": "harriscomputer",
+   "ok": true,
+   "seen": 100,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Harvey",
    "ats": "ashby",
    "token": "harvey",
@@ -1255,6 +1495,16 @@
    "token": "hatch",
    "ok": true,
    "seen": 8,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "HCLTech",
+   "ats": "rmk",
+   "token": "careers.hcltech.com",
+   "ok": true,
+   "seen": 20,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1296,6 +1546,16 @@
    "ok": true,
    "seen": 173,
    "kept": 4,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "HOOPP",
+   "ats": "workday",
+   "token": "hoopp",
+   "ok": true,
+   "seen": 28,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1350,6 +1610,16 @@
    "resolved": ""
   },
   {
+   "company": "Hydro One",
+   "ats": "rmk",
+   "token": "jobs.hydroone.com",
+   "ok": true,
+   "seen": 11,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Ideogram",
    "ats": "ashby",
    "token": "ideogram",
@@ -1360,12 +1630,52 @@
    "resolved": ""
   },
   {
+   "company": "IESO",
+   "ats": "rmk",
+   "token": "careers.ieso.ca",
+   "ok": true,
+   "seen": 18,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Indigo",
+   "ats": "smartrecruiters",
+   "token": "IndigoBooksMusic",
+   "ok": true,
+   "seen": 116,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Info-Tech Research Group",
+   "ats": "ukg",
+   "token": "INF5000IFTC",
+   "ok": true,
+   "seen": 70,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Inovia portfolio",
    "ats": "getro",
    "token": "careers.inovia.vc",
    "ok": true,
    "seen": 388,
-   "kept": 45,
+   "kept": 44,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Insight Canada",
+   "ats": "rmk",
+   "token": "jobsearch.insight.com",
+   "ok": true,
+   "seen": 18,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1386,6 +1696,26 @@
    "ok": true,
    "seen": 16,
    "kept": 7,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Interac",
+   "ats": "workday",
+   "token": "interac",
+   "ok": true,
+   "seen": 46,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Jane App",
+   "ats": "ashby",
+   "token": "jane",
+   "ok": true,
+   "seen": 20,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1450,6 +1780,26 @@
    "resolved": ""
   },
   {
+   "company": "KOHO",
+   "ats": "ashby",
+   "token": "koho",
+   "ok": true,
+   "seen": 9,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Konrad Group",
+   "ats": "greenhouse",
+   "token": "konradgroup",
+   "ok": true,
+   "seen": 106,
+   "kept": 13,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Labelbox",
    "ats": "auto",
    "token": "labelbox",
@@ -1505,6 +1855,16 @@
    "token": "linear",
    "ok": true,
    "seen": 32,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Litera (Kira)",
+   "ats": "workday",
+   "token": "litera",
+   "ok": true,
+   "seen": 9,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1650,6 +2010,16 @@
    "resolved": ""
   },
   {
+   "company": "Metrolinx",
+   "ats": "oraclehcm",
+   "token": "ehtc.fa.ca2.oraclecloud.com",
+   "ok": true,
+   "seen": 53,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Microsoft (careers site)",
    "ats": "pcsx",
    "token": "apply.careers.microsoft.com",
@@ -1676,6 +2046,16 @@
    "ok": true,
    "seen": 14,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "MNP",
+   "ats": "ukg",
+   "token": "MNP5000MNPL",
+   "ok": true,
+   "seen": 325,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -1740,11 +2120,31 @@
    "resolved": ""
   },
   {
+   "company": "Nokia",
+   "ats": "oraclehcm",
+   "token": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+   "ok": true,
+   "seen": 566,
+   "kept": 11,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Notion",
    "ats": "ashby",
    "token": "notion",
    "ok": true,
    "seen": 168,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "NTT DATA",
+   "ats": "workday",
+   "token": "nttlimited",
+   "ok": true,
+   "seen": 1,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1766,6 +2166,16 @@
    "ok": true,
    "seen": 103,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Nuvei",
+   "ats": "workable",
+   "token": "nuvei",
+   "ok": true,
+   "seen": 65,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -1794,8 +2204,58 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 365,
+   "seen": 366,
    "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "OLG",
+   "ats": "workday",
+   "token": "olg",
+   "ok": true,
+   "seen": 11,
+   "kept": 1,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "OMERS",
+   "ats": "phenom",
+   "token": "careers.omers.com/ca/en",
+   "ok": true,
+   "seen": 57,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Ontario Health",
+   "ats": "workday",
+   "token": "oh",
+   "ok": true,
+   "seen": 9,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Ontario Power Generation",
+   "ats": "rmk",
+   "token": "jobs.opg.com",
+   "ok": true,
+   "seen": 17,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Ontario Teachers' Pension Plan",
+   "ats": "workday",
+   "token": "otppb",
+   "ok": true,
+   "seen": 31,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -1804,8 +2264,18 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 834,
+   "seen": 833,
    "kept": 4,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "OpenText",
+   "ats": "phenom",
+   "token": "careers.opentext.com/us/en",
+   "ok": true,
+   "seen": 344,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -1825,6 +2295,26 @@
    "token": "paypal",
    "ok": true,
    "seen": 8,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Paytm Labs",
+   "ats": "lever",
+   "token": "paytm",
+   "ok": true,
+   "seen": 194,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Pelmorex (The Weather Network)",
+   "ats": "lever",
+   "token": "pelmorex",
+   "ok": true,
+   "seen": 4,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1890,6 +2380,16 @@
    "resolved": ""
   },
   {
+   "company": "Plusgrade",
+   "ats": "workday",
+   "token": "plusgrade",
+   "ok": true,
+   "seen": 17,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "PointClickCare",
    "ats": "lever",
    "token": "pointclickcare",
@@ -1920,6 +2420,26 @@
    "resolved": ""
   },
   {
+   "company": "Purolator",
+   "ats": "rmk",
+   "token": "careers.purolator.com",
+   "ok": true,
+   "seen": 36,
+   "kept": 3,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "PwC Canada",
+   "ats": "phenom",
+   "token": "jobs-ca.pwc.com/ca/en",
+   "ok": true,
+   "seen": 158,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Qualcomm (careers site)",
    "ats": "pcsx",
    "token": "careers.qualcomm.com",
@@ -1930,12 +2450,22 @@
    "resolved": ""
   },
   {
+   "company": "Questrade",
+   "ats": "greenhouse",
+   "token": "questrade",
+   "ok": true,
+   "seen": 59,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Radical Ventures portfolio",
    "ats": "getro",
    "token": "radical.getro.com",
    "ok": true,
    "seen": 324,
-   "kept": 57,
+   "kept": 61,
    "error": "",
    "resolved": ""
   },
@@ -2070,6 +2600,16 @@
    "resolved": ""
   },
   {
+   "company": "Rogers Communications",
+   "ats": "rmk",
+   "token": "jobs.rogers.com",
+   "ok": true,
+   "seen": 135,
+   "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Rose Rocket",
    "ats": "workable",
    "token": "rose-rocket",
@@ -2085,7 +2625,7 @@
    "token": "globalhr",
    "ok": true,
    "seen": 53,
-   "kept": 3,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -2116,6 +2656,16 @@
    "ok": true,
    "seen": 310,
    "kept": 3,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Samsung Research",
+   "ats": "workday",
+   "token": "sec",
+   "ok": true,
+   "seen": 13,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -2236,6 +2786,16 @@
    "ok": true,
    "seen": 377,
    "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Solace",
+   "ats": "bamboohr",
+   "token": "solace",
+   "ok": true,
+   "seen": 32,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -2380,12 +2940,32 @@
    "resolved": ""
   },
   {
+   "company": "TELUS",
+   "ats": "rmk",
+   "token": "careers.telus.com",
+   "ok": true,
+   "seen": 45,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "TELUS Digital",
    "ats": "ashby",
    "token": "telus-digital",
    "ok": true,
    "seen": 58,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "TELUS Health (LifeWorks)",
+   "ats": "workday",
+   "token": "lifeworks",
+   "ok": true,
+   "seen": 133,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -2470,6 +3050,26 @@
    "resolved": ""
   },
   {
+   "company": "Thoughtworks",
+   "ats": "greenhouse",
+   "token": "thoughtworks",
+   "ok": true,
+   "seen": 31,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "TMX Group",
+   "ats": "workday",
+   "token": "tmx",
+   "ok": true,
+   "seen": 11,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Together AI",
    "ats": "greenhouse",
    "token": "togetherai",
@@ -2496,6 +3096,36 @@
    "ok": true,
    "seen": 52,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Toronto Hydro",
+   "ats": "rmk",
+   "token": "jobs.torontohydro.com",
+   "ok": true,
+   "seen": 15,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Trend Micro",
+   "ats": "workday",
+   "token": "trendmicro",
+   "ok": true,
+   "seen": 8,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "TribalScale",
+   "ats": "greenhouse",
+   "token": "tribalscale",
+   "ok": true,
+   "seen": 18,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -2550,12 +3180,42 @@
    "resolved": ""
   },
   {
+   "company": "Uken Games",
+   "ats": "bamboohr",
+   "token": "uken",
+   "ok": true,
+   "seen": 1,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Unbounce",
    "ats": "greenhouse",
    "token": "unbounce",
    "ok": true,
    "seen": 0,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "University of Toronto",
+   "ats": "rmk",
+   "token": "jobs.utoronto.ca",
+   "ok": true,
+   "seen": 223,
+   "kept": 3,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "University of Waterloo",
+   "ats": "workday",
+   "token": "uwaterloo",
+   "ok": true,
+   "seen": 115,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2586,6 +3246,16 @@
    "ok": true,
    "seen": 10,
    "kept": 2,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Vena Solutions",
+   "ats": "pinpoint",
+   "token": "vena.pinpointhq.com",
+   "ok": true,
+   "seen": 24,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2645,7 +3315,7 @@
    "token": "waabi",
    "ok": true,
    "seen": 86,
-   "kept": 8,
+   "kept": 11,
    "error": "",
    "resolved": ""
   },
@@ -2710,6 +3380,16 @@
    "resolved": ""
   },
   {
+   "company": "Wipro",
+   "ats": "rmk",
+   "token": "careers.wipro.com",
+   "ok": true,
+   "seen": 20,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
    "company": "Workday",
    "ats": "workday",
    "token": "workday",
@@ -2736,6 +3416,26 @@
    "ok": true,
    "seen": 46,
    "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "WSIB",
+   "ats": "oraclehcm",
+   "token": "wsib-iaepup.fa.ocs.oraclecloud.com",
+   "ok": true,
+   "seen": 4,
+   "kept": 0,
+   "error": "",
+   "resolved": ""
+  },
+  {
+   "company": "Xero",
+   "ats": "ashby",
+   "token": "xero",
+   "ok": true,
+   "seen": 102,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
