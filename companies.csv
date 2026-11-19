@@ -54,7 +54,7 @@ Pinecone,ashby,pinecone,,D,2
 Salesforce,workday,salesforce,wd12|External_Career_Site,A,2
 Workday,workday,workday,wd5|Workday_Early_Career,A,2
 Workday (all roles),workday,workday,wd5|Workday,A,2
-Autodesk,workday,autodesk,wd1|Ext,A,2
+Autodesk,pcsx,jobs.autodesk.com,autodesk.com,A,2
 Adobe,workday,adobe,wd5|external_experienced,A,2
 Red Hat,workday,redhat,wd5|jobs,A,2
 PayPal,workday,paypal,wd1|jobs,A,2
@@ -387,3 +387,6 @@ Dye & Durham,dayforce,dyedurham,CANDIDATEPORTAL,E,3
 De Havilland Canada,dayforce,westerkirk,DEHAVILLANDCORPORATECAREERS,E,3
 Alectra Utilities,dayforce,alectra,CANDIDATEPORTAL,E,3
 eSentire,dayforce,esentire,CANDIDATEPORTAL,E,3
+Doppel,ashby,doppel,,A,2
+Phylo,ashby,phylo,,D,2
+Porter Airlines,jibe,careers.flyporter.com,jobs,E,3
