@@ -1,0 +1,189 @@
+Rogers Communications: boards=['rmk'] best=None seen=0 kept=0
+Bell (BCE): boards=['icims', 'phenom'] best=None seen=0 kept=0
+TELUS: boards=['breezy', 'rmk', 'workday'] best={'company': 'TELUS', 'ats': 'workday', 'token': 'lifeworks', 'extra': 'wd3|External', 'pathway': 'E', 'tier': '3'} seen=133 kept=6
+Loblaw Companies: boards=[] best=None seen=0 kept=0
+Canadian Tire Corporation: boards=['workday'] best={'company': 'Canadian Tire Corporation', 'ats': 'workday', 'token': 'canadiantirecorporation', 'extra': 'wd3|Enterprise_External_Careers_Site', 'pathway': 'E', 'tier': '3'} seen=77 kept=6
+Sobeys (Empire): boards=[] best=None seen=0 kept=0
+Air Canada: boards=['phenom', 'taleo'] best=None seen=0 kept=0
+Porter Airlines: boards=[] best=None seen=0 kept=0
+Celestica: boards=[] best=None seen=0 kept=0
+Enbridge: boards=['workday'] best={'company': 'Enbridge', 'ats': 'workday', 'token': 'enbridge', 'extra': 'wd3|enbridge_careers', 'pathway': 'E', 'tier': '3'} seen=9 kept=0
+Hydro One: boards=[] best=None seen=0 kept=0
+Ontario Power Generation: boards=[] best=None seen=0 kept=0
+Toronto Hydro: boards=['rmk'] best=None seen=0 kept=0
+Alectra Utilities: boards=['dayforce'] best=None seen=0 kept=0
+IESO: boards=['rmk'] best=None seen=0 kept=0
+Metrolinx: boards=['oraclehcm'] best={'company': 'Metrolinx', 'ats': 'oraclehcm', 'token': 'ehtc.fa.ca2.oraclecloud.com', 'extra': 'CX_1', 'pathway': 'E', 'tier': '3'} seen=53 kept=2
+TTC: boards=[] best=None seen=0 kept=0
+Canada Post: boards=[] best=None seen=0 kept=0
+CN Rail: boards=['rmk'] best=None seen=0 kept=0
+Cineplex: boards=['workday'] best={'company': 'Cineplex', 'ats': 'workday', 'token': 'cineplex', 'extra': 'wd3|Cineplex', 'pathway': 'E', 'tier': '3'} seen=195 kept=0
+Corus Entertainment: boards=[] best=None seen=0 kept=0
+Siemens Canada: boards=[] best=None seen=0 kept=0
+Siemens Healthineers: boards=['phenom'] best=None seen=0 kept=0
+GE Vernova: boards=['workday'] best={'company': 'GE Vernova', 'ats': 'workday', 'token': 'gevernova', 'extra': 'wd5|Vernova_ExternalSite', 'pathway': 'E', 'tier': '3'} seen=79 kept=0
+GE HealthCare: boards=['phenom'] best=None seen=0 kept=0
+Linamar: boards=[] best=None seen=0 kept=0
+Husky Technologies: boards=[] best=None seen=0 kept=0
+Purolator: boards=['rmk'] best=None seen=0 kept=0
+LCBO: boards=[] best=None seen=0 kept=0
+OLG: boards=['workday'] best={'company': 'OLG', 'ats': 'workday', 'token': 'olg', 'extra': 'wd3|Careers', 'pathway': 'E', 'tier': '3'} seen=11 kept=1
+Indigo: boards=['smartrecruiters'] best={'company': 'Indigo', 'ats': 'smartrecruiters', 'token': 'IndigoBooksMusic', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=116 kept=0
+Pelmorex (The Weather Network): boards=['lever'] best={'company': 'Pelmorex (The Weather Network)', 'ats': 'lever', 'token': 'pelmorex', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=4 kept=0
+CAE: boards=['workday'] best={'company': 'CAE', 'ats': 'workday', 'token': 'cae', 'extra': 'wd3|career', 'pathway': 'E', 'tier': '3'} seen=2 kept=0
+De Havilland Canada: boards=['dayforce'] best=None seen=0 kept=0
+Thales Canada: boards=['phenom'] best=None seen=0 kept=0
+Lockheed Martin Canada: boards=[] best=None seen=0 kept=0
+L3Harris Canada: boards=[] best=None seen=0 kept=0
+General Dynamics Mission Systems Canada: boards=[] best=None seen=0 kept=0
+Ross Video: boards=[] best=None seen=0 kept=0
+Teledyne: boards=[] best=None seen=0 kept=0
+TMX Group: boards=['workday'] best={'company': 'TMX Group', 'ats': 'workday', 'token': 'tmx', 'extra': 'wd3|TMX_Careers', 'pathway': 'E', 'tier': '3'} seen=11 kept=0
+Moneris: boards=[] best=None seen=0 kept=0
+Interac: boards=['workday'] best={'company': 'Interac', 'ats': 'workday', 'token': 'interac', 'extra': 'wd3|Interac', 'pathway': 'E', 'tier': '3'} seen=46 kept=1
+Payments Canada: boards=[] best=None seen=0 kept=0
+Nuvei: boards=[] best=None seen=0 kept=0
+Fidelity Investments Canada: boards=[] best=None seen=0 kept=0
+CPP Investments: boards=[] best=None seen=0 kept=0
+OMERS: boards=['phenom'] best=None seen=0 kept=0
+Ontario Teachers' Pension Plan: boards=['workday'] best={'company': "Ontario Teachers' Pension Plan", 'ats': 'workday', 'token': 'otppb', 'extra': 'wd3|OntarioTeachers_Careers', 'pathway': 'E', 'tier': '3'} seen=31 kept=3
+Healthcare of Ontario Pension Plan: boards=['workday'] best={'company': 'Healthcare of Ontario Pension Plan', 'ats': 'workday', 'token': 'hoopp', 'extra': 'wd10|HOOPP', 'pathway': 'E', 'tier': '3'} seen=28 kept=1
+Accenture: boards=['workday'] best={'company': 'Accenture', 'ats': 'workday', 'token': 'accenture', 'extra': 'wd103|AccentureCareers', 'pathway': 'E', 'tier': '3'} seen=360 kept=0
+Deloitte Canada: boards=['rmk'] best=None seen=0 kept=0
+KPMG Canada: boards=[] best=None seen=0 kept=0
+PwC Canada: boards=[] best=None seen=0 kept=0
+EY Canada: boards=['rmk'] best=None seen=0 kept=0
+BDO Canada: boards=['workday'] best={'company': 'BDO Canada', 'ats': 'workday', 'token': 'bdo', 'extra': 'wd3|BDO', 'pathway': 'E', 'tier': '3'} seen=232 kept=11
+MNP: boards=['ukg'] best={'company': 'MNP', 'ats': 'ukg', 'token': 'MNP5000MNPL', 'extra': '062c8fba-7371-4cd7-9e8a-94a0b8019ffc', 'pathway': 'E', 'tier': '3'} seen=325 kept=4
+Grant Thornton Canada: boards=[] best=None seen=0 kept=0
+CGI: boards=['njoyn'] best=None seen=0 kept=0
+Capgemini: boards=[] best=None seen=0 kept=0
+Infosys: boards=[] best=None seen=0 kept=0
+TCS: boards=[] best=None seen=0 kept=0
+Cognizant: boards=[] best=None seen=0 kept=0
+Wipro: boards=[] best=None seen=0 kept=0
+HCLTech: boards=[] best=None seen=0 kept=0
+LTIMindtree: boards=[] best=None seen=0 kept=0
+Avanade: boards=['avature'] best=None seen=0 kept=0
+Slalom: boards=[] best=None seen=0 kept=0
+Thoughtworks: boards=[] best=None seen=0 kept=0
+Publicis Sapient: boards=['icims'] best=None seen=0 kept=0
+Softchoice: boards=[] best=None seen=0 kept=0
+Compugen: boards=[] best=None seen=0 kept=0
+Insight Canada: boards=['rmk'] best=None seen=0 kept=0
+Converge Technology Solutions: boards=[] best=None seen=0 kept=0
+NTT DATA: boards=['phenom', 'workday'] best={'company': 'NTT DATA', 'ats': 'workday', 'token': 'nttlimited', 'extra': 'wd3|NTT_Careers', 'pathway': 'E', 'tier': '3'} seen=1 kept=0
+Kyndryl: boards=['workday'] best={'company': 'Kyndryl', 'ats': 'workday', 'token': 'kyndryl', 'extra': 'wd5|KyndrylEarlyCareers', 'pathway': 'E', 'tier': '3'} seen=0 kept=0
+Konrad Group: boards=[] best=None seen=0 kept=0
+Rangle.io: boards=[] best=None seen=0 kept=0
+TribalScale: boards=['greenhouse'] best={'company': 'TribalScale', 'ats': 'greenhouse', 'token': 'tribalscale', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=18 kept=4
+Intelliware Development: boards=[] best=None seen=0 kept=0
+Info-Tech Research Group: boards=['ukg'] best={'company': 'Info-Tech Research Group', 'ats': 'ukg', 'token': 'INF5000IFTC', 'extra': '2526a5be-e33e-4de9-90ae-3b23d42b9441', 'pathway': 'E', 'tier': '3'} seen=70 kept=2
+OpenText: boards=['phenom'] best=None seen=0 kept=0
+Dayforce: boards=['dayforce'] best=None seen=0 kept=0
+Kinaxis: boards=['icims'] best=None seen=0 kept=0
+Descartes Systems: boards=[] best=None seen=0 kept=0
+Enghouse Systems: boards=['bamboohr'] best={'company': 'Enghouse Systems', 'ats': 'bamboohr', 'token': 'enghouse', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=8 kept=0
+Sangoma: boards=[] best=None seen=0 kept=0
+Constellation Software: boards=[] best=None seen=0 kept=0
+Jonas Software: boards=[] best=None seen=0 kept=0
+Harris Computer: boards=['workday'] best={'company': 'Harris Computer', 'ats': 'workday', 'token': 'harriscomputer', 'extra': 'wd3|1', 'pathway': 'E', 'tier': '3'} seen=100 kept=2
+Volaris Group: boards=[] best=None seen=0 kept=0
+Vela Software: boards=[] best=None seen=0 kept=0
+Perseus Group: boards=[] best=None seen=0 kept=0
+Plusgrade: boards=['workday'] best={'company': 'Plusgrade', 'ats': 'workday', 'token': 'plusgrade', 'extra': 'wd10|Plusgrade_External_Site', 'pathway': 'E', 'tier': '3'} seen=17 kept=0
+Vena Solutions: boards=['pinpoint'] best=None seen=0 kept=0
+Loopio: boards=['ashby'] best={'company': 'Loopio', 'ats': 'ashby', 'token': 'loopio', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=14 kept=1
+FreshBooks: boards=['rippling'] best=None seen=0 kept=0
+Top Hat: boards=['ashby'] best={'company': 'Top Hat', 'ats': 'ashby', 'token': 'top-hat', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=9 kept=1
+Dye & Durham: boards=['dayforce'] best=None seen=0 kept=0
+WELL Health: boards=['adp'] best=None seen=0 kept=0
+Questrade: boards=[] best=None seen=0 kept=0
+KOHO: boards=['ashby'] best={'company': 'KOHO', 'ats': 'ashby', 'token': 'koho', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=9 kept=0
+Borrowell: boards=['workable'] best={'company': 'Borrowell', 'ats': 'workable', 'token': 'borrowell', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=2 kept=1
+Nesto: boards=['rippling'] best=None seen=0 kept=0
+Intuit: boards=[] best=None seen=0 kept=0
+eSentire: boards=[] best=None seen=0 kept=0
+Mitel: boards=[] best=None seen=0 kept=0
+Nokia: boards=['oraclehcm', 'phenom'] best={'company': 'Nokia', 'ats': 'oraclehcm', 'token': 'fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com', 'extra': 'CX_1', 'pathway': 'E', 'tier': '3'} seen=566 kept=15
+Ericsson: boards=[] best=None seen=0 kept=0
+Synopsys: boards=['avature'] best=None seen=0 kept=0
+Cadence Design Systems: boards=[] best=None seen=0 kept=0
+Marvell: boards=['workday'] best={'company': 'Marvell', 'ats': 'workday', 'token': 'marvell', 'extra': 'wd1|MarvellCareers', 'pathway': 'E', 'tier': '3'} seen=5 kept=0
+Huawei Canada: boards=[] best=None seen=0 kept=0
+Samsung Research: boards=['workday'] best={'company': 'Samsung Research', 'ats': 'workday', 'token': 'sec', 'extra': 'wd3|Samsung_Careers', 'pathway': 'E', 'tier': '3'} seen=13 kept=0
+LG Electronics Toronto AI Lab: boards=[] best=None seen=0 kept=0
+Electronic Arts: boards=[] best=None seen=0 kept=0
+Unity: boards=[] best=None seen=0 kept=0
+Trend Micro: boards=['workday'] best={'company': 'Trend Micro', 'ats': 'workday', 'token': 'trendmicro', 'extra': 'wd3|External', 'pathway': 'E', 'tier': '3'} seen=8 kept=0
+Solace: boards=['bamboohr'] best={'company': 'Solace', 'ats': 'bamboohr', 'token': 'solace', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=32 kept=1
+Calian: boards=[] best=None seen=0 kept=0
+Fullscript: boards=['lever'] best={'company': 'Fullscript', 'ats': 'lever', 'token': 'fullscript', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=17 kept=0
+Digital Extremes: boards=[] best=None seen=0 kept=0
+Voices.com: boards=[] best=None seen=0 kept=0
+Kira / Litera: boards=['workday'] best={'company': 'Kira / Litera', 'ats': 'workday', 'token': 'litera', 'extra': 'wd12|Litera_Careers', 'pathway': 'E', 'tier': '3'} seen=9 kept=0
+Ritual: boards=['bamboohr'] best={'company': 'Ritual', 'ats': 'bamboohr', 'token': 'verticalscope', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=0 kept=0
+Uken Games: boards=[] best=None seen=0 kept=0
+Thomson Reuters: boards=['workday'] best={'company': 'Thomson Reuters', 'ats': 'workday', 'token': 'thomsonreuters', 'extra': 'wd5|External_Career_Site', 'pathway': 'E', 'tier': '3'} seen=97 kept=0
+Canonical: boards=['greenhouse'] best={'company': 'Canonical', 'ats': 'greenhouse', 'token': 'canonical', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=317 kept=2
+Telus Health: boards=['workday'] best={'company': 'Telus Health', 'ats': 'workday', 'token': 'lifeworks', 'extra': 'wd3|External', 'pathway': 'E', 'tier': '3'} seen=133 kept=6
+Softwire / Points (Plusgrade): boards=[] best=None seen=0 kept=0
+Paytm Labs: boards=[] best=None seen=0 kept=0
+Bitbuy / WonderFi: boards=[] best=None seen=0 kept=0
+Coinsquare: boards=[] best=None seen=0 kept=0
+Xero Canada: boards=['ashby'] best={'company': 'Xero Canada', 'ats': 'ashby', 'token': 'xero', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=102 kept=1
+Fortinet: boards=['oraclehcm'] best={'company': 'Fortinet', 'ats': 'oraclehcm', 'token': 'edel.fa.us2.oraclecloud.com', 'extra': 'CX_2001', 'pathway': 'E', 'tier': '3'} seen=174 kept=1
+Splunk / Cisco: boards=['phenom'] best=None seen=0 kept=0
+Autodesk: boards=[] best=None seen=0 kept=0
+Ontario Public Service: boards=[] best=None seen=0 kept=0
+City of Toronto: boards=[] best=None seen=0 kept=0
+City of Ottawa: boards=['recruitee'] best={'company': 'City of Ottawa', 'ats': 'recruitee', 'token': 'ottawasafetycouncil', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=5 kept=0
+City of Mississauga: boards=[] best=None seen=0 kept=0
+City of Brampton: boards=[] best=None seen=0 kept=0
+City of Hamilton: boards=['bamboohr'] best={'company': 'City of Hamilton', 'ats': 'bamboohr', 'token': 'cityofhamilton', 'extra': '', 'pathway': 'E', 'tier': '3'} seen=26 kept=1
+City of Markham: boards=[] best=None seen=0 kept=0
+City of Vaughan: boards=[] best=None seen=0 kept=0
+City of London: boards=[] best=None seen=0 kept=0
+Region of Peel: boards=['icims'] best=None seen=0 kept=0
+York Region: boards=['njoyn'] best=None seen=0 kept=0
+Durham Region: boards=[] best=None seen=0 kept=0
+Halton Region: boards=['rmk'] best=None seen=0 kept=0
+Region of Waterloo: boards=[] best=None seen=0 kept=0
+Niagara Region: boards=[] best=None seen=0 kept=0
+Ontario Health: boards=['workday'] best={'company': 'Ontario Health', 'ats': 'workday', 'token': 'oh', 'extra': 'wd3|OH', 'pathway': 'E', 'tier': '3'} seen=9 kept=0
+Infrastructure Ontario: boards=[] best=None seen=0 kept=0
+Ontario Securities Commission: boards=[] best=None seen=0 kept=0
+FSRA: boards=['workday'] best={'company': 'FSRA', 'ats': 'workday', 'token': 'fsra', 'extra': 'wd3|FSRA_Careers', 'pathway': 'E', 'tier': '3'} seen=6 kept=1
+WSIB: boards=['oraclehcm'] best={'company': 'WSIB', 'ats': 'oraclehcm', 'token': 'wsib-iaepup.fa.ocs.oraclecloud.com', 'extra': 'CX_1001', 'pathway': 'E', 'tier': '3'} seen=4 kept=0
+MPAC: boards=[] best=None seen=0 kept=0
+AGCO: boards=[] best=None seen=0 kept=0
+Elections Ontario: boards=[] best=None seen=0 kept=0
+TVO: boards=[] best=None seen=0 kept=0
+CBC/Radio-Canada: boards=[] best=None seen=0 kept=0
+Canadian Digital Service: boards=[] best=None seen=0 kept=0
+GC Jobs (federal public service): boards=[] best=None seen=0 kept=0
+Statistics Canada: boards=[] best=None seen=0 kept=0
+National Research Council: boards=[] best=None seen=0 kept=0
+University of Toronto: boards=['rmk'] best=None seen=0 kept=0
+Toronto Metropolitan University: boards=[] best=None seen=0 kept=0
+York University: boards=[] best=None seen=0 kept=0
+University of Waterloo: boards=['workday'] best={'company': 'University of Waterloo', 'ats': 'workday', 'token': 'uwaterloo', 'extra': 'wd3|uw_careers', 'pathway': 'E', 'tier': '3'} seen=115 kept=3
+McMaster University: boards=['phenom'] best=None seen=0 kept=0
+Brock University: boards=[] best=None seen=0 kept=0
+Western University: boards=[] best=None seen=0 kept=0
+University of Ottawa: boards=['njoyn', 'workday'] best={'company': 'University of Ottawa', 'ats': 'workday', 'token': 'uottawa', 'extra': 'wd3|uOttawa_External_Career_Site', 'pathway': 'E', 'tier': '3'} seen=425 kept=0
+Carleton University: boards=[] best=None seen=0 kept=0
+Ontario Tech University: boards=[] best=None seen=0 kept=0
+Seneca Polytechnic: boards=[] best=None seen=0 kept=0
+Humber Polytechnic: boards=[] best=None seen=0 kept=0
+University Health Network: boards=[] best=None seen=0 kept=0
+SickKids: boards=[] best=None seen=0 kept=0
+Sunnybrook: boards=[] best=None seen=0 kept=0
+Unity Health Toronto: boards=['phenom'] best=None seen=0 kept=0
+Hamilton Health Sciences: boards=['taleo'] best=None seen=0 kept=0
+The Ottawa Hospital: boards=[] best=None seen=0 kept=0
+Trillium Health Partners: boards=['oraclehcm'] best={'company': 'Trillium Health Partners', 'ats': 'oraclehcm', 'token': 'iadyup.fa.ocs.oraclecloud.com', 'extra': 'CX_1', 'pathway': 'E', 'tier': '3'} seen=0 kept=0
+William Osler Health System: boards=[] best=None seen=0 kept=0
+Vector Institute: boards=[] best=None seen=0 kept=0
+MaRS Discovery District: boards=[] best=None seen=0 kept=0
+Communitech: boards=[] best=None seen=0 kept=0
