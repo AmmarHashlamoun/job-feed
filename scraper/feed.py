@@ -393,7 +393,7 @@ def recruitee(token, _):
 
 
 WD_LOC_RX = re.compile(r"canada|ontario|toronto|markham|waterloo|kitchener|mississauga|vaughan|oakville|"
-                       r"brampton|guelph|richmond hill|^\s*CAN\b|\bCA-ON\b|,\s*ON\b")
+                       r"brampton|guelph|richmond hill|^\s*CAN\b|\bCA-ON\b|,\s*ON\b", re.I)
 
 
 def _wd_facets(facets, picks):

@@ -1,9 +1,9 @@
-Accenture,workday,accenture,wd103|AccentureCareers,E,3
-Deloitte Canada,rmk,careers.deloitte.ca,,E,3
-CN Rail,rmk,jobs.cn.ca,,E,3
-HCLTech,rmk,careers.hcltech.com,Canada,E,3
-Phylo,ashby,phylo,,D,2
-Autodesk,pcsx,jobs.autodesk.com,autodesk.com,A,2
 Magna,workday,magna,wd3|Magna,C,2
 Red Hat,workday,redhat,wd5|jobs,A,2
-Hydro One,rmk,jobs.hydroone.com,,E,3
+Adobe,workday,adobe,wd5|external_experienced,A,2
+Workday,workday,workday,wd5|Workday_Early_Career,A,2
+Canadian Tire,workday,canadiantirecorporation,wd3|Enterprise_External_Careers_Site,E,3
+Jonas Software (Constellation),workday,talentmanagementsolution,wd3|JonasSoftwareCanada,E,3
+CN Rail,rmk,careers.cn.ca,Ontario,E,3
+Wipro,rmk,careers.wipro.com,Canada,E,3
+Porter Airlines,jibe,careers.flyporter.com,jobs,E,3
