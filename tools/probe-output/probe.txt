@@ -1,0 +1,632 @@
+
+=== GET https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1
+status 200 final https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1 bytes 107228
+  DUMP 'iCIMS_JobListingRow' at 6478:
+iCIMS_JobListingRow').each(function() {
+var $tr = $(this);
+var href = $tr.find('a').attr('href');
+if(href) {
+$tr.css({'cursor': 'pointer'});
+$tr.click(function(e) {
+document.location = href;
+});
+}
+});
+
+
+}
+paginator = $('#iCIMS_Paginator')[0];
+selectedPage = paginator ? paginator.selectedIndex : -1;
+
+
+
+});
+var paginator;
+var selectedPage;
+function changePage() {
+if (!paginator || (selectedPage != -1 && selectedPage == paginator.selectedIndex)) {
+return;
+}
+selectedPage = paginator.selectedIndex;
+window.location.href = paginator.options[selectedPage].value;
+}
+
+var geoErrNotSupported = 'Sorry, geolocation is not supported by your browser.';
+var geoErrDefault = 'Sorry, we can\'t get your location because an error occurred when retrieving your location.';
+var geoErrPermission = 'Sorry, we can\'t get your location because you don\'t have that enabled. Please turn it on in your system settings.';
+var geoErrPositionUnavailable = 'Sorry, we can\'t get your location because your location information is unavailable.';
+var geoErrTimeout = 'Sorry, we can\'t get your location because the request to get your location timed out.';
+var geoErrUnknown = 'Sorry, we can\'t get your location because an unknown error occurred when retrieving your location.';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Loading resource bundle -->
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/messageformat.js"></script>
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/locale/en.js"></script>
+<script type="text/javascript">
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] 
+
+=== GET https://careers-peelregion.icims.com/jobs/search?ss=1&in_iframe=1
+status 200 final https://careers-peelregion.icims.com/jobs/search?ss=1&in_iframe=1 bytes 49721
+  DUMP 'iCIMS_JobListingRow|iCIMS_Anchor' at 6358:
+iCIMS_JobListingRow').each(function() {
+var $tr = $(this);
+var href = $tr.find('a').attr('href');
+if(href) {
+$tr.css({'cursor': 'pointer'});
+$tr.click(function(e) {
+document.location = href;
+});
+}
+});
+
+
+}
+paginator = $('#iCIMS_Paginator')[0];
+selectedPage = paginator ? paginator.selectedIndex : -1;
+
+
+
+});
+var paginator;
+var selectedPage;
+function changePage() {
+if (!paginator || (selectedPage != -1 && selectedPage == paginator.selectedIndex)) {
+return;
+}
+selectedPage = paginator.selectedIndex;
+window.location.href = paginator.options[selectedPage].value;
+}
+
+var geoErrNotSupported = 'Sorry, geolocation is not supported by your browser.';
+var geoErrDefault = 'Sorry, we can\'t get your location because an error occurred when retrieving your location.';
+var geoErrPermission = 'Sorry, we can\'t get your location because you don\'t have that enabled. Please turn it on in your system settings.';
+var geoErrPositionUnavailable = 'Sorry, we can\'t get your location because your location information is unavailable.';
+var geoErrTimeout = 'Sorry, we can\'t get your location because the request to get your location timed out.';
+var geoErrUnknown = 'Sorry, we can\'t get your location because an unknown error occurred when retrieving your location.';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Loading resource bundle -->
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_189.2.1.261113-4ca730cca10-11-pg-0/script/messageformat/messageformat.js"></script>
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_189.2.1.261113-4ca730cca10-11-pg-0/script/messageformat/locale/en.js"></script>
+<script type="text/javascript">
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] 
+  DUMP 'iCIMS_JobListingRow|iCIMS_Anchor' at 15990:
+iCIMS_Anchor_Nav" href="https://careers-peelregion.icims.com/jobs/intro?in_iframe=1">
+<span class="halflings halflings-menu-left" aria-hidden="true"></span>
+<span class="iCIMS_NavigationText">Welcome page</span>
+</a>
+</div>
+
+</div>
+</div>
+<div class="icims-user-profile text-right">
+<div class="iCIMS_profilePicture">
+<div class="iCIMS_userMenu">
+<div class="iCIMS_userMenuName">
+Returning Candidate?</div>
+<div class="iCIMS_userMenuLink">
+<a href="https://careers-peelregion.icims.com/jobs/login?loginOnly=1&amp;redirect=search&amp;in_iframe=1&amp;hashed=-435774142">
+Log back in!</a>
+</div>
+</div>
+<div class="iCIMS_FloatHack"></div>
+</div>
+</div>
+</div>
+
+<div id="iCIMS_Header" tabindex="-1"><h1 class="iCIMS_Header">Career Opportunities</h1></div>
+
+
+
+
+
+<div class="iCIMS_InfoMsg iCIMS_InfoMsg_Jobs">
+<p style="margin: 0px;">Please find a listing of our current job opportunities below.&nbsp; Click on the job title for more information.&nbsp;&nbsp;Interested?&nbsp; Click on 'Apply for this job online' at the bottom of the page to start your application.&nbsp;<br /><br /></p><p style="margin: 0px;">Not ready to apply? You can simply&nbsp;<a href="https://careers-peelregion.icims.com/jobs/login?back=intro" target="_blank" title="" rel="noopener">submit your resume</a>&nbsp;for general consideration.</p><p style="margin: 0px;"><br /><span>Please note:&nbsp; The option to set up <strong>Job Alerts</strong> is no longer available.&nbsp; Please visit our <a href="https://www.peelregion.ca/careers/" target="_blank" rel="noopener">career page</a> often to avoid missing out on great opportunities.</span></p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;"><strong>Application Assistance:</strong> In accordance with the Accessibility for Ontarians with Disabilities Act, the Region of Peel is pleased to accommodate individual needs for applicants with disabilities within the recruitment process.&nbsp;Please email our team at&nbsp;<a href="mailto:zzg-hrtalentacquisition@peelregion.ca" target="_blank" rel="noopener">HR Talent Acquisition</a>&nbsp;if you require an accommodation to ensure your equal participation in the recruitment and selection process.&nbsp;</p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;">&nbsp;</p>
+</div>
+
+
+
+<p class="iCIMS_SubHeader iCIMS_SubHeader_Jobs" aria-describedby="searchForm">
+Use this form to perform a job search
+</p>
+
+
+
+
+
+<div id="geolocation_error_msg" class="iCIMS_Message iCIMS_ErrorMessage iCIMS_NoDisplay">
+The system cannot 
+
+=== GET https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL
+status 200 final https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL bytes 530320
+
+=== GET https://ats.rippling.com/en-CA/freshbooks/jobs
+status 200 final https://ats.rippling.com/en-CA/freshbooks/jobs bytes 204275
+  DUMP '"jobs":|"departments"|"workLocations' at 135742:
+"departments":"Departments","disagree":"Disagree","discardContinue":"Discard and continue","doesNotContain":"Does not contain","doLater":"No, I'll do it later","done":"Done","doNotAsk":"Don't ask","doNotSchedule":"DO NOT SCHEDULE","draft":"Draft","duplicate":"Make a copy","duplicate1":"Duplicate","duplicatedFrom":"Duplicated from","duplicateInterview":"Duplicate interview","duration":"Duration","earliestStartDate":"Earliest start date","edit":"Edit","editInterview":"Edit interview","email":"Email","emailBody":"Email body","emailCandidate":"Email candidate","emailId":"Email ID","emailSent":"Email sent","emailSentSuccessMsg":"Email sent successfully.","emailSubject":"Email subject","employee":"Employee","empType":"Employment type","empTypes":"Employment types","enabled":"Enabled","ends":"Ends","endsWith":"Ends with","enterVal1":"Enter value 1","enterVal2":"Enter value 2","enterValue":"Enter a value","error_plural":"Error(s)","exit":"Exit","expand":"Expand","expandAll":"Expand all","expired":"Expired","extendedOn":"Extended on","failed":"Failed","feedback":"Feedback","feedbackForm":"Feedback form","filter":"Filter","finish":"Finish","firstName":"First name","from":"From","fullAppName":"Rippling Recruiting","fullName":"Full name","generateId":"Generate ID","goBack":"Go back","gotIt":"Got it","hackerRankTestLabel":"HackerRank test","headcountPosition":"Headcount position","high":"High","highPriority":"High priority","hired":"Hired","hiredAt":"Hired at","hiringManager":"Hiring mana
+  DUMP '"jobs":|"departments"|"workLocations' at 145103:
+"workLocationsPlural":"Work locations","yes":"Yes","yesRemove":"Yes, remove","yourRating":"Your rating"},"component":{"addCandidateForm":{"addCandidate":"Add candidate","addNewCandidate":"Add a new candidate","addPronounceHelper":"Add pronouns to your application so interviewers know how to refer to you when talking to or about you.","applicationRecruiter":"Application recruiter","appliedAt":"Applied at date","coverLetter":"Cover letter","currentCompany":"Current company","currentCompanyPlaceholder":"The candidate's current or most recent employer","email":"Email","employeeCandidate":"Employee candidate","enterValidUrl":"Enter a valid URL","firstName":"First name","hasExistingApplicationError":"This candidate has already applied to this job","invalidEmail":"This is not a valid email","invalidEmail2":"This is not a valid email.","invalidFileValidation":"Invalid file","invalidLinkedinLink":"This is an invalid URL. A valid URL example: https://linkedin.com","invalidWebsiteLink":"This is an invalid URL. A valid URL example: https://rippling.com","jobApplication":"Job application","jobApplicationOptional":"Job application (optional)","jobSite":"Job site","lastName":"Last name","linkedinLink":"LinkedIn link","locationCity":"Location (city)","moreDetails":"More details","myPronouns":"My pronouns","optionalInformation":"Optional information","phoneNumber":"Phone number","pronounPlaceholder":"e.g. they/them/theirs","referredBy":"Referred by","resume":"Resume","selectJob":"Select job",
+
+=== GET https://careers.deloitte.ca/services/rss/job/?locale=en_US&keywords=
+status 200 final https://careers.deloitte.ca/services/rss/job/?locale=en_US&keywords= bytes 259755
+  DUMP '<item>' at 611:
+<item><title><![CDATA[Dynamics 365 CRM / Power Platform Techno-Functional Senior Consultant - Operate (Future Opportunity) (Toronto, ON, CA, M5H 0A9)]]></title><description><![CDATA[<p><strong>Job Type: </strong>Permanent<strong> <br>Work Model: </strong>Hybrid<strong> <br>Reference code: </strong>136002<strong>   <br>Primary Location: </strong>Toronto, ON<strong>  <br>All Available Locations: </strong>Burlington, ON; Calgary, AB; Edmonton, AB; Fredericton, NB; Halifax, NS; Kitchener, ON; Moncton, NB; Ottawa, ON; Regina, SK; Saint John, NB; Saskatoon, SK; St. John's, NL; Toronto, ON; Vancouver
+  DUMP '<item>' at 13571:
+<item><title><![CDATA[Dynamics 365 Finance & Supply Chain Management Senior Consultant - Operate (Future Opportunity) (Toronto, ON, CA, M5H 0A9)]]></title><description><![CDATA[<p><strong>Job Type: </strong>Permanent<strong> <br>Work Model: </strong>Hybrid<strong> <br>Reference code: </strong>136003<strong>   <br>Primary Location: </strong>Toronto, ON<strong>  <br>All Available Locations: </strong>Burlington, ON; Calgary, AB; Edmonton, AB; Fredericton, NB; Halifax, NS; Kitchener, ON; Moncton, NB; Ottawa, ON; Regina, SK; Saint John, NB; Saskatoon, SK; St. John's, NL; Toronto, ON; Vancouver, BC;
+
+=== GET https://jobs.opg.com/services/rss/job/?locale=en_US&keywords=
+status 200 final https://jobs.opg.com/services/rss/job/?locale=en_US&keywords= bytes 163898
+  DUMP '<item>' at 638:
+<item><title><![CDATA[Truck Driver - Radioactive Mtl Transport (Kincardine, ON, CA, N0G 2T0)]]></title><description><![CDATA[<p><strong>Posting End Date: </strong>24/11/2026</p>
+<p><strong>Status: </strong>Regular </p>
+<p><strong>Number of Openings: </strong> 1</p>
+<p><strong>Education Level: </strong>High school diploma</p>
+<p><strong>Base Location:</strong> 177 Tie Road Tiverton, Kincardine, Ontario  N0G 2T0</p>
+<p><strong>Shift:</strong> Days and/or rotating shifts including nights, weekends and holidays</p>
+<p><strong>Travel Required:</strong> 100%</p>
+<p><strong>Salary Range:</stro
+  DUMP '<item>' at 10309:
+<item><title><![CDATA[Project Delivery Lead (Oshawa, ON, CA, L1H 8W8)]]></title><description><![CDATA[<p><strong>Posting End Date: </strong>01/12/2026 (dd/mm/yyyy)</p>
+<p><strong>Status: </strong>Temporary 12.00 months. </p>
+<p><strong>Number of Openings: </strong> 2</p>
+<p><strong>Education Level: </strong>4-Year University Degree in Information Technology, Business Administration, or a related field.</p>
+<p><strong>Base Location:</strong> 1908 Colonel Sam Drive, Oshawa, Ontario  L1H 8W8</p>
+<p><strong>Shift:</strong> Days</p>
+<p><strong>Travel Required:</strong> 0%</p>
+<p><strong>Sala
+
+=== ROW {'company': 'Rogers Communications', 'ats': 'rmk', 'token': 'jobs.rogers.com', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw seen 135
+   raw: Business Sales Consultant | ['Toronto, ON, CA', 'Toronto Business Sales Consultant ON'] | https://jobs.rogers.com/job/Toronto-Business-Sales-Consultant-ON/1396827800/
+   raw: Sr Mgr Strategic Sales | ['Brampton, ON, CA', 'Brampton Sr Mgr Strategic Sales ON'] | https://jobs.rogers.com/job/Brampton-Sr-Mgr-Strategic-Sales-ON/1439566400/
+   raw: Lead Management Operations | ['Toronto, ON, CA', 'Toronto Lead Management Operations ON'] | https://jobs.rogers.com/job/Toronto-Lead-Management-Operations-ON/1444677100/
+   raw: Sr. Financial Analyst | ['Toronto, ON, CA', 'Toronto Sr_ Financial Analyst ON'] | https://jobs.rogers.com/job/Toronto-Sr_-Financial-Analyst-ON/1410537600/
+   raw: Principal Network Architect | ['Brampton, ON, CA', 'Brampton Principal Network Architect ON'] | https://jobs.rogers.com/job/Brampton-Principal-Network-Architect-ON/1447728800/
+   raw: Field Sales Specialist | ['North York, ON, CA', 'North York Field Sales Specialist ON'] | https://jobs.rogers.com/job/North-York-Field-Sales-Specialist-ON/1428952100/
+   raw: Solution Architect - IoT | ['Toronto, ON, CA', 'Toronto Solution Architect IoT ON'] | https://jobs.rogers.com/job/Toronto-Solution-Architect-IoT-ON/1421113700/
+   raw: Store Manager - GTA East | ['Oshawa, ON, CA', 'Oshawa Store Manager GTA East ON'] | https://jobs.rogers.com/job/Oshawa-Store-Manager-GTA-East-ON/1442913800/
+  rec: {"company": "Rogers Communications", "ats": "rmk", "token": "jobs.rogers.com", "ok": true, "seen": 135, "kept": 3, "error": "", "resolved": ""}
+   kept: Solution Architect - IoT | Toronto, ON, CA; Toronto Solution Architect IoT ON | https://jobs.rogers.com/job/Toronto-Solution-Architect-IoT-ON/1421113700/
+   kept: Mgr. Enterprise Risk Mgmt (AI & Cyber) | Toronto, ON, CA; Toronto Mgr_ Enterprise Risk Mgmt (AI &amp; Cyber) ON | https://jobs.rogers.com/job/Toronto-Mgr_-Enterprise-Risk-Mgmt-%28AI-&amp;-Cyber%29-ON/1433625000/
+   kept: Developer | Toronto, ON, CA; Toronto Developer ON | https://jobs.rogers.com/job/Toronto-Developer-ON/1443403800/
+
+=== ROW {'company': 'Hydro One', 'ats': 'rmk', 'token': 'jobs.hydroone.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 11
+   raw: Security Analyst | ['Toronto, ON, CA', 'Toronto Security Analyst ON'] | https://jobs.hydroone.com/job/Toronto-Security-Analyst-ON/1291764247/
+   raw: Operational Applications & Database Specialist | ['Barrie, ON, CA', 'Barrie Operational Applications &amp; Database Specialist ON'] | https://jobs.hydroone.com/job/Barrie-Operational-Applications-&amp;-Database-Specialist-ON/1291764647/
+   raw: Manager, External Reporting and Accounting Policy | ['Toronto, ON, CA', 'Toronto Manager, External Reporting and Accounting Policy ON'] | https://jobs.hydroone.com/job/Toronto-Manager%2C-External-Reporting-and-Accounting-Policy-ON/1291762447/
+   raw: Training Manager | ['To Be Determined, ON, CA', 'To Be Determined Training Manager ON'] | https://jobs.hydroone.com/job/To-Be-Determined-Training-Manager-ON/1291759047/
+   raw: Sr Manager Sourcing Operation - Capital Outsourcing Procurement | ['Toronto, ON, CA', 'Toronto Sr Manager Sourcing Operation Capital Outsourcing Procurement ON'] | https://jobs.hydroone.com/job/Toronto-Sr-Manager-Sourcing-Operation-Capital-Outsourcing-Procurement-ON/1291760447/
+   raw: Climate Change Analyst | ['Toronto, ON, CA', 'Toronto Climate Change Analyst ON'] | https://jobs.hydroone.com/job/Toronto-Climate-Change-Analyst-ON/1291753647/
+   raw: Service Management Analyst | ['Rexdale, ON, CA', 'Rexdale Service Management Analyst ON'] | https://jobs.hydroone.com/job/Rexdale-Service-Management-Analyst-ON/1291741247/
+   raw: Land Use Agent | ['Markham, ON, CA', 'Markham Land Use Agent ON'] | https://jobs.hydroone.com/job/Markham-Land-Use-Agent-ON/1291735947/
+  rec: {"company": "Hydro One", "ats": "rmk", "token": "jobs.hydroone.com", "ok": true, "seen": 11, "kept": 3, "error": "", "resolved": ""}
+   kept: Security Analyst | Toronto, ON, CA; Toronto Security Analyst ON | https://jobs.hydroone.com/job/Toronto-Security-Analyst-ON/1291764247/
+   kept: Land Use Agent | Markham, ON, CA; Markham Land Use Agent ON | https://jobs.hydroone.com/job/Markham-Land-Use-Agent-ON/1291735947/
+   kept: AI Engineer (Data Scientist) | Toronto, ON, CA; Toronto AI Engineer (Data Scientist) ON | https://jobs.hydroone.com/job/Toronto-AI-Engineer-%28Data-Scientist%29-ON/1291715047/
+
+=== ROW {'company': 'TELUS', 'ats': 'rmk', 'token': 'careers.telus.com', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw seen 45
+   raw: Full & Part Sales Representative | Ottawa | ['Nepean, ON, CA', 'Nepean Full &amp; Part Sales Representative Ottawa ON'] | https://careers.telus.com/job/Nepean-Full-&amp;-Part-Sales-Representative-Ottawa-ON/605865017/
+   raw: Part Time Sales Representative | Rideau Centre | ['Ottawa, ON, CA, K1N 9J7', 'Ottawa Part Time Sales Representative Rideau Centre ON K1N 9J7'] | https://careers.telus.com/job/Ottawa-Part-Time-Sales-Representative-Rideau-Centre-ON-K1N-9J7/606764517/
+   raw: Part Time Sales Representative | Bayshore Shopping Centre | ['Nepean, ON, CA, K2B 8C1', 'Nepean Part Time Sales Representative Bayshore Shopping Centre ON K2B 8C1'] | https://careers.telus.com/job/Nepean-Part-Time-Sales-Representative-Bayshore-Shopping-Centre-ON-K2B-8C1/606378217/
+   raw: Part Time Sales Representative | Festival Marketplace | ['Stratford, ON, CA', 'Stratford Part Time Sales Representative Festival Marketplace ON'] | https://careers.telus.com/job/Stratford-Part-Time-Sales-Representative-Festival-Marketplace-ON/608039517/
+   raw: Registered Pharmacy Technician | ['Toronto, ON, CA', 'Toronto Registered Pharmacy Technician ON'] | https://careers.telus.com/job/Toronto-Registered-Pharmacy-Technician-ON/605474517/
+   raw: Future Opportunities-Part Time Sales | TELUS Chatham-Kent | ['Chatham, ON, CA', 'Chatham Future Opportunities Part Time Sales TELUS Chatham Kent ON'] | https://careers.telus.com/job/Chatham-Future-Opportunities-Part-Time-Sales-TELUS-Chatham-Kent-ON/608136217/
+   raw: Future Opportunities-Part Time Sales | TELUS London Area | ['London, ON, CA', 'London Future Opportunities Part Time Sales TELUS London Area ON'] | https://careers.telus.com/job/London-Future-Opportunities-Part-Time-Sales-TELUS-London-Area-ON/607944417/
+   raw: Part Time Sales Representative | Cornwall Square | ['Cornwall, ON, CA, K6H 6M2', 'Cornwall Part Time Sales Representative Cornwall Square ON K6H 6M2'] | https://careers.telus.com/job/Cornwall-Part-Time-Sales-Representative-Cornwall-Square-ON-K6H-6M2/607955217/
+  rec: {"company": "TELUS", "ats": "rmk", "token": "careers.telus.com", "ok": true, "seen": 45, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Celestica', 'ats': 'rmk', 'token': 'careers.celestica.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 77
+   raw: Student Intern, AI Project Coordinator | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Student Intern, AI Project Coordinator ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-AI-Project-Coordinator-ON/1441161033/
+   raw: Student Intern, Aerospace and Defense Engineering Associate | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Student Intern, Aerospace and Defense Engineering Associate ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Aerospace-and-Defense-Engineering-Associate-ON/1440660533/
+   raw: Manager, Sales Operations | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Manager, Sales Operations ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Manager%2C-Sales-Operations-ON/1453135433/
+   raw: Director, Sales Enablement | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Director, Sales Enablement ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Director%2C-Sales-Enablement-ON/1454311233/
+   raw: Digital Transformation Project Manager | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Digital Transformation Project Manager ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Digital-Transformation-Project-Manager-ON/1434104833/
+   raw: Student Intern, Industrial Engineering Associate | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Student Intern, Industrial Engineering Associate ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333/
+   raw: Senior Principal, Design Engineering | ['Remote Employee Canada, ON, CA', 'Remote Employee Canada Senior Principal, Design Engineering ON'] | https://careers.celestica.com/job/Remote-Employee-Canada-Senior-Principal%2C-Design-Engineering-ON/1431272533/
+   raw: Student Intern, Supplier Quality | ['Newmarket, ON, CA', 'Newmarket Student Intern, Supplier Quality ON'] | https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Supplier-Quality-ON/1450011733/
+  rec: {"company": "Celestica", "ats": "rmk", "token": "careers.celestica.com", "ok": true, "seen": 77, "kept": 4, "error": "", "resolved": ""}
+   kept: SAP Integration Specialist (SAP PO) 1 | Richardson, ON, CA; Richardson SAP Integration Specialist (SAP PO) 1 ON | https://careers.celestica.com/job/Richardson-SAP-Integration-Specialist-%28SAP-PO%29-1-ON/1456632533/
+   kept: AI DevOps Specialist (AI Enablement & Secure DevOps) | Toronto, ON, CA; Toronto AI DevOps Specialist (AI Enablement &amp; Secure DevOps | https://careers.celestica.com/job/Toronto-AI-DevOps-Specialist-%28AI-Enablement-&amp;-Secure-DevOps%29-ON/1439826933/
+   kept: SAP Integration Specialist (SAP PO) | Toronto, ON, CA; Toronto SAP Integration Specialist (SAP PO) ON | https://careers.celestica.com/job/Toronto-SAP-Integration-Specialist-%28SAP-PO%29-ON/1424013233/
+   kept: AI Security Engineer | Toronto, ON, CA; Toronto AI Security Engineer ON | https://careers.celestica.com/job/Toronto-AI-Security-Engineer-ON/1387460133/
+
+=== ROW {'company': 'City of Toronto', 'ats': 'rmk', 'token': 'jobs.toronto.ca/jobsatcity', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 13
+   raw: Division Chief, Public Education and Professional Development | ['Toronto Division Chief, Public Education and Professional Development ON M5V 0C4'] | https://jobs.toronto.ca/jobsatcity/job/Toronto-Division-Chief%2C-Public-Education-and-Professional-Development-ON-M5V-0C4/607211717/
+   raw: SENIOR DIRECTOR, CAPITAL & PARKS PLANNING | ['toronto SENIOR DIRECTOR, CAPITAL &amp; PARKS PLANNING ON m5v3c6'] | https://jobs.toronto.ca/jobsatcity/job/toronto-SENIOR-DIRECTOR%2C-CAPITAL-&amp;-PARKS-PLANNING-ON-m5v3c6/608079517/
+   raw: SENIOR DIRECTOR, PARKS OPERATIONS | ['toronto SENIOR DIRECTOR, PARKS OPERATIONS ON m5v3c6'] | https://jobs.toronto.ca/jobsatcity/job/toronto-SENIOR-DIRECTOR%2C-PARKS-OPERATIONS-ON-m5v3c6/608080117/
+   raw: SENIOR DIRECTOR, COMMUNITY RECREATION | ['toronto SENIOR DIRECTOR, COMMUNITY RECREATION ON m5v3c6'] | https://jobs.toronto.ca/jobsatcity/job/toronto-SENIOR-DIRECTOR%2C-COMMUNITY-RECREATION-ON-m5v3c6/608080517/
+   raw: PARAMEDIC LEVEL 1 | ['TOR PARAMEDIC LEVEL 1 ON M6J1X4'] | https://jobs.toronto.ca/jobsatcity/job/TOR-PARAMEDIC-LEVEL-1-ON-M6J1X4/607082417/
+   raw: CONSULTANT INFORMATION & POLICY MGMT | ['Toronto CONSULTANT INFORMATION &amp; POLICY MGMT ON M5J 2Z3'] | https://jobs.toronto.ca/jobsatcity/job/Toronto-CONSULTANT-INFORMATION-&amp;-POLICY-MGMT-ON-M5J-2Z3/607998417/
+   raw: SYSTEMS INTEGRATION SPECIALIST (AMANDA Developer/Administrator) | ['Toronto SYSTEMS INTEGRATION SPECIALIST (AMANDA DeveloperAdministrator) ON M5V 3C6'] | https://jobs.toronto.ca/jobsatcity/job/Toronto-SYSTEMS-INTEGRATION-SPECIALIST-%28AMANDA-DeveloperAdministrator%29-ON-M5V-3C6/607899017/
+   raw: PUBLIC HEALTH NURSE | ['Toronto PUBLIC HEALTH NURSE ON M5V'] | https://jobs.toronto.ca/jobsatcity/job/Toronto-PUBLIC-HEALTH-NURSE-ON-M5V/607925317/
+  rec: {"company": "City of Toronto", "ats": "rmk", "token": "jobs.toronto.ca/jobsatcity", "ok": true, "seen": 13, "kept": 1, "error": "", "resolved": ""}
+   kept: SYSTEMS INTEGRATION SPECIALIST (AMANDA Developer/Administrator) | Toronto SYSTEMS INTEGRATION SPECIALIST (AMANDA DeveloperAdministrator) ON M5V 3C | https://jobs.toronto.ca/jobsatcity/job/Toronto-SYSTEMS-INTEGRATION-SPECIALIST-%28AMANDA-DeveloperAdministrator%29-ON-M5V-3C6/607899017/
+
+=== ROW {'company': 'Toronto Hydro', 'ats': 'rmk', 'token': 'jobs.torontohydro.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 15
+   raw: Corporate Events Specialist | ['Toronto, ON, CA', 'Toronto Corporate Events Specialist ON'] | https://jobs.torontohydro.com/job/Toronto-Corporate-Events-Specialist-ON/608080017/
+   raw: Contract, Corporate Events Specialist | ['Toronto, ON, CA', 'Toronto Contract, Corporate Events Specialist ON'] | https://jobs.torontohydro.com/job/Toronto-Contract%2C-Corporate-Events-Specialist-ON/608081717/
+   raw: Manager, Internal Communications & Events | ['Toronto, ON, CA', 'Toronto Manager, Internal Communications &amp; Events ON'] | https://jobs.torontohydro.com/job/Toronto-Manager%2C-Internal-Communications-&amp;-Events-ON/608082817/
+   raw: Manager, External Communications (Marketing and Brand) | ['Toronto, ON, CA', 'Toronto Manager, External Communications (Marketing and Brand) ON'] | https://jobs.torontohydro.com/job/Toronto-Manager%2C-External-Communications-%28Marketing-and-Brand%29-ON/608082617/
+   raw: Interactive Producer | ['Toronto, ON, CA', 'Toronto Interactive Producer ON'] | https://jobs.torontohydro.com/job/Toronto-Interactive-Producer-ON/608052617/
+   raw: HR Business Partner (Contract up to 14 months) | ['Toronto, ON, CA', 'Toronto HR Business Partner (Contract up to 14 months) ON'] | https://jobs.torontohydro.com/job/Toronto-HR-Business-Partner-%28Contract-up-to-14-months%29-ON/606140617/
+   raw: Manager, Engineering (Long Term Grid Planning) | ['Toronto, ON, CA', 'Toronto Manager, Engineering (Long Term Grid Planning) ON'] | https://jobs.torontohydro.com/job/Toronto-Manager%2C-Engineering-%28Long-Term-Grid-Planning%29-ON/603219517/
+   raw: Director, Grid Operations | ['Toronto, ON, CA', 'Toronto Director, Grid Operations ON'] | https://jobs.torontohydro.com/job/Toronto-Director%2C-Grid-Operations-ON/607847917/
+  rec: {"company": "Toronto Hydro", "ats": "rmk", "token": "jobs.torontohydro.com", "ok": true, "seen": 15, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'IESO', 'ats': 'rmk', 'token': 'careers.ieso.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 18
+   raw: System Operator | ['System Operator'] | https://careers.ieso.ca/job/System-Operator/1394749700/
+   raw: Supervisor, Strategic Insights | ['Supervisor, Strategic Insights'] | https://careers.ieso.ca/job/Supervisor%2C-Strategic-Insights/1450635000/
+   raw: Specialist, Information Governance Program | ['Specialist, Information Governance Program'] | https://careers.ieso.ca/job/Specialist%2C-Information-Governance-Program/1450514600/
+   raw: Senior Advisor, Sector Engagement and Strategic Insights | ['Senior Advisor, Sector Engagement and Strategic Insights'] | https://careers.ieso.ca/job/Senior-Advisor%2C-Sector-Engagement-and-Strategic-Insights/1450641500/
+   raw: Advisor, Municipal Engagement | ['Advisor, Municipal Engagement'] | https://careers.ieso.ca/job/Advisor%2C-Municipal-Engagement/1450143600/
+   raw: Supervisor, Municipal Engagement | ['Supervisor, Municipal Engagement'] | https://careers.ieso.ca/job/Supervisor%2C-Municipal-Engagement/1450148500/
+   raw: Specialist Solutions (AI Agent Specialist) | ['Specialist Solutions (AI Agent Specialist)'] | https://careers.ieso.ca/job/Specialist-Solutions-%28AI-Agent-Specialist%29/1449831600/
+   raw: Senior Specialist Business Continuity | ['Senior Specialist Business Continuity'] | https://careers.ieso.ca/job/Senior-Specialist-Business-Continuity/1449151800/
+  rec: {"company": "IESO", "ats": "rmk", "token": "careers.ieso.ca", "ok": true, "seen": 18, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'CN Rail', 'ats': 'rmk', 'token': 'careers.cn.ca', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 406: 406
+  rec: {"company": "CN Rail", "ats": "rmk", "token": "careers.cn.ca", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 406", "resolved": ""}
+
+=== ROW {'company': 'Purolator', 'ats': 'rmk', 'token': 'careers.purolator.com', 'extra': 'Ontario', 'pathway': 'E', 'tier': '3'}
+  raw seen 36
+   raw: Developer Technology I | ['Mississauga, ON, CA, L5N 0E1', 'Mississauga Developer Technology I ON L5N 0E1'] | https://careers.purolator.com/job/Mississauga-Developer-Technology-I-ON-L5N-0E1/1452025100/
+   raw: Sorter PM  YHM 160 | ['Mount Hope, ON, CA, L0R 1W0', 'Mount Hope Sorter PM YHM 160 ON L0R 1W0'] | https://careers.purolator.com/job/Mount-Hope-Sorter-PM-YHM-160-ON-L0R-1W0/1451713700/
+   raw: Mechanic Diesel  512 | ['Pickering, ON, CA, L1W 3S3', 'Pickering Mechanic Diesel 512 ON L1W 3S3'] | https://careers.purolator.com/job/Pickering-Mechanic-Diesel-512-ON-L1W-3S3/1395650900/
+   raw: Mechanic Diesel (310T License) | ['Kanata, ON, CA, K2T 0R5', 'Kanata Mechanic Diesel (310T License) ON K2T 0R5'] | https://careers.purolator.com/job/Kanata-Mechanic-Diesel-%28310T-License%29-ON-K2T-0R5/1434750100/
+   raw: Senior Manager Maintenance Fleet | ['Etobicoke, ON, CA, M9W 1L2', 'Etobicoke Senior Manager Maintenance Fleet ON M9W 1L2'] | https://careers.purolator.com/job/Etobicoke-Senior-Manager-Maintenance-Fleet-ON-M9W-1L2/1443717100/
+   raw: Sorter PM  375 | ['Etobicoke, ON, CA, M9W 1L2', 'Etobicoke Sorter PM 375 ON M9W 1L2'] | https://careers.purolator.com/job/Etobicoke-Sorter-PM-375-ON-M9W-1L2/1446398600/
+   raw: Mechanic Diesel  563 | ['Etobicoke, ON, CA, M9W 1L2', 'Etobicoke Mechanic Diesel 563 ON M9W 1L2'] | https://careers.purolator.com/job/Etobicoke-Mechanic-Diesel-563-ON-M9W-1L2/1407245100/
+   raw: Operations Support Representative | ['Vaughan, ON, CA, L4K 5N1', 'Vaughan Operations Support Representative ON L4K 5N1'] | https://careers.purolator.com/job/Vaughan-Operations-Support-Representative-ON-L4K-5N1/1448226200/
+  rec: {"company": "Purolator", "ats": "rmk", "token": "careers.purolator.com", "ok": true, "seen": 36, "kept": 3, "error": "", "resolved": ""}
+   kept: Developer Technology I | Mississauga, ON, CA, L5N 0E1; Mississauga Developer Technology I ON L5N 0E1 | https://careers.purolator.com/job/Mississauga-Developer-Technology-I-ON-L5N-0E1/1452025100/
+   kept: Associate Solution Architect | Mississauga, ON, CA, L5N 0E1; Mississauga Associate Solution Architect ON L5N 0E | https://careers.purolator.com/job/Mississauga-Associate-Solution-Architect-ON-L5N-0E1/1450715400/
+   kept: Technology Engineer Development Ops (DevOps) | Mississauga, ON, CA, L5N 0E1; Mississauga Technology Engineer Development Ops (D | https://careers.purolator.com/job/Mississauga-Technology-Engineer-Development-Ops-%28DevOps%29-ON-L5N-0E1/1449582600/
+
+=== ROW {'company': 'Deloitte Canada', 'ats': 'rmk', 'token': 'careers.deloitte.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 406: 406
+  rec: {"company": "Deloitte Canada", "ats": "rmk", "token": "careers.deloitte.ca", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 406", "resolved": ""}
+
+=== ROW {'company': 'EY Canada', 'ats': 'rmk', 'token': 'careers.ey.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 432
+   raw: Senior Consultant - Finance Transformation - Montreal | ['Montréal, Quebec, CA, H3A 0A8', 'Montréal Senior Consultant Finance Transformation Montreal Queb H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Senior-Consultant-Finance-Transformation-Montreal-Queb-H3A-0A8/1387960233/
+   raw: Consultant(e) Principal(e) - Transformation Financière | ['Montréal, Québec, CA, H3A 0A8', 'Montréal Consultant(e) Principal(e) Transformation Financière Québ H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Consultant%28e%29-Principal%28e%29-Transformation-Financi%C3%A8re-Qu%C3%A9b-H3A-0A8/1387960333/
+   raw: Ingénieur de données | ['Montréal, Québec, CA, H3A 0A8', 'Montréal Ingénieur de données Québ H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Ing%C3%A9nieur-de-donn%C3%A9es-Qu%C3%A9b-H3A-0A8/1457821933/
+   raw: Staff Consultant - Data Engineer - Financial Crimes | ['Montréal, Quebec, CA, H3A 0A8', 'Montréal Staff Consultant Data Engineer Financial Crimes Queb H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Staff-Consultant-Data-Engineer-Financial-Crimes-Queb-H3A-0A8/1457822033/
+   raw: International Tax Advisory Services - Montréal - Senior Tax Staff | ['Montréal, Quebec, CA, H3A 0A8', 'Montréal International Tax Advisory Services Montréal Senior Tax Staff Queb H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-International-Tax-Advisory-Services-Montr%C3%A9al-Senior-Tax-Staff-Queb-H3A-0A8/1449196533/
+   raw: Professionnel senior en fiscalité - l'équipe conseil en fiscalité internationale | ['Montréal, Québec, CA, H3A 0A8', 'Montréal Professionnel senior en fiscalité l&amp;apos;équipe conseil en fiscalité internationale Québ H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Professionnel-senior-en-fiscalit%C3%A9-l&amp;apos;%C3%A9quipe-conseil-en-fiscalit%C3%A9-internationale-Qu%C3%A9b-H3A-0A8/1449196633/
+   raw: Incentives and Capital Investments - Applied Sciences - Montréal - Staff or Senior | ['Montréal, Quebec, CA, H3A 0A8', 'Montréal Incentives and Capital Investments Applied Sciences Montréal Staff or Senior Queb H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Incentives-and-Capital-Investments-Applied-Sciences-Montr%C3%A9al-Staff-or-Senior-Queb-H3A-0A8/1458215633/
+   raw: Consultant ou Consultant senior - Sciences appliquées - Incitatifs fiscaux et investissements en cap | ['Montréal, Québec, CA, H3A 0A8', 'Montréal Consultant ou Consultant senior Sciences appliquées Incitatifs fiscaux et investissements en cap Québ H3A 0A8'] | https://careers.ey.com/ey/job/Montr%C3%A9al-Consultant-ou-Consultant-senior-Sciences-appliqu%C3%A9es-Incitatifs-fiscaux-et-investissements-en-cap-Qu%C3%A9b-H3A-0A8/1458215533/
+  rec: {"company": "EY Canada", "ats": "rmk", "token": "careers.ey.com", "ok": true, "seen": 432, "kept": 9, "error": "", "resolved": ""}
+   kept: AI and Data - Data Architect - Healthcare | Toronto, ON, CA, M5H 0B3; Toronto AI and Data Data Architect Healthcare ON M5H 0 | https://careers.ey.com/ey/job/Toronto-AI-and-Data-Data-Architect-Healthcare-ON-M5H-0B3/1373769433/
+   kept: Toronto - Forward Deployed Engineer - Rapid Innovation Lab | Toronto, ON, CA, M5H 0B3; Toronto Toronto Forward Deployed Engineer Rapid Innova | https://careers.ey.com/ey/job/Toronto-Toronto-Forward-Deployed-Engineer-Rapid-Innovation-Lab-ON-M5H-0B3/1456192633/
+   kept: Application Architect - Technology Strategy and Transformation | Toronto, ON, CA, M5H 0B3; Toronto Application Architect Technology Strategy and  | https://careers.ey.com/ey/job/Toronto-Application-Architect-Technology-Strategy-and-Transformation-ON-M5H-0B3/1440647533/
+   kept: AI and Data - Data Architect (Databricks) | Toronto, ON, CA, M5H 0B3; Toronto AI and Data Data Architect (Databricks) ON M5H | https://careers.ey.com/ey/job/Toronto-AI-and-Data-Data-Architect-%28Databricks%29-ON-M5H-0B3/1212671301/
+   kept: Forward Deployed Engineer, AI - Technology Strategy & Transformation | Toronto, ON, CA, M5H 0B3; Toronto Forward Deployed Engineer, AI Technology Strat | https://careers.ey.com/ey/job/Toronto-Forward-Deployed-Engineer%2C-AI-Technology-Strategy-&amp;-Transformation-ON-M5H-0B3/1445311633/
+   kept: Forward Deployed Engineer, Application & Infrastructure - Technology Strategy & Transformation | Toronto, ON, CA, M5H 0B3; Toronto Forward Deployed Engineer, Application &amp; I | https://careers.ey.com/ey/job/Toronto-Forward-Deployed-Engineer%2C-Application-&amp;-Infrastructure-Technology-Strategy-&amp;-Transformation-ON-M5H-0B3/1445319433/
+   kept: Business Systems Analyst - Microsoft D365 Customer Engagement | Toronto, ON, CA, M5H 0B3; Toronto Business Systems Analyst Microsoft D365 Custom | https://careers.ey.com/ey/job/Toronto-Business-Systems-Analyst-Microsoft-D365-Customer-Engagement-ON-M5H-0B3/1444507833/
+   kept: Developer/Technical Architect - Microsoft D365 Customer Engagement | Toronto, ON, CA, M5H 0B3; Toronto DeveloperTechnical Architect Microsoft D365 Cu | https://careers.ey.com/ey/job/Toronto-DeveloperTechnical-Architect-Microsoft-D365-Customer-Engagement-ON-M5H-0B3/1444483833/
+   kept: AI Learning Services Specialist (LSS) - Learning and Development (18-month contract) | Toronto, ON, CA, M5H 0B3; Toronto AI Learning Services Specialist (LSS) Learning | https://careers.ey.com/ey/job/Toronto-AI-Learning-Services-Specialist-%28LSS%29-Learning-and-Development-%2818-month-contract%29-ON-M5H-0B3/1428885733/
+
+=== ROW {'company': 'Insight Canada', 'ats': 'rmk', 'token': 'jobsearch.insight.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 18
+   raw: Client Solutions Executive | ['Toronto, ON, CA', 'Toronto Client Solutions Executive ON'] | https://jobsearch.insight.com/job/Toronto-Client-Solutions-Executive-ON/1433233800/
+   raw: Cloud Adoption Manager | ['Montreal, Quebec, CA, 11111', 'Montreal Cloud Adoption Manager Queb 11111'] | https://jobsearch.insight.com/job/Montreal-Cloud-Adoption-Manager-Queb-11111/1402644800/
+   raw: Client Solutions Lead | ['British Columbia, CA, 11111', 'Client Solutions Lead Brit 11111'] | https://jobsearch.insight.com/job/Client-Solutions-Lead-Brit-11111/1446744200/
+   raw: Responsable bilingue des solutions clients | ['Montreal, Quebec, CA, 11111', 'Montreal Responsable bilingue des solutions clients Queb 11111'] | https://jobsearch.insight.com/job/Montreal-Responsable-bilingue-des-solutions-clients-Queb-11111/1432608500/
+   raw: Cloud Platform Engineer | ['AB, CA, 11111', 'Calgary Trail South Cloud Platform Engineer AB 11111'] | https://jobsearch.insight.com/job/Calgary-Trail-South-Cloud-Platform-Engineer-AB-11111/1437738500/
+   raw: AI Solutions Architect | ['Montreal, Quebec, CA, H4T 1T9', 'Montreal AI Solutions Architect Queb H4T 1T9'] | https://jobsearch.insight.com/job/Montreal-AI-Solutions-Architect-Queb-H4T-1T9/1451804700/
+   raw: Business Development Manager | ['Montreal, Quebec, CA, H3B 4W8', 'Montreal Business Development Manager Queb H3B 4W8'] | https://jobsearch.insight.com/job/Montreal-Business-Development-Manager-Queb-H3B-4W8/1452031200/
+   raw: Client Solutions Executive | ['Montreal, Quebec, CA, H4T 1T9', 'Montreal Client Solutions Executive Queb H4T 1T9'] | https://jobsearch.insight.com/job/Montreal-Client-Solutions-Executive-Queb-H4T-1T9/1446833600/
+  rec: {"company": "Insight Canada", "ats": "rmk", "token": "jobsearch.insight.com", "ok": true, "seen": 18, "kept": 1, "error": "", "resolved": ""}
+   kept: AI Infrastructure Solutions Architect | Toronto, ON, CA, M5C 2N8; Toronto AI Infrastructure Solutions Architect ON M5C 2 | https://jobsearch.insight.com/job/Toronto-AI-Infrastructure-Solutions-Architect-ON-M5C-2N8/1441761600/
+
+=== ROW {'company': 'Halton Region', 'ats': 'rmk', 'token': 'careers.halton.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 20
+   raw: Integrated Case Manager | ['1 Halton Regional Centre 1 Integrated Case Manager 1'] | https://careers.halton.ca/job/1-Halton-Regional-Centre-1-Integrated-Case-Manager-1/608138517/
+   raw: Supervisor, Resident Services | ['V Post Inn Village Long Term Supervisor, Resident Services V'] | https://careers.halton.ca/job/V-Post-Inn-Village-Long-Term-Supervisor%2C-Resident-Services-V/608165917/
+   raw: Waste Management Program Assistant | ['39 Halton Waste Management S Waste Management Program Assistant 39'] | https://careers.halton.ca/job/39-Halton-Waste-Management-S-Waste-Management-Program-Assistant-39/608095717/
+   raw: Capital Engineering & Construction Services Co-op Student | ['10 Halton Regional Centre Capital Engineering &amp; Construction Services Co op Student 10'] | https://careers.halton.ca/job/10-Halton-Regional-Centre-Capital-Engineering-&amp;-Construction-Services-Co-op-Student-10/608110117/
+   raw: SAP Project Coordinator | ['1141 Lakeshore, Burlington SAP Project Coordinator 1141'] | https://careers.halton.ca/job/1141-Lakeshore%2C-Burlington-SAP-Project-Coordinator-1141/608108917/
+   raw: Customer Service Representative - Long-term Care | ['V Post Inn Village Long Term Customer Service Representative Long term Care V'] | https://careers.halton.ca/job/V-Post-Inn-Village-Long-Term-Customer-Service-Representative-Long-term-Care-V/608077817/
+   raw: Customer Service Representative - Long-term Care | ['C Creek Way Village Long Ter Customer Service Representative Long term Care C'] | https://careers.halton.ca/job/C-Creek-Way-Village-Long-Ter-Customer-Service-Representative-Long-term-Care-C/608076317/
+   raw: Superintendent, Operations (Paramedic Services) | ['48 Woodlands Operation Centr Superintendent, Operations (Paramedic Services) 48'] | https://careers.halton.ca/job/48-Woodlands-Operation-Centr-Superintendent%2C-Operations-%28Paramedic-Services%29-48/608067417/
+  rec: {"company": "Halton Region", "ats": "rmk", "token": "careers.halton.ca", "ok": true, "seen": 20, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'University of Toronto', 'ats': 'rmk', 'token': 'jobs.utoronto.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 223
+   raw: Associate / Full Professor - Director, Fellowship Programs | ['Toronto, ON, CA', 'Toronto Associate Full Professor Director, Fellowship Programs ON'] | https://jobs.utoronto.ca/job/Toronto-Associate-Full-Professor-Director%2C-Fellowship-Programs-ON/606336617/
+   raw: Assistant/ Associate/ Full Professor - Maternal Fetal Medicine Physician | ['Toronto, ON, CA', 'Toronto Assistant Associate Full Professor Maternal Fetal Medicine Physician ON'] | https://jobs.utoronto.ca/job/Toronto-Assistant-Associate-Full-Professor-Maternal-Fetal-Medicine-Physician-ON/607243417/
+   raw: Associate Professor/Professor - Artificial Intelligence | ['Toronto, ON, CA', 'Toronto Associate ProfessorProfessor Artificial Intelligence ON'] | https://jobs.utoronto.ca/job/Toronto-Associate-ProfessorProfessor-Artificial-Intelligence-ON/603849117/
+   raw: Assistant Professor, Teaching Stream - CLTA - Geographic Data Science | ['Toronto, ON, CA', 'Toronto Assistant Professor, Teaching Stream CLTA Geographic Data Science ON'] | https://jobs.utoronto.ca/job/Toronto-Assistant-Professor%2C-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/
+   raw: Assistant, Associate, or Full Professor - Plastic Surgery | ['Toronto, ON, CA', 'Toronto Assistant, Associate, or Full Professor Plastic Surgery ON'] | https://jobs.utoronto.ca/job/Toronto-Assistant%2C-Associate%2C-or-Full-Professor-Plastic-Surgery-ON/608142017/
+   raw: Manager, Facilities Operations | ['Toronto, ON, CA', 'Toronto Manager, Facilities Operations ON'] | https://jobs.utoronto.ca/job/Toronto-Manager%2C-Facilities-Operations-ON/608147417/
+   raw: Financial Clerk (TERM) | ['Toronto, ON, CA', 'Toronto Financial Clerk (TERM) ON'] | https://jobs.utoronto.ca/job/Toronto-Financial-Clerk-%28TERM%29-ON/608147017/
+   raw: Athletic Facility Assistant (Tues - Sat) | ['Toronto, ON, CA', 'Toronto Athletic Facility Assistant (Tues Sat) ON'] | https://jobs.utoronto.ca/job/Toronto-Athletic-Facility-Assistant-%28Tues-Sat%29-ON/608174917/
+  rec: {"company": "University of Toronto", "ats": "rmk", "token": "jobs.utoronto.ca", "ok": true, "seen": 223, "kept": 7, "error": "", "resolved": ""}
+   kept: Assistant Professor, Teaching Stream - CLTA - Geographic Data Science | Toronto, ON, CA; Toronto Assistant Professor, Teaching Stream CLTA Geographic Da | https://jobs.utoronto.ca/job/Toronto-Assistant-Professor%2C-Teaching-Stream-CLTA-Geographic-Data-Science-ON/607187317/
+   kept: Data Analyst, Business Intelligence (BI) | Toronto, ON, CA; Toronto Data Analyst, Business Intelligence (BI) ON | https://jobs.utoronto.ca/job/Toronto-Data-Analyst%2C-Business-Intelligence-%28BI%29-ON/607944917/
+   kept: Cloud Email Services Administrator (Term) | Toronto, ON, CA; Toronto Cloud Email Services Administrator (Term) ON | https://jobs.utoronto.ca/job/Toronto-Cloud-Email-Services-Administrator-%28Term%29-ON/607863317/
+   kept: Infrastructure and Network Specialist | Toronto, ON, CA; Toronto Infrastructure and Network Specialist ON | https://jobs.utoronto.ca/job/Toronto-Infrastructure-and-Network-Specialist-ON/607860517/
+   kept: Sessional Lecturer - EDS285H5S The Future of Ed Tech: Active Learning Classrooms and AI | Mississauga, ON, CA; Mississauga Sessional Lecturer EDS285H5S The Future of Ed T | https://jobs.utoronto.ca/job/Mississauga-Sessional-Lecturer-EDS285H5S-The-Future-of-Ed-Tech-Active-Learning-Classrooms-and-AI-ON/607579417/
+   kept: Associate Professor/Professor - Data Science Computation | Toronto, ON, CA; Toronto Associate ProfessorProfessor Data Science Computation O | https://jobs.utoronto.ca/job/Toronto-Associate-ProfessorProfessor-Data-Science-Computation-ON/606450917/
+   kept: Assistant Professor - Data Science Computation | Toronto, ON, CA; Toronto Assistant Professor Data Science Computation ON | https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Data-Science-Computation-ON/606449617/
+
+=== ROW {'company': 'Ontario Power Generation', 'ats': 'rmk', 'token': 'jobs.opg.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 406: 406
+  rec: {"company": "Ontario Power Generation", "ats": "rmk", "token": "jobs.opg.com", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 406", "resolved": ""}
+
+=== ROW {'company': 'Wipro', 'ats': 'rmk', 'token': 'careers.wipro.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 406: 406
+  rec: {"company": "Wipro", "ats": "rmk", "token": "careers.wipro.com", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 406", "resolved": ""}
+
+=== ROW {'company': 'HCLTech', 'ats': 'rmk', 'token': 'careers.hcltech.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw ERROR HTTPError HTTP Error 406: 406
+  rec: {"company": "HCLTech", "ats": "rmk", "token": "careers.hcltech.com", "ok": false, "seen": 0, "kept": 0, "error": "HTTP 406", "resolved": ""}
+
+=== ROW {'company': 'Canada Post', 'ats': 'rmk', 'token': 'jobs.canadapost.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 565
+   raw: Postmaster - Premises provided by Postmaster (Group Office) | ['Saint Félix de Dalquier Postmaster Premises provided by Postmaster (Group Office) QC'] | https://jobs.canadapost.ca/job/Saint-F%C3%A9lix-de-Dalquier-Postmaster-Premises-provided-by-Postmaster-%28Group-Office%29-QC/606823117/
+   raw: Rural and Suburban Mail Carrier, On-call Relief | ['St_ Thomas Rural and Suburban Mail Carrier, On call Relief ON'] | https://jobs.canadapost.ca/job/St_-Thomas-Rural-and-Suburban-Mail-Carrier%2C-On-call-Relief-ON/607217817/
+   raw: Rural and Suburban Mail Carrier, On-call Relief | ['New Richmond Rural and Suburban Mail Carrier, On call Relief QC'] | https://jobs.canadapost.ca/job/New-Richmond-Rural-and-Suburban-Mail-Carrier%2C-On-call-Relief-QC/606320917/
+   raw: Rural and Suburban Mail Carrier, On-call Relief Huntingdon | ['Huntingdon Rural and Suburban Mail Carrier, On call Relief Huntingdon QC'] | https://jobs.canadapost.ca/job/Huntingdon-Rural-and-Suburban-Mail-Carrier%2C-On-call-Relief-Huntingdon-QC/595202317/
+   raw: Supervisor, Letter Carrier, Weekend - Relief | ['Montréal Supervisor, Letter Carrier, Weekend Relief QC'] | https://jobs.canadapost.ca/job/Montr%C3%A9al-Supervisor%2C-Letter-Carrier%2C-Weekend-Relief-QC/604832617/
+   raw: Postal Clerk - Retail and Operations | ['Edson Postal Clerk Retail and Operations AB'] | https://jobs.canadapost.ca/job/Edson-Postal-Clerk-Retail-and-Operations-AB/604121517/
+   raw: Rural and Suburban Mail Carrier, On-call Relief | ['Smithers Rural and Suburban Mail Carrier, On call Relief BC'] | https://jobs.canadapost.ca/job/Smithers-Rural-and-Suburban-Mail-Carrier%2C-On-call-Relief-BC/606668717/
+   raw: Post Office Assistant - Term | ['Waskada Post Office Assistant Term MB'] | https://jobs.canadapost.ca/job/Waskada-Post-Office-Assistant-Term-MB/607251717/
+  rec: {"company": "Canada Post", "ats": "rmk", "token": "jobs.canadapost.ca", "ok": true, "seen": 565, "kept": 3, "error": "", "resolved": ""}
+   kept: Letter Carrier - Delivery Agent | Toronto Letter Carrier Delivery Agent ON | https://jobs.canadapost.ca/job/Toronto-Letter-Carrier-Delivery-Agent-ON/605682217/
+   kept: Letter Carrier - Delivery Agent - West | Brampton Letter Carrier Delivery Agent West ON | https://jobs.canadapost.ca/job/Brampton-Letter-Carrier-Delivery-Agent-West-ON/608032117/
+   kept: Letter Carrier - Delivery Agent - East | Scarborough Letter Carrier Delivery Agent East ON | https://jobs.canadapost.ca/job/Scarborough-Letter-Carrier-Delivery-Agent-East-ON/608028717/
+
+=== ROW {'company': 'OpenText', 'ats': 'phenom', 'token': 'careers.opentext.com/us/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 344
+   raw: Principal AI Developer | ['Cork, IRL', 'Cork, IRL'] | https://careers.opentext.com/us/en/job/52389/Principal-AI-Developer
+   raw: Lead AI Developer | ['Cork, IRL', 'Cork, IRL'] | https://careers.opentext.com/us/en/job/52404/Lead-AI-Developer
+   raw: Systems Integration Analyst - APJ & EMEA | ['Makati City, National Capital Region (NCR), PHL', 'Makati City, National Capital Region (NCR), PHL'] | https://careers.opentext.com/us/en/job/28667/Systems-Integration-Analyst-APJ-EMEA
+   raw: Lead AI Developer | ['Cork, IRL', 'Cork, IRL'] | https://careers.opentext.com/us/en/job/52405/Lead-AI-Developer
+   raw: Director, Product Management | ['Lexington, Kentucky, USA, 40511', 'Lexington, Kentucky, USA'] | https://careers.opentext.com/us/en/job/54027/Director-Product-Management
+   raw: Legal Counsel | ['Alpharetta, Georgia, USA, 30009', 'Gaithersburg, Maryland, USA, 20878', 'Provo, Utah, USA, 84606', 'Alpharetta, Georgia, USA'] | https://careers.opentext.com/us/en/job/54254/Legal-Counsel
+   raw: Principal AI Developer | ['Cork, IRL', 'Cork, IRL'] | https://careers.opentext.com/us/en/job/52282/Principal-AI-Developer
+   raw: Senior Data Center Engineer | ['Brook Park, Ohio, USA, 4442', 'Brook Park, Ohio, USA'] | https://careers.opentext.com/us/en/job/54171/Senior-Data-Center-Engineer
+  rec: {"company": "OpenText", "ats": "phenom", "token": "careers.opentext.com/us/en", "ok": true, "seen": 344, "kept": 3, "error": "", "resolved": ""}
+   kept: Software Developer (Microsoft 365 & Azure Integrations) 1 | Richmond Hill, Ontario, CAN, L4B 4N8; Richmond Hill, Ontario, CAN | https://careers.opentext.com/us/en/job/54093/Software-Developer-Microsoft-365-Azure-Integrations-1
+   kept: Cloud Automation & AI Architect | Waterloo, Ontario, CAN, N2L 0A1; Richmond Hill, Ontario, CAN, L4B 4N8; Mississau | https://careers.opentext.com/us/en/job/51586/Cloud-Automation-AI-Architect
+   kept: Cloud Automation & AI Architect | Waterloo, Ontario, CAN, N2L 0A1; Richmond Hill, Ontario, CAN, L4B 4N8; Mississau | https://careers.opentext.com/us/en/job/51586/Cloud-Automation-AI-Architect
+
+=== ROW {'company': 'Bell (BCE)', 'ats': 'phenom', 'token': 'jobs.bce.ca/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw ERROR RuntimeError no Phenom job data on the search page
+  rec: {"company": "Bell (BCE)", "ats": "phenom", "token": "jobs.bce.ca/ca/en", "ok": false, "seen": 0, "kept": 0, "error": "no Phenom job data on the search page", "resolved": ""}
+
+=== ROW {'company': 'Bell (BCE) en', 'ats': 'phenom', 'token': 'jobs.bce.ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw ERROR RuntimeError no Phenom job data on the search page
+  rec: {"company": "Bell (BCE) en", "ats": "phenom", "token": "jobs.bce.ca/en", "ok": false, "seen": 0, "kept": 0, "error": "no Phenom job data on the search page", "resolved": ""}
+
+=== ROW {'company': 'Air Canada', 'ats': 'phenom', 'token': 'careers.aircanada.com/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 48
+   raw: Principal Technical Lead | ['TORONTO, ONTARIO, CANADA', 'TORONTO, ONTARIO, CANADA'] | https://careers.aircanada.com/ca/en/job/40141/Principal-Technical-Lead
+   raw: Customer Sales and Service Agent - Call Centre - Proactive hiring  | ['SAINT JOHN, NEW BRUNSWICK, CANADA', 'SAINT JOHN, NEW BRUNSWICK, CANADA'] | https://careers.aircanada.com/ca/en/job/40471/Customer-Sales-and-Service-Agent-Call-Centre-Proactive-hiring
+   raw: Operations Manager - Catering | ['LONDON, MIDDLESEX, UNITED KINGDOM', 'LONDON, MIDDLESEX, UNITED KINGDOM'] | https://careers.aircanada.com/ca/en/job/40515/Operations-Manager-Catering
+   raw: Cyber Defence Platform Specialist | ['TORONTO, ONTARIO, CANADA', 'DORVAL, QUEBEC, CANADA', 'TORONTO, ONTARIO, CANADA'] | https://careers.aircanada.com/ca/en/job/40321/Cyber-Defence-Platform-Specialist
+   raw: Warehouse Attendant - Cargo | ['LONDON, MIDDLESEX, UNITED KINGDOM', 'LONDON, MIDDLESEX, UNITED KINGDOM'] | https://careers.aircanada.com/ca/en/job/39918/Warehouse-Attendant-Cargo
+   raw: Ramp Agent (Station Attendant) – Airport - Full-Time | ['QUEBEC CITY, QUEBEC, CANADA', 'QUEBEC CITY, QUEBEC, CANADA'] | https://careers.aircanada.com/ca/en/job/39853/Ramp-Agent-Station-Attendant-Airport-Full-Time
+   raw: Ramp Agent (Station Attendant) – Airport – Full -Time | ['DORVAL, QUEBEC, CANADA', 'DORVAL, QUEBEC, CANADA'] | https://careers.aircanada.com/ca/en/job/40197/Ramp-Agent-Station-Attendant-Airport-Full-Time
+   raw: Assistant Controller | ['WINNIPEG, MANITOBA, CANADA', 'WINNIPEG, MANITOBA, CANADA'] | https://careers.aircanada.com/ca/en/job/40439/Assistant-Controller
+  rec: {"company": "Air Canada", "ats": "phenom", "token": "careers.aircanada.com/ca/en", "ok": true, "seen": 48, "kept": 3, "error": "", "resolved": ""}
+   kept: Cyber Defence Platform Specialist | TORONTO, ONTARIO, CANADA; DORVAL, QUEBEC, CANADA | https://careers.aircanada.com/ca/en/job/40321/Cyber-Defence-Platform-Specialist
+   kept: Specialist Data and AI - Tooling Administrator | DORVAL, QUEBEC, CANADA; TORONTO, ONTARIO, CANADA | https://careers.aircanada.com/ca/en/job/40523/Specialist-Data-and-AI-Tooling-Administrator
+   kept: Ramp Agent (Station Attendant) - Cargo - Part-Time | TORONTO, ONTARIO, CANADA | https://careers.aircanada.com/ca/en/job/39585/Ramp-Agent-Station-Attendant-Cargo-Part-Time
+
+=== ROW {'company': 'OMERS', 'ats': 'phenom', 'token': 'careers.omers.com/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 57
+   raw: Cleaner (Part-Time) - Yorkdale Shopping Centre | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-1679/Cleaner-Part-Time-Yorkdale-Shopping-Centre
+   raw: Member Experience Specialist (Future Opportunities) | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-7951/Member-Experience-Specialist-Future-Opportunities
+   raw: Associate, AI Enablement & Adoption (4 month Contract) - London, UK | ['London, United Kingdom', 'London, United Kingdom'] | https://careers.omers.com/ca/en/job/JR-8316/Associate-AI-Enablement-Adoption-4-month-Contract-London-UK
+   raw: Associate Director, Legal Services - Construction | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-7942/Associate-Director-Legal-Services-Construction
+   raw: Analyst, Investment Accounting | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-8481/Analyst-Investment-Accounting
+   raw: Associate Director, Asset Management | ['London, United Kingdom', 'London, United Kingdom'] | https://careers.omers.com/ca/en/job/JR-8449/Associate-Director-Asset-Management
+   raw: Lead, Technology Strategy & Innovation (12 Months Contract) | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-8325/Lead-Technology-Strategy-Innovation-12-Months-Contract
+   raw: Senior Infrastructure Architect - Security & Automation | ['Toronto, Ontario, Canada', 'Toronto, Ontario, Canada'] | https://careers.omers.com/ca/en/job/JR-8341/Senior-Infrastructure-Architect-Security-Automation
+  rec: {"company": "OMERS", "ats": "phenom", "token": "careers.omers.com/ca/en", "ok": true, "seen": 57, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'PwC Canada', 'ats': 'phenom', 'token': 'jobs-ca.pwc.com/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 158
+   raw: Payments and Open Banking Consulting, Director | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/707141WD/Payments-and-Open-Banking-Consulting-Director
+   raw: Facilities Senior Associate (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/710773WD/Facilities-Senior-Associate-Bilingual-FR-EN
+   raw: Technology Strategy & Transformation Technical Architect, Manager | ['Ottawa', 'Ottawa, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/746945WD/Technology-Strategy-Transformation-Technical-Architect-Manager
+   raw: Senior Associate, Technology Strategy, Consulting (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/753803WD/Senior-Associate-Technology-Strategy-Consulting-Bilingual-FR-EN
+   raw: Financial Crimes Technology Manager | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/657660WD/Financial-Crimes-Technology-Manager
+   raw: Finance AP & AR Operations, Senior Manager | ['Toronto', 'Toronto, Ontario, Canada'] | https://jobs-ca.pwc.com/ca/en/job/750859WD/Finance-AP-AR-Operations-Senior-Manager
+   raw: Consulting Operations, Manager (Bilingual FR/EN) | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/744361WD/Consulting-Operations-Manager-Bilingual-FR-EN
+   raw: Deals Strategy Senior Associate | ['Montreal', 'Montreal, Quebec, Canada'] | https://jobs-ca.pwc.com/ca/en/job/742847WD/Deals-Strategy-Senior-Associate
+  rec: {"company": "PwC Canada", "ats": "phenom", "token": "jobs-ca.pwc.com/ca/en", "ok": true, "seen": 158, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'PwC Canada campus', 'ats': 'phenom', 'token': 'jobs-ca.pwc.com/campus/ca/en', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 0
+  rec: {"company": "PwC Canada campus", "ats": "phenom", "token": "jobs-ca.pwc.com/campus/ca/en", "ok": true, "seen": 0, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Thales loc', 'ats': 'phenom', 'token': 'careers.thalesgroup.com/global/en', 'extra': 'location=Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 1500
+   raw: Ingénieur Support Site Client F/H | ['Rungis, Val-de-Marne, 94150', 'Rungis, Val-de-Marne, France'] | https://careers.thalesgroup.com/global/en/job/R0276038/Ing-nieur-Support-Site-Client-F-H
+   raw: Satellite IVVQ RF ENGINEER | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0289241/Satellite-IVVQ-RF-ENGINEER
+   raw: E2E System Engineer | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0273523/E2E-System-Engineer
+   raw: Architecte Infrastructure et sécurité (H/F) | ['Valbonne, Alpes-Maritimes, 06560', 'Valbonne, Alpes-Maritimes, France'] | https://careers.thalesgroup.com/global/en/job/R0310356/Architecte-Infrastructure-et-s-curit-H-F
+   raw: Antenna MGSE  Designer | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0311001/Antenna-MGSE-Designer
+   raw: Infrastructure Architect (Open also to Protected Categories - Law 68.99) | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0310087/Infrastructure-Architect-Open-also-to-Protected-Categories-Law-68-99
+   raw: Ingénieur Intégration, Vérification, Validation et Qualification | ['Brest, Finistere, 29200', 'Brest, Finistere, France'] | https://careers.thalesgroup.com/global/en/job/R0311150/Ing-nieur-Int-gration-V-rification-Validation-et-Qualification
+   raw: Ingénieur(e) d’Etudes Intégration Validation Logiciels H/F | ['Carquefou, 44470', 'Carquefou, France'] | https://careers.thalesgroup.com/global/en/job/R0213745/Ing-nieur-e-d-Etudes-Int-gration-Validation-Logiciels-H-F
+  rec: {"company": "Thales loc", "ats": "phenom", "token": "careers.thalesgroup.com/global/en", "ok": true, "seen": 1500, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Thales qcountry', 'ats': 'phenom', 'token': 'careers.thalesgroup.com/global/en', 'extra': 'qcountry=Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 1500
+   raw: Ingénieur Support Site Client F/H | ['Rungis, Val-de-Marne, 94150', 'Rungis, Val-de-Marne, France'] | https://careers.thalesgroup.com/global/en/job/R0276038/Ing-nieur-Support-Site-Client-F-H
+   raw: Satellite IVVQ RF ENGINEER | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0289241/Satellite-IVVQ-RF-ENGINEER
+   raw: E2E System Engineer | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0273523/E2E-System-Engineer
+   raw: Architecte Infrastructure et sécurité (H/F) | ['Valbonne, Alpes-Maritimes, 06560', 'Valbonne, Alpes-Maritimes, France'] | https://careers.thalesgroup.com/global/en/job/R0310356/Architecte-Infrastructure-et-s-curit-H-F
+   raw: Antenna MGSE  Designer | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0311001/Antenna-MGSE-Designer
+   raw: Infrastructure Architect (Open also to Protected Categories - Law 68.99) | ['Roma, Roma, 00131', 'Roma, Roma, Italy'] | https://careers.thalesgroup.com/global/en/job/R0310087/Infrastructure-Architect-Open-also-to-Protected-Categories-Law-68-99
+   raw: Ingénieur Intégration, Vérification, Validation et Qualification | ['Brest, Finistere, 29200', 'Brest, Finistere, France'] | https://careers.thalesgroup.com/global/en/job/R0311150/Ing-nieur-Int-gration-V-rification-Validation-et-Qualification
+   raw: Ingénieur(e) d’Etudes Intégration Validation Logiciels H/F | ['Carquefou, 44470', 'Carquefou, France'] | https://careers.thalesgroup.com/global/en/job/R0213745/Ing-nieur-e-d-Etudes-Int-gration-Validation-Logiciels-H-F
+  rec: {"company": "Thales qcountry", "ats": "phenom", "token": "careers.thalesgroup.com/global/en", "ok": true, "seen": 1500, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Cisco loc', 'ats': 'phenom', 'token': 'careers.cisco.com/global/en', 'extra': 'location=Toronto', 'pathway': 'E', 'tier': '3'}
+  raw seen 1441
+   raw: Senior Software Engineer (Remote) | ['San Jose, California, United States of America', 'Birmingham, Alabama, United States of America', 'Juneau, Alaska, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'San Jose, California, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Honolulu, Hawaii, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Annapolis Junction, Maryland, United States of America', 'Boston, Massachusetts, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Trenton, New Jersey, United States of America', 'Santa Fe, New Mexico, United States of America', 'New York, New York, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Herndon, Virginia, United States of America', 'Olympus, Washington, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'San Jose, California, United States of America'] | https://careers.cisco.com/global/en/job/2023799/Senior-Software-Engineer-Remote
+   raw: Director, Pricing Strategy and Monetization ( Remote) | ['San Jose, California, United States of America', 'Birmingham, Alabama, United States of America', 'Juneau, Alaska, United States of America', 'Phoenix, Arizona, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Annapolis Junction, Maryland, United States of America', 'Boston, Massachusetts, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Trenton, New Jersey, United States of America', 'Santa Fe, New Mexico, United States of America', 'New York, New York, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Herndon, Virginia, United States of America', 'Olympus, Washington, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'Seattle, Washington, United States of America', 'San Jose, California, United States of America'] | https://careers.cisco.com/global/en/job/2029617/Director-Pricing-Strategy-and-Monetization-Remote
+   raw: Signal and Power Integrity Technical Leader (Hybrid) | ['San Jose, California, United States of America', 'Allen, Texas, United States of America', 'Atlanta, Georgia, United States of America', 'Bellevue, Washington, United States of America', 'Cary, North Carolina, United States of America', 'Miami, Florida, United States of America', 'Chicago, Illinois, United States of America', 'West Des Moines, Iowa, United States of America', 'Boston, Massachusetts, United States of America', 'Clayton, Missouri, United States of America', 'Reno, Nevada, United States of America', 'Bismark, North Dakota, United States of America', 'Columbia, South Carolina, United States of America', 'Herndon, Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Roanoke, Texas, United States of America', 'Roseville, California, United States of America', 'San Diego, California, United States of America', 'San Francisco, California, United States of America', 'San Jose, California, United States of America'] | https://careers.cisco.com/global/en/job/2026833/Signal-and-Power-Integrity-Technical-Leader-Hybrid
+   raw: Director, Pricing Strategy and Monetization (Remote) | ['San Jose, California, United States of America', 'Birmingham, Alabama, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'San Jose, California, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'West Des Moines, Iowa, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Annapolis Junction, Maryland, United States of America', 'Boston, Massachusetts, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Trenton, New Jersey, United States of America', 'New York, New York, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Richfield, Ohio, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Montpelier, Vermont, United States of America', 'Herndon, Virginia, United States of America', 'Cheyenne, Wyoming, United States of America', 'San Francisco, California, United States of America', 'Seattle, Washington, United States of America', 'San Jose, California, United States of America'] | https://careers.cisco.com/global/en/job/2029712/Director-Pricing-Strategy-and-Monetization-Remote
+   raw: Technical Product Marketing Manager, Cisco Wireless | ['San Jose, California, United States of America', 'Birmingham, Alabama, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'San Jose, California, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Annapolis Junction, Maryland, United States of America', 'Boston, Massachusetts, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Trenton, New Jersey, United States of America', 'Santa Fe, New Mexico, United States of America', 'New York, New York, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Herndon, Virginia, United States of America', 'Olympus, Washington, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'San Jose, California, United States of America'] | https://careers.cisco.com/global/en/job/2024016/Technical-Product-Marketing-Manager-Cisco-Wireless
+   raw: Principal Software Engineer, Applied AI – Splunk Observability Cloud | ['Seattle, Washington, United States of America', 'Boulder, Colorado, United States of America', 'Birmingham, Alabama, United States of America', 'Juneau, Alaska, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'San Jose, California, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Honolulu, Hawaii, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Annapolis Junction, Maryland, United States of America', 'Boston, Massachusetts, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Trenton, New Jersey, United States of America', 'Santa Fe, New Mexico, United States of America', 'New York, New York, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Herndon, Virginia, United States of America', 'Olympus, Washington, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'Seattle, Washington, United States of America'] | https://careers.cisco.com/global/en/job/2028421/Principal-Software-Engineer-Applied-AI-Splunk-Observability-Cloud
+   raw: Software Engineering Technical Leader | ['Boulder, Colorado, United States of America', 'Birmingham, Alabama, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Honolulu, Hawaii, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Santa Fe, New Mexico, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Boulder, Colorado, United States of America'] | https://careers.cisco.com/global/en/job/2031695/Software-Engineering-Technical-Leader
+   raw: Senior Software Reliability Engineer – Splunk Framework & Runtime Services | ['Boulder, Colorado, United States of America', 'Birmingham, Alabama, United States of America', 'Phoenix, Arizona, United States of America', 'Little Rock, Arkansas, United States of America', 'Denver, Colorado, United States of America', 'Hartford, Connecticut, United States of America', 'Dover, Delaware, United States of America', 'Miami, Florida, United States of America', 'Atlanta, Georgia, United States of America', 'Honolulu, Hawaii, United States of America', 'Boise, Idaho, United States of America', 'Chicago, Illinois, United States of America', 'Indianapolis, Indiana, United States of America', 'West Des Moines, Iowa, United States of America', 'Topeka, Kansas, United States of America', 'Frankfort, Kentucky, United States of America', 'Baton Rouge, Louisiana, United States of America', 'Augusta, Maine, United States of America', 'Ann Arbor, Michigan, United States of America', 'Minneapolis, Minnesota, United States of America', 'Jackson, Mississippi, United States of America', 'Clayton, Missouri, United States of America', 'Helena, Montana, United States of America', 'Lincoln, Nebraska, United States of America', 'Reno, Nevada, United States of America', 'Concord, New Hampshire, United States of America', 'Santa Fe, New Mexico, United States of America', 'Research Triangle Park, North Carolina, United States of America', 'Bismark, North Dakota, United States of America', 'Richfield, Ohio, United States of America', 'Oklahoma City, Oklahoma, United States of America', 'Portland, Oregon, United States of America', 'Philadelphia, Pennsylvania, United States of America', 'Providence, Rhode Island, United States of America', 'Columbia, South Carolina, United States of America', 'Pierre, South Dakota, United States of America', 'Nashville, Tennessee, United States of America', 'Austin, Texas, United States of America', 'Salt Lake City, Utah, United States of America', 'Montpelier, Vermont, United States of America', 'Charleston, West Virginia, United States of America', 'Appleton, Wisconsin, United States of America', 'Cheyenne, Wyoming, United States of America', 'Boulder, Colorado, United States of America'] | https://careers.cisco.com/global/en/job/2030555/Senior-Software-Reliability-Engineer-Splunk-Framework-Runtime-Services
+  rec: {"company": "Cisco loc", "ats": "phenom", "token": "careers.cisco.com/global/en", "ok": true, "seen": 1441, "kept": 5, "error": "", "resolved": ""}
+   kept: Software Developer | Vancouver, British Columbia, Canada; Calgary, Alberta, Canada; Kanata, Ontario,  | https://careers.cisco.com/global/en/job/2028996/Software-Developer
+   kept: Software Developer Full Stack / Backend II (Full Time) - Canada | Vancouver, British Columbia, Canada; Calgary, Alberta, Canada; Kanata, Ontario,  | https://careers.cisco.com/global/en/job/2025999/Software-Developer-Full-Stack-Backend-II-Full-Time-Canada
+   kept: Software Developer | Vancouver, British Columbia, Canada; Calgary, Alberta, Canada; Kanata, Ontario,  | https://careers.cisco.com/global/en/job/2028996/Software-Developer
+   kept: Software Developer Embedded Systems II (Full Time) – Canada | Kanata, Ontario, Canada; Calgary, Alberta, Canada; Montreal, Quebec, Canada; Ott | https://careers.cisco.com/global/en/job/2024139/Software-Developer-Embedded-Systems-II-Full-Time-Canada
+   kept: Solutions Architect, Splunk Canada | Toronto, Ontario, Canada | https://careers.cisco.com/global/en/job/2025866/Solutions-Architect-Splunk-Canada
+
+=== ROW {'company': 'PwC workday', 'ats': 'workday', 'token': 'pwc', 'extra': 'wd3|Global_Experienced_Careers', 'pathway': 'E', 'tier': '3'}
+  raw seen 163
+   raw: Legal Business Solutions, Senior Associate (Bilingual FR/EN) | ['Montreal'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Montreal/Legal-Business-Solutions--Senior-Associate--Bilingual-FR-EN-_765667WD-1
+   raw: Conseiller(ère), Audit Externe (Bilingue FR/ANG ) | ['Québec City'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Qubec-City/Conseiller-re---Audit-Externe--Bilingue-FR-ANG--_773597WD-1
+   raw: National Corporate Security Manager (Contract) | ['Vancouver'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Vancouver/National-Corporate-Security-Manager--Contract-_773861WD
+   raw: Private Wealth - Cross Border Tax, Senior Manager | ['Toronto'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/PwC-Private-Cross-Border--Senior-Manager_764227WD-2
+   raw: Private Wealth - Cross Border Tax, Manager | ['Toronto'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Cross-Border-Tax-Private-Wealth--Manager_738972WD
+   raw: Data Management and Strategy, Senior Associate | ['Toronto'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Data-Management-and-Governance--Senior-Associate_747794WD
+   raw: Accounting Senior Associate | ['Toronto'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Accounting-Senior-Associate_772710WD-3
+   raw: U.S. Tax, Senior Associate (Bilingual FR/EN) | ['Montreal', 'Québec City'] | https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Montreal/US-Tax--Senior-Associate--Bilingual-FR-EN-_738241WD
+  rec: {"company": "PwC workday", "ats": "workday", "token": "pwc", "ok": true, "seen": 163, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'PwC workday campus', 'ats': 'workday', 'token': 'pwc', 'extra': 'wd3|Global_Campus_Careers', 'pathway': 'E', 'tier': '3'}
+  raw seen 2
+   raw: Data Engineer - Technology consulting | ['Prague'] | https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Data-Engineer---Technology-consulting_772666WD-1
+   raw: Data Engineer Intern | ['Prague'] | https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Prague/Datov-internship-v-Technology-Consultingu_742242WD-1
+  rec: {"company": "PwC workday campus", "ats": "workday", "token": "pwc", "ok": true, "seen": 2, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Vena Solutions', 'ats': 'pinpoint', 'token': 'vena.pinpointhq.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 24
+   raw: Senior Software Developer  | ['Pune, Maharashtra'] | https://www.lifeatvena.com/en/postings/57cc8875-32c8-4d89-be66-a62f9523b81f
+   raw: Sales Development Representative | ['India, India'] | https://www.lifeatvena.com/en/postings/fc79cace-0a68-44f5-827b-17bb5491ee9f
+   raw: EPM Implementation Consultant | ['India, India'] | https://www.lifeatvena.com/en/postings/8119f524-4c19-4796-a487-a7f80a8707c7
+   raw: EPM Implementation Consultant | ['Canada, Canada (remote)'] | https://www.lifeatvena.com/en/postings/7f494397-9247-4cd7-afae-12e43f010d19
+   raw: Sales Development Representative 1 | ['Canada, Canada'] | https://www.lifeatvena.com/en/postings/597f5eff-80be-4c9a-8f27-6d3a0a39a4e2
+   raw: Senior Software Developer, Full Stack  | ['Pune, Maharashtra'] | https://www.lifeatvena.com/en/postings/33a2a5bd-5a7d-4875-b992-13b2e07365ab
+   raw: Staff Technical Lead, Back End [Java] | ['Pune, Maharashtra'] | https://www.lifeatvena.com/en/postings/641d04fd-38bb-475d-b750-1c478036b1e5
+   raw: Consultant, Managed Services | ['Canada, Canada (remote)'] | https://www.lifeatvena.com/en/postings/af235b29-5ff3-4447-85be-9917fdd0de41
+  rec: {"company": "Vena Solutions", "ats": "pinpoint", "token": "vena.pinpointhq.com", "ok": true, "seen": 24, "kept": 3, "error": "", "resolved": ""}
+   kept: EPM Implementation Consultant | Canada, Canada (remote) | https://www.lifeatvena.com/en/postings/7f494397-9247-4cd7-afae-12e43f010d19
+   kept: Solutions Consultant | Canada, Canada (remote) | https://www.lifeatvena.com/en/postings/026fb8af-de03-4ffa-9ce3-ee358455541e
+   kept: Solutions Architect - Professional Services | Canada, Canada (remote) | https://www.lifeatvena.com/en/postings/06e7a6af-7dd4-445c-97cd-7fbbfd43bcb9
+
+=== ROW {'company': 'Konrad Group', 'ats': 'greenhouse', 'token': 'konradgroup', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 106
+   raw: AEM Developer | ['Gurgaon'] | https://www.konrad.com/careers/job/6085916003?gh_jid=6085916003
+   raw: Android Developer | ['London'] | https://www.konrad.com/careers/job/7669135003?gh_jid=7669135003
+   raw: Android Developer | ['Gurgaon'] | https://www.konrad.com/careers/job/6084538003?gh_jid=6084538003
+   raw: Android Developer | ['Costa Rica'] | https://www.konrad.com/careers/job/6345906003?gh_jid=6345906003
+   raw: Android Developer | ['Toronto'] | https://www.konrad.com/careers/job/8076013003?gh_jid=8076013003
+   raw: Associate Consultant | ['New York'] | https://www.konrad.com/careers/job/8199545003?gh_jid=8199545003
+   raw: Associate Consultant | ['Toronto'] | https://www.konrad.com/careers/job/8109166003?gh_jid=8109166003
+   raw: Associate Consultant | ['London'] | https://www.konrad.com/careers/job/8199620003?gh_jid=8199620003
+  rec: {"company": "Konrad Group", "ats": "greenhouse", "token": "konradgroup", "ok": true, "seen": 106, "kept": 13, "error": "", "resolved": ""}
+   kept: Android Developer | Toronto | https://www.konrad.com/careers/job/8076013003?gh_jid=8076013003
+   kept: Associate Data Analyst | Toronto | https://www.konrad.com/careers/job/8043218003?gh_jid=8043218003
+   kept: Data Analyst | Toronto | https://www.konrad.com/careers/job/8109497003?gh_jid=8109497003
+   kept: Data Architect | Toronto | https://www.konrad.com/careers/job/8036085003?gh_jid=8036085003
+   kept: Data Engineer | Toronto | https://www.konrad.com/careers/job/7894910003?gh_jid=7894910003
+   kept: Full Stack Developer | Toronto | https://www.konrad.com/careers/job/7989358003?gh_jid=7989358003
+   kept: iOS Developer | Toronto | https://www.konrad.com/careers/job/8081638003?gh_jid=8081638003
+   kept: Java Developer | Toronto | https://www.konrad.com/careers/job/7989359003?gh_jid=7989359003
+   kept: MarTech Developer | Toronto | https://www.konrad.com/careers/job/7848364003?gh_jid=7848364003
+   kept: Mobile Developer (Entry Level) | Toronto | https://www.konrad.com/careers/job/7976082003?gh_jid=7976082003
