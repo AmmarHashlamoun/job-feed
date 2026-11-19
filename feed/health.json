@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T04:26:34Z",
+  "generated_at": "2026-11-19T04:30:16Z",
   "boards": 277,
   "ok": 250,
   "failed": 27,
   "jobs_seen": 28304,
-  "jobs_kept": 543,
-  "new_today": 143
+  "jobs_kept": 526,
+  "new_today": 126
  },
  "boards": [
   {
@@ -405,7 +405,7 @@
    "token": "careers.amd.com",
    "ok": true,
    "seen": 78,
-   "kept": 8,
+   "kept": 7,
    "error": "",
    "resolved": ""
   },
@@ -945,7 +945,7 @@
    "token": "dropbox",
    "ok": true,
    "seen": 44,
-   "kept": 2,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -955,7 +955,7 @@
    "token": "jobs.eclipse.capital",
    "ok": true,
    "seen": 131,
-   "kept": 34,
+   "kept": 32,
    "error": "",
    "resolved": ""
   },
@@ -1165,7 +1165,7 @@
    "token": "jobs.georgian.io",
    "ok": true,
    "seen": 190,
-   "kept": 37,
+   "kept": 31,
    "error": "",
    "resolved": "getro:careers.georgian.io"
   },
@@ -1295,7 +1295,7 @@
    "token": "hitachi",
    "ok": true,
    "seen": 173,
-   "kept": 5,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -1485,7 +1485,7 @@
    "token": "lightmatter",
    "ok": true,
    "seen": 70,
-   "kept": 3,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -1575,7 +1575,7 @@
    "token": "magnetforensics",
    "ok": true,
    "seen": 29,
-   "kept": 3,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -1615,7 +1615,7 @@
    "token": "marvell",
    "ok": true,
    "seen": 1,
-   "kept": 1,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1935,7 +1935,7 @@
    "token": "radical.getro.com",
    "ok": true,
    "seen": 324,
-   "kept": 61,
+   "kept": 57,
    "error": "",
    "resolved": ""
   },
@@ -2155,7 +2155,7 @@
    "token": "semtech",
    "ok": true,
    "seen": 25,
-   "kept": 2,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -2415,7 +2415,7 @@
    "token": "tenstorrent",
    "ok": true,
    "seen": 132,
-   "kept": 12,
+   "kept": 10,
    "error": "",
    "resolved": ""
   },
@@ -2505,7 +2505,7 @@
    "token": "trimble",
    "ok": true,
    "seen": 16,
-   "kept": 3,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
