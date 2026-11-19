@@ -1,0 +1,24 @@
+https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 #dump=jobTitle-link #n=1200
+https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 #dump=paginationLabel|Results <b> #n=300
+https://jobs.rogers.com/services/rss/job/?locale=en_US&keywords=developer #dump=<item> #n=1500
+https://jobs.hydroone.com/search/?q=&startrow=0 #dump=jobTitle-link #n=800
+https://careers.deloitte.ca/search/?q=&startrow=0 #dump=jobTitle-link #n=800
+https://jobs.toronto.ca/jobsatcity/search/?q=&startrow=0 #dump=jobTitle-link #n=800
+https://careers.opentext.com/us/en/search-results #dump=eagerLoadRefineSearch #n=3000
+https://careers.opentext.com/us/en/search-results?from=10&s=1 #dump="totalHits" #n=200
+https://jobs.bce.ca/ #dump=phApp|refNum #n=600
+https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1 #dump=iCIMS_JobsTable #n=2500
+https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL #dump=__NEXT_DATA__ #n=3000
+https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=joblisting&lang=1 #dump=jobdetails|JobTitle|<table #n=2000
+https://ats.rippling.com/freshbooks/jobs #dump=__NEXT_DATA__ #n=2500
+https://vena.pinpointhq.com/postings.json #dump=\{ #n=1200
+https://careers.loblaw.ca/workday-analyst-talent/job/PAF-LCL-626889DF-FC23-4B13-A7BC-5DA4D18506F9_4479_1773435921_0 #dump=myworkdayjobs|apply #n=600
+https://careers.loblaw.ca/ #dump=search|jobs\?|api #n=800
+https://digital.canada.ca/jobs/ #dump=lever|greenhouse|href="https://[^"]*job #n=800
+https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en #dump=<form #n=2500
+https://www.ttc.ca/jobs #dump=href="[^"]*(job|career|opportunit) #n=1200
+https://careers.telus.com/search/?q=&startrow=0 #dump=jobTitle-link #n=600
+https://jobs.opg.com/search/?q=&startrow=0 #dump=jobTitle-link #n=600
+https://careers.celestica.com/search/?q=&locationsearch=Canada&startrow=0 #dump=jobTitle-link #n=600
+https://jobs-ca.pwc.com/ca/en/search-results #dump=eagerLoadRefineSearch #n=1500
+https://careers.kpmg.ca/ #dump=href="[^"]*(job|search) #n=800

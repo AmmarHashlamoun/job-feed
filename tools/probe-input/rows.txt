@@ -1,0 +1,38 @@
+Konrad Group,greenhouse,konradgroup,,E,3
+Thoughtworks,auto,thoughtworks,,E,3
+Unity,auto,unity3d;unity;unitytechnologies,,E,3
+eSentire,auto,esentire,,E,3
+Uken Games,auto,uken;ukengames,,E,3
+Rangle.io,auto,rangle;rangleio,,E,3
+Slalom,auto,slalom;slalomconsulting,,E,3
+Questrade,auto,questrade;questradefinancialgroup,,E,3
+Descartes Systems,auto,descartes;descartessystems,,E,3
+Electric Mind (Intelliware),auto,electricmind;intelliware,,E,3
+Digital Extremes,auto,digitalextremes,,E,3
+Payments Canada,auto,paymentscanada;payments-canada,,E,3
+Nuvei,auto,nuvei,,E,3
+Moneris,auto,moneris;monerissolutions,,E,3
+Canadian Digital Service,auto,cds-snc;canadiandigitalservice;cds,,E,3
+Vector Institute,auto,vectorinstitute;vector-institute,,E,3
+Ross Video,auto,rossvideo,,E,3
+Calian,auto,calian,,E,3
+Softchoice,auto,softchoice,,E,3
+Coinsquare,auto,coinsquare,,E,3
+WonderFi,auto,wonderfi;bitbuy,,E,3
+Points (Plusgrade),auto,points;pointsinternational,,E,3
+Sangoma,auto,sangoma,,E,3
+Mitel,auto,mitel,,E,3
+Pivotree,auto,pivotree,,E,3
+Ecobee,auto,ecobee,,E,3
+Paytm Labs,auto,paytmlabs;paytm,,E,3
+TextNow,auto,textnow,,E,3
+Clearco,auto,clearco,,E,3
+Properly,auto,properly,,E,3
+Wave,auto,wave;waveapps,,E,3
+Thinkific,auto,thinkific,,E,3
+Jane App,auto,janeapp;jane,,E,3
+Tulip,auto,tulip;tulipretail,,E,3
+OpenText (Workday guess),workday,opentext,wd3|OpenText,E,3
+EA (Workday guess),workday,ea,wd1|EA_Careers,E,3
+Cadence (Workday guess),workday,cadence,wd1|External_Careers,E,3
+Ericsson (Workday guess),workday,ericsson,wd3|Ericsson_Careers,E,3
