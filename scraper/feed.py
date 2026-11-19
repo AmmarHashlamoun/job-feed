@@ -73,8 +73,7 @@ SOFTWARE_TITLE = re.compile(
     r"customer engineer|field (application )?engineer|technical solutions|compiler|kernel|graphics|"
     r"research engineer|automation engineer|test automation|qa automation|automation (tester|developer|qa)|"
     r"windows engineer|networking|distributed systems|web (developer|engineer|designer)|\bllm\b|agent|"
-    r"\bproduct engineer\b|systems engineer|(solutions?|software|cloud|data|devops|security|application|applications|"
-    r"integration|enterprise|technical|ai|ml|platform|salesforce|servicenow|sap|api|web) architect\b|"
+    r"product engineer|systems engineer|architect|"
     # analyst titles (Nov 18): the technical ones only
     r"(technical|technology|systems?|business systems|application|applications|\bit|information technology|"
     r"integration|solutions?|software|digital|reporting|\bbi|business intelligence|database|gis|erp|crm|hris|hcm|"

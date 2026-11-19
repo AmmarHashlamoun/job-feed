@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-19T04:17:51Z",
+  "generated_at": "2026-11-19T04:26:34Z",
   "boards": 277,
   "ok": 250,
   "failed": 27,
-  "jobs_seen": 28307,
-  "jobs_kept": 615,
-  "new_today": 215
+  "jobs_seen": 28304,
+  "jobs_kept": 543,
+  "new_today": 143
  },
  "boards": [
   {
@@ -385,7 +385,7 @@
    "token": "amazon",
    "ok": true,
    "seen": 355,
-   "kept": 42,
+   "kept": 41,
    "error": "",
    "resolved": ""
   },
@@ -405,7 +405,7 @@
    "token": "careers.amd.com",
    "ok": true,
    "seen": 78,
-   "kept": 9,
+   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -415,7 +415,7 @@
    "token": "analogdevices",
    "ok": true,
    "seen": 6,
-   "kept": 2,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -424,7 +424,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2619,
+   "seen": 2618,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -465,7 +465,7 @@
    "token": "aptiv",
    "ok": true,
    "seen": 41,
-   "kept": 7,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -555,7 +555,7 @@
    "token": "bb",
    "ok": true,
    "seen": 18,
-   "kept": 2,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -675,7 +675,7 @@
    "token": "ciena",
    "ok": true,
    "seen": 128,
-   "kept": 12,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -685,7 +685,7 @@
    "token": "cisco",
    "ok": true,
    "seen": 571,
-   "kept": 8,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -985,7 +985,7 @@
    "token": "entrust",
    "ok": true,
    "seen": 9,
-   "kept": 1,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1085,7 +1085,7 @@
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
    "seen": 905,
-   "kept": 11,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -1125,7 +1125,7 @@
    "token": "GDMSI",
    "ok": true,
    "seen": 57,
-   "kept": 6,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1165,7 +1165,7 @@
    "token": "jobs.georgian.io",
    "ok": true,
    "seen": 190,
-   "kept": 41,
+   "kept": 37,
    "error": "",
    "resolved": "getro:careers.georgian.io"
   },
@@ -1194,7 +1194,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 249,
+   "seen": 248,
    "kept": 8,
    "error": "",
    "resolved": ""
@@ -1215,7 +1215,7 @@
    "token": "google",
    "ok": true,
    "seen": 60,
-   "kept": 9,
+   "kept": 8,
    "error": "",
    "resolved": ""
   },
@@ -1325,7 +1325,7 @@
    "token": "hpe",
    "ok": true,
    "seen": 23,
-   "kept": 2,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1365,7 +1365,7 @@
    "token": "careers.inovia.vc",
    "ok": true,
    "seen": 388,
-   "kept": 47,
+   "kept": 45,
    "error": "",
    "resolved": ""
   },
@@ -1545,7 +1545,7 @@
    "token": "jobs.luxcapital.com",
    "ok": true,
    "seen": 179,
-   "kept": 31,
+   "kept": 30,
    "error": "",
    "resolved": ""
   },
@@ -1635,7 +1635,7 @@
    "token": "MAC5000MCDW",
    "ok": true,
    "seen": 237,
-   "kept": 6,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -1655,7 +1655,7 @@
    "token": "apply.careers.microsoft.com",
    "ok": true,
    "seen": 67,
-   "kept": 10,
+   "kept": 9,
    "error": "",
    "resolved": ""
   },
@@ -1694,7 +1694,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 404,
+   "seen": 403,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1725,7 +1725,7 @@
    "token": "navcanada",
    "ok": true,
    "seen": 30,
-   "kept": 3,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
@@ -1935,7 +1935,7 @@
    "token": "radical.getro.com",
    "ok": true,
    "seen": 324,
-   "kept": 62,
+   "kept": 61,
    "error": "",
    "resolved": ""
   },
@@ -2085,7 +2085,7 @@
    "token": "globalhr",
    "ok": true,
    "seen": 53,
-   "kept": 5,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2155,7 +2155,7 @@
    "token": "semtech",
    "ok": true,
    "seen": 25,
-   "kept": 3,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -2275,7 +2275,7 @@
    "token": "jobs.spacecapital.com",
    "ok": true,
    "seen": 500,
-   "kept": 21,
+   "kept": 12,
    "error": "",
    "resolved": ""
   },
@@ -2375,7 +2375,7 @@
    "token": "flir",
    "ok": true,
    "seen": 31,
-   "kept": 2,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -2445,7 +2445,7 @@
    "token": "thales",
    "ok": true,
    "seen": 99,
-   "kept": 5,
+   "kept": 0,
    "error": "",
    "resolved": ""
   },
