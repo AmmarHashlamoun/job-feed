@@ -1,16 +1,8 @@
-KPMG Canada,jibe,careers.kpmg.ca,jobs,E,3
-AMD (careers site),jibe,careers.amd.com,,C,1
-Bell Canada,phenom,jobs.bell.ca/ca/en,,E,3
-Capgemini,rmk,careers.capgemini.com,Canada,E,3
-Descartes Systems,rmk,jobs.descartes.com,,E,3
-City of Brampton,rmk,careers.brampton.ca,,E,3
-Sobeys,rmk,jobs.sobeyscareers.com,Ontario,E,3
-Jonas Software (Constellation),workday,talentmanagementsolution,wd3|JonasSoftwareCanada,E,3
-Volaris Group (Constellation),workday,volarisgroup,wd3|Volaris,E,3
-Unity,workday,unitytech,wd1|Unity,E,3
-Publicis Sapient,smartrecruiters,PublicisGroupe,,E,3
-Dayforce,dayforce,mydayforce,alljobs,E,3
-Dye & Durham,dayforce,dyedurham,CANDIDATEPORTAL,E,3
-De Havilland Canada,dayforce,westerkirk,DEHAVILLANDCORPORATECAREERS,E,3
-Alectra Utilities,dayforce,alectra,CANDIDATEPORTAL,E,3
-eSentire,dayforce,esentire,CANDIDATEPORTAL,E,3
+Accenture,workday,accenture,wd103|AccentureCareers,E,3
+Autodesk,workday,autodesk,wd1|Ext,A,2
+Deloitte Canada,rmk,careers.deloitte.ca,,E,3
+PwC Canada,phenom,jobs-ca.pwc.com/ca/en,,E,3
+TELUS,rmk,careers.telus.com,Ontario,E,3
+Doppel,ashby,doppel,,A,2
+Phylo,ashby,phylo,,D,2
+Publicis Sapient,smartrecruiters,PublicisSapient,,E,3
