@@ -545,18 +545,22 @@ def ukg(tenant, board):
             return out
 
 
-def jibe(host, _):
-    """Jibe-powered careers sites (e.g. careers.amd.com): /api/jobs with descriptions included."""
+def jibe(host, extra):
+    """Jibe-powered careers sites (careers.amd.com, careers.kpmg.ca): /api/jobs with descriptions included.
+    extra = the job page path on that site (default "careers-home/jobs"; KPMG uses "jobs")."""
+    path = (extra or "careers-home/jobs").strip("/")
     out, page = [], 1
     while True:
-        d = http(f"https://{host}/api/jobs?location=Canada&page={page}&sortBy=posted_date&descending=true&internal=false")
+        d = http(f"https://{host}/api/jobs?location=Canada&page={page}&limit=100&sortBy=posted_date&descending=true&internal=false")
         jobs = d.get("jobs", []) or []
         for x in jobs:
             j = x.get("data") or x
             loc = ", ".join(v for v in [j.get("city"), j.get("state"), j.get("country")] if v)
-            out.append({"id": j.get("req_id") or j.get("slug"), "title": j.get("title", ""), "locations": [loc],
-                        "url": f"https://{host}/careers-home/jobs/{j.get('req_id') or j.get('slug')}",
-                        "posted": iso(j.get("posted_date") or j.get("create_date")), "desc": j.get("description") or ""})
+            locs = [loc] + ([j["full_location"]] if j.get("full_location") else [])
+            out.append({"id": j.get("req_id") or j.get("slug"), "title": j.get("title", ""), "locations": locs,
+                        "url": f"https://{host}/{path}/{j.get('req_id') or j.get('slug')}",
+                        "posted": iso(j.get("posted_date") or j.get("create_date")),
+                        "desc": " ".join([j.get("description") or "", j.get("qualifications") or "", j.get("responsibilities") or ""])})
         page += 1
         if len(jobs) < 10 or page > 40:
             return out
@@ -788,6 +792,46 @@ def phenom(host, extra):
     return out
 
 
+def dayforce(ns, board):
+    """Dayforce job boards (jobs.dayforcehcm.com/<lang>/<ns>/<board>): Dayforce itself, eSentire, Dye & Durham,
+    De Havilland, Alectra. token = client namespace, extra = board code. Needs the site's CSRF cookie."""
+    import http.cookiejar
+    base = "https://jobs.dayforcehcm.com"
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    hdr = {"User-Agent": BROWSER_UA, "Accept": "application/json"}
+
+    def call(url, body=None, extra_h=None):
+        h = dict(hdr, **(extra_h or {}))
+        data = None
+        if body is not None:
+            data = json.dumps(body).encode()
+            h["Content-Type"] = "application/json"
+        with opener.open(urllib.request.Request(url, data=data, headers=h, method="POST" if data else "GET"),
+                         timeout=TIMEOUT) as r:
+            return json.loads(r.read().decode("utf-8", "replace"))
+
+    opener.open(urllib.request.Request(f"{base}/en-US/{ns}/{board}", headers=hdr), timeout=TIMEOUT).read()
+    token = (call(f"{base}/api/auth/csrf") or {}).get("csrfToken", "")
+    out, start, total = [], 0, None
+    while start < 2000:
+        d = call(f"{base}/api/geo/{ns}/jobposting/search",
+                 {"clientNamespace": ns, "jobBoardCode": board, "cultureCode": "en-US", "distanceUnit": 0,
+                  "paginationStart": start}, {"x-csrf-token": token})
+        posts = (d or {}).get("jobPostings") or []
+        total = (d or {}).get("maxCount", 0) if total is None else total
+        for j in posts:
+            locs = [l.get("formattedAddress", "") for l in (j.get("postingLocations") or [])]
+            if j.get("hasVirtualLocation"):
+                locs = [l + " (remote)" for l in locs] or ["Remote, Canada"]
+            out.append({"id": j.get("jobPostingId"), "title": (j.get("jobTitle") or "").strip(), "locations": locs,
+                        "url": f"{base}/en-US/{ns}/{board}/jobs/{j.get('jobPostingId')}",
+                        "posted": iso(j.get("postingStartTimestampUTC")), "desc": j.get("jobDescription") or ""})
+        start += len(posts)
+        if not posts or start >= (total or 0):
+            break
+    return out
+
+
 def pinpoint(host, _):
     """Pinpoint ATS boards (<company>.pinpointhq.com): public postings.json."""
     d = http(f"https://{host}/postings.json")
@@ -920,7 +964,7 @@ ADAPTERS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecr
             "workable": workable, "bamboohr": bamboohr, "recruitee": recruitee, "workday": workday, "amazon": amazon, "microsoft": microsoft, "uber": uber,
             "eightfold": eightfold, "ukg": ukg, "jibe": jibe, "pcsx": pcsx,
             "getro": getro, "yc": yc, "hn": hn, "google": google, "shopify": shopify, "oraclehcm": oraclehcm,
-            "rmk": rmk, "phenom": phenom, "pinpoint": pinpoint}
+            "rmk": rmk, "phenom": phenom, "pinpoint": pinpoint, "dayforce": dayforce}
 
 
 def probe(slugs):
