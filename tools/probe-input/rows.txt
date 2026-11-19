@@ -1,0 +1,32 @@
+Rogers Communications,rmk,jobs.rogers.com,Ontario,E,3
+Hydro One,rmk,jobs.hydroone.com,,E,3
+TELUS,rmk,careers.telus.com,Ontario,E,3
+Celestica,rmk,careers.celestica.com,Canada,E,3
+City of Toronto,rmk,jobs.toronto.ca/jobsatcity,,E,3
+Toronto Hydro,rmk,jobs.torontohydro.com,,E,3
+IESO,rmk,careers.ieso.ca,,E,3
+CN Rail,rmk,careers.cn.ca,Ontario,E,3
+Purolator,rmk,careers.purolator.com,Ontario,E,3
+Deloitte Canada,rmk,careers.deloitte.ca,,E,3
+EY Canada,rmk,careers.ey.com,Canada,E,3
+Insight Canada,rmk,jobsearch.insight.com,Canada,E,3
+Halton Region,rmk,careers.halton.ca,,E,3
+University of Toronto,rmk,jobs.utoronto.ca,,E,3
+Ontario Power Generation,rmk,jobs.opg.com,,E,3
+Wipro,rmk,careers.wipro.com,Canada,E,3
+HCLTech,rmk,careers.hcltech.com,Canada,E,3
+Canada Post,rmk,jobs.canadapost.ca,,E,3
+OpenText,phenom,careers.opentext.com/us/en,,E,3
+Bell (BCE),phenom,jobs.bce.ca/ca/en,,E,3
+Bell (BCE) en,phenom,jobs.bce.ca/en,,E,3
+Air Canada,phenom,careers.aircanada.com/ca/en,,E,3
+OMERS,phenom,careers.omers.com/ca/en,,E,3
+PwC Canada,phenom,jobs-ca.pwc.com/ca/en,,E,3
+PwC Canada campus,phenom,jobs-ca.pwc.com/campus/ca/en,,E,3
+Thales loc,phenom,careers.thalesgroup.com/global/en,location=Canada,E,3
+Thales qcountry,phenom,careers.thalesgroup.com/global/en,qcountry=Canada,E,3
+Cisco loc,phenom,careers.cisco.com/global/en,location=Toronto,E,3
+PwC workday,workday,pwc,wd3|Global_Experienced_Careers,E,3
+PwC workday campus,workday,pwc,wd3|Global_Campus_Careers,E,3
+Vena Solutions,pinpoint,vena.pinpointhq.com,,E,3
+Konrad Group,greenhouse,konradgroup,,E,3

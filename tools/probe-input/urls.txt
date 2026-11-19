@@ -1,0 +1,6 @@
+https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1 #dump=iCIMS_JobListingRow #n=2500
+https://careers-peelregion.icims.com/jobs/search?ss=1&in_iframe=1 #dump=iCIMS_JobListingRow|iCIMS_Anchor #n=2500
+https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL #dump="jobPostings|"jobTitle"|"jobReqId #n=1500
+https://ats.rippling.com/en-CA/freshbooks/jobs #dump="jobs":|"departments"|"workLocations #n=1500
+https://careers.deloitte.ca/services/rss/job/?locale=en_US&keywords= #dump=<item> #n=600
+https://jobs.opg.com/services/rss/job/?locale=en_US&keywords= #dump=<item> #n=600
