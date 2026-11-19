@@ -1,0 +1,488 @@
+
+=== GET https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0
+status 200 final https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 bytes 109342
+  DUMP 'jobTitle-link' at 44207:
+jobTitle-link">Business Sales Consultant</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Toronto-Business-Sales-Consultant-ON/1396827800/">Business Sales Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 27, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+        
+  DUMP 'jobTitle-link' at 44557:
+jobTitle-link" href="/job/Toronto-Business-Sales-Consultant-ON/1396827800/">Business Sales Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 27, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+                <small class="nobr">+25 more&hellip;</small>
+        </span>
+											</td>
+											<td class="colDate hidden-phone" nowrap="nowrap" headers="hdrDate">
+												<span class="jobDate">Oct 27, 2026
+												</span>
+											</td>
+                            </tr>
+
+                         
+
+=== GET https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0
+status 200 final https://jobs.rogers.com/search/?q=&locationsearch=Ontario&startrow=0 bytes 109337
+  DUMP 'paginationLabel|Results <b>' at 40895:
+paginationLabel" aria-label="Results 1 – 25">Results <b>1 – 25</b> of <b>135</b></span>
+                            <span class="srHelp" style="font-size:0px">Page 1 of 6</span>
+                        </div>
+                            <ul class="pagination">
+                                <li><a 
+  DUMP 'paginationLabel|Results <b>' at 40940:
+Results <b>1 – 25</b> of <b>135</b></span>
+                            <span class="srHelp" style="font-size:0px">Page 1 of 6</span>
+                        </div>
+                            <ul class="pagination">
+                                <li><a class="paginationItemFirst" href="?q=&amp;loc
+
+=== GET https://jobs.rogers.com/services/rss/job/?locale=en_US&keywords=developer
+status 200 final https://jobs.rogers.com/services/rss/job/?locale=en_US&keywords=developer bytes 217144
+  DUMP '<item>' at 683:
+<item><title><![CDATA[Account Executive - Public Sector (Toronto, ON, CA)]]></title><description><![CDATA[<p> </p>
+<p><span style="font-size:12.0pt;font-family:verdana, geneva, sans-serif">Our company was built on the dream of a pioneering entrepreneur, and that spirit continues to empower our work with businesses across Canada today. The Rogers Business team helps organizations of all sizes adapt, scale, and win with network services and other innovative technology solutions that are reliable, secure, and scalable. These solutions are built to allow businesses to operate more efficiently, reduce costs and improve productivity and collaboration. We are looking for team members who have a passion for delivering industry-leading value to customers and businesses in the communities where we live and work, so come build a rewarding career at Rogers and be a driving force behind our success story!</span></p>
+<p> </p><p><br><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt"> </span></p>
+<p><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt"><strong>Role Overview:</strong></span></p>
+<p><span style="font-family:verdana, geneva, sans-serif;font-size:12.0pt">Rogers is seeking an account executive to lead the Broader Public business development.  This is a critical role to establish strategic direction in Broader Public Sector. In addition to traditional account executive accountabilities, the individual in this role will be responsible to:</s
+  DUMP '<item>' at 22026:
+<item><title><![CDATA[Sales Associate (Calgary, AB, CA)]]></title><description><![CDATA[<p> </p>
+<p><span style="font-size:12.0pt"><span style="font-family:Verdana, Geneva, sans-serif">Our branded retail team is at the heart of our success. We represent the welcoming spirit of our company. Our retail teams are outgoing and approachable individuals who understand how our products and services fit into everyday life, and we’re excited to show customers how that technology can enhance and simplify their lives. We deliver a seamless experience, value expertise, dedication, and commitment to doing what’s right for our customers needs, every time.</span></span></p>
+<p> </p>
+<p><span style="font-size:12.0pt"><span style="font-family:Verdana, Geneva, sans-serif">At Rogers, we believe in fostering an environment that inspires personal growth, building careers, and creating an inclusive future for everyone.  If you’re passionate about technology, enjoy connecting with people, and thrive in a supportive team environment, consider exploring the following opportunity!</span></span></p>
+<p> </p><p style="margin:0.0in;margin-left:0.375in;font-family:verdana;font-size:12.0pt;color:black"><span style="font-weight:bold;background-color:white">What Is in It for You:</span><span style="background-color:white"> </span></p>
+<p style="margin-left:0.75in;margin-top:0.0pt;margin-bottom:7.0pt;font-family:verdana;font-size:12.0pt;color:black"> </p>
+<ul style="margin-top:0.0in;margin-bottom:0.0in"
+
+=== GET https://jobs.hydroone.com/search/?q=&startrow=0
+status 200 final https://jobs.hydroone.com/search/?q=&startrow=0 bytes 58174
+  DUMP 'jobTitle-link' at 26353:
+jobTitle-link">Security Analyst</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Toronto-Security-Analyst-ON/1291764247/">Security Analyst</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+        </span></span>
+                                                                    <span clas
+  DUMP 'jobTitle-link' at 26694:
+jobTitle-link" href="/job/Toronto-Security-Analyst-ON/1291764247/">Security Analyst</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+            
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Nov 16, 2026
+													                </span>
+                                                    </div>
+                                                </td>
+											<td class="colLocation hidden-phone" headers="hdrLocation">
+        
+        <span class="jobLocation">
+            Toronto, ON, CA
+         
+
+=== GET https://careers.deloitte.ca/search/?q=&startrow=0
+status 200 final https://careers.deloitte.ca/search/?q=&startrow=0 bytes 83926
+
+=== GET https://jobs.toronto.ca/jobsatcity/search/?q=&startrow=0
+status 200 final https://jobs.toronto.ca/jobsatcity/search/?q=&startrow=0 bytes 134379
+  DUMP 'jobTitle-link' at 26422:
+jobTitle-link fontcolor" data-focus-tile=".job-id-607211717" aria-describedby="jobSearchTileHelpText-607211717" href="/jobsatcity/job/Toronto-Division-Chief%2C-Public-Education-and-Professional-Development-ON-M5V-0C4/607211717/">
+                    Division Chief, Public Education and Professional Development
+                </a>
+            </span>
+        </div>
+                            </div>
+                            <div class="oneline">
+            <div id="job-607211717-desktop-section-department" data-focus-tile=".job-id-607211717" class="section-field department fontcolor" style=" ">
+                <span id="job-607211717-desktop-section-department-label" aria-describedby="job-607211717-desktop-section-department-value" class="section-label fontcolor " style=" ">
+          
+  DUMP 'jobTitle-link' at 28945:
+jobTitle-link fontcolor" data-focus-tile=".job-id-607211717" aria-describedby="jobSearchTileHelpText-607211717" href="/jobsatcity/job/Toronto-Division-Chief%2C-Public-Education-and-Professional-Development-ON-M5V-0C4/607211717/">
+                    Division Chief, Public Education and Professional Development
+                </a>
+            </span>
+        </div>
+                            </div>
+                            <div class="oneline">
+            <div id="job-607211717-tablet-section-department" data-focus-tile=".job-id-607211717" class="section-field department fontcolor" style=" ">
+                <span id="job-607211717-tablet-section-department-label" aria-describedby="job-607211717-tablet-section-department-value" class="section-label fontcolor " style=" ">
+             
+
+=== GET https://careers.opentext.com/us/en/search-results
+status 200 final https://careers.opentext.com/us/en/search-results bytes 86761
+  DUMP 'eagerLoadRefineSearch' at 25053:
+eagerLoadRefineSearch":{"status":200,"hits":10,"totalHits":344,"data":{"jobs":[{"ml_skills":["ai/ml frameworks","cloud platforms","distributed systems","api design","llmops","mlops","vector databases","system design","performance tuning","technical leadership","ci/cd","versioning","retrieval systems","llm frameworks","debugging","incident response","monitoring","cost optimization","mentoring","engineering standards enforcement"],"type":"","state":"","siteType":"external","multi_category":["Development"],"reqId":"52389","city":"Cork","latitude":"51.89797","multi_location":["Cork, IRL"],"address":"2800/2900 Kinsale Road ,Cork Airport Business Park","ml_job_parser":{"descriptionTeaser":"Exciting opportunity for a Principal AI Developer to lead the design and delivery of scalable, production-grade AI systems at OpenText. Shape enterprise AI strategy, mentor top talent, and drive innovation in agentic AI, cloud, and security. Join us to power digital transformation and set the future of information management.","descriptionTeaser_keyword":"OPENTEXT - THE INFORMATION COMPANY. OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a member...","descriptionTeaser_ats":null,"descriptionTeaser_first200":"OPENTEXT - THE INFORMATION COMPANY. OpenText is a global leader in information management, where innovation, creativity, and collaboration are the key components of our corporate culture. As a memb..."},"externalApply":false,"cityState":"Cork","country":"IRL","visibilityType":"External","longitude":"-8.47061","jobId":"52389","locale":"en_US","title":"Principal AI Developer","jobSeqNo":"OPJOPEUS52389EXTERNALENUS","postedDate":"2026-06-29T15:12:13.000+0000","dateCreated":"2026-06-29T15:47:57.250+0000","cityStateCountry":"Cork, IRL","jobVisibility":["external","internal"],"location":"Cork, IRL","category":"Development","isMultiLocation":true,"multi_location_array":[{"latlong":{"lon":-8.47061,"lat":51.89797},"location":"Cork, IRL"}],"isMultiCategory":false,"multi_category_array":[{"category":"Development"}],"badge":"","descriptionTeaser":"Exciting opportunity for a Principal AI Developer to lead the design and delivery of scalable, production-grade AI systems at OpenText. Shape enterprise AI strategy, mentor top talent, and drive innovation in agentic AI, cloud, and security. Join us to power digital transformation and set the future of information management."},{"ml_skills":["python","ai application development","ai agent development","multi-agent architectures","ai orchestration","software development life cycle","git","ci/cd","software development","cloud platforms","aws","azure","gcp","ai application frameworks","llm apis","prompt engineering","unit testing","integration testing","debugging","technical documentation","collaboration","problem solving"],"type":"","state":"","siteType":"external","multi_category":["Development"],"reqId":"52404","city":"Cork","l
+  DUMP 'eagerLoadRefineSearch' at 64670:
+eagerLoadRefineSearch"];; phApp.sessionParams = {"pxSegmentState":"stranger","csrfToken":"e3af187540fb40aab365a46658128751","pageType":"default","pxPageState":"stranger","jdsource":"","from":"0","pageName":"search-results"}; /*--&gt;*/</script><meta charset="UTF-8" data-ph-id="ph-page-element-page43-BevbI7" /><meta name="viewport" content="width=device-width, initial-scale=1" data-ph-id="ph-page-element-page43-ioQz5n" /><title data-ph-id="ph-page-element-page43-gvXgQ5">Search-results</title><script id="ph_app_page_id" type="text/javascript"> phApp.pageId = "page13"</script><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/fontfaces/fontface-1715062590172.css" id="fontfaces-default" /><script id="launchScript" type="text/javascript" src="https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/launchScript/launch-script-1793085641771.js" defer=""></script><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/platform/css/ph-ui-platform-1786344368936.css" id="uiPlatform" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/master/canvas/css/master-theme-1773647481905.css" id="masterTheme" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/fontfaces/fontface-1782898147698.css" id="fontfaces" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/css/template-theme-1698129135931.css" id="masterTheme-default" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/assets/css/gustavo-test/canvas-site-custom-styles-1786464202982.css" id="customStyles" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/default/common/canvas-global-branding1715062590045.css" id="siteBrandingCss-default" /><link rel="stylesheet" type="text/css" href="https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/gustavo-test/common/canvas-global-branding1782898148202.css" id="siteBrandingCss" /><script id="PHAPP-SYSTEM-ICON-URL" type="text/javascript"> phApp.systemIconUrl = "https://cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1789032934566.svg";</script><script id="PHAPP-CUSTOM-ICON-URL" type="text/javascript"> phApp.customIconUrl = "https://cdn.phenompeople.com/CareerConnectResources/OPJOPEUS/canvas/icons/gustavo-test/custom-icons-1782898143988.svg";</script><script id="structural-tag" type="application/ld+json">{"@context": "https://schema.org","@type": "WebPage","inLanguage": "en_us","name": "search-results2","url": "https://careers.opentext.com/us/en/search-results","datePublished": "2026-08-03","dateModified": "2026-08-03"}</script><script type="application/ld+json" id="BREADCRUMB_STRUCTURED_D
+
+=== GET https://careers.opentext.com/us/en/search-results?from=10&s=1
+status 200 final https://careers.opentext.com/us/en/search-results?from=10&s=1 bytes 86761
+  DUMP '"totalHits"' at 25100:
+"totalHits":344,"data":{"jobs":[{"ml_skills":["program management","project management","go-to-market strategy","sales operations","stakeholder management","executive reporting","business planning","c
+
+=== GET https://jobs.bce.ca/
+status 200 final https://jobs.bce.ca/ bytes 49641
+
+=== GET https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1
+status 200 final https://careers-kinaxis.icims.com/jobs/search?ss=1&in_iframe=1 bytes 107228
+  DUMP 'iCIMS_JobsTable' at 6453:
+iCIMS_JobsTable').find('.iCIMS_JobListingRow').each(function() {
+var $tr = $(this);
+var href = $tr.find('a').attr('href');
+if(href) {
+$tr.css({'cursor': 'pointer'});
+$tr.click(function(e) {
+document.location = href;
+});
+}
+});
+
+
+}
+paginator = $('#iCIMS_Paginator')[0];
+selectedPage = paginator ? paginator.selectedIndex : -1;
+
+
+
+});
+var paginator;
+var selectedPage;
+function changePage() {
+if (!paginator || (selectedPage != -1 && selectedPage == paginator.selectedIndex)) {
+return;
+}
+selectedPage = paginator.selectedIndex;
+window.location.href = paginator.options[selectedPage].value;
+}
+
+var geoErrNotSupported = 'Sorry, geolocation is not supported by your browser.';
+var geoErrDefault = 'Sorry, we can\'t get your location because an error occurred when retrieving your location.';
+var geoErrPermission = 'Sorry, we can\'t get your location because you don\'t have that enabled. Please turn it on in your system settings.';
+var geoErrPositionUnavailable = 'Sorry, we can\'t get your location because your location information is unavailable.';
+var geoErrTimeout = 'Sorry, we can\'t get your location because the request to get your location timed out.';
+var geoErrUnknown = 'Sorry, we can\'t get your location because an unknown error occurred when retrieving your location.';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Loading resource bundle -->
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/messageformat.js"></script>
+<script type="text/javascript" src="https://cdn02.icims.com/a/images.icims.com/content/platform_190.0.0.261116-6eef09d7d66-11-pg-6/script/messageformat/locale/en.js"></script>
+<script type="text/javascript">
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['mootools_utils.helpers.js.SelectMonth_4'] = 'Select Month';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['icimsdropdown.js.NoResults_3'] = 'No Results';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['icimsdropdown.js.NoResults_1168'] = 'No Results';
+resourceBundle['mootools_utils.helpers.js.CloseDatePicker_1'] = 'Close Date Picker';
+resourceBundle['icimsdropdown.js.MakeASelection_1'] = '-Select-';
+resourceBundle['handlebarshelpers.js.MakeSelection'] = '&mdash; Make a Selection &mdash;';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundl
+  DUMP 'iCIMS_JobsTable' at 28873:
+iCIMS_JobsTable">
+
+<li class="iCIMS_JobCardItem">
+<div class="row">
+<div class="col-xs-6 header left">
+<span class="sr-only field-label">Location</span>
+<span >
+CA-Remote</span>
+</div>
+<div class="col-xs-6 header right">
+<span class="sr-only field-label">ID</span>
+<span >
+2026-36078</span>
+</div>
+<div class="col-xs-12 title">
+<a href="https://careers-kinaxis.icims.com/jobs/36078/staff-software-developer%2c-ai-innovation/job?in_iframe=1" class="iCIMS_Anchor" title="36078 - Staff Software Developer, AI Innovation">
+<span class="sr-only field-label">Title</span>
+<h3 >
+Staff Software Developer, AI Innovation</h3>
+</a>
+</div>
+<div class="col-xs-12 additionalFields">
+<dl class="iCIMS_JobHeaderGroup">
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Posted Date</dt>
+<dd class="iCIMS_JobHeaderData"><span title="11/18/2026 2:22 PM">
+9 hours ago<span class="sr-only">(11/18/2026 2:22 PM)</span></span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Category</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Engineering</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Position Type</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Full-Time</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Remote</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Yes</span>
+</dd>
+</div>
+</dl>
+</div>
+</div>
+</li>
+
+<li class="iCIMS_JobCardItem">
+<div class="row">
+<div class="col-xs-6 header left">
+<span class="sr-only field-label">Location</span>
+<span >
+CA-Remote</span>
+</div>
+<div class="col-xs-6 header right">
+<span class="sr-only field-label">ID</span>
+<span >
+2026-36045</span>
+</div>
+<div class="col-xs-12 title">
+<a href="https://careers-kinaxis.icims.com/jobs/36045/software-developer%2c-ai-innovation/job?in_iframe=1" class="iCIMS_Anchor" title="36045 - Software Developer, AI Innovation">
+<span class="sr-only field-label">Title</span>
+<h3 >
+Software Developer, AI Innovation</h3>
+</a>
+</div>
+<div class="col-xs-12 additionalFields">
+<dl class="iCIMS_JobHeaderGroup">
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Posted Date</dt>
+<dd class="iCIMS_JobHeaderData"><span title="11/18/2026 2:04 PM">
+10 hours ago<span class="sr-only">(11/18/2026 2:04 PM)</span></span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt class="iCIMS_JobHeaderField">Category</dt>
+<dd class="iCIMS_JobHeaderData"><span >
+Engineering</span>
+</dd>
+</div>
+<div class="iCIMS_JobHeaderTag">
+<dt cla
+
+=== GET https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL
+status 200 final https://jobs.dayforcehcm.com/en-US/alectra/CANDIDATEPORTAL bytes 530320
+  DUMP '__NEXT_DATA__' at 381753:
+__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_nextI18Next":{"initialI18nStore":{"en-US":{"common":{"accept":"Accept","account-migration-error":"Something went wrong. Your account wasn't migrated. Refresh your browser and try again.","account-migration-error-with-requestid":"Something went wrong. Your account wasn't migrated. Refresh your browser and try again. If this issue keeps repeating, please click the Report Issue button to let your administrator know. \u003cerrorCode\u003eError Code: {{requestId}}\u003c/errorCode\u003e","add-saved-jobs-failed-notification-title":"The job wasn't saved. Try again later.","add-saved-jobs-success-notification-title":"Added to your saved jobs.","add-to-saved-jobs":"Add to Saved Jobs","advanced-search":"Advanced search","all-departments":"All departments","all-pay-classes":"All pay classes","all-pay-types":"All pay types","all-posted-within":"Any time frame","all-travel-requirements":"All travel requirements","already-applied":"Already Applied","always-enabled":"Always enabled","anonymous-session-expired-error":"The file couldn’t be downloaded. Try again. If you still can’t download it, upload the file again. The new file will replace the existing file.","apply":"Apply","apply-with":"Apply with","apply-with-seek":"Apply with Seek","aria-apply-button":"Apply for {{jobTitle}}","aria-apply-button-applied":"Already Applied for {{jobTitle}}","aria-cancel-section":"Cancel {{sectionName}} changes","aria-home-link":"Home","aria-read-more":"Read more about {{jobTitle}}","aria-read-more-req-id":"Read more about {{jobTitle}}, Req# {{jobReq}}","aria-save-job":"Save {{jobTitle}}","aria-saved-job":"{{jobTitle}} is saved","aria-update-section":"Update {{sectionName}}","at-least-one-session":"At least one session","back":"Back","back-to-top":"Back to top","cancel":"Cancel","category":"Category","ce":{"assistant":{"applyBannerTitle":"Applying to {{jobTitle}}","applyCta":"Continue to application","applyJobUnavailable":"This job is no longer accepting applications.","applyOptionsBody":"Sign in to apply with your profile, or continue as a guest and the assistant will ask for your details.","applyOptionsSignedInBody":"You're signed in, so the assistant can fill in your application from your profile.","applyOptionsStart":"Start application","applyOptionsTitle":"Apply in this chat","applyPromptBody":"I can help you apply for {{jobTitle}} right here in this chat. Want to apply?","applyPromptMessage":"I'd like to apply for this job here in the chat.","applyPromptYes":"Yes, apply in chat","applySessionContinueInChat":"We couldn't save this to your application right now. Send a message in the chat to continue.","applySessionExpired":"Your application session has expired. Start a new conversation to apply again.","attach":"Attach a file","attachHint":"Shared with the assistant","documentKindResume":"Resume","documentKindOther":"Other document","documentsTitle":"Documents available in this chat","documentUploading":"Upload
+
+=== GET https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=joblisting&lang=1
+status 200 final https://validate.perfdrive.com/?ssa=e3ca4c69-b1e1-4853-960a-372b365d9799&ssb=37940294462&ssc=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djoblisting%26lang%3D1&ssi=eed6c419-dcvu-40b4-bf56-3d439b9637c6&ssk=botmanager_support@radware.com&ssm=63255655138117149102832169752300&ssn=7e20406a9e67bd532519f1496dc45eaf13f88c57c521-0f83-48a3-ba6809&sso=f922938c-ede7c281985fb7885f1cff66f86d7555b2ed5c0591f1f4cb&ssp=55179199471795007997179507382107401&ssq=67851586320708418483963207694879305396965&ssr=NTIuMTczLjE4Mi4xNjg=&sst=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/130.0%20Safari/537.36&ssu=&ssv=&ssw=&ssx=eyJyZCI6Im5qb3luLmNvbSIsIl9fdXptZiI6IjdmOTAwMDhjNTdjNTIxLTBmODMtNDhhMy1iMzhjLWVkZTdjMjgxOTg1ZjEtMTc5NTA2MzIwNzIyNDAtMDA1YTEyZTQ3ODEwODAyZGM0YzEwIiwidXpteCI6IjdmYzAwMGU3MDY3Y2U4LTAxMmUtNDIzZS1hYmRjLThmZmE0NWQ0YzllMTEtMTc5NTA2MzIwNzIyNDAtMDBlNmZlNDIzMmQzNDhkZTZkMzEwIn0= bytes 15105
+
+=== GET https://ats.rippling.com/freshbooks/jobs
+status 200 final https://ats.rippling.com/en-CA/freshbooks/jobs bytes 204275
+  DUMP '__NEXT_DATA__' at 132313:
+__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"_nextI18Next":{"initialI18nStore":{"en-CA":{"atsFe":{"atsFe":{"common":{"acceptedOn":"Accepted on","activate":"Activate","active":"Active","activeApplication":"Active applications","activeApplications":"Active applications","activity":"Activity","add":"Add","addApplicationReviewers":"Additional application reviewers","addedSuccessfully":"Added successfully.","addFilters":"Add filters","addHackerRank":"Add HackerRank test","addInterview":"Add interview","addJobReq":"Add job requisition","addOne":"Add one","addRecruiter":"Add recruiter","address":"Address","agree":"Agree","allCaughtUp":"All caught up!","allEmployees":"ALL EMPLOYEES","allEmployees1":"All employees","any":"Any","applicant":"Applicant","application":"Application","applicationDate":"Application date","applicationReviewers":"Application reviewers","applications":"Applications","applicationStatus":"Application status","appliedOn":"Applied on","apply":"Apply","appName":"Recruiting","archived":"Archived","assessment":"Assessment","attachments":"Attachments","available":"Available","back":"Back","between":"Between","body":"Body","bulkUpload":"Bulk upload","bulkUploadResume":"Bulk upload resumes for existing applications","busy":"Busy","cancel":"Cancel","cancelInterviews":"Cancel interviews","cancelInterviewSingular":"Cancel interview","cancelInterviewsQ":"Cancel interviews?","cancelled":"Cancelled","candidate":"Candidate","candidateEmailTemplate":"Candidate email template(s)","candidateInterviewAvailability":"{{candidateName}}’s interview availability","candidateMoveSuccess":"{{candidateName}} is moved to {{stageName}}","candidateRejectEmailScheduleSuccess":"Rejection email has been scheduled to send at {{scheduleTime}}.","candidateRejectEmailSuccess":"Rejection email sent.","candidateRejectSuccess":"{{candidateName}} is rejected.","candidates":"Candidates","canHaveReports":"Can have reports","cannotView":"Cannot view","careerPageBtn":"Careers page","city":"City","clearSelection":"Clear selection","close":"Close","closed":"Closed","closedAt":"Closed at","codePair":"CodePair","collapse":"Collapse","collapseAll":"Collapse all","company":"Company","companyLogoAltImage":"Company logo","completed":"Completed","confidential":"Confidential","confidentialJob":{"tip":{"description":{"line1":"If checked, this job requisition and its applications can only be seen by:","line2":"The members of the hiring team","line3":"Specifically whitelisted users",
+
+=== GET https://vena.pinpointhq.com/postings.json
+status 200 final https://vena.pinpointhq.com/postings.json bytes 142486
+  DUMP '\\{' at 0:
+{"data":[{"id":"501586","benefits":"","benefits_header":"","compensation":"Rs2,139,184 - Rs2,894,190 / year","compensation_minimum":2139184.0,"compensation_maximum":2894190.0,"compensation_currency":"INR","compensation_frequency":"year","compensation_visible":true,"deadline_at":null,"description":"\u003cdiv\u003e\u003c!--block--\u003e\u003cstrong\u003e\u003cem\u003eThis role will be based in Pune, with an in-office requirement. Candidates located in or willing to relocate to Pune are encouraged to apply.\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eVena Solutions is seeking a Senior Developer to help us expand our sophisticated SaaS cloud technology. This role is a match for you if you are an innovative software engineer who loves to create scalable and performant code. Our technology evolves through continuous innovation; we are always on the lookout for emerging technologies, regardless of language or platform, which allow us to improve our products, development tools and infrastructure. Our developer focused team culture encourages our engineers to be self motivated and self directed. We value leadership and people with passion who will take ownership to make the
+  DUMP '\\{' at 9:
+{"id":"501586","benefits":"","benefits_header":"","compensation":"Rs2,139,184 - Rs2,894,190 / year","compensation_minimum":2139184.0,"compensation_maximum":2894190.0,"compensation_currency":"INR","compensation_frequency":"year","compensation_visible":true,"deadline_at":null,"description":"\u003cdiv\u003e\u003c!--block--\u003e\u003cstrong\u003e\u003cem\u003eThis role will be based in Pune, with an in-office requirement. Candidates located in or willing to relocate to Pune are encouraged to apply.\u003c/em\u003e\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003eVena Solutions is seeking a Senior Developer to help us expand our sophisticated SaaS cloud technology. This role is a match for you if you are an innovative software engineer who loves to create scalable and performant code. Our technology evolves through continuous innovation; we are always on the lookout for emerging technologies, regardless of language or platform, which allow us to improve our products, development tools and infrastructure. Our developer focused team culture encourages our engineers to be self motivated and self directed. We value leadership and people with passion who will take ownership to make their mark o
+
+=== GET https://careers.loblaw.ca/workday-analyst-talent/job/PAF-LCL-626889DF-FC23-4B13-A7BC-5DA4D18506F9_4479_1773435921_0
+ERROR 404 HTTPError: HTTP Error 404: Not Found <!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" con
+
+=== GET https://careers.loblaw.ca/
+status 200 final https://careers.loblaw.ca/ bytes 102716
+  DUMP 'search|jobs\\?|api' at 3386:
+apis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&display=swap"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.sites.paradox.ai/common-libraries/font-awesome/css/all.css">
+<link rel="stylesheet" crossorigin href="/style.css?v=0.1.2">
+<link rel="stylesheet" crossorigin href="/job-detail.css">
+<link rel="stylesheet" crossorigin href="/vendor.css?v=0.0.1">
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-37JWDSN85R');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37JWDSN85R"
+  DUMP 'search|jobs\\?|api' at 3501:
+apis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:opsz,wght@14..32,100..900&display=swap"
+  rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.sites.paradox.ai/common-libraries/font-awesome/css/all.css">
+<link rel="stylesheet" crossorigin href="/style.css?v=0.1.2">
+<link rel="stylesheet" crossorigin href="/job-detail.css">
+<link rel="stylesheet" crossorigin href="/vendor.css?v=0.0.1">
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-37JWDSN85R');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-37JWDSN85R"></script>
+<script type="module" crossorigin src="/all.js"></script>
+<script type="module" crossorigin src="/carous
+
+=== GET https://digital.canada.ca/jobs/
+status 200 final https://digital.canada.ca/jobs/ bytes 12688
+
+=== GET https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en
+status 200 final https://emploisfp-psjobs.cfp-psc.gc.ca/psrs-srfp/applicant/page2440?fromMenu=true&toggleLanguage=en bytes 149617
+
+=== GET https://www.ttc.ca/jobs
+status 200 final https://www.ttc.ca/jobs bytes 34309
+  DUMP 'href="[^"]*(job|career|opportunit)' at 19049:
+href="/Jobs/Featured-jobs">Featured Jobs</a></div><div class="field-description">We’re hiring! Check our jobs list for positions available now.</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="Early Talent Recruitment" href="/Jobs/Early-Talent">Early Talent</a></div><div class="field-description">Our programs that support the professional development of emerging talent</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="Whats new" href="/Jobs/whats-new">What's new!</a></div><div class="field-description">Find out why you should work with us and what's changed about how we hire</div></div></div><div class="u-1/1 u-1/2@sm  u-1/3@md u-1/3@lg o-grid__col  page-link-box"><div class="page-link-box-inner"><div class="field-title"><a title="TTC in the Community" href="/Jobs/TTC-in-the-Community">TTC in the Community</a></div><div class="field-description">The TTC partners with community agencies and educational institutions to host job fairs, information sessions, and events.<
+
+=== GET https://careers.telus.com/search/?q=&startrow=0
+status 200 final https://careers.telus.com/search/?q=&startrow=0 bytes 100734
+  DUMP 'jobTitle-link' at 39365:
+jobTitle-link">Senior Security Consultant</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Montr%C3%A9al-Senior-Security-Consultant-QC-H3B-1S6/607249117/">Senior Security Consultant</a>
+                                                                    </span>
+                                                    
+  DUMP 'jobTitle-link' at 39716:
+jobTitle-link" href="/job/Montr%C3%A9al-Senior-Security-Consultant-QC-H3B-1S6/607249117/">Senior Security Consultant</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Montréal, QC, CA, H3B 1S6
+            
+                <small class="nobr">+7 more&hellip;</small>
+        </span></span>
+                                                                    <span class="jobFacility visible-phone">56758</s
+
+=== GET https://jobs.opg.com/search/?q=&startrow=0
+status 200 final https://jobs.opg.com/search/?q=&startrow=0 bytes 55586
+
+=== GET https://careers.celestica.com/search/?q=&locationsearch=Canada&startrow=0
+status 200 final https://careers.celestica.com/search/?q=&locationsearch=Canada&startrow=0 bytes 113118
+  DUMP 'jobTitle-link' at 29207:
+jobTitle-link">Student Intern, AI Project Coordinator</a>
+													</span>
+                                                    <div class="jobdetail-phone visible-phone">
+                                                                    <span class="jobTitle visible-phone">
+                                                                        <a class="jobTitle-link" href="/job/Remote-Employee-Canada-Student-Intern%2C-AI-Project-Coordinator-ON/1441161033/">Student Intern, AI Project Coordinator</a>
+                                                                    </span>
+            
+  DUMP 'jobTitle-link' at 29570:
+jobTitle-link" href="/job/Remote-Employee-Canada-Student-Intern%2C-AI-Project-Coordinator-ON/1441161033/">Student Intern, AI Project Coordinator</a>
+                                                                    </span>
+                                                                    <span class="jobLocation visible-phone">
+        
+        <span class="jobLocation">
+            Remote Employee Canada, ON, CA
+            
+        </span></span>
+                                                                    <span class="jobDate visible-phone">Oct 23, 2026
+													             
+
+=== GET https://jobs-ca.pwc.com/ca/en/search-results
+status 200 final https://jobs-ca.pwc.com/ca/en/search-results bytes 155771
+  DUMP 'eagerLoadRefineSearch' at 25415:
+eagerLoadRefineSearch":{"status":200,"hits":10,"totalHits":158,"data":{"jobs":[{"ml_skills":["financial services","develop","feedback","business performance","payments domain","execution","build","client relationships","cloud","swift","trusted relationships","networks","ai","delivery leadership","quality delivery","embedded"],"type":"Full time","descriptionTeaser":"As a Digital Payments Consulting, Director, you\u2019ll work as part of a team of problem solvers, helping to solve business issues, deliver high quality client service and operational efficiency....","state":"Ontario","siteType":"external","multi_category":["Consulting"],"reqId":"707141WD","city":"Toronto","managementLevel":"Director","latitude":"43.70011","multi_location":["Toronto"],"address":"NA, Toronto, ON M5J 0B2, Canada","applyUrl":"https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers/job/Toronto/Digital-Payments-Consulting--Director_707141WD/apply","ml_job_parser":{"descriptionTeaser":"As a Digital Payments Consulting, Director, you\u2019ll work as part of a team of problem solvers, helping to solve business issues, deliver high quality client service and operational efficiency....","descriptionTeaser_first200":"At PwC, our people in operations consulting specialise in providing consulting services on optimising operational efficiency and effectiveness. These individuals analyse client needs, develop opera...","descriptionTeaser_keyword":"At PwC, our people in operations consulting specialise in pr
+  DUMP 'eagerLoadRefineSearch' at 55394:
+eagerLoadRefineSearch","jobwidgetsettings","siteConfig"];phApp.eagerLoadParams = {};; phApp.sessionParams = {"pxSegmentState":"stranger","csrfToken":"b64ed56e34c5480b821d90891a1584c4","pageType":"default","pxPageState":"stranger","jdsource":"","from":"0","pageName":"search-results"}; /*--&gt;*/</script><script type="text/javascript">document.domain = 'phenompro.com'</script><script type="text/javascript">phApp.urlMap = {"featuredOpportunities":":url", "businessUnit":":url", "category": "c/:category","job": "job/:jobSeqNo/:title","glassdoor-reviews": "glassdoor-reviews", "search-results" : "search-results", "home" : "home", "jobcart" : "jobcart"}  </script><script type="text/javascript">phApp.ddoRealPath = {"jobDetail": "data.job"}</script><meta charset="UTF-8" /><meta content="en" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Turn your potential into a transformative experience. Join our community of solvers." key-description="external-default-search-results-description" description="Search results. Find available job openings at PwC Canada" /><meta name="keywords" content="" key-keywords="external-default-search-results-keywords" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@PWC Canada" /><meta name="twitter:creator" content="@Careers - PWC Canada" /><meta name="twitter:image" content="https://cdn.phenompeople.com/CareerConnectResources/prod/PWCACA/images/p3107272-ta
+
+=== GET https://careers.kpmg.ca/
+status 200 final https://careers.kpmg.ca/ bytes 342849
