@@ -1,0 +1,116 @@
+
+=== ROW {'company': 'Accenture', 'ats': 'workday', 'token': 'accenture', 'extra': 'wd103|AccentureCareers', 'pathway': 'E', 'tier': '3'}
+  raw seen 360
+   raw: US / Canada Payroll Tax Lead | ['Los Angeles 6181 W Centinela Ave Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Los-Angeles-6181-W-Centinela-Ave-Corp/US---Canada-Payroll-Tax-Lead_R00352813
+   raw: Entry Level Technology Development Program - Summer Analyst - Canada - NAELFY27 | ['Toronto 40 King St W Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Entry-Level-Technology-Development-Program---Summer-Analyst---Canada---NAELFY27_R00363654-1
+   raw: Entry Level Advisory Development Program - Summer Analyst - Canada - NAELFY27 | ['Toronto 40 King St W Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Entry-Level-Advisory-Development-Program---Summer-Analyst---Canada---NAELFY27_R00364487
+   raw: Partners in Performance - Performance Strategy Senior Associate - Current MBA Students - Canada - NAELFY27 | ['Toronto 40 King St W Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Partners-in-Performance---Performance-Strategy-Senior-Associate---Current-MBA-Students---Canada---NAELFY27_R00361132
+   raw: Marketing Associate Manager | ['Toronto 40 King St W Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Marketing-Associate-Manager_R00358768-1
+   raw: Marketing Specialist | ['Toronto 40 King St W Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Marketing-Specialist_R00361399-1
+   raw: Gerente SAP - LOG Rollout Lead | ['Sao Paulo Torre Paineira'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Sao-Paulo-Torre-Paineira/Gerente-Snior---Finance-Scrum-Master_14508580
+   raw: Local Technical Support Analyst | ['Vancouver 510 W Georgia Corp'] | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Vancouver-510-W-Georgia-Corp/Local-Technical-Support-Analyst_14908758
+  rec: {"company": "Accenture", "ats": "workday", "token": "accenture", "ok": true, "seen": 360, "kept": 21, "error": "", "resolved": ""}
+   kept: Entry Level Technology Development Program - Summer Analyst - Canada - NAELFY27 | Toronto 40 King St W Corp | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Entry-Level-Technology-Development-Program---Summer-Analyst---Canada---NAELFY27_R00363654-1
+   kept: Python Developer | Ontario   Toronto | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ontario---Toronto/Python-Developer_R00361492
+   kept: Infrastructure Operations Specialist - Incident Response and Recovery | Toronto 40 King St W Corp | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Infrastructure-Operations-Specialist---Incident-Response-and-Recovery_R00333606
+   kept: Oracle Cloud Financials Consultant | Mississauga 1 City Centre DCN | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mississauga-1-City-Centre-DCN/Oracle-Cloud-Financials-Consultant_R00337512-1
+   kept: AI/ML Architect-Accenture Advanced Technology Centers | Mississauga 1 City Centre DCN | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mississauga-1-City-Centre-DCN/AI-ML-Architect-Accenture-Advanced-Technology-Centers_R00347235-1
+   kept: AWS Migration and Agentic IT / Solution Architect | Ontario   Toronto | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ontario---Toronto/AWS-Migration-and-Agentic-IT---Solution-Architect_R00349881
+   kept: Curam Developer | Ontario   Toronto | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ontario---Toronto/Curam-Developer_R00353137
+   kept: Adobe Experience Platform (AEP/RTCDP) and Adobe Journey Optimizer (AJO) Practitioner | Toronto 40 King St W Corp | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Toronto-40-King-St-W-Corp/Adobe-Experience-Platform--AEP-RTCDP--and-Adobe-Journey-Optimizer--AJO--Practitioner_R00356536
+   kept: SDx / Octave Solution Architect | Ontario   Toronto | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Ontario---Toronto/SDx---Octave-Solution-Architect_R00361765
+   kept: Oracle ERP-HCM Automation Tester | Mississauga 1 City Centre DCN | https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Mississauga-1-City-Centre-DCN/Oracle-ERP-HCM-Automation-Tester_R00360458
+
+=== ROW {'company': 'Deloitte Canada', 'ats': 'rmk', 'token': 'careers.deloitte.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 312
+   raw: Student talent community: future opportunities | ['Toronto, ON', 'Vancouver, BC', 'Ottawa, ON', 'Calgary, AB', 'Montreal, QC', 'Edmonton, AB', 'Halifax, NS', 'Fredericton, NB', 'Kitchener, ON', 'Winnipeg, MB', "St. John's, NL", 'Quebec City, QC', 'Saint John, NB', 'Burlington, ON', 'Moncton, NB', 'Victoria, BC', 'Regina, SK', 'Saskatoon, SK', 'Laval, QC', 'Brossard, QC'] | https://careers.deloitte.ca/job/Student-talent-community-future-opportunities/126798-en_US
+   raw: Niveaux de poste multiples, Impôt foncier | ['Montreal, QC', 'Quebec City, QC', 'Laval, QC', 'Brossard, QC'] | https://careers.deloitte.ca/job/Niveaux-de-poste-multiples%2C-Imp%C3%B4t-foncier/131839-en_US
+   raw: Future opportunities at R8dius (Indigenous Preferred) | ['Toronto, ON (remote)', 'Vancouver, BC (remote)', 'Ottawa, ON (remote)', 'Calgary, AB (remote)', 'Edmonton, AB (remote)', 'Halifax, NS (remote)', 'Fredericton, NB (remote)', 'Kitchener, ON (remote)', 'Winnipeg, MB (remote)', "St. John's, NL (remote)", 'Saint John, NB (remote)', 'Moncton, NB (remote)', 'Victoria, BC (remote)', 'Regina, SK (remote)', 'Saskatoon, SK (remote)', 'Burlington, ON (remote)'] | https://careers.deloitte.ca/job/Future-opportunities-at-R8dius-%28Indigenous-Preferred%29/130354-en_US
+   raw: Conseiller(ère) principal(e)- Services-conseils en gouvernance des données | ['Quebec City, QC', 'Laval, QC', 'Brossard, QC', 'Montreal, QC'] | https://careers.deloitte.ca/job/Conseiller%28%C3%A8re%29-principal%28e%29-Services-conseils-en-gouvernance-des-donn%C3%A9es/131084-en_US
+   raw: Senior Consultant, Change Management (First Nations, Inuit, Métis) - R8dius | ['Toronto, ON (remote)', 'Vancouver, BC (remote)', 'Ottawa, ON (remote)', 'Calgary, AB (remote)', 'Montreal, QC (remote)', 'Edmonton, AB (remote)', 'Halifax, NS (remote)', 'Kitchener, ON (remote)', 'Fredericton, NB (remote)', 'Winnipeg, MB (remote)', "St. John's, NL (remote)", 'Quebec City, QC (remote)', 'Saint John, NB (remote)', 'Moncton, NB (remote)', 'Regina, SK (remote)', 'Victoria, BC (remote)', 'Saskatoon, SK (remote)', 'Laval, QC (remote)', 'Brossard, QC (remote)', 'Burlington, ON (remote)'] | https://careers.deloitte.ca/job/Senior-Consultant%2C-Change-Management-%28First-Nations%2C-Inuit%2C-M%C3%A9tis%29-R8dius/134961-en_US
+   raw: Conseiller(ère) principal(e) - Ingénierie IA | ['Quebec City, QC', 'Laval, QC', 'Brossard, QC', 'Montreal, QC'] | https://careers.deloitte.ca/job/Conseiller%28%C3%A8re%29-principal%28e%29-Ing%C3%A9nierie-IA/131085-en_US
+   raw: Senior Manager, Azure Architect, Deloitte Global Technology | ['Toronto, ON, ON, CAN, M5C 3G7 (remote)', 'Burlington, ON (remote)', 'Halifax, NS (remote)', 'Ottawa, ON (remote)'] | https://careers.deloitte.ca/job/Senior-Manager%2C-Azure-Architect%2C-Deloitte-Global-Technology/134768-en_US
+   raw: Senior Consultant, M&A Corporate Finance | ['Montreal, QC', 'Ottawa, ON', 'Quebec City, QC'] | https://careers.deloitte.ca/job/Senior-Consultant%2C-M&amp;A-Corporate-Finance/135095-en_US
+  rec: {"company": "Deloitte Canada", "ats": "rmk", "token": "careers.deloitte.ca", "ok": true, "seen": 340, "kept": 13, "error": "", "resolved": ""}
+   kept: Cyber Agentic AI Analyst, Deloitte Global Technology | Toronto, ON, ON, CAN, M5C 3G7 (remote); Burlington, ON (remote); Calgary, AB (re | https://careers.deloitte.ca/job/Cyber-Agentic-AI-Analyst%2C-Deloitte-Global-Technology/134544-en_US
+   kept: Business Technical Analyst | Toronto, ON, ON, CAN, M5C 3G7; Toronto, ON | https://careers.deloitte.ca/job/Business-Technical-Analyst/135391-en_US
+   kept: Salesforce Developer - Digital Customer : Future Opportunities | Toronto, ON, ON, CAN, M5C 3G7; Fredericton, NB; Saint John, NB; Toronto, ON; Mon | https://careers.deloitte.ca/job/Salesforce-Developer-Digital-Customer-Future-Opportunities/135279-en_US
+   kept: AI Research Engineer | Toronto, ON, ON, CAN, M5C 3G7; Toronto, ON; Vancouver, BC; Ottawa, ON; Calgary,  | https://careers.deloitte.ca/job/AI-Research-Engineer/130069-en_US
+   kept: SAP Solution Architect | Toronto, ON, ON, CAN, M5C 3G7; Brossard, QC; Burlington, ON; Calgary, AB; Edmont | https://careers.deloitte.ca/job/SAP-Solution-Architect/135191-en_US
+   kept: Curam Developer | Ottawa, ON, ON, CAN, K1P 5T8; Burlington, ON; Calgary, AB; Edmonton, AB; Frederi | https://careers.deloitte.ca/job/Curam-Developer/135641-en_US
+   kept: Network Security Architect | Toronto, ON, ON, CAN, M5C 3G7; Calgary, AB; Edmonton, AB; Halifax, NS; Ottawa, O | https://careers.deloitte.ca/job/Network-Security-Architect/133154-en_US
+   kept: Oracle Cloud ERP - Order-to-Cash (O2C) Consultant | Brossard, QC; Burlington, ON; Calgary, AB; Edmonton, AB; Fredericton, NB; Halifa | https://careers.deloitte.ca/job/Oracle-Cloud-ERP-Order-to-Cash-%28O2C%29-Consultant/135673-en_US
+   kept: Software Asset Management (SAM) Analyst | Toronto, ON, ON, CAN, M5C 3G7; Edmonton, AB; Fredericton, NB; Halifax, NS; Ottaw | https://careers.deloitte.ca/job/Software-Asset-Management-%28SAM%29-Analyst/135050-en_US
+   kept: Cloud, Automation & AI Engineer Consultant | Toronto, ON, ON, CAN, M5C 3G7; Brossard, QC; Burlington, ON; Calgary, AB; Edmont | https://careers.deloitte.ca/job/Cloud%2C-Automation-&amp;-AI-Engineer-Consultant/135026-en_US
+
+=== ROW {'company': 'CN Rail', 'ats': 'rmk', 'token': 'jobs.cn.ca', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw ERROR RuntimeError no postings found (search page and RSS)
+  rec: {"company": "CN Rail", "ats": "rmk", "token": "jobs.cn.ca", "ok": false, "seen": 0, "kept": 0, "error": "no postings found (search page and RSS)", "resolved": ""}
+
+=== ROW {'company': 'HCLTech', 'ats': 'rmk', 'token': 'careers.hcltech.com', 'extra': 'Canada', 'pathway': 'E', 'tier': '3'}
+  raw seen 20
+   raw: SME - Network LAN/WAN | ['IN'] | https://careers.hcltech.com/job/SME-Network-LANWAN/1357509455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Group Technical Architect | ['IN'] | https://careers.hcltech.com/job/Group-Technical-Architect/1357297655/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Campus-Beginner | ['IN'] | https://careers.hcltech.com/job/Campus-Beginner/1357628155/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Technical Lead | ['IN'] | https://careers.hcltech.com/job/Technical-Lead/1357503455/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Senior Technical Lead - Python, Oracle PL/SQL, Java | ['IN'] | https://careers.hcltech.com/job/Senior-Technical-Lead-Python%2C-Oracle-PLSQL%2C-Java/1357506555/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: SeniorAdministrator - Incident Management, ServiceNow | ['FR'] | https://careers.hcltech.com/job/SeniorAdministrator-Incident-Management%2C-ServiceNow/1357557755/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Senior Tester | ['JP'] | https://careers.hcltech.com/job/Senior-Tester/1357426355/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+   raw: Senior SAP BTP - CPI ERP Specialist | ['IN'] | https://careers.hcltech.com/job/Senior-SAP-BTP-CPI-ERP-Specialist/1357641055/?feedId=null&amp;utm_source=J2WRSS&amp;utm_medium=rss&amp;utm_campaign=J2W_RSS
+  rec: {"company": "HCLTech", "ats": "rmk", "token": "careers.hcltech.com", "ok": true, "seen": 20, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Phylo', 'ats': 'ashby', 'token': 'phylo', 'extra': '', 'pathway': 'D', 'tier': '2'}
+  raw seen 8
+   raw: Member of Technical Staff – Product Engineering | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/c691cf71-cb9f-4ca3-a7e4-8b82bd91fca2
+   raw: Member of Technical Staff - Forward Deployed Scientist | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/c5319ac4-5f4d-48bd-8b7f-1bb3025b29b9
+   raw: Enterprise Account Executive | ['Remote (Toronto) or On-Site (SF Bay Area) (remote)', 'South San Francisco (remote)', 'Toronto (on site) (remote)', 'North America (remote)'] | https://jobs.ashbyhq.com/phylo/5e81ece3-4c77-457c-b964-7536d2d627fe
+   raw: Opportunistic Role | ['South San Francisco', 'Toronto (on site)', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/968b468c-0e26-4926-971f-a6ed5c0e9043
+   raw: Member of Technical Staff - Agent Engineer | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/fd68f3cc-def2-4944-b339-01cf1e962e63
+   raw: Scientific Solutions Consultant | ['US East Coast (ideally Boston metro area) (remote)', 'Toronto (on site) (remote)', 'Boston, MA, United States (remote)'] | https://jobs.ashbyhq.com/phylo/ef3c7d80-3984-486f-b899-40f20e2f30fe
+   raw: Product Marketer | ['South San Francisco', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/73e5e04f-0da1-4575-b0c8-f48ea8e21cc2
+   raw: Member of Technical Staff - Forward Deployed Engineer | ['South San Francisco', 'Toronto (on site)', 'South San Francisco, California, United States'] | https://jobs.ashbyhq.com/phylo/462bbffa-5d39-4bac-ac84-6b6c245e6e53
+  rec: {"company": "Phylo", "ats": "ashby", "token": "phylo", "ok": true, "seen": 8, "kept": 2, "error": "", "resolved": ""}
+   kept: Scientific Solutions Consultant | US East Coast (ideally Boston metro area) (remote); Toronto (on site) (remote);  | https://jobs.ashbyhq.com/phylo/ef3c7d80-3984-486f-b899-40f20e2f30fe
+   kept: Member of Technical Staff - Forward Deployed Engineer | South San Francisco; Toronto (on site); South San Francisco, California, United  | https://jobs.ashbyhq.com/phylo/462bbffa-5d39-4bac-ac84-6b6c245e6e53
+
+=== ROW {'company': 'Autodesk', 'ats': 'pcsx', 'token': 'jobs.autodesk.com', 'extra': 'autodesk.com', 'pathway': 'A', 'tier': '2'}
+  raw seen 88
+   raw: Senior Manager, Learning Development & Solutions | ['AMER - Canada - Ontario - Toronto - University Ave', 'Toronto, ON, CAN', 'Vancouver, BC, CAN', 'Montreal, QC, CAN'] | https://jobs.autodesk.com/careers/job/1443152974224
+   raw: Principal Product Manager, Flow Studio (GenAI Products) | ['AMER - United States - New York - Remote', 'New York, USA - Remote', 'Montreal, QC, CAN', 'Ontario, CAN - Remote', 'Michigan, USA - Remote', 'Alabama, USA - Remote', 'Massachusetts, USA - Remote', 'Washington, USA - Remote', 'Illinois, USA - Remote', 'Virginia, USA - Remote', 'Florida, USA - Remote', 'Connecticut, USA - Remote', 'South Carolina, USA - Remote', 'Boulder, CO, USA', 'Georgia, USA - Remote', 'North Carolina, USA - Remote', 'Oregon, USA - Remote', 'Houston, TX, USA', 'British Columbia, Canada', 'California, USA'] | https://jobs.autodesk.com/careers/job/1443153040334
+   raw: Finance Manager – Corporate FP&A, Long Range Planning | ['AMER - Canada - Ontario - Toronto - University Ave', 'Toronto, ON, CAN'] | https://jobs.autodesk.com/careers/job/1443154568815
+   raw: Stagiaire en Développement Cloud (Été), Cloud Developer Intern (Summer)– FCAP | ['AMER - Canada - Quebec - Montreal - 10 Rue Duke', 'Montreal, QC, CAN'] | https://jobs.autodesk.com/careers/job/1443154572133
+   raw: Stagiaire en développement logiciels (Été 2027) / Software Developer Intern (Summer 2027) | ['AMER - Canada - Quebec - Montreal - 10 Rue Duke', 'Montreal, QC, CAN'] | https://jobs.autodesk.com/careers/job/1443154605834
+   raw: Recruiter, AMER Go-To-Market (6-month contract) | ['AMER - Canada - Ontario - Toronto - University Ave', 'Toronto, ON, CAN', 'AMER - Canada - British Columbia - Vancouver - Bentall Centre', 'AMER - Canada - British Columbia - Remote', 'AMER - Canada - Ontario - Remote', 'AMER - Canada - Quebec - Montreal - 10 Rue Duke', 'Quebec, CAN - Remote'] | https://jobs.autodesk.com/careers/job/1443154609562
+   raw: Stagiaire, en développement Cloud (Été 2027) / Intern, Cloud Developer ( Summer 2027) | ['AMER - Canada - Quebec - Montreal - 10 Rue Duke', 'Montreal, QC, CAN'] | https://jobs.autodesk.com/careers/job/1443154610713
+   raw: Stagiaire,en développement IA (Été 2027)/ Intern, AI Developer (Summer 2027) | ['AMER - Canada - Quebec - Montreal - 10 Rue Duke', 'Montreal, QC, CAN'] | https://jobs.autodesk.com/careers/job/1443154610714
+  rec: {"company": "Autodesk", "ats": "pcsx", "token": "jobs.autodesk.com", "ok": true, "seen": 88, "kept": 6, "error": "", "resolved": ""}
+   kept: MCP/AI Developer | AMER - Canada - Ontario - Toronto - University Ave; Toronto, ON, CAN | https://jobs.autodesk.com/careers/job/1443153774571
+   kept: AI Market and Competitive Intelligence Analyst | Canada; AMER - Canada - Ontario - Toronto - University Ave; Boston, MA, USA; AME | https://jobs.autodesk.com/careers/job/1443153475695
+   kept: Machine Learning Operations Developer,  AI/ML Platform | AMER - Canada - Quebec - Montreal - 10 Rue Duke; Toronto, ON, CAN; Montreal, QC, | https://jobs.autodesk.com/careers/job/1443153843938
+   kept: Software Development Internship (Summer 2027) | AMER - Canada - Ontario - Toronto - University Ave; Toronto, ON, CAN | https://jobs.autodesk.com/careers/job/1443153772173
+   kept: Data Engineer | AMER - Canada - Ontario - Toronto - University Ave; Toronto, ON, CAN | https://jobs.autodesk.com/careers/job/1443154005442
+   kept: Software Architect: AEC Platform Data | AMER - Canada - Quebec - Montreal - 10 Rue Duke; Montreal, QC, CAN; Manitoba, Ca | https://jobs.autodesk.com/careers/job/1443152973457
+
+=== ROW {'company': 'Magna', 'ats': 'workday', 'token': 'magna', 'extra': 'wd3|Magna', 'pathway': 'C', 'tier': '2'}
+  raw seen 1
+   raw: Technical Product Owner, Digital Solutions | ['Troy, Michigan, US', '126 DON HILLOCK DRIVE, AURORA, ON, L4G 0G9, CANADA'] | https://magna.wd3.myworkdayjobs.com/Magna/job/Troy-Michigan-US/Technical-Product-Owner--Digital-Solutions_R00246748-1
+  rec: {"company": "Magna", "ats": "workday", "token": "magna", "ok": true, "seen": 1, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Red Hat', 'ats': 'workday', 'token': 'redhat', 'extra': 'wd5|jobs', 'pathway': 'A', 'tier': '2'}
+  raw seen 1
+   raw: Specialist Solution Architect-Ansible | ['Remote CA ON'] | https://redhat.wd5.myworkdayjobs.com/jobs/job/Remote-CA-ON/Solution-Architect_R-058831-1
+  rec: {"company": "Red Hat", "ats": "workday", "token": "redhat", "ok": true, "seen": 1, "kept": 0, "error": "", "resolved": ""}
+
+=== ROW {'company': 'Hydro One', 'ats': 'rmk', 'token': 'jobs.hydroone.com', 'extra': '', 'pathway': 'E', 'tier': '3'}
+  raw seen 11
+   raw: Security Analyst | ['Toronto, ON, CA', 'Toronto Security Analyst ON'] | https://jobs.hydroone.com/job/Toronto-Security-Analyst-ON/1291764247/
+   raw: Operational Applications & Database Specialist | ['Barrie, ON, CA', 'Barrie Operational Applications &amp; Database Specialist ON'] | https://jobs.hydroone.com/job/Barrie-Operational-Applications-&amp;-Database-Specialist-ON/1291764647/
+   raw: Manager, External Reporting and Accounting Policy | ['Toronto, ON, CA', 'Toronto Manager, External Reporting and Accounting Policy ON'] | https://jobs.hydroone.com/job/Toronto-Manager%2C-External-Reporting-and-Accounting-Policy-ON/1291762447/
+   raw: Training Manager | ['To Be Determined, ON, CA', 'To Be Determined Training Manager ON'] | https://jobs.hydroone.com/job/To-Be-Determined-Training-Manager-ON/1291759047/
+   raw: Sr Manager Sourcing Operation - Capital Outsourcing Procurement | ['Toronto, ON, CA', 'Toronto Sr Manager Sourcing Operation Capital Outsourcing Procurement ON'] | https://jobs.hydroone.com/job/Toronto-Sr-Manager-Sourcing-Operation-Capital-Outsourcing-Procurement-ON/1291760447/
+   raw: Climate Change Analyst | ['Toronto, ON, CA', 'Toronto Climate Change Analyst ON'] | https://jobs.hydroone.com/job/Toronto-Climate-Change-Analyst-ON/1291753647/
+   raw: Service Management Analyst | ['Rexdale, ON, CA', 'Rexdale Service Management Analyst ON'] | https://jobs.hydroone.com/job/Rexdale-Service-Management-Analyst-ON/1291741247/
+   raw: Land Use Agent | ['Markham, ON, CA', 'Markham Land Use Agent ON'] | https://jobs.hydroone.com/job/Markham-Land-Use-Agent-ON/1291735947/
+  rec: {"company": "Hydro One", "ats": "rmk", "token": "jobs.hydroone.com", "ok": true, "seen": 11, "kept": 2, "error": "", "resolved": ""}
+   kept: Security Analyst | Toronto, ON, CA; Toronto Security Analyst ON | https://jobs.hydroone.com/job/Toronto-Security-Analyst-ON/1291764247/
+   kept: AI Engineer (Data Scientist) | Toronto, ON, CA; Toronto AI Engineer (Data Scientist) ON | https://jobs.hydroone.com/job/Toronto-AI-Engineer-%28Data-Scientist%29-ON/1291715047/
