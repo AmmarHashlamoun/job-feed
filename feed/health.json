@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-20T01:22:41Z",
+  "generated_at": "2026-11-20T02:40:26Z",
   "boards": 365,
   "ok": 338,
   "failed": 27,
-  "jobs_seen": 35656,
-  "jobs_kept": 802,
-  "new_today": 29
+  "jobs_seen": 35662,
+  "jobs_kept": 803,
+  "new_today": 33
  },
  "boards": [
   {
@@ -314,7 +314,7 @@
    "ats": "workday",
    "token": "accenture",
    "ok": true,
-   "seen": 166,
+   "seen": 167,
    "kept": 23,
    "error": "",
    "resolved": ""
@@ -434,7 +434,7 @@
    "ats": "jibe",
    "token": "careers.amd.com",
    "ok": true,
-   "seen": 80,
+   "seen": 81,
    "kept": 7,
    "error": "",
    "resolved": ""
@@ -574,7 +574,7 @@
    "ats": "workday",
    "token": "bdo",
    "ok": true,
-   "seen": 107,
+   "seen": 108,
    "kept": 11,
    "error": "",
    "resolved": ""
@@ -754,7 +754,7 @@
    "ats": "rmk",
    "token": "careers.celestica.com",
    "ok": true,
-   "seen": 64,
+   "seen": 79,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -794,7 +794,7 @@
    "ats": "workday",
    "token": "cineplex",
    "ok": true,
-   "seen": 192,
+   "seen": 191,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -994,7 +994,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 898,
+   "seen": 897,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1004,7 +1004,7 @@
    "ats": "greenhouse",
    "token": "datadog",
    "ok": true,
-   "seen": 380,
+   "seen": 382,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1064,8 +1064,8 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 318,
-   "kept": 12,
+   "seen": 306,
+   "kept": 13,
    "error": "",
    "resolved": ""
   },
@@ -1114,7 +1114,7 @@
    "ats": "greenhouse",
    "token": "discord",
    "ok": true,
-   "seen": 27,
+   "seen": 28,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1214,7 +1214,7 @@
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 372,
+   "seen": 371,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1404,7 +1404,7 @@
    "ats": "greenhouse",
    "token": "formlabs",
    "ok": true,
-   "seen": 278,
+   "seen": 277,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1524,7 +1524,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 246,
+   "seen": 245,
    "kept": 8,
    "error": "",
    "resolved": ""
@@ -1654,7 +1654,7 @@
    "ats": "workday",
    "token": "hitachi",
    "ok": true,
-   "seen": 147,
+   "seen": 148,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1694,7 +1694,7 @@
    "ats": "workday",
    "token": "hpe",
    "ok": true,
-   "seen": 15,
+   "seen": 17,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2035,7 +2035,7 @@
    "token": "jobs.luxcapital.com",
    "ok": true,
    "seen": 175,
-   "kept": 28,
+   "kept": 29,
    "error": "",
    "resolved": ""
   },
@@ -2404,7 +2404,7 @@
    "ats": "ashby",
    "token": "openai",
    "ok": true,
-   "seen": 849,
+   "seen": 850,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -2414,7 +2414,7 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 352,
+   "seen": 351,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2914,7 +2914,7 @@
    "ats": "ashby",
    "token": "sierra",
    "ok": true,
-   "seen": 196,
+   "seen": 194,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2944,7 +2944,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 379,
+   "seen": 378,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -3004,7 +3004,7 @@
    "ats": "greenhouse",
    "token": "spacex",
    "ok": true,
-   "seen": 2762,
+   "seen": 2765,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3444,7 +3444,7 @@
    "ats": "greenhouse",
    "token": "verkada",
    "ok": true,
-   "seen": 348,
+   "seen": 349,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3564,7 +3564,7 @@
    "ats": "rmk",
    "token": "careers.wipro.com",
    "ok": true,
-   "seen": 32,
+   "seen": 30,
    "kept": 11,
    "error": "",
    "resolved": ""
