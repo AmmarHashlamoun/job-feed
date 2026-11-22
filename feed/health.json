@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-21T23:53:59Z",
+  "generated_at": "2026-11-22T01:38:33Z",
   "boards": 365,
   "ok": 338,
   "failed": 27,
-  "jobs_seen": 35559,
-  "jobs_kept": 789,
-  "new_today": 59
+  "jobs_seen": 35581,
+  "jobs_kept": 790,
+  "new_today": 5
  },
  "boards": [
   {
@@ -314,7 +314,7 @@
    "ats": "workday",
    "token": "accenture",
    "ok": true,
-   "seen": 164,
+   "seen": 163,
    "kept": 23,
    "error": "",
    "resolved": ""
@@ -375,7 +375,7 @@
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
    "seen": 47,
-   "kept": 1,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -794,7 +794,7 @@
    "ats": "workday",
    "token": "cineplex",
    "ok": true,
-   "seen": 178,
+   "seen": 179,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1064,7 +1064,7 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 307,
+   "seen": 326,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -1304,7 +1304,7 @@
    "ats": "rmk",
    "token": "careers.ey.com",
    "ok": true,
-   "seen": 433,
+   "seen": 439,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -1384,7 +1384,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 892,
+   "seen": 891,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2414,7 +2414,7 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 336,
+   "seen": 335,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2594,7 +2594,7 @@
    "ats": "phenom",
    "token": "jobs-ca.pwc.com/ca/en",
    "ok": true,
-   "seen": 155,
+   "seen": 156,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2815,7 +2815,7 @@
    "token": "samsara",
    "ok": true,
    "seen": 299,
-   "kept": 2,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -3044,7 +3044,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 778,
+   "seen": 777,
    "kept": 19,
    "error": "",
    "resolved": ""
@@ -3564,7 +3564,7 @@
    "ats": "rmk",
    "token": "careers.wipro.com",
    "ok": true,
-   "seen": 35,
+   "seen": 34,
    "kept": 11,
    "error": "",
    "resolved": ""
