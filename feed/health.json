@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-25T03:08:29Z",
+  "generated_at": "2026-11-25T04:40:06Z",
   "boards": 365,
-  "ok": 337,
-  "failed": 28,
-  "jobs_seen": 35592,
-  "jobs_kept": 795,
-  "new_today": 35
+  "ok": 336,
+  "failed": 29,
+  "jobs_seen": 35533,
+  "jobs_kept": 784,
+  "new_today": 40
  },
  "boards": [
   {
@@ -147,6 +147,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (smartrecruiters:mappedin:empty board, greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404, workable:mappedin:404, bamboohr:mappedin:JSONDecodeError, recruitee:mappedin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -385,7 +395,7 @@
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
    "seen": 51,
-   "kept": 2,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -464,7 +474,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2606,
+   "seen": 2603,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -544,7 +554,7 @@
    "ats": "greenhouse",
    "token": "asteralabs",
    "ok": true,
-   "seen": 179,
+   "seen": 181,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -724,7 +734,7 @@
    "ats": "rmk",
    "token": "jobs.canadapost.ca",
    "ok": true,
-   "seen": 583,
+   "seen": 581,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -824,7 +834,7 @@
    "ats": "rmk",
    "token": "careers.brampton.ca",
    "ok": true,
-   "seen": 19,
+   "seen": 15,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -884,7 +894,7 @@
    "ats": "greenhouse",
    "token": "cloudflare",
    "ok": true,
-   "seen": 512,
+   "seen": 513,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -934,7 +944,7 @@
    "ats": "ashby",
    "token": "cohere",
    "ok": true,
-   "seen": 122,
+   "seen": 123,
    "kept": 17,
    "error": "",
    "resolved": ""
@@ -1024,7 +1034,7 @@
    "ats": "dayforce",
    "token": "mydayforce",
    "ok": true,
-   "seen": 115,
+   "seen": 116,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1074,8 +1084,8 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 286,
-   "kept": 9,
+   "seen": 309,
+   "kept": 10,
    "error": "",
    "resolved": ""
   },
@@ -1215,7 +1225,7 @@
    "token": "jobs.eclipse.capital",
    "ok": true,
    "seen": 136,
-   "kept": 33,
+   "kept": 32,
    "error": "",
    "resolved": ""
   },
@@ -1534,7 +1544,7 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 250,
+   "seen": 249,
    "kept": 7,
    "error": "",
    "resolved": ""
@@ -1734,7 +1744,7 @@
    "ats": "rmk",
    "token": "jobs.hydroone.com",
    "ok": true,
-   "seen": 16,
+   "seen": 15,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2170,16 +2180,6 @@
    "resolved": ""
   },
   {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 74,
-   "kept": 9,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Mila",
    "ats": "workable",
    "token": "mila-2",
@@ -2224,7 +2224,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 418,
+   "seen": 419,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2354,7 +2354,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 373,
+   "seen": 372,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2424,8 +2424,8 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 347,
-   "kept": 3,
+   "seen": 346,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -3054,7 +3054,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 770,
+   "seen": 771,
    "kept": 18,
    "error": "",
    "resolved": ""
@@ -3564,7 +3564,7 @@
    "ats": "rmk",
    "token": "careers.wipro.com",
    "ok": true,
-   "seen": 35,
+   "seen": 34,
    "kept": 11,
    "error": "",
    "resolved": ""
@@ -3614,7 +3614,7 @@
    "ats": "ashby",
    "token": "xero",
    "ok": true,
-   "seen": 116,
+   "seen": 115,
    "kept": 1,
    "error": "",
    "resolved": ""
