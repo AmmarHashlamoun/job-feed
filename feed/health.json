@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-26T02:19:54Z",
+  "generated_at": "2026-11-26T03:49:57Z",
   "boards": 365,
-  "ok": 337,
-  "failed": 28,
-  "jobs_seen": 35647,
-  "jobs_kept": 788,
-  "new_today": 18
+  "ok": 336,
+  "failed": 29,
+  "jobs_seen": 35603,
+  "jobs_kept": 781,
+  "new_today": 23
  },
  "boards": [
   {
@@ -147,6 +147,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (smartrecruiters:mappedin:empty board, greenhouse:mappedin:404, lever:mappedin:404, ashby:mappedin:404, workable:mappedin:404, bamboohr:mappedin:JSONDecodeError, recruitee:mappedin:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
    "resolved": ""
   },
   {
@@ -324,7 +334,7 @@
    "ats": "workday",
    "token": "accenture",
    "ok": true,
-   "seen": 166,
+   "seen": 158,
    "kept": 21,
    "error": "",
    "resolved": ""
@@ -385,7 +395,7 @@
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
    "seen": 50,
-   "kept": 1,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -804,7 +814,7 @@
    "ats": "workday",
    "token": "cineplex",
    "ok": true,
-   "seen": 180,
+   "seen": 181,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -824,7 +834,7 @@
    "ats": "rmk",
    "token": "careers.brampton.ca",
    "ok": true,
-   "seen": 24,
+   "seen": 15,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -884,7 +894,7 @@
    "ats": "greenhouse",
    "token": "cloudflare",
    "ok": true,
-   "seen": 524,
+   "seen": 523,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1004,7 +1014,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 874,
+   "seen": 875,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1074,8 +1084,8 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 295,
-   "kept": 12,
+   "seen": 335,
+   "kept": 15,
    "error": "",
    "resolved": ""
   },
@@ -1664,7 +1674,7 @@
    "ats": "workday",
    "token": "hitachi",
    "ok": true,
-   "seen": 150,
+   "seen": 149,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1984,7 +1994,7 @@
    "ats": "ashby",
    "token": "lightspeedhq",
    "ok": true,
-   "seen": 133,
+   "seen": 134,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2170,16 +2180,6 @@
    "resolved": ""
   },
   {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 73,
-   "kept": 9,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Mila",
    "ats": "workable",
    "token": "mila-2",
@@ -2274,7 +2274,7 @@
    "ats": "oraclehcm",
    "token": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
    "ok": true,
-   "seen": 561,
+   "seen": 562,
    "kept": 11,
    "error": "",
    "resolved": ""
@@ -2314,7 +2314,7 @@
    "ats": "greenhouse",
    "token": "nuro",
    "ok": true,
-   "seen": 108,
+   "seen": 107,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2424,8 +2424,8 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 349,
-   "kept": 4,
+   "seen": 350,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2734,7 +2734,7 @@
    "ats": "greenhouse",
    "token": "robinhood",
    "ok": true,
-   "seen": 161,
+   "seen": 163,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -3074,7 +3074,7 @@
    "ats": "greenhouse",
    "token": "tailscale",
    "ok": true,
-   "seen": 85,
+   "seen": 87,
    "kept": 8,
    "error": "",
    "resolved": ""
@@ -3304,7 +3304,7 @@
    "ats": "ashby",
    "token": "trulioo",
    "ok": true,
-   "seen": 27,
+   "seen": 26,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3494,7 +3494,7 @@
    "ats": "lever",
    "token": "waabi",
    "ok": true,
-   "seen": 81,
+   "seen": 80,
    "kept": 11,
    "error": "",
    "resolved": ""
@@ -3564,8 +3564,8 @@
    "ats": "rmk",
    "token": "careers.wipro.com",
    "ok": true,
-   "seen": 33,
-   "kept": 13,
+   "seen": 35,
+   "kept": 12,
    "error": "",
    "resolved": ""
   },
