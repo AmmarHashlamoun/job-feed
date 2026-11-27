@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-26T12:56:46Z",
+  "generated_at": "2026-11-27T02:18:53Z",
   "boards": 365,
   "ok": 336,
   "failed": 29,
-  "jobs_seen": 35630,
+  "jobs_seen": 35667,
   "jobs_kept": 783,
-  "new_today": 42
+  "new_today": 15
  },
  "boards": [
   {
@@ -304,7 +304,7 @@
    "ats": "ashby",
    "token": "1password",
    "ok": true,
-   "seen": 78,
+   "seen": 77,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -334,7 +334,7 @@
    "ats": "workday",
    "token": "accenture",
    "ok": true,
-   "seen": 161,
+   "seen": 157,
    "kept": 21,
    "error": "",
    "resolved": ""
@@ -394,7 +394,7 @@
    "ats": "phenom",
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
-   "seen": 50,
+   "seen": 56,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -404,7 +404,7 @@
    "ats": "greenhouse",
    "token": "airbnb",
    "ok": true,
-   "seen": 198,
+   "seen": 202,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -434,8 +434,8 @@
    "ats": "amazon",
    "token": "amazon",
    "ok": true,
-   "seen": 360,
-   "kept": 49,
+   "seen": 358,
+   "kept": 48,
    "error": "",
    "resolved": ""
   },
@@ -474,7 +474,7 @@
    "ats": "greenhouse",
    "token": "andurilindustries",
    "ok": true,
-   "seen": 2600,
+   "seen": 2599,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -524,7 +524,7 @@
    "ats": "greenhouse",
    "token": "asana",
    "ok": true,
-   "seen": 110,
+   "seen": 107,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -554,7 +554,7 @@
    "ats": "pcsx",
    "token": "jobs.autodesk.com",
    "ok": true,
-   "seen": 93,
+   "seen": 94,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -584,7 +584,7 @@
    "ats": "workday",
    "token": "bdo",
    "ok": true,
-   "seen": 94,
+   "seen": 93,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -594,7 +594,7 @@
    "ats": "phenom",
    "token": "jobs.bell.ca/ca/en",
    "ok": true,
-   "seen": 36,
+   "seen": 45,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -614,7 +614,7 @@
    "ats": "workday",
    "token": "bb",
    "ok": true,
-   "seen": 19,
+   "seen": 18,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -714,7 +714,7 @@
    "ats": "workday",
    "token": "cae",
    "ok": true,
-   "seen": 81,
+   "seen": 82,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -724,7 +724,7 @@
    "ats": "rmk",
    "token": "jobs.canadapost.ca",
    "ok": true,
-   "seen": 589,
+   "seen": 606,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -734,7 +734,7 @@
    "ats": "workday",
    "token": "canadiantirecorporation",
    "ok": true,
-   "seen": 110,
+   "seen": 112,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -744,7 +744,7 @@
    "ats": "greenhouse",
    "token": "canonical",
    "ok": true,
-   "seen": 318,
+   "seen": 319,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -764,7 +764,7 @@
    "ats": "rmk",
    "token": "careers.celestica.com",
    "ok": true,
-   "seen": 83,
+   "seen": 79,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -794,8 +794,8 @@
    "ats": "workday",
    "token": "ciena",
    "ok": true,
-   "seen": 84,
-   "kept": 2,
+   "seen": 91,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -804,7 +804,7 @@
    "ats": "workday",
    "token": "cineplex",
    "ok": true,
-   "seen": 176,
+   "seen": 181,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -814,7 +814,7 @@
    "ats": "workday",
    "token": "cisco",
    "ok": true,
-   "seen": 32,
+   "seen": 31,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -824,8 +824,8 @@
    "ats": "rmk",
    "token": "careers.brampton.ca",
    "ok": true,
-   "seen": 16,
-   "kept": 0,
+   "seen": 20,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -864,7 +864,7 @@
    "ats": "auto",
    "token": "clickhouse",
    "ok": true,
-   "seen": 210,
+   "seen": 211,
    "kept": 6,
    "error": "",
    "resolved": "ashby:clickhouse"
@@ -874,7 +874,7 @@
    "ats": "workday",
    "token": "clio",
    "ok": true,
-   "seen": 68,
+   "seen": 69,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -884,7 +884,7 @@
    "ats": "greenhouse",
    "token": "cloudflare",
    "ok": true,
-   "seen": 522,
+   "seen": 528,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -894,7 +894,7 @@
    "ats": "rmk",
    "token": "careers.cn.ca",
    "ok": true,
-   "seen": 14,
+   "seen": 15,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -944,7 +944,7 @@
    "ats": "greenhouse",
    "token": "coinbase",
    "ok": true,
-   "seen": 257,
+   "seen": 256,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -974,7 +974,7 @@
    "ats": "greenhouse",
    "token": "coursera",
    "ok": true,
-   "seen": 35,
+   "seen": 36,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1004,7 +1004,7 @@
    "ats": "greenhouse",
    "token": "databricks",
    "ok": true,
-   "seen": 880,
+   "seen": 883,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1014,7 +1014,7 @@
    "ats": "greenhouse",
    "token": "datadog",
    "ok": true,
-   "seen": 391,
+   "seen": 390,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1034,7 +1034,7 @@
    "ats": "dayforce",
    "token": "westerkirk",
    "ok": true,
-   "seen": 70,
+   "seen": 72,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1044,7 +1044,7 @@
    "ats": "ashby",
    "token": "decagon",
    "ok": true,
-   "seen": 106,
+   "seen": 101,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1074,8 +1074,8 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 323,
-   "kept": 14,
+   "seen": 340,
+   "kept": 16,
    "error": "",
    "resolved": ""
   },
@@ -1084,7 +1084,7 @@
    "ats": "rmk",
    "token": "jobs.descartes.com",
    "ok": true,
-   "seen": 25,
+   "seen": 24,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1224,7 +1224,7 @@
    "ats": "greenhouse",
    "token": "elastic",
    "ok": true,
-   "seen": 379,
+   "seen": 375,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1244,7 +1244,7 @@
    "ats": "auto",
    "token": "elevenlabs",
    "ok": true,
-   "seen": 111,
+   "seen": 109,
    "kept": 0,
    "error": "",
    "resolved": "ashby:elevenlabs"
@@ -1254,7 +1254,7 @@
    "ats": "workday",
    "token": "enbridge",
    "ok": true,
-   "seen": 26,
+   "seen": 25,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1284,7 +1284,7 @@
    "ats": "dayforce",
    "token": "esentire",
    "ok": true,
-   "seen": 22,
+   "seen": 20,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1334,8 +1334,8 @@
    "ats": "greenhouse",
    "token": "faire",
    "ok": true,
-   "seen": 71,
-   "kept": 1,
+   "seen": 73,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -1354,7 +1354,7 @@
    "ats": "ashby",
    "token": "felix",
    "ok": true,
-   "seen": 12,
+   "seen": 11,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1394,7 +1394,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 892,
+   "seen": 869,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1414,7 +1414,7 @@
    "ats": "greenhouse",
    "token": "formlabs",
    "ok": true,
-   "seen": 278,
+   "seen": 281,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1424,7 +1424,7 @@
    "ats": "oraclehcm",
    "token": "edel.fa.us2.oraclecloud.com",
    "ok": true,
-   "seen": 174,
+   "seen": 149,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1444,7 +1444,7 @@
    "ats": "lever",
    "token": "fullscript",
    "ok": true,
-   "seen": 16,
+   "seen": 15,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1464,7 +1464,7 @@
    "ats": "smartrecruiters",
    "token": "GDMSI",
    "ok": true,
-   "seen": 56,
+   "seen": 54,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1474,7 +1474,7 @@
    "ats": "workday",
    "token": "generalmotors",
    "ok": true,
-   "seen": 23,
+   "seen": 22,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -1504,7 +1504,7 @@
    "ats": "getro",
    "token": "jobs.georgian.io",
    "ok": true,
-   "seen": 211,
+   "seen": 210,
    "kept": 34,
    "error": "",
    "resolved": "getro:careers.georgian.io"
@@ -1514,7 +1514,7 @@
    "ats": "greenhouse",
    "token": "geotab",
    "ok": true,
-   "seen": 55,
+   "seen": 53,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1524,7 +1524,7 @@
    "ats": "greenhouse",
    "token": "internshiplist2000",
    "ok": true,
-   "seen": 2,
+   "seen": 0,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1534,8 +1534,8 @@
    "ats": "greenhouse",
    "token": "gitlab",
    "ok": true,
-   "seen": 242,
-   "kept": 7,
+   "seen": 243,
+   "kept": 6,
    "error": "",
    "resolved": ""
   },
@@ -1554,8 +1554,8 @@
    "ats": "google",
    "token": "google",
    "ok": true,
-   "seen": 55,
-   "kept": 10,
+   "seen": 59,
+   "kept": 11,
    "error": "",
    "resolved": ""
   },
@@ -1584,7 +1584,7 @@
    "ats": "rmk",
    "token": "careers.halton.ca",
    "ok": true,
-   "seen": 17,
+   "seen": 18,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1614,7 +1614,7 @@
    "ats": "ashby",
    "token": "hatch",
    "ok": true,
-   "seen": 8,
+   "seen": 3,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1644,7 +1644,7 @@
    "ats": "auto",
    "token": "hex;hextechnologies",
    "ok": true,
-   "seen": 44,
+   "seen": 45,
    "kept": 0,
    "error": "",
    "resolved": "ashby:hex"
@@ -1664,7 +1664,7 @@
    "ats": "workday",
    "token": "hitachi",
    "ok": true,
-   "seen": 149,
+   "seen": 146,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -1694,7 +1694,7 @@
    "ats": "ashby",
    "token": "hopper",
    "ok": true,
-   "seen": 29,
+   "seen": 31,
    "kept": 6,
    "error": "",
    "resolved": ""
@@ -1714,7 +1714,7 @@
    "ats": "greenhouse",
    "token": "hubspotjobs",
    "ok": true,
-   "seen": 141,
+   "seen": 142,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1764,7 +1764,7 @@
    "ats": "smartrecruiters",
    "token": "IndigoBooksMusic",
    "ok": true,
-   "seen": 99,
+   "seen": 93,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1774,7 +1774,7 @@
    "ats": "ukg",
    "token": "INF5000IFTC",
    "ok": true,
-   "seen": 68,
+   "seen": 65,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1784,8 +1784,8 @@
    "ats": "getro",
    "token": "careers.inovia.vc",
    "ok": true,
-   "seen": 416,
-   "kept": 49,
+   "seen": 409,
+   "kept": 48,
    "error": "",
    "resolved": ""
   },
@@ -1814,8 +1814,8 @@
    "ats": "workday",
    "token": "intel",
    "ok": true,
-   "seen": 17,
-   "kept": 8,
+   "seen": 16,
+   "kept": 7,
    "error": "",
    "resolved": ""
   },
@@ -1824,7 +1824,7 @@
    "ats": "workday",
    "token": "interac",
    "ok": true,
-   "seen": 48,
+   "seen": 47,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1844,7 +1844,7 @@
    "ats": "greenhouse",
    "token": "jetsonhome",
    "ok": true,
-   "seen": 51,
+   "seen": 53,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -1854,7 +1854,7 @@
    "ats": "ashby",
    "token": "jobber",
    "ok": true,
-   "seen": 31,
+   "seen": 33,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1864,7 +1864,7 @@
    "ats": "workday",
    "token": "talentmanagementsolution",
    "ok": true,
-   "seen": 40,
+   "seen": 41,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -1904,7 +1904,7 @@
    "ats": "greenhouse",
    "token": "kodiak",
    "ok": true,
-   "seen": 52,
+   "seen": 51,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1934,7 +1934,7 @@
    "ats": "jibe",
    "token": "careers.kpmg.ca",
    "ok": true,
-   "seen": 444,
+   "seen": 453,
    "kept": 6,
    "error": "",
    "resolved": ""
@@ -1964,7 +1964,7 @@
    "ats": "greenhouse",
    "token": "leagueinc",
    "ok": true,
-   "seen": 8,
+   "seen": 9,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1984,7 +1984,7 @@
    "ats": "ashby",
    "token": "lightspeedhq",
    "ok": true,
-   "seen": 134,
+   "seen": 137,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2024,7 +2024,7 @@
    "ats": "ashby",
    "token": "loopio",
    "ok": true,
-   "seen": 13,
+   "seen": 14,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2034,7 +2034,7 @@
    "ats": "workday",
    "token": "lumentum",
    "ok": true,
-   "seen": 25,
+   "seen": 22,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2044,8 +2044,8 @@
    "ats": "getro",
    "token": "jobs.luxcapital.com",
    "ok": true,
-   "seen": 161,
-   "kept": 22,
+   "seen": 162,
+   "kept": 23,
    "error": "",
    "resolved": ""
   },
@@ -2064,7 +2064,7 @@
    "ats": "workday",
    "token": "magna",
    "ok": true,
-   "seen": 195,
+   "seen": 197,
    "kept": 10,
    "error": "",
    "resolved": ""
@@ -2105,7 +2105,7 @@
    "token": "techjobs.marsdd.com",
    "ok": true,
    "seen": 500,
-   "kept": 20,
+   "kept": 21,
    "error": "",
    "resolved": ""
   },
@@ -2134,7 +2134,7 @@
    "ats": "workday",
    "token": "mastercard",
    "ok": true,
-   "seen": 52,
+   "seen": 47,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2144,7 +2144,7 @@
    "ats": "ukg",
    "token": "MAC5000MCDW",
    "ok": true,
-   "seen": 241,
+   "seen": 232,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2164,7 +2164,7 @@
    "ats": "oraclehcm",
    "token": "ehtc.fa.ca2.oraclecloud.com",
    "ok": true,
-   "seen": 44,
+   "seen": 46,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2174,7 +2174,7 @@
    "ats": "pcsx",
    "token": "apply.careers.microsoft.com",
    "ok": true,
-   "seen": 71,
+   "seen": 72,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -2194,7 +2194,7 @@
    "ats": "ashby",
    "token": "miovision",
    "ok": true,
-   "seen": 12,
+   "seen": 13,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2204,7 +2204,7 @@
    "ats": "ukg",
    "token": "MNP5000MNPL",
    "ok": true,
-   "seen": 317,
+   "seen": 321,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -2224,7 +2224,7 @@
    "ats": "greenhouse",
    "token": "mongodb",
    "ok": true,
-   "seen": 422,
+   "seen": 421,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2244,7 +2244,7 @@
    "ats": "greenhouse",
    "token": "mozilla",
    "ok": true,
-   "seen": 147,
+   "seen": 153,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2274,7 +2274,7 @@
    "ats": "oraclehcm",
    "token": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
    "ok": true,
-   "seen": 573,
+   "seen": 570,
    "kept": 11,
    "error": "",
    "resolved": ""
@@ -2314,7 +2314,7 @@
    "ats": "greenhouse",
    "token": "nuro",
    "ok": true,
-   "seen": 107,
+   "seen": 106,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2324,7 +2324,7 @@
    "ats": "workable",
    "token": "nuvei",
    "ok": true,
-   "seen": 80,
+   "seen": 77,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2354,7 +2354,7 @@
    "ats": "greenhouse",
    "token": "okta",
    "ok": true,
-   "seen": 361,
+   "seen": 360,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2374,8 +2374,8 @@
    "ats": "phenom",
    "token": "careers.omers.com/ca/en",
    "ok": true,
-   "seen": 53,
-   "kept": 0,
+   "seen": 54,
+   "kept": 1,
    "error": "",
    "resolved": ""
   },
@@ -2404,7 +2404,7 @@
    "ats": "workday",
    "token": "otppb",
    "ok": true,
-   "seen": 31,
+   "seen": 35,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2424,8 +2424,8 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 348,
-   "kept": 6,
+   "seen": 359,
+   "kept": 5,
    "error": "",
    "resolved": ""
   },
@@ -2454,7 +2454,7 @@
    "ats": "lever",
    "token": "paytm",
    "ok": true,
-   "seen": 194,
+   "seen": 197,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2534,7 +2534,7 @@
    "ats": "greenhouse",
    "token": "planetlabs",
    "ok": true,
-   "seen": 104,
+   "seen": 103,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2544,7 +2544,7 @@
    "ats": "workday",
    "token": "plusgrade",
    "ok": true,
-   "seen": 19,
+   "seen": 20,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2555,7 +2555,7 @@
    "token": "pointclickcare",
    "ok": true,
    "seen": 80,
-   "kept": 4,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -2564,8 +2564,8 @@
    "ats": "jibe",
    "token": "careers.flyporter.com",
    "ok": true,
-   "seen": 42,
-   "kept": 3,
+   "seen": 44,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -2594,7 +2594,7 @@
    "ats": "rmk",
    "token": "careers.purolator.com",
    "ok": true,
-   "seen": 40,
+   "seen": 36,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2604,7 +2604,7 @@
    "ats": "phenom",
    "token": "jobs-ca.pwc.com/ca/en",
    "ok": true,
-   "seen": 160,
+   "seen": 167,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -2614,8 +2614,8 @@
    "ats": "pcsx",
    "token": "careers.qualcomm.com",
    "ok": true,
-   "seen": 113,
-   "kept": 9,
+   "seen": 117,
+   "kept": 10,
    "error": "",
    "resolved": ""
   },
@@ -2624,7 +2624,7 @@
    "ats": "greenhouse",
    "token": "questrade",
    "ok": true,
-   "seen": 65,
+   "seen": 67,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2634,7 +2634,7 @@
    "ats": "getro",
    "token": "radical.getro.com",
    "ok": true,
-   "seen": 265,
+   "seen": 264,
    "kept": 59,
    "error": "",
    "resolved": ""
@@ -2714,7 +2714,7 @@
    "ats": "greenhouse",
    "token": "ripple",
    "ok": true,
-   "seen": 105,
+   "seen": 107,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2734,7 +2734,7 @@
    "ats": "greenhouse",
    "token": "robinhood",
    "ok": true,
-   "seen": 163,
+   "seen": 161,
    "kept": 5,
    "error": "",
    "resolved": ""
@@ -2774,8 +2774,8 @@
    "ats": "rmk",
    "token": "jobs.rogers.com",
    "ok": true,
-   "seen": 129,
-   "kept": 3,
+   "seen": 128,
+   "kept": 2,
    "error": "",
    "resolved": ""
   },
@@ -2794,7 +2794,7 @@
    "ats": "workday",
    "token": "globalhr",
    "ok": true,
-   "seen": 54,
+   "seen": 56,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2824,7 +2824,7 @@
    "ats": "greenhouse",
    "token": "samsara",
    "ok": true,
-   "seen": 299,
+   "seen": 298,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -2924,7 +2924,7 @@
    "ats": "ashby",
    "token": "sierra",
    "ok": true,
-   "seen": 204,
+   "seen": 203,
    "kept": 3,
    "error": "",
    "resolved": ""
@@ -2954,7 +2954,7 @@
    "ats": "ashby",
    "token": "snowflake",
    "ok": true,
-   "seen": 374,
+   "seen": 377,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2964,7 +2964,7 @@
    "ats": "bamboohr",
    "token": "solace",
    "ok": true,
-   "seen": 36,
+   "seen": 38,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -2984,7 +2984,7 @@
    "ats": "workday",
    "token": "soti",
    "ok": true,
-   "seen": 22,
+   "seen": 21,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3024,7 +3024,7 @@
    "ats": "greenhouse",
    "token": "spire",
    "ok": true,
-   "seen": 24,
+   "seen": 23,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3054,7 +3054,7 @@
    "ats": "greenhouse",
    "token": "stripe",
    "ok": true,
-   "seen": 771,
+   "seen": 767,
    "kept": 18,
    "error": "",
    "resolved": ""
@@ -3064,7 +3064,7 @@
    "ats": "ashby",
    "token": "supabase",
    "ok": true,
-   "seen": 83,
+   "seen": 82,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3094,7 +3094,7 @@
    "ats": "getro",
    "token": "jobs.techstars.com",
    "ok": true,
-   "seen": 237,
+   "seen": 240,
    "kept": 20,
    "error": "",
    "resolved": ""
@@ -3114,7 +3114,7 @@
    "ats": "rmk",
    "token": "careers.telus.com",
    "ok": true,
-   "seen": 45,
+   "seen": 43,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3124,7 +3124,7 @@
    "ats": "ashby",
    "token": "telus-digital",
    "ok": true,
-   "seen": 54,
+   "seen": 55,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3134,7 +3134,7 @@
    "ats": "workday",
    "token": "lifeworks",
    "ok": true,
-   "seen": 93,
+   "seen": 95,
    "kept": 4,
    "error": "",
    "resolved": ""
@@ -3194,7 +3194,7 @@
    "ats": "workday",
    "token": "thales",
    "ok": true,
-   "seen": 88,
+   "seen": 87,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3214,7 +3214,7 @@
    "ats": "workday",
    "token": "thomsonreuters",
    "ok": true,
-   "seen": 97,
+   "seen": 99,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -3224,7 +3224,7 @@
    "ats": "workday",
    "token": "tmx",
    "ok": true,
-   "seen": 64,
+   "seen": 65,
    "kept": 9,
    "error": "",
    "resolved": ""
@@ -3244,7 +3244,7 @@
    "ats": "ashby",
    "token": "top-hat",
    "ok": true,
-   "seen": 11,
+   "seen": 10,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3364,7 +3364,7 @@
    "ats": "workday",
    "token": "unitytech",
    "ok": true,
-   "seen": 26,
+   "seen": 27,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3374,7 +3374,7 @@
    "ats": "rmk",
    "token": "jobs.utoronto.ca",
    "ok": true,
-   "seen": 214,
+   "seen": 225,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3384,7 +3384,7 @@
    "ats": "workday",
    "token": "uwaterloo",
    "ok": true,
-   "seen": 114,
+   "seen": 115,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -3444,7 +3444,7 @@
    "ats": "greenhouse",
    "token": "verkada",
    "ok": true,
-   "seen": 350,
+   "seen": 349,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -3484,7 +3484,7 @@
    "ats": "workday",
    "token": "volarisgroup",
    "ok": true,
-   "seen": 8,
+   "seen": 7,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3524,7 +3524,7 @@
    "ats": "ashby",
    "token": "wayve",
    "ok": true,
-   "seen": 151,
+   "seen": 150,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -3565,7 +3565,7 @@
    "token": "careers.wipro.com",
    "ok": true,
    "seen": 32,
-   "kept": 11,
+   "kept": 12,
    "error": "",
    "resolved": ""
   },
@@ -3614,7 +3614,7 @@
    "ats": "ashby",
    "token": "xero",
    "ok": true,
-   "seen": 116,
+   "seen": 118,
    "kept": 1,
    "error": "",
    "resolved": ""
