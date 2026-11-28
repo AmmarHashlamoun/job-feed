@@ -1,12 +1,12 @@
 {
  "summary": {
-  "generated_at": "2026-11-28T02:05:37Z",
+  "generated_at": "2026-11-28T03:34:05Z",
   "boards": 365,
-  "ok": 336,
-  "failed": 29,
-  "jobs_seen": 35660,
-  "jobs_kept": 781,
-  "new_today": 14
+  "ok": 334,
+  "failed": 31,
+  "jobs_seen": 35305,
+  "jobs_kept": 760,
+  "new_today": 36
  },
  "boards": [
   {
@@ -160,6 +160,16 @@
    "resolved": ""
   },
   {
+   "company": "Microsoft (careers site)",
+   "ats": "pcsx",
+   "token": "apply.careers.microsoft.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "HTTP 429",
+   "resolved": ""
+  },
+  {
    "company": "Northslope",
    "ats": "auto",
    "token": "northslope;northslopetechnologies",
@@ -187,6 +197,16 @@
    "seen": 0,
    "kept": 0,
    "error": "no board found (smartrecruiters:ouster:empty board, greenhouse:ouster:404, lever:ouster:404, ashby:ouster:404, workable:ouster:404, bamboohr:ouster:JSONDecodeError, recruitee:ouster:404)",
+   "resolved": ""
+  },
+  {
+   "company": "Radical Ventures portfolio",
+   "ats": "getro",
+   "token": "radical.getro.com",
+   "ok": false,
+   "seen": 0,
+   "kept": 0,
+   "error": "no Getro board (radical.getro.com:TimeoutError, careers.radical.getro.com:URLError, jobs.radical.getro.com:URLError, talent.radical.getro.com:URLError)",
    "resolved": ""
   },
   {
@@ -334,8 +354,8 @@
    "ats": "workday",
    "token": "accenture",
    "ok": true,
-   "seen": 152,
-   "kept": 22,
+   "seen": 160,
+   "kept": 20,
    "error": "",
    "resolved": ""
   },
@@ -395,7 +415,7 @@
    "token": "careers.aircanada.com/ca/en",
    "ok": true,
    "seen": 62,
-   "kept": 4,
+   "kept": 3,
    "error": "",
    "resolved": ""
   },
@@ -804,7 +824,7 @@
    "ats": "workday",
    "token": "cineplex",
    "ok": true,
-   "seen": 168,
+   "seen": 169,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -824,7 +844,7 @@
    "ats": "rmk",
    "token": "careers.brampton.ca",
    "ok": true,
-   "seen": 22,
+   "seen": 19,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -894,7 +914,7 @@
    "ats": "rmk",
    "token": "careers.cn.ca",
    "ok": true,
-   "seen": 17,
+   "seen": 22,
    "kept": 1,
    "error": "",
    "resolved": ""
@@ -1074,8 +1094,8 @@
    "ats": "rmk",
    "token": "careers.deloitte.ca",
    "ok": true,
-   "seen": 371,
-   "kept": 16,
+   "seen": 338,
+   "kept": 14,
    "error": "",
    "resolved": ""
   },
@@ -1284,7 +1304,7 @@
    "ats": "dayforce",
    "token": "esentire",
    "ok": true,
-   "seen": 19,
+   "seen": 18,
    "kept": 0,
    "error": "",
    "resolved": ""
@@ -1394,7 +1414,7 @@
    "ats": "oraclehcm",
    "token": "efds.fa.em5.oraclecloud.com",
    "ok": true,
-   "seen": 864,
+   "seen": 865,
    "kept": 2,
    "error": "",
    "resolved": ""
@@ -2170,16 +2190,6 @@
    "resolved": ""
   },
   {
-   "company": "Microsoft (careers site)",
-   "ats": "pcsx",
-   "token": "apply.careers.microsoft.com",
-   "ok": true,
-   "seen": 69,
-   "kept": 9,
-   "error": "",
-   "resolved": ""
-  },
-  {
    "company": "Mila",
    "ats": "workable",
    "token": "mila-2",
@@ -2424,8 +2434,8 @@
    "ats": "phenom",
    "token": "careers.opentext.com/us/en",
    "ok": true,
-   "seen": 361,
-   "kept": 3,
+   "seen": 360,
+   "kept": 4,
    "error": "",
    "resolved": ""
   },
@@ -2626,16 +2636,6 @@
    "ok": true,
    "seen": 68,
    "kept": 2,
-   "error": "",
-   "resolved": ""
-  },
-  {
-   "company": "Radical Ventures portfolio",
-   "ats": "getro",
-   "token": "radical.getro.com",
-   "ok": true,
-   "seen": 263,
-   "kept": 59,
    "error": "",
    "resolved": ""
   },
@@ -3565,7 +3565,7 @@
    "token": "careers.wipro.com",
    "ok": true,
    "seen": 32,
-   "kept": 10,
+   "kept": 12,
    "error": "",
    "resolved": ""
   },
